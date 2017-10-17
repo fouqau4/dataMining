@@ -1,3 +1,3 @@
 git add --all .
 git commit -m "update"
-git push learning master
+git push dataMining master
