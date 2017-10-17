@@ -1,0 +1,12 @@
+@relation dm_hw_1
+
+@attribute attr1 {t}
+@attribute attr2 {t}
+@attribute attr3 {t}
+@attribute attr4 {t}
+@attribute attr5 {t}
+
+@data
+{ 1 t , 2 t , 3 t , 4 t }
+{ 2 t , 3 t }
+{ 1 t , 2 t , 4 t }
