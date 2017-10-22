@@ -1,12 +1,6 @@
-@relation dm_hw_1
-
-@attribute attr1 {t}
-@attribute attr2 {t}
-@attribute attr3 {t}
-@attribute attr4 {t}
-@attribute attr5 {t}
-
-@data
-{ 1 t , 2 t , 3 t , 4 t }
-{ 2 t , 3 t }
-{ 1 t , 2 t , 4 t }
+TID,Bread,Milk,Diaper,Beer,Eggs,Coke
+T1,true,true,false,false,false,false
+T2,true,false,true,true,true,false
+T3,true,false,true,true,false,true
+T4,true,true,true,true,false,false
+T5,true,true,true,false,false,true

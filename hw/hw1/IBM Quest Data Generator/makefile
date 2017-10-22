@@ -18,7 +18,7 @@ test:	$(OBJECTS1) test.o
 	$(CC) $(CFLAGS) $(OBJECTS1) test.o $(LIBES) -o test
 
 clean:
-	/bin/rm $(OBJECTS1) $(OBJECTS2)
+	/bin/rm $(OBJECTS1) $(OBJECTS2) gen
 
 
 $(OBJECTS1): $(HFILES1)

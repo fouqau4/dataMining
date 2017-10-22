@@ -1,12 +1,17 @@
 @relation dm_hw_1
 
-@attribute attr1 {t}
-@attribute attr2 {t}
-@attribute attr3 {t}
-@attribute attr4 {t}
-@attribute attr5 {t}
+@attribute Bread {t,f}
+@attribute Milk {t,f}
+@attribute Diaper {t,f}
+@attribute Beer {t,f}
+@attribute Eggs {t,f}
+@attribute Coke {t,f}
+
 
 @data
-{ 1 t , 2 t , 3 t , 4 t }
-{ 2 t , 3 t }
-{ 1 t , 2 t , 4 t }
+{ 0 t , 1 t , 2 f , 3 f , 4 f , 5 f }
+{ 0 t , 1 f , 2 t , 3 t , 4 t , 5 f }
+{ 0 t , 1 f , 2 t , 3 t , 4 f , 5 t }
+{ 0 t , 1 t , 2 t , 3 t , 4 f , 5 f }
+{ 0 t , 1 t , 2 t , 3 f , 4 f , 5 t }
+
