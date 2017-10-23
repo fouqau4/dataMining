@@ -1,0 +1,1 @@
+java -cp /home/swli/datamining/weka/weka/weka.jar weka.associations.Apriori $1

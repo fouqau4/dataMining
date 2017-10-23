@@ -1,7 +1,12 @@
 #!/usr/bin/awk
 BEGIN{ 
 	idx = 0;max = 1000; getline;
-	for( i = 0; i < max; i++ ){ map[i] = "false"}
+	printf "Transaction id";
+	for( i = 0; i < max; i++ ){
+		map[i] = "false";
+		printf ",item_%d", i ;
+	}
+	print "";
 	current_id = $1; arr[idx++] = $2;map[$2] = "true"
 }
 $1 == current_id {
