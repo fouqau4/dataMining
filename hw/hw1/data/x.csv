@@ -1,6 +1,6 @@
-TID,Bread,Milk,Diaper,Beer,Eggs,Coke
-T1,true,true,false,false,false,false
-T2,true,false,true,true,true,false
-T3,true,false,true,true,false,true
-T4,true,true,true,true,false,false
-T5,true,true,true,false,false,true
+Bread,Milk,Diaper,Beer,Eggs,Coke
+true,true,false,false,false,false
+true,false,true,true,true,false
+true,false,true,true,false,true
+true,true,true,true,false,false
+true,true,true,false,false,true

@@ -1,7 +1,7 @@
 #!/usr/bin/awk
 BEGIN{ 
-	idx = 0;max = 1000; getline;
-	printf "Transaction id";
+	idx = 0;max = 100; getline;
+#	printf "Transaction id";
 	for( i = 0; i < max; i++ ){
 		map[i] = "false";
 		printf ",item_%d", i ;
@@ -14,14 +14,14 @@ $1 == current_id {
 	map[$2] = "true";
 }
 $1 != current_id {
-	printf "TID_%s" ,current_id;
+#	printf "TID_%s" ,current_id;
 	for( i = 0; i < max; i++ ){ printf ",%s", map[i] }
 	print "";
 	for( i = 0; i < idx; i++ ){ map[arr[i]] = "false" }
 	current_id = $1; delete arr; idx = 0; arr[idx++] = $2;map[$2] = "true";
 }
 END{
-	printf "TID_%s" ,current_id;
+#	printf "TID_%s" ,current_id;
 	for( i = 0; i < max; i++ ){ printf ",%s", map[i] }
 	print "";
 }
