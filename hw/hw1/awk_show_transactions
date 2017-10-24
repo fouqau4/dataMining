@@ -1,11 +1,18 @@
 #!/usr/bin/awk
-BEGIN{ i = 0; getline; current_id = $1; arr[i++] = $2; }
+BEGIN{
+	max = 100;
+    for( i = 0; i < max; i++ ){
+        printf ",item_%d", i ;
+    }
+	print "";
+	i = 0; getline; current_id = $1; arr[i++] = $2;
+}
 $1 == current_id { 
 	arr[i++] = $2
 }
 $1 != current_id {
-	printf "TID_%s " ,current_id; for (i in arr) {printf "%s ",arr[i]} ;print "";
+	for (i in arr) {printf "%s ",arr[i]} ;print ".";
 	current_id = $1; i = 0;delete arr;
 	arr[i++] = $2;
 }
-END{ printf "TID_%s " ,current_id; for (i in arr) {printf "%s ",arr[i]} ;print ""; }
+END{ for (i in arr) {printf "%s ",arr[i]} ;print "."; }
