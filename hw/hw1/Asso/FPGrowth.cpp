@@ -8,6 +8,7 @@
 #include <map>
 #include <utility>
 #include <algorithm>
+#include <memory>
 
 #include <cstdint>
 
@@ -18,6 +19,7 @@ using std::vector;
 using std::map;
 using std::pair;
 using std::sort;
+using std::shared_ptr;
 
 using std::uint64_t; using std::uint32_t;
 
@@ -80,15 +82,16 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 	}
 	transaction.pop_back();
 
-// sort transaction
+	//	sort transaction
 
-	FPTnode fptree_root( "[FP Tree root]" );
+	shared_ptr<FPTnode> fptree_root( new FPTnode( "[FP Tree root]" ) );
+	cout << endl << endl;
 	for( auto tran : transaction )
 	{
 		sort( tran.begin(), tran.end(), tranCmp );
-		fptree_root.update( tran );
+		fptree_root->update( tran, fptree_root );
 
-// show sorted transaction
+		//	show sorted transaction
 		#ifdef SORTED_TRAN
 			for( auto item : tran )
 				cout << item.first << ":" << *item.second << " ";
@@ -96,15 +99,19 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 		#endif
 
 	}
+//	fptree_root->child.clear();
+//	cout << "clear child nodes" << endl;
 
-// show 1-item counter
+	//	show 1-item counter
 	#ifdef ONE_ITEM
 		for( auto i : counter )
 			cout << i.first << ":" << i.second << endl;
 	#endif
 
 	input_file.close();
-		
+	#ifdef DEBUG
+		cout << "[FPGrowth End]" << endl;	
+	#endif
 }
 
 

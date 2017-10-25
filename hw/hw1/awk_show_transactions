@@ -2,7 +2,8 @@
 BEGIN{
 	max = 100;
     for( i = 0; i < max; i++ ){
-        printf ",item_%d", i ;
+        printf "item_%d", i ;
+		if( i < max - 1 ){ printf ","; }
     }
 	print "";
 	i = 0; getline; current_id = $1; arr[i++] = $2;
