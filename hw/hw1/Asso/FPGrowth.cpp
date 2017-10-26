@@ -12,7 +12,7 @@
 
 #include <cstdint>
 
-using std::cout; using std::endl;
+using std::cout; using std::endl; using std::cin;
 using std::fstream; using std::ios;
 using std::string;
 using std::vector;
@@ -34,6 +34,7 @@ struct {
 
 void FPGrowth( char* filename, double min_sup, double min_conf )
 {
+	//	load input file
 	fstream input_file;
 
 	input_file.open( filename, ios::in );
@@ -44,6 +45,7 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 			cout << "[OK]: Open the file \"" << filename << "\" successfully." << endl;
 	#endif
 
+	//	record items' name
 	vector<string> item_name;
 
 	string s;
@@ -61,16 +63,18 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 		beg = n + 1;
 	}
 
+	//	build transactions & count 1-itemset
 	vector<vector<pair<string, uint32_t*>>> transaction;
 	transaction.push_back( vector<pair<string, uint32_t*>>() );
 
 	uint32_t transaction_num = 0;
-	map<string, uint32_t> counter;
+	map<string, pair<uint32_t, FPTnode_ptr>> tran_record;
 	while( input_file >> s )
 	{
 		if( s.compare( "." )  != 0 )
 		{
-			transaction[transaction_num].push_back( pair<string, uint32_t*>( s, &(++counter[s]) ) );
+			transaction[transaction_num].push_back( pair<string, uint32_t*>( s, &( ++tran_record[s].first ) ) );
+			tran_record[s].second = nullptr;
 //			cout << s << " ";
 		}
 		else
@@ -82,14 +86,14 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 	}
 	transaction.pop_back();
 
-	//	sort transaction
+	//	sort transaction & build FP-Tree
 
-	shared_ptr<FPTnode> fptree_root( new FPTnode( "[FP Tree root]" ) );
+	FPTnode_ptr fptree_root( new FPTnode( "[FP Tree root]" ) );
 	cout << endl << endl;
 	for( auto tran : transaction )
 	{
 		sort( tran.begin(), tran.end(), tranCmp );
-		fptree_root->update( tran, fptree_root );
+		fptree_root->update( tran, fptree_root, tran_record );
 
 		//	show sorted transaction
 		#ifdef SORTED_TRAN
@@ -104,8 +108,31 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 
 	//	show 1-item counter
 	#ifdef ONE_ITEM
-		for( auto i : counter )
-			cout << i.first << ":" << i.second << endl;
+		for( auto i : tran_record )
+			cout << i.first << ":" << i.second.first << endl;
+	#endif
+
+	#ifdef TRAN
+		cout << endl << "[item link]" << endl;
+		for( auto i : tran_record )
+		{
+			cout << "[" << i.first << ":" << i.second.first << "]" << endl;
+			FPTnode_ptr tmp = i.second.second;
+			uint32_t c = 0;
+			while( tmp != nullptr )
+			{
+				cout << "all child :";
+				for( auto j : tmp->child )
+					cout << " " << j->item;
+				cout << endl;
+//				cout << tmp->getItem() << ":" << tmp->getCount() << endl;
+				c += tmp->getCount();
+				tmp = tmp->getNext();
+//				cout << i.second.second->item << ":" << i.second.second->count << endl;
+//				tmp = tmp->next;
+			}
+			cout << c <<  endl;
+		}
 	#endif
 
 	input_file.close();
