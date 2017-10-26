@@ -9,6 +9,7 @@
 #include <memory>
 #include <iostream>
 #include <map>
+#include <deque>
 
 #include <cstdint>
 
@@ -18,12 +19,14 @@ using std::pair;
 using std::shared_ptr;
 using std::cout; using std::endl;
 using std::map;
+using std::deque;
 
 using std::UINT;
 
 class FPTnode;
 
 typedef shared_ptr<FPTnode> FPTnode_ptr;
+typedef shared_ptr<uint32_t> uint32_ptr;
 
 class FPTnode
 {
@@ -31,8 +34,8 @@ public:
 	//	constructor
 	FPTnode();
 	FPTnode( string item );
-	FPTnode( string item, UINT count );
-	FPTnode( string item, UINT count, FPTnode_ptr child );
+	FPTnode( string item, UINT count, FPTnode_ptr parent );
+	FPTnode( string item, UINT count, FPTnode_ptr parent, FPTnode_ptr child );
 
 	//	destructor
 	~FPTnode()
@@ -45,15 +48,23 @@ public:
 	const string& getItem(){return item;};
 	const UINT& getCount(){return count;};
 	const FPTnode_ptr& getNext(){return next;};
-	void update( vector<pair<string, uint32_t*>>& tran, FPTnode_ptr& root, map<string, pair<uint32_t, FPTnode_ptr>>& tran_record );
+	const FPTnode_ptr& getParent(){return parent;};
+	const vector<FPTnode_ptr>& getChild(){return child;};
+	void update( vector<pair<string, uint32_ptr>>& tran,
+//	void update( deque<pair<string, uint32_ptr>>& tran,
+				 FPTnode_ptr& root, 
+				 map<string, pair<uint32_ptr, FPTnode_ptr>>& tran_record,
+				 const uint32_t& tran_num,
+				 const double& min_sup );
+private:
 	// 	data member
 	string item;
 	UINT count;
+	FPTnode_ptr parent;
 	vector<FPTnode_ptr> child;
 	FPTnode_ptr next;
-private:
 
 	// private method
-	void addNode( FPTnode_ptr& current_node, const string& item, map<string, pair<uint32_t, FPTnode_ptr>>& tran_record );
+	void addNode( FPTnode_ptr& current_node, const string& item, map<string, pair<uint32_ptr, FPTnode_ptr>>& tran_record );
 };
 #endif

@@ -1,11 +1,11 @@
-CUSTOMDEFINE = 
+MYDEF = 
 OBJ1 = main.o FPGrowth.o FPTree.o
 OBJ2 = FPTree.o FPGrowth.o
 EXEC = asso
 
 
 CXX = g++
-CXXFLAGS = -std=c++11 -Wall -Werror $(CUSTOMDEFINE)
+CXXFLAGS = -std=c++11 -Wall -Werror $(MYDEF)
 
 
 all: $(EXEC)

@@ -9,6 +9,7 @@
 #include <utility>
 #include <algorithm>
 #include <memory>
+#include <deque>
 
 #include <cstdint>
 
@@ -18,19 +19,21 @@ using std::string;
 using std::vector;
 using std::map;
 using std::pair;
-using std::sort;
+using std::sort; using std::stable_sort;
 using std::shared_ptr;
+using std::deque;
 
 using std::uint64_t; using std::uint32_t;
 
 void FPGrowth( char* filename, double min_sup, double min_conf );
 
-struct {
-	bool operator()( pair<string, uint32_t*>& a, pair<string, uint32_t*>& b ) const
+class tranCmp {
+public:
+	bool operator()( pair<string, uint32_ptr>& a, pair<string, uint32_ptr>& b ) const
 	{
 		return *a.second > *b.second;
 	}
-} tranCmp;
+};
 
 void FPGrowth( char* filename, double min_sup, double min_conf )
 {
@@ -64,23 +67,33 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 	}
 
 	//	build transactions & count 1-itemset
-	vector<vector<pair<string, uint32_t*>>> transaction;
-	transaction.push_back( vector<pair<string, uint32_t*>>() );
+	vector<vector<pair<string, uint32_ptr>>> transaction;
+	transaction.push_back( vector<pair<string, uint32_ptr>>() );
+//	vector<deque<pair<string, uint32_ptr>>> transaction;
+//	transaction.push_back( deque<pair<string, uint32_ptr>>() );
 
-	uint32_t transaction_num = 0;
-	map<string, pair<uint32_t, FPTnode_ptr>> tran_record;
+	uint32_t tran_num = 0;
+	map<string, pair<uint32_ptr, FPTnode_ptr>> tran_record;
 	while( input_file >> s )
 	{
 		if( s.compare( "." )  != 0 )
 		{
-			transaction[transaction_num].push_back( pair<string, uint32_t*>( s, &( ++tran_record[s].first ) ) );
+			if( tran_record[s].first == nullptr )
+			{
+//				cout << "nullptr" << endl;
+				tran_record[s].first = uint32_ptr( new uint32_t( 0 ) );
+			}
+//			cout << *tran_record[s].first.get() << endl;
+			++( *( tran_record[s].first.get() ) );
+			transaction[tran_num].push_back( pair<string, uint32_ptr>( s, tran_record[s].first ) );
 			tran_record[s].second = nullptr;
 //			cout << s << " ";
 		}
 		else
 		{
-			++transaction_num;
-			transaction.push_back( vector<pair<string, uint32_t*>>() );
+			++tran_num;
+			transaction.push_back( vector<pair<string, uint32_ptr>>() );
+//			transaction.push_back( deque<pair<string, uint32_ptr>>() );
 //			cout << endl;
 		}
 	}
@@ -92,8 +105,9 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 	cout << endl << endl;
 	for( auto tran : transaction )
 	{
-		sort( tran.begin(), tran.end(), tranCmp );
-		fptree_root->update( tran, fptree_root, tran_record );
+		sort( tran.begin(), tran.end(), tranCmp() );
+//		stable_sort( tran.begin(), tran.end(), tranCmp() );
+		fptree_root->update( tran, fptree_root, tran_record, tran_num, min_sup );
 
 		//	show sorted transaction
 		#ifdef SORTED_TRAN
@@ -103,9 +117,14 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 		#endif
 
 	}
-//	fptree_root->child.clear();
-//	cout << "clear child nodes" << endl;
 
+	//	find conditional pattern base
+/*
+	for( auto item : tran_record )
+	{
+		f
+	}
+*/
 	//	show 1-item counter
 	#ifdef ONE_ITEM
 		for( auto i : tran_record )
@@ -118,18 +137,26 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 		{
 			cout << "[" << i.first << ":" << i.second.first << "]" << endl;
 			FPTnode_ptr tmp = i.second.second;
+//			FPTnode_ptr conditional_fpt( new FPTnode( "[cond FP Tree root]" );
+
 			uint32_t c = 0;
 			while( tmp != nullptr )
 			{
-				cout << "all child :";
-				for( auto j : tmp->child )
-					cout << " " << j->item;
+				cout << "all preffix : [" << tmp->getCount() << "] ";
+//				deque<FPTnode_ptr> cond_patt_base;
+//				cond_patt_base.clear();
+				FPTnode_ptr tmp_1 = tmp;
+				do
+				{
+//					cond_patt_base.push_front( tmp_1 );
+					cout << " " << tmp_1->getItem();
+					tmp_1 = tmp_1->getParent();
+				}while( tmp_1->getParent() != nullptr );
+//				cond_patt_base.pop_back();
 				cout << endl;
-//				cout << tmp->getItem() << ":" << tmp->getCount() << endl;
+
 				c += tmp->getCount();
 				tmp = tmp->getNext();
-//				cout << i.second.second->item << ":" << i.second.second->count << endl;
-//				tmp = tmp->next;
 			}
 			cout << c <<  endl;
 		}

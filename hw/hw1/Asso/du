@@ -1,0 +1,3755 @@
+[OK]: Open the file "../data/input_1.asso" successfully.
+
+
+[current node :[FP Tree root], count: 0]
+all child :
+newcurrent node :14,ref count: 2
+
+[current node :14, count: 1]
+all child :
+newcurrent node :67,ref count: 2
+
+[current node :67, count: 1]
+all child :
+newcurrent node :34,ref count: 2
+
+[current node :34, count: 1]
+all child :
+newcurrent node :1,ref count: 2
+
+[current node :1, count: 1]
+all child :
+newcurrent node :4,ref count: 2
+
+[current node :4, count: 1]
+all child :
+newcurrent node :19,ref count: 2
+
+[current node :19, count: 1]
+all child :
+newcurrent node :91,ref count: 2
+
+[current node :91, count: 1]
+all child :
+newcurrent node :38,ref count: 2
+
+14:37 67:31 34:30 1:25 4:24 19:23 91:15 38:10 
+[current node :[FP Tree root], count: 0]
+all child :14 
+newcurrent node :56,ref count: 2
+
+[current node :56, count: 1]
+all child :
+newcurrent node :14,ref count: 2
+
+[current node :14, count: 1]
+all child :
+newcurrent node :19,ref count: 2
+
+[current node :19, count: 1]
+all child :
+newcurrent node :99,ref count: 2
+
+[current node :99, count: 1]
+all child :
+newcurrent node :0,ref count: 2
+
+
+remove : 5
+
+56:39 14:37 19:23 99:18 0:14 5:8 
+[current node :[FP Tree root], count: 0]
+all child :14 56 
+hit node: 14
+newcurrent node :14,ref count: 5
+
+[current node :14, count: 2]
+all child :67 
+newcurrent node :18,ref count: 2
+
+[current node :18, count: 1]
+all child :
+newcurrent node :67,ref count: 2
+
+[current node :67, count: 1]
+all child :
+newcurrent node :60,ref count: 2
+
+[current node :60, count: 1]
+all child :
+newcurrent node :49,ref count: 2
+
+[current node :49, count: 1]
+all child :
+newcurrent node :91,ref count: 2
+
+14:37 18:34 67:31 60:23 49:16 91:15 
+[current node :[FP Tree root], count: 0]
+all child :14 56 
+hit node: 56
+newcurrent node :56,ref count: 5
+
+[current node :56, count: 2]
+all child :14 
+newcurrent node :67,ref count: 2
+
+[current node :67, count: 1]
+all child :
+newcurrent node :86,ref count: 2
+
+[current node :86, count: 1]
+all child :
+newcurrent node :30,ref count: 2
+
+[current node :30, count: 1]
+all child :
+newcurrent node :72,ref count: 2
+
+[current node :72, count: 1]
+all child :
+newcurrent node :11,ref count: 2
+
+[current node :11, count: 1]
+all child :
+newcurrent node :70,ref count: 2
+
+[current node :70, count: 1]
+all child :
+newcurrent node :28,ref count: 2
+
+
+remove : 42
+
+
+remove : 87
+
+
+remove : 93
+
+
+remove : 97
+
+
+remove : 68
+
+
+remove : 8
+
+56:39 67:31 86:29 30:21 72:18 11:15 70:14 28:13 42:9 87:8 93:8 97:7 68:6 8:4 
+[current node :[FP Tree root], count: 0]
+all child :14 56 
+newcurrent node :18,ref count: 2
+
+[current node :18, count: 1]
+all child :
+newcurrent node :19,ref count: 2
+
+[current node :19, count: 1]
+all child :
+newcurrent node :30,ref count: 2
+
+[current node :30, count: 1]
+all child :
+newcurrent node :16,ref count: 2
+
+[current node :16, count: 1]
+all child :
+newcurrent node :99,ref count: 2
+
+[current node :99, count: 1]
+all child :
+newcurrent node :32,ref count: 2
+
+[current node :32, count: 1]
+all child :
+newcurrent node :44,ref count: 2
+
+[current node :44, count: 1]
+all child :
+newcurrent node :2,ref count: 2
+
+[current node :2, count: 1]
+all child :
+newcurrent node :39,ref count: 2
+
+
+remove : 10
+
+
+remove : 57
+
+18:34 19:23 30:21 16:20 99:18 32:16 44:13 2:12 39:12 10:6 57:6 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 
+hit node: 56
+newcurrent node :56,ref count: 6
+
+[current node :56, count: 3]
+all child :14 67 
+newcurrent node :86,ref count: 2
+
+[current node :86, count: 1]
+all child :
+newcurrent node :30,ref count: 2
+
+[current node :30, count: 1]
+all child :
+newcurrent node :16,ref count: 2
+
+[current node :16, count: 1]
+all child :
+newcurrent node :78,ref count: 2
+
+[current node :78, count: 1]
+all child :
+newcurrent node :26,ref count: 2
+
+[current node :26, count: 1]
+all child :
+newcurrent node :46,ref count: 2
+
+[current node :46, count: 1]
+all child :
+newcurrent node :38,ref count: 2
+
+
+remove : 20
+
+
+remove : 68
+
+
+remove : 53
+
+56:39 86:29 30:21 16:20 78:20 26:16 46:12 38:10 20:9 68:6 53:2 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 
+hit node: 18
+newcurrent node :18,ref count: 5
+
+[current node :18, count: 2]
+all child :19 
+newcurrent node :30,ref count: 2
+
+[current node :30, count: 1]
+all child :
+newcurrent node :6,ref count: 2
+
+
+remove : 43
+
+18:34 30:21 6:17 43:8 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 
+hit node: 14
+newcurrent node :14,ref count: 6
+
+[current node :14, count: 3]
+all child :67 18 
+newcurrent node :30,ref count: 2
+
+[current node :30, count: 1]
+all child :
+newcurrent node :21,ref count: 2
+
+[current node :21, count: 1]
+all child :
+newcurrent node :32,ref count: 2
+
+[current node :32, count: 1]
+all child :
+newcurrent node :46,ref count: 2
+
+[current node :46, count: 1]
+all child :
+newcurrent node :81,ref count: 2
+
+
+remove : 22
+
+
+remove : 97
+
+
+remove : 57
+
+
+remove : 66
+
+
+remove : 23
+
+
+remove : 88
+
+14:37 30:21 21:17 32:16 46:12 81:11 22:9 97:7 57:6 66:5 23:4 88:3 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 
+hit node: 56
+newcurrent node :56,ref count: 7
+
+[current node :56, count: 4]
+all child :14 67 86 
+hit node: 14
+newcurrent node :14,ref count: 5
+
+[current node :14, count: 2]
+all child :19 
+newcurrent node :18,ref count: 2
+
+[current node :18, count: 1]
+all child :
+newcurrent node :78,ref count: 2
+
+[current node :78, count: 1]
+all child :
+newcurrent node :16,ref count: 2
+
+[current node :16, count: 1]
+all child :
+newcurrent node :32,ref count: 2
+
+[current node :32, count: 1]
+all child :
+newcurrent node :0,ref count: 2
+
+[current node :0, count: 1]
+all child :
+newcurrent node :70,ref count: 2
+
+[current node :70, count: 1]
+all child :
+newcurrent node :12,ref count: 2
+
+[current node :12, count: 1]
+all child :
+newcurrent node :63,ref count: 2
+
+
+remove : 76
+
+56:39 14:37 18:34 78:20 16:20 32:16 0:14 70:14 12:11 63:10 76:6 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 
+hit node: 56
+newcurrent node :56,ref count: 7
+
+[current node :56, count: 5]
+all child :14 67 86 
+hit node: 86
+newcurrent node :86,ref count: 5
+
+[current node :86, count: 2]
+all child :30 
+newcurrent node :4,ref count: 2
+
+[current node :4, count: 1]
+all child :
+newcurrent node :78,ref count: 2
+
+[current node :78, count: 1]
+all child :
+newcurrent node :21,ref count: 2
+
+[current node :21, count: 1]
+all child :
+newcurrent node :11,ref count: 2
+
+[current node :11, count: 1]
+all child :
+newcurrent node :90,ref count: 2
+
+
+remove : 85
+
+
+remove : 37
+
+56:39 86:29 4:24 78:20 21:17 11:15 90:15 85:9 37:6 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 
+hit node: 14
+newcurrent node :14,ref count: 7
+
+[current node :14, count: 4]
+all child :67 18 30 
+hit node: 18
+newcurrent node :18,ref count: 5
+
+[current node :18, count: 2]
+all child :67 
+newcurrent node :1,ref count: 2
+
+[current node :1, count: 1]
+all child :
+newcurrent node :72,ref count: 2
+
+[current node :72, count: 1]
+all child :
+newcurrent node :26,ref count: 2
+
+[current node :26, count: 1]
+all child :
+newcurrent node :91,ref count: 2
+
+[current node :91, count: 1]
+all child :
+newcurrent node :44,ref count: 2
+
+[current node :44, count: 1]
+all child :
+newcurrent node :12,ref count: 2
+
+
+remove : 94
+
+
+remove : 87
+
+14:37 18:34 1:25 72:18 26:16 91:15 44:13 12:11 94:9 87:8 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 
+hit node: 14
+newcurrent node :14,ref count: 7
+
+[current node :14, count: 5]
+all child :67 18 30 
+newcurrent node :1,ref count: 2
+
+[current node :1, count: 1]
+all child :
+newcurrent node :60,ref count: 2
+
+[current node :60, count: 1]
+all child :
+newcurrent node :78,ref count: 2
+
+[current node :78, count: 1]
+all child :
+newcurrent node :0,ref count: 2
+
+
+remove : 37
+
+
+remove : 88
+
+14:37 1:25 60:23 78:20 0:14 37:6 88:3 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 
+hit node: 18
+newcurrent node :18,ref count: 6
+
+[current node :18, count: 3]
+all child :19 30 
+newcurrent node :48,ref count: 2
+
+[current node :48, count: 1]
+all child :
+newcurrent node :19,ref count: 2
+
+[current node :19, count: 1]
+all child :
+newcurrent node :99,ref count: 2
+
+[current node :99, count: 1]
+all child :
+newcurrent node :6,ref count: 2
+
+[current node :6, count: 1]
+all child :
+newcurrent node :70,ref count: 2
+
+[current node :70, count: 1]
+all child :
+newcurrent node :38,ref count: 2
+
+
+remove : 5
+
+
+remove : 33
+
+
+remove : 37
+
+18:34 48:24 19:23 99:18 6:17 70:14 38:10 5:8 33:8 37:6 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 
+newcurrent node :34,ref count: 2
+
+[current node :34, count: 1]
+all child :
+newcurrent node :1,ref count: 2
+
+[current node :1, count: 1]
+all child :
+newcurrent node :48,ref count: 2
+
+[current node :48, count: 1]
+all child :
+newcurrent node :99,ref count: 2
+
+[current node :99, count: 1]
+all child :
+newcurrent node :21,ref count: 2
+
+[current node :21, count: 1]
+all child :
+newcurrent node :11,ref count: 2
+
+
+remove : 3
+
+
+remove : 31
+
+
+remove : 40
+
+34:30 1:25 48:24 99:18 21:17 11:15 3:8 31:4 40:2 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 
+hit node: 18
+newcurrent node :18,ref count: 7
+
+[current node :18, count: 4]
+all child :19 30 48 
+newcurrent node :4,ref count: 2
+
+[current node :4, count: 1]
+all child :
+newcurrent node :99,ref count: 2
+
+[current node :99, count: 1]
+all child :
+newcurrent node :21,ref count: 2
+
+[current node :21, count: 1]
+all child :
+newcurrent node :91,ref count: 2
+
+
+remove : 75
+
+
+remove : 43
+
+
+remove : 68
+
+
+remove : 83
+
+18:34 4:24 99:18 21:17 91:15 75:9 43:8 68:6 83:1 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 
+hit node: 56
+newcurrent node :56,ref count: 7
+
+[current node :56, count: 6]
+all child :14 67 86 
+hit node: 14
+newcurrent node :14,ref count: 6
+
+[current node :14, count: 3]
+all child :19 18 
+newcurrent node :4,ref count: 2
+
+[current node :4, count: 1]
+all child :
+newcurrent node :48,ref count: 2
+
+[current node :48, count: 1]
+all child :
+newcurrent node :60,ref count: 2
+
+[current node :60, count: 1]
+all child :
+newcurrent node :99,ref count: 2
+
+[current node :99, count: 1]
+all child :
+newcurrent node :21,ref count: 2
+
+[current node :21, count: 1]
+all child :
+newcurrent node :49,ref count: 2
+
+[current node :49, count: 1]
+all child :
+newcurrent node :90,ref count: 2
+
+[current node :90, count: 1]
+all child :
+newcurrent node :0,ref count: 2
+
+
+remove : 94
+
+
+remove : 85
+
+
+remove : 5
+
+56:39 14:37 4:24 48:24 60:23 99:18 21:17 49:16 90:15 0:14 94:9 85:9 5:8 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 
+hit node: 18
+newcurrent node :18,ref count: 8
+
+[current node :18, count: 5]
+all child :19 30 48 4 
+hit node: 48
+newcurrent node :48,ref count: 5
+
+[current node :48, count: 2]
+all child :19 
+newcurrent node :16,ref count: 2
+
+[current node :16, count: 1]
+all child :
+newcurrent node :90,ref count: 2
+
+[current node :90, count: 1]
+all child :
+newcurrent node :39,ref count: 2
+
+
+remove : 85
+
+
+remove : 15
+
+
+remove : 23
+
+18:34 48:24 16:20 90:15 39:12 85:9 15:7 23:4 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 
+hit node: 56
+newcurrent node :56,ref count: 7
+
+[current node :56, count: 7]
+all child :14 67 86 
+newcurrent node :4,ref count: 2
+
+[current node :4, count: 1]
+all child :
+newcurrent node :60,ref count: 2
+
+[current node :60, count: 1]
+all child :
+newcurrent node :78,ref count: 2
+
+[current node :78, count: 1]
+all child :
+newcurrent node :72,ref count: 2
+
+[current node :72, count: 1]
+all child :
+newcurrent node :49,ref count: 2
+
+
+remove : 20
+
+
+remove : 33
+
+
+remove : 97
+
+
+remove : 15
+
+
+remove : 76
+
+56:39 4:24 60:23 78:20 72:18 49:16 20:9 33:8 97:7 15:7 76:6 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 
+hit node: 18
+newcurrent node :18,ref count: 8
+
+[current node :18, count: 6]
+all child :19 30 48 4 
+newcurrent node :67,ref count: 2
+
+[current node :67, count: 1]
+all child :
+newcurrent node :1,ref count: 2
+
+[current node :1, count: 1]
+all child :
+newcurrent node :48,ref count: 2
+
+18:34 67:31 1:25 48:24 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 
+hit node: 56
+newcurrent node :56,ref count: 8
+
+[current node :56, count: 8]
+all child :14 67 86 4 
+newcurrent node :18,ref count: 2
+
+[current node :18, count: 1]
+all child :
+newcurrent node :34,ref count: 2
+
+[current node :34, count: 1]
+all child :
+newcurrent node :1,ref count: 2
+
+[current node :1, count: 1]
+all child :
+newcurrent node :16,ref count: 2
+
+[current node :16, count: 1]
+all child :
+newcurrent node :12,ref count: 2
+
+
+remove : 22
+
+56:39 18:34 34:30 1:25 16:20 12:11 22:9 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 
+newcurrent node :48,ref count: 2
+
+[current node :48, count: 1]
+all child :
+newcurrent node :30,ref count: 2
+
+[current node :30, count: 1]
+all child :
+newcurrent node :26,ref count: 2
+
+[current node :26, count: 1]
+all child :
+newcurrent node :32,ref count: 2
+
+
+remove : 22
+
+
+remove : 41
+
+
+remove : 76
+
+
+remove : 89
+
+48:24 30:21 26:16 32:16 22:9 41:7 76:6 89:4 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 
+hit node: 34
+newcurrent node :34,ref count: 5
+
+[current node :34, count: 2]
+all child :1 
+newcurrent node :86,ref count: 2
+
+[current node :86, count: 1]
+all child :
+newcurrent node :48,ref count: 2
+
+[current node :48, count: 1]
+all child :
+newcurrent node :28,ref count: 2
+
+[current node :28, count: 1]
+all child :
+newcurrent node :44,ref count: 2
+
+
+remove : 77
+
+
+remove : 93
+
+
+remove : 5
+
+
+remove : 15
+
+
+remove : 31
+
+
+remove : 98
+
+
+remove : 84
+
+
+remove : 36
+
+34:30 86:29 48:24 28:13 44:13 77:9 93:8 5:8 15:7 31:4 98:3 84:3 36:2 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 
+hit node: 56
+newcurrent node :56,ref count: 9
+
+[current node :56, count: 9]
+all child :14 67 86 4 18 
+newcurrent node :34,ref count: 2
+
+[current node :34, count: 1]
+all child :
+newcurrent node :86,ref count: 2
+
+[current node :86, count: 1]
+all child :
+newcurrent node :1,ref count: 2
+
+[current node :1, count: 1]
+all child :
+newcurrent node :60,ref count: 2
+
+[current node :60, count: 1]
+all child :
+newcurrent node :78,ref count: 2
+
+[current node :78, count: 1]
+all child :
+newcurrent node :72,ref count: 2
+
+[current node :72, count: 1]
+all child :
+newcurrent node :6,ref count: 2
+
+[current node :6, count: 1]
+all child :
+newcurrent node :11,ref count: 2
+
+[current node :11, count: 1]
+all child :
+newcurrent node :44,ref count: 2
+
+
+remove : 77
+
+
+remove : 42
+
+
+remove : 10
+
+
+remove : 29
+
+
+remove : 66
+
+
+remove : 59
+
+
+remove : 82
+
+56:39 34:30 86:29 1:25 60:23 78:20 72:18 6:17 11:15 44:13 77:9 42:9 10:6 29:6 66:5 59:3 82:1 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 
+hit node: 14
+newcurrent node :14,ref count: 8
+
+[current node :14, count: 6]
+all child :67 18 30 1 
+hit node: 67
+newcurrent node :67,ref count: 5
+
+[current node :67, count: 2]
+all child :34 
+hit node: 34
+newcurrent node :34,ref count: 5
+
+[current node :34, count: 2]
+all child :1 
+newcurrent node :86,ref count: 2
+
+[current node :86, count: 1]
+all child :
+newcurrent node :19,ref count: 2
+
+[current node :19, count: 1]
+all child :
+newcurrent node :30,ref count: 2
+
+[current node :30, count: 1]
+all child :
+newcurrent node :16,ref count: 2
+
+[current node :16, count: 1]
+all child :
+newcurrent node :28,ref count: 2
+
+
+remove : 22
+
+
+remove : 89
+
+
+remove : 92
+
+14:37 67:31 34:30 86:29 19:23 30:21 16:20 28:13 22:9 89:4 92:3 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 
+hit node: 18
+newcurrent node :18,ref count: 9
+
+[current node :18, count: 7]
+all child :19 30 48 4 67 
+hit node: 48
+newcurrent node :48,ref count: 6
+
+[current node :48, count: 3]
+all child :19 16 
+hit node: 19
+newcurrent node :19,ref count: 5
+
+[current node :19, count: 2]
+all child :99 
+newcurrent node :60,ref count: 2
+
+[current node :60, count: 1]
+all child :
+newcurrent node :72,ref count: 2
+
+[current node :72, count: 1]
+all child :
+newcurrent node :46,ref count: 2
+
+
+remove : 77
+
+
+remove : 87
+
+
+remove : 52
+
+18:34 48:24 19:23 60:23 72:18 46:12 77:9 87:8 52:4 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 
+newcurrent node :16,ref count: 2
+
+[current node :16, count: 1]
+all child :
+newcurrent node :78,ref count: 2
+
+[current node :78, count: 1]
+all child :
+newcurrent node :49,ref count: 2
+
+[current node :49, count: 1]
+all child :
+newcurrent node :70,ref count: 2
+
+[current node :70, count: 1]
+all child :
+newcurrent node :2,ref count: 2
+
+[current node :2, count: 1]
+all child :
+newcurrent node :39,ref count: 2
+
+[current node :39, count: 1]
+all child :
+newcurrent node :63,ref count: 2
+
+16:20 78:20 49:16 70:14 2:12 39:12 63:10 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 
+hit node: 56
+newcurrent node :56,ref count: 10
+
+[current node :56, count: 10]
+all child :14 67 86 4 18 34 
+hit node: 86
+newcurrent node :86,ref count: 6
+
+[current node :86, count: 3]
+all child :30 4 
+newcurrent node :72,ref count: 2
+
+[current node :72, count: 1]
+all child :
+newcurrent node :11,ref count: 2
+
+
+remove : 3
+
+56:39 86:29 72:18 11:15 3:8 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 
+hit node: 56
+newcurrent node :56,ref count: 10
+
+[current node :56, count: 11]
+all child :14 67 86 4 18 34 
+hit node: 14
+newcurrent node :14,ref count: 7
+
+[current node :14, count: 4]
+all child :19 18 4 
+newcurrent node :1,ref count: 2
+
+[current node :1, count: 1]
+all child :
+newcurrent node :19,ref count: 2
+
+[current node :19, count: 1]
+all child :
+newcurrent node :72,ref count: 2
+
+[current node :72, count: 1]
+all child :
+newcurrent node :99,ref count: 2
+
+[current node :99, count: 1]
+all child :
+newcurrent node :6,ref count: 2
+
+[current node :6, count: 1]
+all child :
+newcurrent node :90,ref count: 2
+
+[current node :90, count: 1]
+all child :
+newcurrent node :70,ref count: 2
+
+[current node :70, count: 1]
+all child :
+newcurrent node :28,ref count: 2
+
+[current node :28, count: 1]
+all child :
+newcurrent node :44,ref count: 2
+
+
+remove : 20
+
+
+remove : 3
+
+
+remove : 5
+
+
+remove : 74
+
+56:39 14:37 1:25 19:23 72:18 99:18 6:17 90:15 70:14 28:13 44:13 20:9 3:8 5:8 74:7 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 
+hit node: 14
+newcurrent node :14,ref count: 8
+
+[current node :14, count: 7]
+all child :67 18 30 1 
+hit node: 18
+newcurrent node :18,ref count: 6
+
+[current node :18, count: 3]
+all child :67 1 
+newcurrent node :34,ref count: 2
+
+[current node :34, count: 1]
+all child :
+newcurrent node :19,ref count: 2
+
+[current node :19, count: 1]
+all child :
+newcurrent node :60,ref count: 2
+
+[current node :60, count: 1]
+all child :
+newcurrent node :99,ref count: 2
+
+[current node :99, count: 1]
+all child :
+newcurrent node :72,ref count: 2
+
+[current node :72, count: 1]
+all child :
+newcurrent node :32,ref count: 2
+
+[current node :32, count: 1]
+all child :
+newcurrent node :28,ref count: 2
+
+[current node :28, count: 1]
+all child :
+newcurrent node :2,ref count: 2
+
+[current node :2, count: 1]
+all child :
+newcurrent node :81,ref count: 2
+
+
+remove : 20
+
+14:37 18:34 34:30 19:23 60:23 99:18 72:18 32:16 28:13 2:12 81:11 20:9 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 
+newcurrent node :67,ref count: 2
+
+[current node :67, count: 1]
+all child :
+newcurrent node :86,ref count: 2
+
+[current node :86, count: 1]
+all child :
+newcurrent node :60,ref count: 2
+
+[current node :60, count: 1]
+all child :
+newcurrent node :72,ref count: 2
+
+[current node :72, count: 1]
+all child :
+newcurrent node :6,ref count: 2
+
+[current node :6, count: 1]
+all child :
+newcurrent node :44,ref count: 2
+
+
+remove : 75
+
+
+remove : 57
+
+
+remove : 69
+
+67:31 86:29 60:23 72:18 6:17 44:13 75:9 57:6 69:5 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 
+hit node: 14
+newcurrent node :14,ref count: 8
+
+[current node :14, count: 8]
+all child :67 18 30 1 
+newcurrent node :34,ref count: 2
+
+[current node :34, count: 1]
+all child :
+newcurrent node :4,ref count: 2
+
+[current node :4, count: 1]
+all child :
+newcurrent node :16,ref count: 2
+
+[current node :16, count: 1]
+all child :
+newcurrent node :49,ref count: 2
+
+[current node :49, count: 1]
+all child :
+newcurrent node :38,ref count: 2
+
+
+remove : 69
+
+
+remove : 23
+
+14:37 34:30 4:24 16:20 49:16 38:10 69:5 23:4 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 
+hit node: 67
+newcurrent node :67,ref count: 5
+
+[current node :67, count: 2]
+all child :86 
+newcurrent node :1,ref count: 2
+
+[current node :1, count: 1]
+all child :
+newcurrent node :4,ref count: 2
+
+[current node :4, count: 1]
+all child :
+newcurrent node :60,ref count: 2
+
+[current node :60, count: 1]
+all child :
+newcurrent node :19,ref count: 2
+
+[current node :19, count: 1]
+all child :
+newcurrent node :21,ref count: 2
+
+[current node :21, count: 1]
+all child :
+newcurrent node :32,ref count: 2
+
+[current node :32, count: 1]
+all child :
+newcurrent node :26,ref count: 2
+
+[current node :26, count: 1]
+all child :
+newcurrent node :11,ref count: 2
+
+[current node :11, count: 1]
+all child :
+newcurrent node :46,ref count: 2
+
+
+remove : 43
+
+
+remove : 15
+
+
+remove : 57
+
+
+remove : 69
+
+
+remove : 98
+
+
+remove : 27
+
+
+remove : 53
+
+67:31 1:25 4:24 60:23 19:23 21:17 32:16 26:16 11:15 46:12 43:8 15:7 57:6 69:5 98:3 27:2 53:2 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 
+hit node: 67
+newcurrent node :67,ref count: 6
+
+[current node :67, count: 3]
+all child :86 1 
+newcurrent node :99,ref count: 2
+
+[current node :99, count: 1]
+all child :
+newcurrent node :11,ref count: 2
+
+[current node :11, count: 1]
+all child :
+newcurrent node :90,ref count: 2
+
+[current node :90, count: 1]
+all child :
+newcurrent node :46,ref count: 2
+
+
+remove : 5
+
+
+remove : 87
+
+
+remove : 7
+
+67:31 99:18 11:15 90:15 46:12 5:8 87:8 7:1 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 
+hit node: 18
+newcurrent node :18,ref count: 9
+
+[current node :18, count: 8]
+all child :19 30 48 4 67 
+newcurrent node :34,ref count: 2
+
+[current node :34, count: 1]
+all child :
+newcurrent node :2,ref count: 2
+
+[current node :2, count: 1]
+all child :
+newcurrent node :63,ref count: 2
+
+
+remove : 75
+
+
+remove : 68
+
+18:34 34:30 2:12 63:10 75:9 68:6 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 
+hit node: 56
+newcurrent node :56,ref count: 10
+
+[current node :56, count: 12]
+all child :14 67 86 4 18 34 
+hit node: 18
+newcurrent node :18,ref count: 5
+
+[current node :18, count: 2]
+all child :34 
+newcurrent node :28,ref count: 2
+
+[current node :28, count: 1]
+all child :
+newcurrent node :38,ref count: 2
+
+
+remove : 24
+
+
+remove : 43
+
+
+remove : 41
+
+
+remove : 37
+
+56:39 18:34 28:13 38:10 24:8 43:8 41:7 37:6 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 
+hit node: 67
+newcurrent node :67,ref count: 7
+
+[current node :67, count: 4]
+all child :86 1 99 
+newcurrent node :34,ref count: 2
+
+[current node :34, count: 1]
+all child :
+newcurrent node :99,ref count: 2
+
+[current node :99, count: 1]
+all child :
+newcurrent node :70,ref count: 2
+
+[current node :70, count: 1]
+all child :
+newcurrent node :63,ref count: 2
+
+
+remove : 35
+
+67:31 34:30 99:18 70:14 63:10 35:2 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 
+hit node: 56
+newcurrent node :56,ref count: 10
+
+[current node :56, count: 13]
+all child :14 67 86 4 18 34 
+hit node: 18
+newcurrent node :18,ref count: 6
+
+[current node :18, count: 3]
+all child :34 28 
+newcurrent node :19,ref count: 2
+
+[current node :19, count: 1]
+all child :
+newcurrent node :38,ref count: 2
+
+
+remove : 3
+
+56:39 18:34 19:23 38:10 3:8 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 
+hit node: 14
+newcurrent node :14,ref count: 9
+
+[current node :14, count: 9]
+all child :67 18 30 1 34 
+newcurrent node :4,ref count: 2
+
+[current node :4, count: 1]
+all child :
+newcurrent node :19,ref count: 2
+
+[current node :19, count: 1]
+all child :
+newcurrent node :12,ref count: 2
+
+
+remove : 13
+
+14:37 4:24 19:23 12:11 13:5 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 
+hit node: 18
+newcurrent node :18,ref count: 10
+
+[current node :18, count: 9]
+all child :19 30 48 4 67 34 
+hit node: 67
+newcurrent node :67,ref count: 5
+
+[current node :67, count: 2]
+all child :1 
+hit node: 1
+newcurrent node :1,ref count: 5
+
+[current node :1, count: 2]
+all child :48 
+hit node: 48
+newcurrent node :48,ref count: 4
+
+[current node :48, count: 2]
+all child :
+newcurrent node :21,ref count: 2
+
+
+remove : 75
+
+18:34 67:31 1:25 48:24 21:17 75:9 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 
+hit node: 14
+newcurrent node :14,ref count: 10
+
+[current node :14, count: 10]
+all child :67 18 30 1 34 4 
+hit node: 18
+newcurrent node :18,ref count: 7
+
+[current node :18, count: 4]
+all child :67 1 34 
+hit node: 34
+newcurrent node :34,ref count: 5
+
+[current node :34, count: 2]
+all child :19 
+newcurrent node :1,ref count: 2
+
+[current node :1, count: 1]
+all child :
+newcurrent node :60,ref count: 2
+
+[current node :60, count: 1]
+all child :
+newcurrent node :30,ref count: 2
+
+[current node :30, count: 1]
+all child :
+newcurrent node :78,ref count: 2
+
+[current node :78, count: 1]
+all child :
+newcurrent node :6,ref count: 2
+
+[current node :6, count: 1]
+all child :
+newcurrent node :49,ref count: 2
+
+[current node :49, count: 1]
+all child :
+newcurrent node :39,ref count: 2
+
+
+remove : 79
+
+14:37 18:34 34:30 1:25 60:23 30:21 78:20 6:17 49:16 39:12 79:1 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 
+hit node: 56
+newcurrent node :56,ref count: 10
+
+[current node :56, count: 14]
+all child :14 67 86 4 18 34 
+hit node: 86
+newcurrent node :86,ref count: 7
+
+[current node :86, count: 4]
+all child :30 4 72 
+hit node: 4
+newcurrent node :4,ref count: 5
+
+[current node :4, count: 2]
+all child :78 
+newcurrent node :6,ref count: 2
+
+[current node :6, count: 1]
+all child :
+newcurrent node :0,ref count: 2
+
+[current node :0, count: 1]
+all child :
+newcurrent node :39,ref count: 2
+
+[current node :39, count: 1]
+all child :
+newcurrent node :81,ref count: 2
+
+
+remove : 54
+
+56:39 86:29 4:24 6:17 0:14 39:12 81:11 54:3 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 
+hit node: 56
+newcurrent node :56,ref count: 10
+
+[current node :56, count: 15]
+all child :14 67 86 4 18 34 
+hit node: 67
+newcurrent node :67,ref count: 5
+
+[current node :67, count: 2]
+all child :86 
+newcurrent node :4,ref count: 2
+
+[current node :4, count: 1]
+all child :
+newcurrent node :30,ref count: 2
+
+[current node :30, count: 1]
+all child :
+newcurrent node :90,ref count: 2
+
+[current node :90, count: 1]
+all child :
+newcurrent node :70,ref count: 2
+
+[current node :70, count: 1]
+all child :
+newcurrent node :12,ref count: 2
+
+
+remove : 77
+
+
+remove : 22
+
+
+remove : 87
+
+
+remove : 41
+
+
+remove : 74
+
+
+remove : 54
+
+56:39 67:31 4:24 30:21 90:15 70:14 12:11 77:9 22:9 87:8 41:7 74:7 54:3 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 
+hit node: 14
+newcurrent node :14,ref count: 10
+
+[current node :14, count: 11]
+all child :67 18 30 1 34 4 
+hit node: 34
+newcurrent node :34,ref count: 5
+
+[current node :34, count: 2]
+all child :4 
+newcurrent node :86,ref count: 2
+
+[current node :86, count: 1]
+all child :
+newcurrent node :1,ref count: 2
+
+[current node :1, count: 1]
+all child :
+newcurrent node :48,ref count: 2
+
+[current node :48, count: 1]
+all child :
+newcurrent node :19,ref count: 2
+
+[current node :19, count: 1]
+all child :
+newcurrent node :16,ref count: 2
+
+[current node :16, count: 1]
+all child :
+newcurrent node :21,ref count: 2
+
+[current node :21, count: 1]
+all child :
+newcurrent node :49,ref count: 2
+
+[current node :49, count: 1]
+all child :
+newcurrent node :63,ref count: 2
+
+
+remove : 31
+
+
+remove : 9
+
+14:37 34:30 86:29 1:25 48:24 19:23 16:20 21:17 49:16 63:10 31:4 9:1 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 
+hit node: 56
+newcurrent node :56,ref count: 10
+
+[current node :56, count: 16]
+all child :14 67 86 4 18 34 
+hit node: 34
+newcurrent node :34,ref count: 5
+
+[current node :34, count: 2]
+all child :86 
+newcurrent node :30,ref count: 2
+
+[current node :30, count: 1]
+all child :
+newcurrent node :32,ref count: 2
+
+[current node :32, count: 1]
+all child :
+newcurrent node :63,ref count: 2
+
+56:39 34:30 30:21 32:16 63:10 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 
+hit node: 56
+newcurrent node :56,ref count: 10
+
+[current node :56, count: 17]
+all child :14 67 86 4 18 34 
+hit node: 14
+newcurrent node :14,ref count: 8
+
+[current node :14, count: 5]
+all child :19 18 4 1 
+hit node: 18
+newcurrent node :18,ref count: 5
+
+[current node :18, count: 2]
+all child :78 
+newcurrent node :34,ref count: 2
+
+[current node :34, count: 1]
+all child :
+newcurrent node :60,ref count: 2
+
+[current node :60, count: 1]
+all child :
+newcurrent node :72,ref count: 2
+
+[current node :72, count: 1]
+all child :
+newcurrent node :21,ref count: 2
+
+[current node :21, count: 1]
+all child :
+newcurrent node :32,ref count: 2
+
+[current node :32, count: 1]
+all child :
+newcurrent node :49,ref count: 2
+
+[current node :49, count: 1]
+all child :
+newcurrent node :2,ref count: 2
+
+[current node :2, count: 1]
+all child :
+newcurrent node :38,ref count: 2
+
+
+remove : 94
+
+
+remove : 76
+
+
+remove : 89
+
+
+remove : 47
+
+
+remove : 27
+
+56:39 14:37 18:34 34:30 60:23 72:18 21:17 32:16 49:16 2:12 38:10 94:9 76:6 89:4 47:4 27:2 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 
+hit node: 14
+newcurrent node :14,ref count: 10
+
+[current node :14, count: 12]
+all child :67 18 30 1 34 4 
+newcurrent node :86,ref count: 2
+
+[current node :86, count: 1]
+all child :
+newcurrent node :60,ref count: 2
+
+[current node :60, count: 1]
+all child :
+newcurrent node :26,ref count: 2
+
+
+remove : 20
+
+
+remove : 24
+
+
+remove : 97
+
+
+remove : 54
+
+
+remove : 92
+
+14:37 86:29 60:23 26:16 20:9 24:8 97:7 54:3 92:3 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 
+hit node: 56
+newcurrent node :56,ref count: 10
+
+[current node :56, count: 18]
+all child :14 67 86 4 18 34 
+hit node: 14
+newcurrent node :14,ref count: 8
+
+[current node :14, count: 6]
+all child :19 18 4 1 
+hit node: 18
+newcurrent node :18,ref count: 6
+
+[current node :18, count: 3]
+all child :78 34 
+hit node: 34
+newcurrent node :34,ref count: 5
+
+[current node :34, count: 2]
+all child :60 
+newcurrent node :91,ref count: 2
+
+[current node :91, count: 1]
+all child :
+newcurrent node :0,ref count: 2
+
+[current node :0, count: 1]
+all child :
+newcurrent node :12,ref count: 2
+
+
+remove : 3
+
+
+remove : 43
+
+
+remove : 97
+
+
+remove : 29
+
+56:39 14:37 18:34 34:30 91:15 0:14 12:11 3:8 43:8 97:7 29:6 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 
+hit node: 56
+newcurrent node :56,ref count: 10
+
+[current node :56, count: 19]
+all child :14 67 86 4 18 34 
+hit node: 14
+newcurrent node :14,ref count: 8
+
+[current node :14, count: 7]
+all child :19 18 4 1 
+newcurrent node :67,ref count: 2
+
+[current node :67, count: 1]
+all child :
+newcurrent node :1,ref count: 2
+
+[current node :1, count: 1]
+all child :
+newcurrent node :4,ref count: 2
+
+[current node :4, count: 1]
+all child :
+newcurrent node :12,ref count: 2
+
+[current node :12, count: 1]
+all child :
+newcurrent node :81,ref count: 2
+
+
+remove : 94
+
+
+remove : 93
+
+56:39 14:37 67:31 1:25 4:24 12:11 81:11 94:9 93:8 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 
+hit node: 56
+newcurrent node :56,ref count: 10
+
+[current node :56, count: 20]
+all child :14 67 86 4 18 34 
+newcurrent node :1,ref count: 2
+
+[current node :1, count: 1]
+all child :
+newcurrent node :48,ref count: 2
+
+[current node :48, count: 1]
+all child :
+newcurrent node :90,ref count: 2
+
+[current node :90, count: 1]
+all child :
+newcurrent node :39,ref count: 2
+
+
+remove : 42
+
+
+remove : 24
+
+
+remove : 93
+
+
+remove : 59
+
+56:39 1:25 48:24 90:15 39:12 42:9 24:8 93:8 59:3 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 
+hit node: 56
+newcurrent node :56,ref count: 11
+
+[current node :56, count: 21]
+all child :14 67 86 4 18 34 1 
+hit node: 18
+newcurrent node :18,ref count: 7
+
+[current node :18, count: 4]
+all child :34 28 19 
+newcurrent node :67,ref count: 2
+
+[current node :67, count: 1]
+all child :
+newcurrent node :19,ref count: 2
+
+[current node :19, count: 1]
+all child :
+newcurrent node :60,ref count: 2
+
+[current node :60, count: 1]
+all child :
+newcurrent node :78,ref count: 2
+
+[current node :78, count: 1]
+all child :
+newcurrent node :26,ref count: 2
+
+[current node :26, count: 1]
+all child :
+newcurrent node :11,ref count: 2
+
+[current node :11, count: 1]
+all child :
+newcurrent node :70,ref count: 2
+
+[current node :70, count: 1]
+all child :
+newcurrent node :81,ref count: 2
+
+
+remove : 66
+
+
+remove : 8
+
+
+remove : 47
+
+56:39 18:34 67:31 19:23 60:23 78:20 26:16 11:15 70:14 81:11 66:5 8:4 47:4 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 
+hit node: 14
+newcurrent node :14,ref count: 11
+
+[current node :14, count: 13]
+all child :67 18 30 1 34 4 86 
+hit node: 18
+newcurrent node :18,ref count: 7
+
+[current node :18, count: 5]
+all child :67 1 34 
+hit node: 67
+newcurrent node :67,ref count: 5
+
+[current node :67, count: 2]
+all child :60 
+newcurrent node :34,ref count: 2
+
+[current node :34, count: 1]
+all child :
+newcurrent node :4,ref count: 2
+
+[current node :4, count: 1]
+all child :
+newcurrent node :48,ref count: 2
+
+[current node :48, count: 1]
+all child :
+newcurrent node :60,ref count: 2
+
+[current node :60, count: 1]
+all child :
+newcurrent node :30,ref count: 2
+
+[current node :30, count: 1]
+all child :
+newcurrent node :90,ref count: 2
+
+
+remove : 85
+
+
+remove : 87
+
+
+remove : 93
+
+
+remove : 41
+
+
+remove : 29
+
+
+remove : 45
+
+14:37 18:34 67:31 34:30 4:24 48:24 60:23 30:21 90:15 85:9 87:8 93:8 41:7 29:6 45:1 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 
+hit node: 14
+newcurrent node :14,ref count: 11
+
+[current node :14, count: 14]
+all child :67 18 30 1 34 4 86 
+newcurrent node :48,ref count: 2
+
+[current node :48, count: 1]
+all child :
+newcurrent node :4,ref count: 2
+
+[current node :4, count: 1]
+all child :
+newcurrent node :19,ref count: 2
+
+[current node :19, count: 1]
+all child :
+newcurrent node :21,ref count: 2
+
+[current node :21, count: 1]
+all child :
+newcurrent node :0,ref count: 2
+
+[current node :0, count: 1]
+all child :
+newcurrent node :44,ref count: 2
+
+[current node :44, count: 1]
+all child :
+newcurrent node :28,ref count: 2
+
+[current node :28, count: 1]
+all child :
+newcurrent node :12,ref count: 2
+
+[current node :12, count: 1]
+all child :
+newcurrent node :38,ref count: 2
+
+
+remove : 94
+
+
+remove : 93
+
+
+remove : 24
+
+
+remove : 33
+
+
+remove : 15
+
+
+remove : 74
+
+
+remove : 69
+
+14:37 48:24 4:24 19:23 21:17 0:14 44:13 28:13 12:11 38:10 94:9 93:8 24:8 33:8 15:7 74:7 69:5 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 
+hit node: 56
+newcurrent node :56,ref count: 11
+
+[current node :56, count: 22]
+all child :14 67 86 4 18 34 1 
+hit node: 14
+newcurrent node :14,ref count: 9
+
+[current node :14, count: 8]
+all child :19 18 4 1 67 
+newcurrent node :86,ref count: 2
+
+[current node :86, count: 1]
+all child :
+newcurrent node :1,ref count: 2
+
+[current node :1, count: 1]
+all child :
+newcurrent node :48,ref count: 2
+
+[current node :48, count: 1]
+all child :
+newcurrent node :30,ref count: 2
+
+[current node :30, count: 1]
+all child :
+newcurrent node :78,ref count: 2
+
+[current node :78, count: 1]
+all child :
+newcurrent node :21,ref count: 2
+
+[current node :21, count: 1]
+all child :
+newcurrent node :32,ref count: 2
+
+[current node :32, count: 1]
+all child :
+newcurrent node :11,ref count: 2
+
+[current node :11, count: 1]
+all child :
+newcurrent node :46,ref count: 2
+
+[current node :46, count: 1]
+all child :
+newcurrent node :2,ref count: 2
+
+
+remove : 75
+
+
+remove : 42
+
+
+remove : 15
+
+
+remove : 8
+
+56:39 14:37 86:29 1:25 48:24 30:21 78:20 21:17 32:16 11:15 46:12 2:12 75:9 42:9 15:7 8:4 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 
+hit node: 56
+newcurrent node :56,ref count: 11
+
+[current node :56, count: 23]
+all child :14 67 86 4 18 34 1 
+hit node: 86
+newcurrent node :86,ref count: 7
+
+[current node :86, count: 5]
+all child :30 4 72 
+hit node: 72
+newcurrent node :72,ref count: 5
+
+[current node :72, count: 2]
+all child :11 
+newcurrent node :99,ref count: 2
+
+[current node :99, count: 1]
+all child :
+newcurrent node :11,ref count: 2
+
+[current node :11, count: 1]
+all child :
+newcurrent node :81,ref count: 2
+
+
+remove : 20
+
+
+remove : 75
+
+56:39 86:29 72:18 99:18 11:15 81:11 20:9 75:9 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 
+newcurrent node :1,ref count: 2
+
+[current node :1, count: 1]
+all child :
+newcurrent node :49,ref count: 2
+
+
+remove : 59
+
+1:25 49:16 59:3 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 1 
+hit node: 18
+newcurrent node :18,ref count: 10
+
+[current node :18, count: 10]
+all child :19 30 48 4 67 34 
+hit node: 67
+newcurrent node :67,ref count: 5
+
+[current node :67, count: 3]
+all child :1 
+newcurrent node :26,ref count: 2
+
+[current node :26, count: 1]
+all child :
+newcurrent node :32,ref count: 2
+
+[current node :32, count: 1]
+all child :
+newcurrent node :44,ref count: 2
+
+
+remove : 41
+
+
+remove : 74
+
+
+remove : 8
+
+18:34 67:31 26:16 32:16 44:13 41:7 74:7 8:4 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 1 
+hit node: 56
+newcurrent node :56,ref count: 11
+
+[current node :56, count: 24]
+all child :14 67 86 4 18 34 1 
+hit node: 34
+newcurrent node :34,ref count: 6
+
+[current node :34, count: 3]
+all child :86 30 
+hit node: 86
+newcurrent node :86,ref count: 5
+
+[current node :86, count: 2]
+all child :1 
+newcurrent node :49,ref count: 2
+
+[current node :49, count: 1]
+all child :
+newcurrent node :81,ref count: 2
+
+56:39 34:30 86:29 49:16 81:11 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 1 
+newcurrent node :86,ref count: 2
+
+[current node :86, count: 1]
+all child :
+newcurrent node :28,ref count: 2
+
+86:29 28:13 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 1 86 
+hit node: 56
+newcurrent node :56,ref count: 11
+
+[current node :56, count: 25]
+all child :14 67 86 4 18 34 1 
+hit node: 18
+newcurrent node :18,ref count: 8
+
+[current node :18, count: 5]
+all child :34 28 19 67 
+newcurrent node :86,ref count: 2
+
+[current node :86, count: 1]
+all child :
+newcurrent node :1,ref count: 2
+
+[current node :1, count: 1]
+all child :
+newcurrent node :60,ref count: 2
+
+[current node :60, count: 1]
+all child :
+newcurrent node :16,ref count: 2
+
+[current node :16, count: 1]
+all child :
+newcurrent node :99,ref count: 2
+
+[current node :99, count: 1]
+all child :
+newcurrent node :26,ref count: 2
+
+[current node :26, count: 1]
+all child :
+newcurrent node :91,ref count: 2
+
+[current node :91, count: 1]
+all child :
+newcurrent node :2,ref count: 2
+
+
+remove : 85
+
+
+remove : 75
+
+
+remove : 33
+
+
+remove : 57
+
+56:39 18:34 86:29 1:25 60:23 16:20 99:18 26:16 91:15 2:12 85:9 75:9 33:8 57:6 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 1 86 
+hit node: 56
+newcurrent node :56,ref count: 11
+
+[current node :56, count: 26]
+all child :14 67 86 4 18 34 1 
+hit node: 14
+newcurrent node :14,ref count: 10
+
+[current node :14, count: 9]
+all child :19 18 4 1 67 86 
+hit node: 86
+newcurrent node :86,ref count: 5
+
+[current node :86, count: 2]
+all child :1 
+newcurrent node :48,ref count: 2
+
+[current node :48, count: 1]
+all child :
+newcurrent node :26,ref count: 2
+
+[current node :26, count: 1]
+all child :
+newcurrent node :32,ref count: 2
+
+[current node :32, count: 1]
+all child :
+newcurrent node :39,ref count: 2
+
+
+remove : 24
+
+56:39 14:37 86:29 48:24 26:16 32:16 39:12 24:8 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 1 86 
+hit node: 56
+newcurrent node :56,ref count: 11
+
+[current node :56, count: 27]
+all child :14 67 86 4 18 34 1 
+hit node: 18
+newcurrent node :18,ref count: 9
+
+[current node :18, count: 6]
+all child :34 28 19 67 86 
+newcurrent node :16,ref count: 2
+
+[current node :16, count: 1]
+all child :
+newcurrent node :11,ref count: 2
+
+[current node :11, count: 1]
+all child :
+newcurrent node :90,ref count: 2
+
+[current node :90, count: 1]
+all child :
+newcurrent node :0,ref count: 2
+
+
+remove : 5
+
+
+remove : 43
+
+
+remove : 47
+
+
+remove : 50
+
+56:39 18:34 16:20 11:15 90:15 0:14 5:8 43:8 47:4 50:2 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 1 86 
+hit node: 86
+newcurrent node :86,ref count: 5
+
+[current node :86, count: 2]
+all child :28 
+newcurrent node :19,ref count: 2
+
+[current node :19, count: 1]
+all child :
+newcurrent node :26,ref count: 2
+
+
+remove : 77
+
+
+remove : 13
+
+86:29 19:23 26:16 77:9 13:5 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 1 86 
+hit node: 18
+newcurrent node :18,ref count: 10
+
+[current node :18, count: 11]
+all child :19 30 48 4 67 34 
+newcurrent node :72,ref count: 2
+
+[current node :72, count: 1]
+all child :
+newcurrent node :26,ref count: 2
+
+[current node :26, count: 1]
+all child :
+newcurrent node :11,ref count: 2
+
+[current node :11, count: 1]
+all child :
+newcurrent node :63,ref count: 2
+
+
+remove : 22
+
+
+remove : 97
+
+
+remove : 10
+
+
+remove : 68
+
+
+remove : 76
+
+18:34 72:18 26:16 11:15 63:10 22:9 97:7 10:6 68:6 76:6 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 1 86 
+hit node: 14
+newcurrent node :14,ref count: 12
+
+[current node :14, count: 15]
+all child :67 18 30 1 34 4 86 48 
+hit node: 34
+newcurrent node :34,ref count: 6
+
+[current node :34, count: 3]
+all child :4 86 
+newcurrent node :1,ref count: 2
+
+[current node :1, count: 1]
+all child :
+newcurrent node :4,ref count: 2
+
+[current node :4, count: 1]
+all child :
+newcurrent node :70,ref count: 2
+
+[current node :70, count: 1]
+all child :
+newcurrent node :12,ref count: 2
+
+
+remove : 85
+
+
+remove : 93
+
+
+remove : 10
+
+14:37 34:30 1:25 4:24 70:14 12:11 85:9 93:8 10:6 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 1 86 
+hit node: 14
+newcurrent node :14,ref count: 12
+
+[current node :14, count: 16]
+all child :67 18 30 1 34 4 86 48 
+hit node: 67
+newcurrent node :67,ref count: 5
+
+[current node :67, count: 3]
+all child :34 
+newcurrent node :86,ref count: 2
+
+[current node :86, count: 1]
+all child :
+newcurrent node :1,ref count: 2
+
+[current node :1, count: 1]
+all child :
+newcurrent node :48,ref count: 2
+
+[current node :48, count: 1]
+all child :
+newcurrent node :19,ref count: 2
+
+[current node :19, count: 1]
+all child :
+newcurrent node :78,ref count: 2
+
+[current node :78, count: 1]
+all child :
+newcurrent node :16,ref count: 2
+
+[current node :16, count: 1]
+all child :
+newcurrent node :99,ref count: 2
+
+[current node :99, count: 1]
+all child :
+newcurrent node :32,ref count: 2
+
+[current node :32, count: 1]
+all child :
+newcurrent node :39,ref count: 2
+
+[current node :39, count: 1]
+all child :
+newcurrent node :38,ref count: 2
+
+
+remove : 20
+
+
+remove : 13
+
+14:37 67:31 86:29 1:25 48:24 19:23 78:20 16:20 99:18 32:16 39:12 38:10 20:9 13:5 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 1 86 
+hit node: 56
+newcurrent node :56,ref count: 11
+
+[current node :56, count: 28]
+all child :14 67 86 4 18 34 1 
+hit node: 14
+newcurrent node :14,ref count: 10
+
+[current node :14, count: 10]
+all child :19 18 4 1 67 86 
+hit node: 67
+newcurrent node :67,ref count: 5
+
+[current node :67, count: 2]
+all child :1 
+hit node: 1
+newcurrent node :1,ref count: 5
+
+[current node :1, count: 2]
+all child :4 
+newcurrent node :48,ref count: 2
+
+[current node :48, count: 1]
+all child :
+newcurrent node :60,ref count: 2
+
+[current node :60, count: 1]
+all child :
+newcurrent node :16,ref count: 2
+
+[current node :16, count: 1]
+all child :
+newcurrent node :21,ref count: 2
+
+[current node :21, count: 1]
+all child :
+newcurrent node :6,ref count: 2
+
+[current node :6, count: 1]
+all child :
+newcurrent node :90,ref count: 2
+
+[current node :90, count: 1]
+all child :
+newcurrent node :70,ref count: 2
+
+[current node :70, count: 1]
+all child :
+newcurrent node :28,ref count: 2
+
+[current node :28, count: 1]
+all child :
+newcurrent node :39,ref count: 2
+
+
+remove : 42
+
+
+remove : 77
+
+
+remove : 5
+
+
+remove : 33
+
+
+remove : 43
+
+
+remove : 76
+
+
+remove : 47
+
+56:39 14:37 67:31 1:25 48:24 60:23 16:20 21:17 6:17 90:15 70:14 28:13 39:12 42:9 77:9 5:8 33:8 43:8 76:6 47:4 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 1 86 
+hit node: 14
+newcurrent node :14,ref count: 12
+
+[current node :14, count: 17]
+all child :67 18 30 1 34 4 86 48 
+hit node: 18
+newcurrent node :18,ref count: 7
+
+[current node :18, count: 6]
+all child :67 1 34 
+newcurrent node :86,ref count: 2
+
+[current node :86, count: 1]
+all child :
+newcurrent node :48,ref count: 2
+
+[current node :48, count: 1]
+all child :
+newcurrent node :72,ref count: 2
+
+[current node :72, count: 1]
+all child :
+newcurrent node :49,ref count: 2
+
+[current node :49, count: 1]
+all child :
+newcurrent node :91,ref count: 2
+
+
+remove : 85
+
+14:37 18:34 86:29 48:24 72:18 49:16 91:15 85:9 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 1 86 
+newcurrent node :4,ref count: 2
+
+[current node :4, count: 1]
+all child :
+newcurrent node :19,ref count: 2
+
+[current node :19, count: 1]
+all child :
+newcurrent node :78,ref count: 2
+
+[current node :78, count: 1]
+all child :
+newcurrent node :6,ref count: 2
+
+[current node :6, count: 1]
+all child :
+newcurrent node :70,ref count: 2
+
+[current node :70, count: 1]
+all child :
+newcurrent node :39,ref count: 2
+
+
+remove : 15
+
+
+remove : 41
+
+
+remove : 66
+
+
+remove : 25
+
+4:24 19:23 78:20 6:17 70:14 39:12 15:7 41:7 66:5 25:2 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 1 86 4 
+hit node: 56
+newcurrent node :56,ref count: 11
+
+[current node :56, count: 29]
+all child :14 67 86 4 18 34 1 
+hit node: 18
+newcurrent node :18,ref count: 10
+
+[current node :18, count: 7]
+all child :34 28 19 67 86 16 
+hit node: 67
+newcurrent node :67,ref count: 5
+
+[current node :67, count: 2]
+all child :19 
+hit node: 19
+newcurrent node :19,ref count: 5
+
+[current node :19, count: 2]
+all child :60 
+newcurrent node :21,ref count: 2
+
+[current node :21, count: 1]
+all child :
+newcurrent node :91,ref count: 2
+
+
+remove : 22
+
+
+remove : 75
+
+
+remove : 29
+
+
+remove : 66
+
+56:39 18:34 67:31 19:23 21:17 91:15 22:9 75:9 29:6 66:5 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 1 86 4 
+hit node: 56
+newcurrent node :56,ref count: 11
+
+[current node :56, count: 30]
+all child :14 67 86 4 18 34 1 
+hit node: 18
+newcurrent node :18,ref count: 10
+
+[current node :18, count: 8]
+all child :34 28 19 67 86 16 
+hit node: 34
+newcurrent node :34,ref count: 5
+
+[current node :34, count: 2]
+all child :1 
+newcurrent node :86,ref count: 2
+
+[current node :86, count: 1]
+all child :
+newcurrent node :60,ref count: 2
+
+[current node :60, count: 1]
+all child :
+newcurrent node :30,ref count: 2
+
+[current node :30, count: 1]
+all child :
+newcurrent node :26,ref count: 2
+
+
+remove : 3
+
+
+remove : 29
+
+56:39 18:34 34:30 86:29 60:23 30:21 26:16 3:8 29:6 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 1 86 4 
+hit node: 34
+newcurrent node :34,ref count: 6
+
+[current node :34, count: 3]
+all child :1 86 
+newcurrent node :48,ref count: 2
+
+[current node :48, count: 1]
+all child :
+newcurrent node :19,ref count: 2
+
+[current node :19, count: 1]
+all child :
+newcurrent node :49,ref count: 2
+
+[current node :49, count: 1]
+all child :
+newcurrent node :11,ref count: 2
+
+
+remove : 84
+
+34:30 48:24 19:23 49:16 11:15 84:3 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 1 86 4 
+hit node: 14
+newcurrent node :14,ref count: 12
+
+[current node :14, count: 18]
+all child :67 18 30 1 34 4 86 48 
+hit node: 86
+newcurrent node :86,ref count: 5
+
+[current node :86, count: 2]
+all child :60 
+newcurrent node :1,ref count: 2
+
+[current node :1, count: 1]
+all child :
+newcurrent node :4,ref count: 2
+
+[current node :4, count: 1]
+all child :
+newcurrent node :30,ref count: 2
+
+[current node :30, count: 1]
+all child :
+newcurrent node :78,ref count: 2
+
+[current node :78, count: 1]
+all child :
+newcurrent node :21,ref count: 2
+
+[current node :21, count: 1]
+all child :
+newcurrent node :91,ref count: 2
+
+[current node :91, count: 1]
+all child :
+newcurrent node :0,ref count: 2
+
+[current node :0, count: 1]
+all child :
+newcurrent node :28,ref count: 2
+
+
+remove : 42
+
+
+remove : 87
+
+
+remove : 74
+
+14:37 86:29 1:25 4:24 30:21 78:20 21:17 91:15 0:14 28:13 42:9 87:8 74:7 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 1 86 4 
+hit node: 67
+newcurrent node :67,ref count: 8
+
+[current node :67, count: 5]
+all child :86 1 99 34 
+hit node: 34
+newcurrent node :34,ref count: 5
+
+[current node :34, count: 2]
+all child :99 
+newcurrent node :30,ref count: 2
+
+[current node :30, count: 1]
+all child :
+newcurrent node :16,ref count: 2
+
+[current node :16, count: 1]
+all child :
+newcurrent node :21,ref count: 2
+
+[current node :21, count: 1]
+all child :
+newcurrent node :90,ref count: 2
+
+[current node :90, count: 1]
+all child :
+newcurrent node :0,ref count: 2
+
+[current node :0, count: 1]
+all child :
+newcurrent node :28,ref count: 2
+
+[current node :28, count: 1]
+all child :
+newcurrent node :12,ref count: 2
+
+
+remove : 77
+
+
+remove : 20
+
+
+remove : 3
+
+
+remove : 36
+
+67:31 34:30 30:21 16:20 21:17 90:15 0:14 28:13 12:11 77:9 20:9 3:8 36:2 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 1 86 4 
+hit node: 14
+newcurrent node :14,ref count: 12
+
+[current node :14, count: 19]
+all child :67 18 30 1 34 4 86 48 
+newcurrent node :78,ref count: 2
+
+[current node :78, count: 1]
+all child :
+newcurrent node :6,ref count: 2
+
+[current node :6, count: 1]
+all child :
+newcurrent node :11,ref count: 2
+
+
+remove : 52
+
+14:37 78:20 6:17 11:15 52:4 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 1 86 4 
+hit node: 56
+newcurrent node :56,ref count: 11
+
+[current node :56, count: 31]
+all child :14 67 86 4 18 34 1 
+hit node: 14
+newcurrent node :14,ref count: 10
+
+[current node :14, count: 11]
+all child :19 18 4 1 67 86 
+hit node: 18
+newcurrent node :18,ref count: 6
+
+[current node :18, count: 4]
+all child :78 34 
+newcurrent node :67,ref count: 2
+
+[current node :67, count: 1]
+all child :
+newcurrent node :34,ref count: 2
+
+[current node :34, count: 1]
+all child :
+newcurrent node :60,ref count: 2
+
+[current node :60, count: 1]
+all child :
+newcurrent node :19,ref count: 2
+
+[current node :19, count: 1]
+all child :
+newcurrent node :30,ref count: 2
+
+[current node :30, count: 1]
+all child :
+newcurrent node :16,ref count: 2
+
+[current node :16, count: 1]
+all child :
+newcurrent node :78,ref count: 2
+
+[current node :78, count: 1]
+all child :
+newcurrent node :72,ref count: 2
+
+[current node :72, count: 1]
+all child :
+newcurrent node :90,ref count: 2
+
+[current node :90, count: 1]
+all child :
+newcurrent node :46,ref count: 2
+
+[current node :46, count: 1]
+all child :
+newcurrent node :63,ref count: 2
+
+
+remove : 24
+
+
+remove : 10
+
+
+remove : 52
+
+56:39 14:37 18:34 67:31 34:30 60:23 19:23 30:21 16:20 78:20 72:18 90:15 46:12 63:10 24:8 10:6 52:4 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 1 86 4 
+hit node: 67
+newcurrent node :67,ref count: 8
+
+[current node :67, count: 6]
+all child :86 1 99 34 
+newcurrent node :78,ref count: 2
+
+[current node :78, count: 1]
+all child :
+newcurrent node :2,ref count: 2
+
+
+remove : 42
+
+67:31 78:20 2:12 42:9 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 1 86 4 
+hit node: 14
+newcurrent node :14,ref count: 13
+
+[current node :14, count: 20]
+all child :67 18 30 1 34 4 86 48 78 
+hit node: 67
+newcurrent node :67,ref count: 6
+
+[current node :67, count: 4]
+all child :34 86 
+hit node: 34
+newcurrent node :34,ref count: 6
+
+[current node :34, count: 3]
+all child :1 86 
+newcurrent node :48,ref count: 2
+
+[current node :48, count: 1]
+all child :
+newcurrent node :30,ref count: 2
+
+[current node :30, count: 1]
+all child :
+newcurrent node :78,ref count: 2
+
+[current node :78, count: 1]
+all child :
+newcurrent node :26,ref count: 2
+
+[current node :26, count: 1]
+all child :
+newcurrent node :90,ref count: 2
+
+[current node :90, count: 1]
+all child :
+newcurrent node :2,ref count: 2
+
+[current node :2, count: 1]
+all child :
+newcurrent node :46,ref count: 2
+
+
+remove : 52
+
+14:37 67:31 34:30 48:24 30:21 78:20 26:16 90:15 2:12 46:12 52:4 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 1 86 4 
+hit node: 56
+newcurrent node :56,ref count: 11
+
+[current node :56, count: 32]
+all child :14 67 86 4 18 34 1 
+newcurrent node :19,ref count: 2
+
+[current node :19, count: 1]
+all child :
+newcurrent node :99,ref count: 2
+
+[current node :99, count: 1]
+all child :
+newcurrent node :26,ref count: 2
+
+[current node :26, count: 1]
+all child :
+newcurrent node :49,ref count: 2
+
+[current node :49, count: 1]
+all child :
+newcurrent node :90,ref count: 2
+
+[current node :90, count: 1]
+all child :
+newcurrent node :44,ref count: 2
+
+[current node :44, count: 1]
+all child :
+newcurrent node :46,ref count: 2
+
+[current node :46, count: 1]
+all child :
+newcurrent node :12,ref count: 2
+
+
+remove : 77
+
+
+remove : 31
+
+
+remove : 25
+
+56:39 19:23 99:18 26:16 49:16 90:15 44:13 46:12 12:11 77:9 31:4 25:2 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 1 86 4 
+hit node: 18
+newcurrent node :18,ref count: 11
+
+[current node :18, count: 12]
+all child :19 30 48 4 67 34 72 
+hit node: 34
+newcurrent node :34,ref count: 5
+
+[current node :34, count: 2]
+all child :2 
+newcurrent node :16,ref count: 2
+
+[current node :16, count: 1]
+all child :
+newcurrent node :6,ref count: 2
+
+[current node :6, count: 1]
+all child :
+newcurrent node :91,ref count: 2
+
+[current node :91, count: 1]
+all child :
+newcurrent node :39,ref count: 2
+
+
+remove : 42
+
+18:34 34:30 16:20 6:17 91:15 39:12 42:9 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 1 86 4 
+hit node: 14
+newcurrent node :14,ref count: 13
+
+[current node :14, count: 21]
+all child :67 18 30 1 34 4 86 48 78 
+hit node: 67
+newcurrent node :67,ref count: 6
+
+[current node :67, count: 5]
+all child :34 86 
+newcurrent node :1,ref count: 2
+
+[current node :1, count: 1]
+all child :
+newcurrent node :30,ref count: 2
+
+[current node :30, count: 1]
+all child :
+newcurrent node :16,ref count: 2
+
+[current node :16, count: 1]
+all child :
+newcurrent node :78,ref count: 2
+
+[current node :78, count: 1]
+all child :
+newcurrent node :99,ref count: 2
+
+[current node :99, count: 1]
+all child :
+newcurrent node :11,ref count: 2
+
+[current node :11, count: 1]
+all child :
+newcurrent node :2,ref count: 2
+
+[current node :2, count: 1]
+all child :
+newcurrent node :63,ref count: 2
+
+14:37 67:31 1:25 30:21 16:20 78:20 99:18 11:15 2:12 63:10 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 1 86 4 
+hit node: 67
+newcurrent node :67,ref count: 9
+
+[current node :67, count: 7]
+all child :86 1 99 34 78 
+newcurrent node :48,ref count: 2
+
+[current node :48, count: 1]
+all child :
+newcurrent node :6,ref count: 2
+
+[current node :6, count: 1]
+all child :
+newcurrent node :32,ref count: 2
+
+[current node :32, count: 1]
+all child :
+newcurrent node :0,ref count: 2
+
+[current node :0, count: 1]
+all child :
+newcurrent node :70,ref count: 2
+
+[current node :70, count: 1]
+all child :
+newcurrent node :28,ref count: 2
+
+
+remove : 94
+
+
+remove : 35
+
+67:31 48:24 6:17 32:16 0:14 70:14 28:13 94:9 35:2 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 1 86 4 
+hit node: 14
+newcurrent node :14,ref count: 13
+
+[current node :14, count: 22]
+all child :67 18 30 1 34 4 86 48 78 
+hit node: 67
+newcurrent node :67,ref count: 7
+
+[current node :67, count: 6]
+all child :34 86 1 
+newcurrent node :48,ref count: 2
+
+[current node :48, count: 1]
+all child :
+newcurrent node :60,ref count: 2
+
+[current node :60, count: 1]
+all child :
+newcurrent node :16,ref count: 2
+
+[current node :16, count: 1]
+all child :
+newcurrent node :6,ref count: 2
+
+[current node :6, count: 1]
+all child :
+newcurrent node :70,ref count: 2
+
+[current node :70, count: 1]
+all child :
+newcurrent node :44,ref count: 2
+
+[current node :44, count: 1]
+all child :
+newcurrent node :2,ref count: 2
+
+
+remove : 24
+
+
+remove : 10
+
+
+remove : 50
+
+14:37 67:31 48:24 60:23 16:20 6:17 70:14 44:13 2:12 24:8 10:6 50:2 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 1 86 4 
+hit node: 34
+newcurrent node :34,ref count: 7
+
+[current node :34, count: 4]
+all child :1 86 48 
+newcurrent node :19,ref count: 2
+
+[current node :19, count: 1]
+all child :
+newcurrent node :30,ref count: 2
+
+[current node :30, count: 1]
+all child :
+newcurrent node :99,ref count: 2
+
+[current node :99, count: 1]
+all child :
+newcurrent node :6,ref count: 2
+
+[current node :6, count: 1]
+all child :
+newcurrent node :21,ref count: 2
+
+[current node :21, count: 1]
+all child :
+newcurrent node :32,ref count: 2
+
+[current node :32, count: 1]
+all child :
+newcurrent node :91,ref count: 2
+
+[current node :91, count: 1]
+all child :
+newcurrent node :44,ref count: 2
+
+
+remove : 74
+
+
+remove : 40
+
+34:30 19:23 30:21 99:18 6:17 21:17 32:16 91:15 44:13 74:7 40:2 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 1 86 4 
+hit node: 56
+newcurrent node :56,ref count: 12
+
+[current node :56, count: 33]
+all child :14 67 86 4 18 34 1 19 
+hit node: 18
+newcurrent node :18,ref count: 10
+
+[current node :18, count: 9]
+all child :34 28 19 67 86 16 
+hit node: 67
+newcurrent node :67,ref count: 5
+
+[current node :67, count: 3]
+all child :19 
+newcurrent node :34,ref count: 2
+
+[current node :34, count: 1]
+all child :
+newcurrent node :86,ref count: 2
+
+[current node :86, count: 1]
+all child :
+newcurrent node :1,ref count: 2
+
+[current node :1, count: 1]
+all child :
+newcurrent node :4,ref count: 2
+
+[current node :4, count: 1]
+all child :
+newcurrent node :60,ref count: 2
+
+[current node :60, count: 1]
+all child :
+newcurrent node :49,ref count: 2
+
+[current node :49, count: 1]
+all child :
+newcurrent node :91,ref count: 2
+
+[current node :91, count: 1]
+all child :
+newcurrent node :46,ref count: 2
+
+[current node :46, count: 1]
+all child :
+newcurrent node :81,ref count: 2
+
+[current node :81, count: 1]
+all child :
+newcurrent node :38,ref count: 2
+
+
+remove : 23
+
+56:39 18:34 67:31 34:30 86:29 1:25 4:24 60:23 49:16 91:15 46:12 81:11 38:10 23:4 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 1 86 4 
+hit node: 56
+newcurrent node :56,ref count: 12
+
+[current node :56, count: 34]
+all child :14 67 86 4 18 34 1 19 
+hit node: 14
+newcurrent node :14,ref count: 10
+
+[current node :14, count: 12]
+all child :19 18 4 1 67 86 
+hit node: 67
+newcurrent node :67,ref count: 5
+
+[current node :67, count: 3]
+all child :1 
+newcurrent node :86,ref count: 2
+
+[current node :86, count: 1]
+all child :
+newcurrent node :48,ref count: 2
+
+[current node :48, count: 1]
+all child :
+newcurrent node :19,ref count: 2
+
+[current node :19, count: 1]
+all child :
+newcurrent node :6,ref count: 2
+
+[current node :6, count: 1]
+all child :
+newcurrent node :81,ref count: 2
+
+
+remove : 33
+
+
+remove : 13
+
+56:39 14:37 67:31 86:29 48:24 19:23 6:17 81:11 33:8 13:5 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 1 86 4 
+hit node: 86
+newcurrent node :86,ref count: 6
+
+[current node :86, count: 3]
+all child :28 19 
+newcurrent node :4,ref count: 2
+
+[current node :4, count: 1]
+all child :
+newcurrent node :46,ref count: 2
+
+
+remove : 20
+
+
+remove : 68
+
+
+remove : 89
+
+86:29 4:24 46:12 20:9 68:6 89:4 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 1 86 4 
+hit node: 56
+newcurrent node :56,ref count: 12
+
+[current node :56, count: 35]
+all child :14 67 86 4 18 34 1 19 
+hit node: 14
+newcurrent node :14,ref count: 10
+
+[current node :14, count: 13]
+all child :19 18 4 1 67 86 
+hit node: 67
+newcurrent node :67,ref count: 6
+
+[current node :67, count: 4]
+all child :1 86 
+newcurrent node :4,ref count: 2
+
+[current node :4, count: 1]
+all child :
+newcurrent node :72,ref count: 2
+
+[current node :72, count: 1]
+all child :
+newcurrent node :49,ref count: 2
+
+[current node :49, count: 1]
+all child :
+newcurrent node :90,ref count: 2
+
+[current node :90, count: 1]
+all child :
+newcurrent node :46,ref count: 2
+
+56:39 14:37 67:31 4:24 72:18 49:16 90:15 46:12 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 1 86 4 
+hit node: 67
+newcurrent node :67,ref count: 10
+
+[current node :67, count: 8]
+all child :86 1 99 34 78 48 
+newcurrent node :0,ref count: 2
+
+[current node :0, count: 1]
+all child :
+newcurrent node :28,ref count: 2
+
+[current node :28, count: 1]
+all child :
+newcurrent node :44,ref count: 2
+
+
+remove : 94
+
+
+remove : 37
+
+
+remove : 92
+
+
+remove : 98
+
+
+remove : 51
+
+67:31 0:14 28:13 44:13 94:9 37:6 92:3 98:3 51:1 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 1 86 4 
+hit node: 1
+newcurrent node :1,ref count: 5
+
+[current node :1, count: 2]
+all child :49 
+newcurrent node :4,ref count: 2
+
+[current node :4, count: 1]
+all child :
+newcurrent node :48,ref count: 2
+
+[current node :48, count: 1]
+all child :
+newcurrent node :16,ref count: 2
+
+[current node :16, count: 1]
+all child :
+newcurrent node :72,ref count: 2
+
+[current node :72, count: 1]
+all child :
+newcurrent node :26,ref count: 2
+
+[current node :26, count: 1]
+all child :
+newcurrent node :91,ref count: 2
+
+[current node :91, count: 1]
+all child :
+newcurrent node :44,ref count: 2
+
+
+remove : 77
+
+1:25 4:24 48:24 16:20 72:18 26:16 91:15 44:13 77:9 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 1 86 4 
+hit node: 18
+newcurrent node :18,ref count: 11
+
+[current node :18, count: 13]
+all child :19 30 48 4 67 34 72 
+newcurrent node :60,ref count: 2
+
+[current node :60, count: 1]
+all child :
+newcurrent node :0,ref count: 2
+
+
+remove : 22
+
+
+remove : 42
+
+
+remove : 3
+
+
+remove : 41
+
+
+remove : 13
+
+
+remove : 84
+
+18:34 60:23 0:14 22:9 42:9 3:8 41:7 13:5 84:3 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 1 86 4 
+hit node: 56
+newcurrent node :56,ref count: 12
+
+[current node :56, count: 36]
+all child :14 67 86 4 18 34 1 19 
+hit node: 14
+newcurrent node :14,ref count: 10
+
+[current node :14, count: 14]
+all child :19 18 4 1 67 86 
+hit node: 18
+newcurrent node :18,ref count: 7
+
+[current node :18, count: 5]
+all child :78 34 67 
+hit node: 34
+newcurrent node :34,ref count: 6
+
+[current node :34, count: 3]
+all child :60 91 
+newcurrent node :86,ref count: 2
+
+[current node :86, count: 1]
+all child :
+newcurrent node :4,ref count: 2
+
+[current node :4, count: 1]
+all child :
+newcurrent node :78,ref count: 2
+
+[current node :78, count: 1]
+all child :
+newcurrent node :99,ref count: 2
+
+[current node :99, count: 1]
+all child :
+newcurrent node :21,ref count: 2
+
+[current node :21, count: 1]
+all child :
+newcurrent node :49,ref count: 2
+
+[current node :49, count: 1]
+all child :
+newcurrent node :91,ref count: 2
+
+
+remove : 85
+
+
+remove : 29
+
+56:39 14:37 18:34 34:30 86:29 4:24 78:20 99:18 21:17 49:16 91:15 85:9 29:6 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 1 86 4 
+hit node: 86
+newcurrent node :86,ref count: 7
+
+[current node :86, count: 4]
+all child :28 19 4 
+hit node: 4
+newcurrent node :4,ref count: 5
+
+[current node :4, count: 2]
+all child :46 
+newcurrent node :6,ref count: 2
+
+[current node :6, count: 1]
+all child :
+newcurrent node :2,ref count: 2
+
+[current node :2, count: 1]
+all child :
+newcurrent node :63,ref count: 2
+
+
+remove : 75
+
+
+remove : 93
+
+
+remove : 97
+
+86:29 4:24 6:17 2:12 63:10 75:9 93:8 97:7 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 1 86 4 
+hit node: 67
+newcurrent node :67,ref count: 11
+
+[current node :67, count: 9]
+all child :86 1 99 34 78 48 0 
+newcurrent node :60,ref count: 2
+
+[current node :60, count: 1]
+all child :
+newcurrent node :16,ref count: 2
+
+[current node :16, count: 1]
+all child :
+newcurrent node :72,ref count: 2
+
+[current node :72, count: 1]
+all child :
+newcurrent node :32,ref count: 2
+
+
+remove : 24
+
+
+remove : 87
+
+
+remove : 57
+
+67:31 60:23 16:20 72:18 32:16 24:8 87:8 57:6 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 1 86 4 
+hit node: 67
+newcurrent node :67,ref count: 12
+
+[current node :67, count: 10]
+all child :86 1 99 34 78 48 0 60 
+hit node: 86
+newcurrent node :86,ref count: 5
+
+[current node :86, count: 2]
+all child :60 
+newcurrent node :4,ref count: 2
+
+[current node :4, count: 1]
+all child :
+newcurrent node :30,ref count: 2
+
+[current node :30, count: 1]
+all child :
+newcurrent node :78,ref count: 2
+
+[current node :78, count: 1]
+all child :
+newcurrent node :72,ref count: 2
+
+
+remove : 22
+
+
+remove : 94
+
+
+remove : 33
+
+
+remove : 74
+
+67:31 86:29 4:24 30:21 78:20 72:18 22:9 94:9 33:8 74:7 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 1 86 4 
+hit node: 56
+newcurrent node :56,ref count: 12
+
+[current node :56, count: 37]
+all child :14 67 86 4 18 34 1 19 
+newcurrent node :99,ref count: 2
+
+[current node :99, count: 1]
+all child :
+newcurrent node :26,ref count: 2
+
+[current node :26, count: 1]
+all child :
+newcurrent node :91,ref count: 2
+
+[current node :91, count: 1]
+all child :
+newcurrent node :81,ref count: 2
+
+
+remove : 43
+
+56:39 99:18 26:16 91:15 81:11 43:8 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 1 86 4 
+hit node: 56
+newcurrent node :56,ref count: 13
+
+[current node :56, count: 38]
+all child :14 67 86 4 18 34 1 19 99 
+hit node: 34
+newcurrent node :34,ref count: 6
+
+[current node :34, count: 4]
+all child :86 30 
+newcurrent node :1,ref count: 2
+
+[current node :1, count: 1]
+all child :
+newcurrent node :60,ref count: 2
+
+[current node :60, count: 1]
+all child :
+newcurrent node :30,ref count: 2
+
+
+remove : 69
+
+
+remove : 88
+
+56:39 34:30 1:25 60:23 30:21 69:5 88:3 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 1 86 4 
+hit node: 56
+newcurrent node :56,ref count: 13
+
+[current node :56, count: 39]
+all child :14 67 86 4 18 34 1 19 99 
+hit node: 18
+newcurrent node :18,ref count: 10
+
+[current node :18, count: 10]
+all child :34 28 19 67 86 16 
+hit node: 34
+newcurrent node :34,ref count: 6
+
+[current node :34, count: 3]
+all child :1 86 
+hit node: 86
+newcurrent node :86,ref count: 5
+
+[current node :86, count: 2]
+all child :60 
+newcurrent node :4,ref count: 2
+
+[current node :4, count: 1]
+all child :
+newcurrent node :32,ref count: 2
+
+[current node :32, count: 1]
+all child :
+newcurrent node :0,ref count: 2
+
+[current node :0, count: 1]
+all child :
+newcurrent node :81,ref count: 2
+
+
+remove : 85
+
+
+remove : 37
+
+
+remove : 96
+
+56:39 18:34 34:30 86:29 4:24 32:16 0:14 81:11 85:9 37:6 96:1 
+[current node :[FP Tree root], count: 0]
+all child :14 56 18 34 48 16 67 1 86 4 
+hit node: 14
+newcurrent node :14,ref count: 13
+
+[current node :14, count: 23]
+all child :67 18 30 1 34 4 86 48 78 
+hit node: 34
+newcurrent node :34,ref count: 7
+
+[current node :34, count: 4]
+all child :4 86 1 
+newcurrent node :6,ref count: 2
+
+[current node :6, count: 1]
+all child :
+newcurrent node :70,ref count: 2
+
+[current node :70, count: 1]
+all child :
+newcurrent node :39,ref count: 2
+
+
+remove : 94
+
+
+remove : 33
+
+14:37 34:30 6:17 70:14 39:12 94:9 33:8 
+[FPGrowth End]

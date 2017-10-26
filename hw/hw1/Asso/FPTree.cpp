@@ -6,19 +6,19 @@ using std::cout; using std::endl;
 
 //	constructor
 FPTnode::FPTnode( string item )
-    : item( item ), next( nullptr )
+    : item( item ), parent( nullptr ), next( nullptr )
 {
     child.clear();
 }
 
-FPTnode::FPTnode( string item, UINT count )
-    : item( item ), count( count ), next( nullptr )
+FPTnode::FPTnode( string item, UINT count, FPTnode_ptr parent = nullptr )
+    : item( item ), count( count ), parent( parent ), next( nullptr )
 {
-    child.clear();
+	child.clear();
 }
 
-FPTnode::FPTnode( string item, UINT count, FPTnode_ptr child )
-    : item( item ), count( count ), next( nullptr )
+FPTnode::FPTnode( string item, UINT count, FPTnode_ptr parent, FPTnode_ptr child )
+    : item( item ), count( count ), parent( parent ), next( nullptr )
 {
 	this->child.clear();
     this->child.push_back( child );
@@ -26,18 +26,24 @@ FPTnode::FPTnode( string item, UINT count, FPTnode_ptr child )
 
 
 //	member function
-void FPTnode::update( vector<pair<string, uint32_t*>>& tran, FPTnode_ptr& root, map<string, pair<uint32_t, FPTnode_ptr>>& tran_record )
+void FPTnode::update( vector<pair<string, uint32_ptr>>& tran,
+//void FPTnode::update( deque<pair<string, uint32_ptr>>& tran,
+					  FPTnode_ptr& root,
+					  map<string, pair<uint32_ptr, FPTnode_ptr>>& tran_record,
+					  const uint32_t& tran_num,
+					  const double& min_sup )
 {
-/*
-	cout << __FUNCTION__ << endl;
-	for( auto item : tran )
-		cout << item.first << ":" << *item.second << " ";
-	cout << endl;
-*/
 	FPTnode_ptr current_node = root;
 
 	for( auto item : tran )
 	{
+		if( static_cast<double>( *item.second ) / static_cast<double>( tran_num ) < min_sup )
+		{
+			tran_record.erase( item.first );
+			cout << endl << "remove : " << item.first << endl << endl;
+			continue;
+		}
+
 		cout << "[current node :" << current_node->item << ", count: " << current_node->count << "]" << endl;
 		cout << "all child :";
 		for( auto node : current_node->child )
@@ -75,10 +81,10 @@ void FPTnode::update( vector<pair<string, uint32_t*>>& tran, FPTnode_ptr& root, 
 	}
 }
 
-void FPTnode::addNode( FPTnode_ptr& current_node, const string& item, map<string, pair<uint32_t, FPTnode_ptr>>& tran_record )
+void FPTnode::addNode( FPTnode_ptr& current_node, const string& item, map<string, pair<uint32_ptr, FPTnode_ptr>>& tran_record )
 {
 //	cout << "add new node: " << current_node->item << " --> " << item << endl;
-	current_node->child.push_back( FPTnode_ptr( new FPTnode( item, 1 )  ) );
+	current_node->child.push_back( FPTnode_ptr( new FPTnode( item, 1, current_node )  ) );
 //	cout << "pushed node :" << current_node->child.back()->item << ",ref count: " << current_node->child.back().use_count() << endl;
 
 	
