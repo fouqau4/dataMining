@@ -129,25 +129,30 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 		cout << endl << "[item link]" << endl;
 		for( auto i : tran_record )
 		{
-			cout << "[" << i.first << ":" << i.second.first << "]" << endl;
+			cout << "[" << i.first << ":" << *i.second.first.get() << "]" << endl;
 			FPTnode_ptr tmp = i.second.second;
-//			FPTnode_ptr conditional_fpt( new FPTnode( "[cond FP Tree root]" );
+			FPTnode_ptr conditional_fpt( new FPTnode( "[cond FP Tree root]" ) );
 
 			uint32_t c = 0;
 			while( tmp != nullptr )
 			{
 				cout << "all preffix : [" << tmp->getCount() << "] ";
-//				deque<FPTnode_ptr> cond_patt_base;
-//				cond_patt_base.clear();
+				deque<FPTnode_ptr> cond_patt_base;
+				cond_patt_base.clear();
 				FPTnode_ptr tmp_1 = tmp;
+				UINT tmp_count = tmp_1->getCount();
 				do
 				{
-//					cond_patt_base.push_front( tmp_1 );
-					cout << " " << tmp_1->getItem();
+					cond_patt_base.push_front( FPTnode_ptr( new FPTnode( tmp_1->getItem(), tmp_count ) ) );
 					tmp_1 = tmp_1->getParent();
 				}while( tmp_1->getParent() != nullptr );
-//				cond_patt_base.pop_back();
+				cond_patt_base.pop_back();
+				cout << "conditional pattern base:";
+				for( auto x : cond_patt_base )
+					cout << " " << x->getItem();
 				cout << endl;
+
+				conditional_fpt->update_cond( cond_patt_base, conditional_fpt, tmp_count );
 
 				c += tmp->getCount();
 				tmp = tmp->getNext();

@@ -11,7 +11,7 @@ FPTnode::FPTnode( string item )
     child.clear();
 }
 
-FPTnode::FPTnode( string item, UINT count, FPTnode_ptr parent = nullptr )
+FPTnode::FPTnode( string item, UINT count, FPTnode_ptr parent )
     : item( item ), count( count ), parent( parent ), next( nullptr )
 {
 	child.clear();
@@ -109,3 +109,51 @@ void FPTnode::addNode( FPTnode_ptr& current_node, const string& item, map<string
 		cout << tran_record[item].second->next->item << endl;
 */
 }
+
+void FPTnode::update_cond( deque<pair<string, uint32_ptr>>& tran,
+						   FPTnode_ptr& root,
+						   const UINT& sup_num,
+						   const UINT& min_num,
+						   const double& min_sup )
+{
+	FPTnode_ptr current_node = root;
+
+	for( auto item : tran )
+	{
+		cout << "[current node :" << current_node->item << ", count: " << current_node->count << "]" << endl;
+		cout << "all child :";
+		for( auto node : current_node->child )
+			cout << node->item << " ";
+		cout << endl;
+		bool hit = false;
+		if( !current_node->child.empty() )
+		{
+			//	find node
+			for( auto node : current_node->child )
+			{
+				//	node is found
+				if( node->item.compare( item.first ) == 0 )
+				{
+					cout << "hit node: " << item.first << endl;
+					node->count += sup_num;
+					current_node = node;
+					cout << "newcurrent node :" << current_node->item << ",ref count: " << current_node.use_count() << endl << endl;
+					hit = true;
+					break;
+				}
+			}
+			if( !hit )
+			{
+				//	node is not found
+				current_node->child.push_back( FPTnode_ptr( new FPTnode( item, sup_num, current_node ) ) );
+				current_node = current_node->child.back();
+			}
+		}
+		else
+		{
+			//	node is not found
+			current_node->child.push_back( FPTnode_ptr( new FPTnode( item, sup_num, current_node ) ) );
+			current_node = current_node->child.back();
+		}
+
+	}

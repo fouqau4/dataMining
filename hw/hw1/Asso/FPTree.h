@@ -34,7 +34,7 @@ public:
 	//	constructor
 	FPTnode();
 	FPTnode( string item );
-	FPTnode( string item, UINT count, FPTnode_ptr parent );
+	FPTnode( string item, UINT count, FPTnode_ptr parent = nullptr );
 	FPTnode( string item, UINT count, FPTnode_ptr parent, FPTnode_ptr child );
 
 	//	destructor
@@ -50,11 +50,17 @@ public:
 	const FPTnode_ptr& getNext(){return next;};
 	const FPTnode_ptr& getParent(){return parent;};
 	const vector<FPTnode_ptr>& getChild(){return child;};
+
 	void update( deque<pair<string, uint32_ptr>>& tran,
 				 FPTnode_ptr& root, 
 				 map<string, pair<uint32_ptr, FPTnode_ptr>>& tran_record,
 				 const uint32_t& tran_num,
 				 const double& min_sup );
+	void update_cond( deque<pair<string, uint32_ptr>>& tran,
+	  				  FPTnode_ptr& root
+					  const UINT& sup_num,
+					  const UINT& tran_num,
+					  const double& min_sup );
 private:
 	// 	data member
 	string item;
