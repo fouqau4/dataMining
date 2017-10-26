@@ -26,8 +26,7 @@ FPTnode::FPTnode( string item, UINT count, FPTnode_ptr parent, FPTnode_ptr child
 
 
 //	member function
-void FPTnode::update( vector<pair<string, uint32_ptr>>& tran,
-//void FPTnode::update( deque<pair<string, uint32_ptr>>& tran,
+void FPTnode::update( deque<pair<string, uint32_ptr>>& tran,
 					  FPTnode_ptr& root,
 					  map<string, pair<uint32_ptr, FPTnode_ptr>>& tran_record,
 					  const uint32_t& tran_num,

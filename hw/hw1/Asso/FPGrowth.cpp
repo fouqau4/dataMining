@@ -19,7 +19,7 @@ using std::string;
 using std::vector;
 using std::map;
 using std::pair;
-using std::sort; using std::stable_sort;
+using std::sort;
 using std::shared_ptr;
 using std::deque;
 
@@ -67,10 +67,8 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 	}
 
 	//	build transactions & count 1-itemset
-	vector<vector<pair<string, uint32_ptr>>> transaction;
-	transaction.push_back( vector<pair<string, uint32_ptr>>() );
-//	vector<deque<pair<string, uint32_ptr>>> transaction;
-//	transaction.push_back( deque<pair<string, uint32_ptr>>() );
+	vector<deque<pair<string, uint32_ptr>>> transaction;
+	transaction.push_back( deque<pair<string, uint32_ptr>>() );
 
 	uint32_t tran_num = 0;
 	map<string, pair<uint32_ptr, FPTnode_ptr>> tran_record;
@@ -80,10 +78,8 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 		{
 			if( tran_record[s].first == nullptr )
 			{
-//				cout << "nullptr" << endl;
 				tran_record[s].first = uint32_ptr( new uint32_t( 0 ) );
 			}
-//			cout << *tran_record[s].first.get() << endl;
 			++( *( tran_record[s].first.get() ) );
 			transaction[tran_num].push_back( pair<string, uint32_ptr>( s, tran_record[s].first ) );
 			tran_record[s].second = nullptr;
@@ -92,8 +88,7 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 		else
 		{
 			++tran_num;
-			transaction.push_back( vector<pair<string, uint32_ptr>>() );
-//			transaction.push_back( deque<pair<string, uint32_ptr>>() );
+			transaction.push_back( deque<pair<string, uint32_ptr>>() );
 //			cout << endl;
 		}
 	}
@@ -106,7 +101,6 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 	for( auto tran : transaction )
 	{
 		sort( tran.begin(), tran.end(), tranCmp() );
-//		stable_sort( tran.begin(), tran.end(), tranCmp() );
 		fptree_root->update( tran, fptree_root, tran_record, tran_num, min_sup );
 
 		//	show sorted transaction

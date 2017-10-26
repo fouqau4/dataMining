@@ -50,8 +50,7 @@ public:
 	const FPTnode_ptr& getNext(){return next;};
 	const FPTnode_ptr& getParent(){return parent;};
 	const vector<FPTnode_ptr>& getChild(){return child;};
-	void update( vector<pair<string, uint32_ptr>>& tran,
-//	void update( deque<pair<string, uint32_ptr>>& tran,
+	void update( deque<pair<string, uint32_ptr>>& tran,
 				 FPTnode_ptr& root, 
 				 map<string, pair<uint32_ptr, FPTnode_ptr>>& tran_record,
 				 const uint32_t& tran_num,
