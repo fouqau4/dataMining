@@ -1,4 +1,239 @@
-[OK]: Open the file "../data/input_1.asso" successfully.
+[OK]: Open the file "../data/s.asso" successfully.
 
 
+[current node :[FP Tree root], count: 35008384]
+all child :
+newcurrent node :Bread,ref count: 2
+
+[current node :Bread, count: 1]
+all child :
+newcurrent node :Milk,ref count: 2
+
+[current node :Milk, count: 1]
+all child :
+newcurrent node :Beer,ref count: 2
+
+[current node :[FP Tree root], count: 35008384]
+all child :Bread 
+hit node: Bread
+newcurrent node :Bread,ref count: 5
+
+[current node :Bread, count: 2]
+all child :Milk 
+newcurrent node :Coffee,ref count: 2
+
+[current node :[FP Tree root], count: 35008384]
+all child :Bread 
+hit node: Bread
+newcurrent node :Bread,ref count: 6
+
+[current node :Bread, count: 3]
+all child :Milk Coffee 
+newcurrent node :Egg,ref count: 2
+
+[current node :[FP Tree root], count: 35008384]
+all child :Bread 
+hit node: Bread
+newcurrent node :Bread,ref count: 7
+
+[current node :Bread, count: 4]
+all child :Milk Coffee Egg 
+hit node: Milk
+newcurrent node :Milk,ref count: 5
+
+[current node :Milk, count: 2]
+all child :Beer 
+newcurrent node :Coffee,ref count: 2
+
+[current node :[FP Tree root], count: 35008384]
+all child :Bread 
+newcurrent node :Milk,ref count: 2
+
+[current node :Milk, count: 1]
+all child :
+newcurrent node :Egg,ref count: 2
+
+[current node :[FP Tree root], count: 35008384]
+all child :Bread Milk 
+hit node: Bread
+newcurrent node :Bread,ref count: 7
+
+[current node :Bread, count: 5]
+all child :Milk Coffee Egg 
+hit node: Egg
+newcurrent node :Egg,ref count: 4
+
+[current node :[FP Tree root], count: 35008384]
+all child :Bread Milk 
+hit node: Milk
+newcurrent node :Milk,ref count: 5
+
+[current node :Milk, count: 2]
+all child :Egg 
+hit node: Egg
+newcurrent node :Egg,ref count: 4
+
+[current node :[FP Tree root], count: 35008384]
+all child :Bread Milk 
+hit node: Bread
+newcurrent node :Bread,ref count: 7
+
+[current node :Bread, count: 6]
+all child :Milk Coffee Egg 
+hit node: Milk
+newcurrent node :Milk,ref count: 6
+
+[current node :Milk, count: 3]
+all child :Beer Coffee 
+newcurrent node :Egg,ref count: 2
+
+[current node :Egg, count: 1]
+all child :
+newcurrent node :Beer,ref count: 2
+
+[current node :[FP Tree root], count: 35008384]
+all child :Bread Milk 
+hit node: Bread
+newcurrent node :Bread,ref count: 7
+
+[current node :Bread, count: 7]
+all child :Milk Coffee Egg 
+hit node: Milk
+newcurrent node :Milk,ref count: 7
+
+[current node :Milk, count: 4]
+all child :Beer Coffee Egg 
+hit node: Egg
+newcurrent node :Egg,ref count: 5
+
+
+[item link]
+
+[Beer:2]
+conditional pattern base: Bread Milk Egg
+[build conditional FP Tree]
+[current node :[cond FP Tree root], count: 35009504]
+all child :
+[current node :Bread, count: 1]
+all child :
+[current node :Milk, count: 1]
+all child :
+conditional pattern base: Bread Milk
+[build conditional FP Tree]
+[current node :[cond FP Tree root], count: 35009504]
+all child :Bread 
+hit node: Bread
+newcurrent node :Bread,ref count: 4
+
+[current node :Bread, count: 2]
+all child :Milk 
+hit node: Milk
+newcurrent node :Milk,ref count: 4
+
+[generate frequent patterns]
+
+[current node : [cond FP Tree root] ]
+[current node : Bread ]
+[current node : Milk ]
+[current node : Egg ]
+0.111111 : 0.2
+[current node : Milk ]
+0.222222 : 0.2
+[current node : Bread ]
+0.222222 : 0.2
+[current node : [cond FP Tree root] ]
+association rules : 
+Bread,Beer:2
+Bread,Milk,Beer:2
+Milk,Beer:2
+2
+
+[Bread:7]
+conditional pattern base:
+[build conditional FP Tree]
+[generate frequent patterns]
+
+[current node : [cond FP Tree root] ]
+association rules : 
+7
+
+[Coffee:2]
+conditional pattern base: Bread Milk
+[build conditional FP Tree]
+[current node :[cond FP Tree root], count: 1]
+all child :
+[current node :Bread, count: 1]
+all child :
+conditional pattern base: Bread
+[build conditional FP Tree]
+[current node :[cond FP Tree root], count: 1]
+all child :Bread 
+hit node: Bread
+newcurrent node :Bread,ref count: 4
+
+[generate frequent patterns]
+
+[current node : [cond FP Tree root] ]
+[current node : Bread ]
+[current node : Milk ]
+0.111111 : 0.2
+[current node : Bread ]
+0.222222 : 0.2
+[current node : [cond FP Tree root] ]
+association rules : 
+Bread,Coffee:2
+2
+
+[Egg:6]
+conditional pattern base: Bread Milk
+[build conditional FP Tree]
+[current node :[cond FP Tree root], count: 1]
+all child :
+[current node :Bread, count: 2]
+all child :
+conditional pattern base: Milk
+[build conditional FP Tree]
+[current node :[cond FP Tree root], count: 1]
+all child :Bread 
+conditional pattern base: Bread
+[build conditional FP Tree]
+[current node :[cond FP Tree root], count: 1]
+all child :Bread Milk 
+hit node: Bread
+newcurrent node :Bread,ref count: 4
+
+[generate frequent patterns]
+
+[current node : [cond FP Tree root] ]
+[current node : Bread ]
+[current node : Milk ]
+0.222222 : 0.2
+[current node : Bread ]
+0.444444 : 0.2
+[current node : [cond FP Tree root] ]
+[current node : Milk ]
+0.222222 : 0.2
+[current node : [cond FP Tree root] ]
+association rules : 
+Bread,Egg:4
+Bread,Milk,Egg:2
+Milk,Egg:4
+6
+
+[Milk:6]
+conditional pattern base:
+[build conditional FP Tree]
+conditional pattern base: Bread
+[build conditional FP Tree]
+[current node :[cond FP Tree root], count: 2]
+all child :
+[generate frequent patterns]
+
+[current node : [cond FP Tree root] ]
+[current node : Bread ]
+0.444444 : 0.2
+[current node : [cond FP Tree root] ]
+association rules : 
+Bread,Milk:4
+6
 [FPGrowth End]

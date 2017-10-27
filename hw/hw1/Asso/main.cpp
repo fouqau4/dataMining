@@ -9,7 +9,7 @@ int main( int argc, char* argv[] )
 	switch( argc )
 	{
 	case 2:
-		FPGrowth( argv[1] );
+		FPGrowth( argv[1], 0.2f );
 		break;
 	default:
 		// default case

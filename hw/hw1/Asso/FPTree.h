@@ -17,7 +17,7 @@ using std::vector;
 using std::string;
 using std::pair;
 using std::shared_ptr;
-using std::cout; using std::endl;
+using std::cout; using std::endl; using std::cin;
 using std::map;
 using std::deque;
 
@@ -54,13 +54,16 @@ public:
 	void update( deque<pair<string, uint32_ptr>>& tran,
 				 FPTnode_ptr& root, 
 				 map<string, pair<uint32_ptr, FPTnode_ptr>>& tran_record,
-				 const uint32_t& tran_num,
+				 const UINT& tran_num,
 				 const double& min_sup );
-	void update_cond( deque<pair<string, uint32_ptr>>& tran,
-	  				  FPTnode_ptr& root
-					  const UINT& sup_num,
-					  const UINT& tran_num,
-					  const double& min_sup );
+	void update_cond( deque<FPTnode_ptr>& tran,
+	  				  FPTnode_ptr& root,
+					  const UINT& sup_num );
+	void generate_rules( FPTnode_ptr& root,
+						 map<string, UINT>& asso_rule,
+						 const string& item,
+						 const UINT& tran_num,
+						 const double& min_sup );
 private:
 	// 	data member
 	string item;

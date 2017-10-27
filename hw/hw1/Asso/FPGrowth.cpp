@@ -112,13 +112,8 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 
 	}
 
-	//	find conditional pattern base
-/*
-	for( auto item : tran_record )
-	{
-		f
-	}
-*/
+//cout << "transaction num :" << tran_num << endl << "mininum support ratio:" << min_sup << endl;
+
 	//	show 1-item counter
 	#ifdef ONE_ITEM
 		for( auto i : tran_record )
@@ -129,14 +124,14 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 		cout << endl << "[item link]" << endl;
 		for( auto i : tran_record )
 		{
-			cout << "[" << i.first << ":" << *i.second.first.get() << "]" << endl;
+			cout << "\n[" << i.first << ":" << *i.second.first.get() << "]" << endl;
 			FPTnode_ptr tmp = i.second.second;
 			FPTnode_ptr conditional_fpt( new FPTnode( "[cond FP Tree root]" ) );
+			map<string, UINT> asso_rule;
 
 			uint32_t c = 0;
 			while( tmp != nullptr )
 			{
-				cout << "all preffix : [" << tmp->getCount() << "] ";
 				deque<FPTnode_ptr> cond_patt_base;
 				cond_patt_base.clear();
 				FPTnode_ptr tmp_1 = tmp;
@@ -147,16 +142,25 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 					tmp_1 = tmp_1->getParent();
 				}while( tmp_1->getParent() != nullptr );
 				cond_patt_base.pop_back();
+
 				cout << "conditional pattern base:";
 				for( auto x : cond_patt_base )
 					cout << " " << x->getItem();
 				cout << endl;
 
+				cout << "[build conditional FP Tree]" << endl;
 				conditional_fpt->update_cond( cond_patt_base, conditional_fpt, tmp_count );
 
 				c += tmp->getCount();
 				tmp = tmp->getNext();
 			}
+			cout << "[generate frequent patterns]" << endl;
+			conditional_fpt->generate_rules( conditional_fpt, asso_rule, i.first, tran_num, min_sup );
+
+			cout << "association rules : " << endl;
+			for( auto x : asso_rule )
+				cout << x.first << ":" << x.second << endl;
+
 			cout << c <<  endl;
 		}
 	#endif
