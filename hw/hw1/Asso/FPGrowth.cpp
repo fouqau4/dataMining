@@ -54,7 +54,7 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 	string s;
 	input_file >> s;
 
-	uint32_t total_item_num = 0;
+	UINT total_item_num = 0;
 	uint64_t beg = 0;
 	while( 1 )
 	{
@@ -70,7 +70,7 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 	vector<deque<pair<string, uint32_ptr>>> transaction;
 	transaction.push_back( deque<pair<string, uint32_ptr>>() );
 
-	uint32_t tran_num = 0;
+	UINT tran_num = 0;
 	map<string, pair<uint32_ptr, FPTnode_ptr>> tran_record;
 	while( input_file >> s )
 	{
@@ -78,7 +78,7 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 		{
 			if( tran_record[s].first == nullptr )
 			{
-				tran_record[s].first = uint32_ptr( new uint32_t( 0 ) );
+				tran_record[s].first = uint32_ptr( new UINT( 0 ) );
 			}
 			++( *( tran_record[s].first.get() ) );
 			transaction[tran_num].push_back( pair<string, uint32_ptr>( s, tran_record[s].first ) );
@@ -146,8 +146,9 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 			//	go to next position in linked list
 			tmp = tmp->getNext();
 		}
-//		cout << "[generate frequent patterns]" << endl;
-		conditional_fpt->generate_rules( conditional_fpt, asso_rule, i.first, tran_num, min_sup );
+
+		//	generate frequent pattern
+		conditional_fpt->genFreqPat( conditional_fpt, asso_rule, i.first, tran_num, min_sup );
 
 		cout << i.first << ":" << *i.second.first.get() << endl;
 		for( auto x : asso_rule )

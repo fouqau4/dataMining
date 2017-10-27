@@ -79,9 +79,9 @@ void FPTnode::addNode( FPTnode_ptr& current_node, const string& item, map<string
 	current_node->child.push_back( FPTnode_ptr( new FPTnode( item, 1, current_node )  ) );
 	//	update current_node
 	current_node = current_node->child.back();
+	//	update item record list
 	current_node->next = tran_record[item].second;
 	tran_record[item].second = current_node;
-
 }
 
 void FPTnode::update_cond( deque<FPTnode_ptr>& tran,
@@ -89,7 +89,6 @@ void FPTnode::update_cond( deque<FPTnode_ptr>& tran,
 						   const UINT& sup_num )
 {
 	FPTnode_ptr current_node = root;
-
 	for( auto item : tran )
 	{
 		bool hit = false;
@@ -120,15 +119,14 @@ void FPTnode::update_cond( deque<FPTnode_ptr>& tran,
 			current_node->child.push_back( FPTnode_ptr( new FPTnode( item->getItem(), sup_num, current_node ) ) );
 			current_node = current_node->child.back();
 		}
-
 	}
 }
 
-void FPTnode::generate_rules( FPTnode_ptr& root,
-							  map<string, UINT>& asso_rule,
-							  const string& item,
-							  const UINT& tran_num,
-							  const double& min_sup )
+void FPTnode::genFreqPat( FPTnode_ptr& root,
+						  map<string, UINT>& asso_rule,
+						  const string& item,
+						  const UINT& tran_num,
+						  const double& min_sup )
 {
 	FPTnode_ptr current_node = root;
 	vector<UINT> idx_stack;
@@ -160,7 +158,7 @@ void FPTnode::generate_rules( FPTnode_ptr& root,
 					vector<pair<string, UINT>> v;
 					for( auto rule : asso_rule )
 					{
-		
+						//	cache existed frequent items
 						v.push_back( pair<string, UINT>( rule.first, rule.second ) );
 					}
 					for( auto rule : v )

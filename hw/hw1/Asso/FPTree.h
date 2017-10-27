@@ -40,7 +40,6 @@ public:
 	//	destructor
 	~FPTnode()
 	{
-//		cout << item <<  " node is deleted." << endl;
 		child.clear();
 	}
 
@@ -59,7 +58,7 @@ public:
 	void update_cond( deque<FPTnode_ptr>& tran,
 	  				  FPTnode_ptr& root,
 					  const UINT& sup_num );
-	void generate_rules( FPTnode_ptr& root,
+	void genFreqPat( FPTnode_ptr& root,
 						 map<string, UINT>& asso_rule,
 						 const string& item,
 						 const UINT& tran_num,
