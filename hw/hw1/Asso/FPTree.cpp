@@ -123,7 +123,7 @@ void FPTnode::update_cond( deque<FPTnode_ptr>& tran,
 }
 
 void FPTnode::genFreqPat( FPTnode_ptr& root,
-						  map<string, UINT>& asso_rule,
+						  map<set<string>, UINT>& asso_rule,
 						  const string& item,
 						  const UINT& tran_num,
 						  const double& min_sup )
@@ -155,17 +155,19 @@ void FPTnode::genFreqPat( FPTnode_ptr& root,
 				if( static_cast<double>( current_node->getCount() ) / static_cast<double>( tran_num ) >= min_sup )
 				{ 
 					//	add rules
-					vector<pair<string, UINT>> v;
+					vector<pair<set<string>, UINT>> cache;
 					for( auto rule : asso_rule )
 					{
 						//	cache existed frequent items
-						v.push_back( pair<string, UINT>( rule.first, rule.second ) );
+						cache.push_back( pair<set<string>, UINT>( rule.first, rule.second ) );
 					}
-					for( auto rule : v )
+					for( auto rule : cache )
 					{
-						asso_rule[ current_node->getItem() + "," + rule.first ] += rule.second;
+						set<string> pat( rule.first );
+						pat.insert( current_node->getItem() );
+						asso_rule[ pat ] += rule.second;
 					}
-					asso_rule[ current_node->getItem() + "," + item ] += current_node->getCount();
+					asso_rule[ set<string>{ current_node->getItem(), item } ] += current_node->getCount();
 				}
 				//	go back to parent
 				current_node = current_node->parent;
@@ -182,7 +184,7 @@ void FPTnode::genFreqPat( FPTnode_ptr& root,
 			if( static_cast<double>( current_node->getCount() ) / static_cast<double>( tran_num ) >= min_sup )
 			{ 
 				//	add rule
-				asso_rule[ current_node->getItem() + "," + item ] += current_node->getCount();
+				asso_rule[ set<string>{ current_node->getItem(), item } ] += current_node->getCount();
 			}
 
 			//	go back to parent

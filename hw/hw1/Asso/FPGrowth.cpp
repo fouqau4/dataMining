@@ -10,6 +10,7 @@
 #include <algorithm>
 #include <memory>
 #include <deque>
+#include <set>
 
 #include <cstdint>
 
@@ -22,6 +23,7 @@ using std::pair;
 using std::sort;
 using std::shared_ptr;
 using std::deque;
+using std::set;
 
 using std::uint64_t; using std::uint32_t;
 
@@ -120,12 +122,14 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 			cout << i.first << ":" << i.second.first << endl;
 	#endif
 
+	map<set<string>, UINT> freq_pat;
+
 	cout << "[Frequent Patterns]" << endl;
 	for( auto i : tran_record )
 	{
 		FPTnode_ptr tmp = i.second.second;
 		FPTnode_ptr conditional_fpt( new FPTnode( "[cond FP Tree root]" ) );
-		map<string, UINT> asso_rule;
+		map<set<string>, UINT> sub_pat;
 
 		while( tmp != nullptr )
 		{
@@ -148,11 +152,18 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 		}
 
 		//	generate frequent pattern
-		conditional_fpt->genFreqPat( conditional_fpt, asso_rule, i.first, tran_num, min_sup );
+		conditional_fpt->genFreqPat( conditional_fpt, sub_pat, i.first, tran_num, min_sup );
+		//	update frequent pattern map
+		freq_pat[ set<string>{ i.first } ] = *i.second.first.get();
+		freq_pat.insert( sub_pat.begin(), sub_pat.end() );
+	}
 
-		cout << i.first << ":" << *i.second.first.get() << endl;
-		for( auto x : asso_rule )
-			cout << x.first << ":" << x.second << endl;
+	for( auto pat : freq_pat )
+	{
+		cout << "{ ";
+		for( auto item : pat.first )
+			cout << item << " ";
+		cout << "}:" << pat.second << endl;
 	}
 
 	input_file.close();

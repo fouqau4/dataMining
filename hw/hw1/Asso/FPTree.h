@@ -10,6 +10,7 @@
 #include <iostream>
 #include <map>
 #include <deque>
+#include <set>
 
 #include <cstdint>
 
@@ -20,6 +21,7 @@ using std::shared_ptr;
 using std::cout; using std::endl; using std::cin;
 using std::map;
 using std::deque;
+using std::set;
 
 using std::UINT;
 
@@ -59,7 +61,7 @@ public:
 	  				  FPTnode_ptr& root,
 					  const UINT& sup_num );
 	void genFreqPat( FPTnode_ptr& root,
-						 map<string, UINT>& asso_rule,
+						 map<set<string>, UINT>& asso_rule,
 						 const string& item,
 						 const UINT& tran_num,
 						 const double& min_sup );
