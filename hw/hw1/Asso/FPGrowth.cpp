@@ -120,54 +120,43 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 			cout << i.first << ":" << i.second.first << endl;
 	#endif
 
-	#ifdef TRAN
-		cout << endl << "[item link]" << endl;
-		for( auto i : tran_record )
+	cout << "[Frequent Patterns]" << endl;
+	for( auto i : tran_record )
+	{
+		FPTnode_ptr tmp = i.second.second;
+		FPTnode_ptr conditional_fpt( new FPTnode( "[cond FP Tree root]" ) );
+		map<string, UINT> asso_rule;
+
+		while( tmp != nullptr )
 		{
-			cout << "\n[" << i.first << ":" << *i.second.first.get() << "]" << endl;
-			FPTnode_ptr tmp = i.second.second;
-			FPTnode_ptr conditional_fpt( new FPTnode( "[cond FP Tree root]" ) );
-			map<string, UINT> asso_rule;
-
-			uint32_t c = 0;
-			while( tmp != nullptr )
+			deque<FPTnode_ptr> cond_patt_base;
+			cond_patt_base.clear();
+			FPTnode_ptr tmp_1 = tmp;
+			UINT tmp_count = tmp_1->getCount();
+			do
 			{
-				deque<FPTnode_ptr> cond_patt_base;
-				cond_patt_base.clear();
-				FPTnode_ptr tmp_1 = tmp;
-				UINT tmp_count = tmp_1->getCount();
-				do
-				{
-					cond_patt_base.push_front( FPTnode_ptr( new FPTnode( tmp_1->getItem(), tmp_count ) ) );
-					tmp_1 = tmp_1->getParent();
-				}while( tmp_1->getParent() != nullptr );
-				cond_patt_base.pop_back();
+				cond_patt_base.push_front( FPTnode_ptr( new FPTnode( tmp_1->getItem(), tmp_count ) ) );
+				tmp_1 = tmp_1->getParent();
+			}while( tmp_1->getParent() != nullptr );
+			cond_patt_base.pop_back();
 
-				cout << "conditional pattern base:";
-				for( auto x : cond_patt_base )
-					cout << " " << x->getItem();
-				cout << endl;
+			//	update conditional FP Tree
+			conditional_fpt->update_cond( cond_patt_base, conditional_fpt, tmp_count );
 
-				cout << "[build conditional FP Tree]" << endl;
-				conditional_fpt->update_cond( cond_patt_base, conditional_fpt, tmp_count );
-
-				c += tmp->getCount();
-				tmp = tmp->getNext();
-			}
-			cout << "[generate frequent patterns]" << endl;
-			conditional_fpt->generate_rules( conditional_fpt, asso_rule, i.first, tran_num, min_sup );
-
-			cout << "association rules : " << endl;
-			for( auto x : asso_rule )
-				cout << x.first << ":" << x.second << endl;
-
-			cout << c <<  endl;
+			//	go to next position in linked list
+			tmp = tmp->getNext();
 		}
-	#endif
+//		cout << "[generate frequent patterns]" << endl;
+		conditional_fpt->generate_rules( conditional_fpt, asso_rule, i.first, tran_num, min_sup );
+
+		cout << i.first << ":" << *i.second.first.get() << endl;
+		for( auto x : asso_rule )
+			cout << x.first << ":" << x.second << endl;
+	}
 
 	input_file.close();
 	#ifdef DEBUG
-		cout << "[FPGrowth End]" << endl;	
+		cout << endl << "[FPGrowth End]" << endl;	
 	#endif
 }
 
