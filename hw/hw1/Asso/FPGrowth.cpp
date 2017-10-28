@@ -41,6 +41,8 @@ class freqPatCmp{
 public:
 	bool operator()( const pair<set<string>, UINT>& a, const pair<set<string>, UINT>& b ) const
 	{
+		if( a.second == b.second )
+			return a.first.size() < b.first.size();
 		return a.second > b.second;
 	}
 };
@@ -126,7 +128,6 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 	multiset<pair<set<string>, UINT>, freqPatCmp> freq_pat;
 //	set<pair<set<string>, UINT>> freq_pat;
 
-	cout << "[Frequent Patterns]" << endl;
 	for( auto item : one_itemset )
 	{
 		FPTnode_ptr tmp = item.second.second;
@@ -174,20 +175,22 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 				cout << " } --> {";
 				for( auto item : diff )
 					cout << " " <<  item ;
-				cout << " }, conf: " << static_cast<double>( x->second ) / static_cast<double>( it->second ) << endl;
+				cout << " }, conf: " << x->second << "/" << it->second << " = " <<  static_cast<double>( x->second ) / static_cast<double>( it->second ) << endl;
 				
 			}
 		}
 	}
 
-	cout << endl;
-	for( auto pat : freq_pat )
-	{
-		cout << "{ ";
-		for( auto item : pat.first )
-			cout << item << " ";
-		cout << "}:" << pat.second << endl;
-	}
+	#ifdef FREQ
+		cout << "[Frequent Patterns]" << endl;
+		for( auto pat : freq_pat )
+		{
+			cout << "{ ";
+			for( auto item : pat.first )
+				cout << item << " ";
+			cout << "}:" << pat.second << endl;
+		}
+	#endif
 
 	input_file.close();
 	#ifdef DEBUG
