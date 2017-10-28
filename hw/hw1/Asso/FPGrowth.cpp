@@ -23,7 +23,7 @@ using std::pair;
 using std::sort;
 using std::shared_ptr;
 using std::deque;
-using std::set;
+using std::set; using std::multiset;
 
 using std::uint64_t; using std::uint32_t;
 
@@ -31,9 +31,17 @@ void FPGrowth( char* filename, double min_sup, double min_conf );
 
 class tranCmp {
 public:
-	bool operator()( pair<string, uint32_ptr>& a, pair<string, uint32_ptr>& b ) const
+	bool operator()( const pair<string, uint32_ptr>& a, const pair<string, uint32_ptr>& b ) const
 	{
 		return *a.second > *b.second;
+	}
+};
+
+class freqPatCmp{
+public:
+	bool operator()( const pair<set<string>, UINT>& a, const pair<set<string>, UINT>& b ) const
+	{
+		return a.second > b.second;
 	}
 };
 
@@ -106,7 +114,7 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 		fptree_root->update( tran, fptree_root, tran_record, tran_num, min_sup );
 
 		//	show sorted transaction
-		#ifdef SORTED_TRAN
+		#ifdef SORTED
 			for( auto item : tran )
 				cout << item.first << ":" << *item.second << " ";
 			cout << endl;
@@ -114,15 +122,9 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 
 	}
 
-//cout << "transaction num :" << tran_num << endl << "mininum support ratio:" << min_sup << endl;
-
-	//	show 1-item counter
-	#ifdef ONE_ITEM
-		for( auto i : tran_record )
-			cout << i.first << ":" << i.second.first << endl;
-	#endif
-
-	map<set<string>, UINT> freq_pat;
+	//	build frequent patterns
+	multiset<pair<set<string>, UINT>, freqPatCmp> freq_pat;
+//	set<pair<set<string>, UINT>> freq_pat;
 
 	cout << "[Frequent Patterns]" << endl;
 	for( auto i : tran_record )
@@ -154,7 +156,7 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 		//	generate frequent pattern
 		conditional_fpt->genFreqPat( conditional_fpt, sub_pat, i.first, tran_num, min_sup );
 		//	update frequent pattern map
-		freq_pat[ set<string>{ i.first } ] = *i.second.first.get();
+		freq_pat.insert( pair<set<string>, UINT >( set<string>{ i.first }, *i.second.first.get() ) );
 		freq_pat.insert( sub_pat.begin(), sub_pat.end() );
 	}
 
