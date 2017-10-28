@@ -1,4 +1,4 @@
-#ifndef __MY_FPTREE_HEADER_FILE_
+#ifndef __MY_FPTREE_HEADER_FILE__
 
 #define __MY_FPTREE_HEADER_FILE__
 #define UINT uint32_t
@@ -54,7 +54,7 @@ public:
 
 	void update( deque<pair<string, uint32_ptr>>& tran,
 				 FPTnode_ptr& root, 
-				 map<string, pair<uint32_ptr, FPTnode_ptr>>& tran_record,
+				 map<string, pair<uint32_ptr, FPTnode_ptr>>& one_itemset,
 				 const UINT& tran_num,
 				 const double& min_sup );
 	void update_cond( deque<FPTnode_ptr>& tran,
@@ -74,6 +74,6 @@ private:
 	FPTnode_ptr next;
 
 	// private method
-	void addNode( FPTnode_ptr& current_node, const string& item, map<string, pair<uint32_ptr, FPTnode_ptr>>& tran_record );
+	void addNode( FPTnode_ptr& current_node, const string& item, map<string, pair<uint32_ptr, FPTnode_ptr>>& one_itemset );
 };
 #endif

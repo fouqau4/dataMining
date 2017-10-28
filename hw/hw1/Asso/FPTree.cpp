@@ -28,7 +28,7 @@ FPTnode::FPTnode( string item, UINT count, FPTnode_ptr parent, FPTnode_ptr child
 //	member function
 void FPTnode::update( deque<pair<string, uint32_ptr>>& tran,
 					  FPTnode_ptr& root,
-					  map<string, pair<uint32_ptr, FPTnode_ptr>>& tran_record,
+					  map<string, pair<uint32_ptr, FPTnode_ptr>>& one_itemset,
 					  const uint32_t& tran_num,
 					  const double& min_sup )
 {
@@ -38,8 +38,7 @@ void FPTnode::update( deque<pair<string, uint32_ptr>>& tran,
 	{
 		if( static_cast<double>( *item.second ) / static_cast<double>( tran_num ) < min_sup )
 		{
-			tran_record.erase( item.first );
-			cout << endl << "remove : " << item.first << endl << endl;
+			one_itemset.erase( item.first );
 			continue;
 		}
 
@@ -61,27 +60,27 @@ void FPTnode::update( deque<pair<string, uint32_ptr>>& tran,
 			if( !hit )
 			{
 				//	node is not found
-				addNode( current_node, item.first, tran_record );
+				addNode( current_node, item.first, one_itemset );
 			}
 		}
 		else
 		{
 			//	node is not found
-			addNode( current_node, item.first, tran_record );
+			addNode( current_node, item.first, one_itemset );
 		}
 
 	}
 }
 
-void FPTnode::addNode( FPTnode_ptr& current_node, const string& item, map<string, pair<uint32_ptr, FPTnode_ptr>>& tran_record )
+void FPTnode::addNode( FPTnode_ptr& current_node, const string& item, map<string, pair<uint32_ptr, FPTnode_ptr>>& one_itemset )
 {
 	//	add node as a child of current_node
 	current_node->child.push_back( FPTnode_ptr( new FPTnode( item, 1, current_node )  ) );
 	//	update current_node
 	current_node = current_node->child.back();
 	//	update item record list
-	current_node->next = tran_record[item].second;
-	tran_record[item].second = current_node;
+	current_node->next = one_itemset[item].second;
+	one_itemset[item].second = current_node;
 }
 
 void FPTnode::update_cond( deque<FPTnode_ptr>& tran,

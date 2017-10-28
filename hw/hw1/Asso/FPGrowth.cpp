@@ -20,7 +20,7 @@ using std::string;
 using std::vector;
 using std::map;
 using std::pair;
-using std::sort;
+using std::sort; using std::includes; using std::set_difference;
 using std::shared_ptr;
 using std::deque;
 using std::set; using std::multiset;
@@ -81,18 +81,18 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 	transaction.push_back( deque<pair<string, uint32_ptr>>() );
 
 	UINT tran_num = 0;
-	map<string, pair<uint32_ptr, FPTnode_ptr>> tran_record;
+	map<string, pair<uint32_ptr, FPTnode_ptr>> one_itemset;
 	while( input_file >> s )
 	{
 		if( s.compare( "." )  != 0 )
 		{
-			if( tran_record[s].first == nullptr )
+			if( one_itemset[s].first == nullptr )
 			{
-				tran_record[s].first = uint32_ptr( new UINT( 0 ) );
+				one_itemset[s].first = uint32_ptr( new UINT( 0 ) );
 			}
-			++( *( tran_record[s].first.get() ) );
-			transaction[tran_num].push_back( pair<string, uint32_ptr>( s, tran_record[s].first ) );
-			tran_record[s].second = nullptr;
+			++( *( one_itemset[s].first.get() ) );
+			transaction[tran_num].push_back( pair<string, uint32_ptr>( s, one_itemset[s].first ) );
+			one_itemset[s].second = nullptr;
 //			cout << s << " ";
 		}
 		else
@@ -111,7 +111,7 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 	for( auto tran : transaction )
 	{
 		sort( tran.begin(), tran.end(), tranCmp() );
-		fptree_root->update( tran, fptree_root, tran_record, tran_num, min_sup );
+		fptree_root->update( tran, fptree_root, one_itemset, tran_num, min_sup );
 
 		//	show sorted transaction
 		#ifdef SORTED
@@ -127,9 +127,9 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 //	set<pair<set<string>, UINT>> freq_pat;
 
 	cout << "[Frequent Patterns]" << endl;
-	for( auto i : tran_record )
+	for( auto item : one_itemset )
 	{
-		FPTnode_ptr tmp = i.second.second;
+		FPTnode_ptr tmp = item.second.second;
 		FPTnode_ptr conditional_fpt( new FPTnode( "[cond FP Tree root]" ) );
 		map<set<string>, UINT> sub_pat;
 
@@ -154,12 +154,33 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 		}
 
 		//	generate frequent pattern
-		conditional_fpt->genFreqPat( conditional_fpt, sub_pat, i.first, tran_num, min_sup );
+		conditional_fpt->genFreqPat( conditional_fpt, sub_pat, item.first, tran_num, min_sup );
 		//	update frequent pattern map
-		freq_pat.insert( pair<set<string>, UINT >( set<string>{ i.first }, *i.second.first.get() ) );
+		freq_pat.insert( pair<set<string>, UINT >( set<string>{ item.first }, *item.second.first.get() ) );
 		freq_pat.insert( sub_pat.begin(), sub_pat.end() );
 	}
 
+	for( auto it = freq_pat.begin() ; it != std::prev( freq_pat.end(), 1 ) ; ++it )
+	{
+		for( auto x = next( it, 1 ) ; x != freq_pat.end() ; ++x )
+		{
+			if( includes( x->first.begin(), x->first.end(), it->first.begin(), it->first.end() ) )
+			{
+				set<string> diff;
+				set_difference( x->first.begin(), x->first.end(), it->first.begin(), it->first.end(), std::inserter( diff, diff.begin() ) );
+				cout << "{";
+				for( auto item : it->first )
+					cout << " " <<  item ;
+				cout << " } --> {";
+				for( auto item : diff )
+					cout << " " <<  item ;
+				cout << " }, conf: " << static_cast<double>( x->second ) / static_cast<double>( it->second ) << endl;
+				
+			}
+		}
+	}
+
+	cout << endl;
 	for( auto pat : freq_pat )
 	{
 		cout << "{ ";
