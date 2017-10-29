@@ -3,25 +3,41 @@ BEGIN{
 	idx = 0;max = 100; getline;
 #	printf "Transaction id";
 	for( i = 0; i < max; i++ ){
-		map[i] = "false";
-		printf ",item_%d", i ;
+		if( i != 0 )
+		{
+			printf ",";
+		}
+		map[i] = "";
+		printf "item_%d", i ;
 	}
 	print "";
-	current_id = $1; arr[idx++] = $2;map[$2] = "true"
+	current_id = $1; arr[idx++] = $2;map[$2] = "t"
 }
 $1 == current_id {
 	arr[idx++] = $2;
-	map[$2] = "true";
+	map[$2] = "t";
 }
 $1 != current_id {
-#	printf "TID_%s" ,current_id;
-	for( i = 0; i < max; i++ ){ printf ",%s", map[i] }
+	for( i = 0; i < max; i++ ){
+		if( i != 0 )
+		{
+			printf ",";
+		}
+		if( map[i] != "" )
+			printf "%s", map[i];
+	}
 	print "";
-	for( i = 0; i < idx; i++ ){ map[arr[i]] = "false" }
-	current_id = $1; delete arr; idx = 0; arr[idx++] = $2;map[$2] = "true";
+	for( i = 0; i < idx; i++ ){ map[arr[i]] = "" }
+	current_id = $1; delete arr; idx = 0; arr[idx++] = $2;map[$2] = "t";
 }
 END{
 #	printf "TID_%s" ,current_id;
-	for( i = 0; i < max; i++ ){ printf ",%s", map[i] }
-	print "";
+	for( i = 0; i < max; i++ ){
+		if( i != 0 )
+		{
+			printf ",";
+		}
+		if( map[i] != "" )
+			printf "%s", map[i];
+	}
 }

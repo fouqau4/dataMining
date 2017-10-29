@@ -11,12 +11,13 @@
 #include <memory>
 #include <deque>
 #include <set>
+#include <iomanip>
 
 #include <cstdint>
 
 using std::cout; using std::endl; using std::cin;
 using std::fstream; using std::ios;
-using std::string;
+using std::string; using std::to_string;
 using std::vector;
 using std::map;
 using std::pair;
@@ -43,6 +44,13 @@ public:
 	{
 		if( a.second == b.second )
 			return a.first.size() < b.first.size();
+		return a.second > b.second;
+	}
+};
+class assoCmp {
+public:
+	bool operator()( const pair<string, double>& a, const pair<string, double>& b ) const
+	{
 		return a.second > b.second;
 	}
 };
@@ -161,6 +169,8 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 		freq_pat.insert( sub_pat.begin(), sub_pat.end() );
 	}
 
+	//	generate association rules
+	deque<pair<string, double>> asso_rule;
 	for( auto it = freq_pat.begin() ; it != std::prev( freq_pat.end(), 1 ) ; ++it )
 	{
 		for( auto x = next( it, 1 ) ; x != freq_pat.end() ; ++x )
@@ -169,17 +179,30 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 			{
 				set<string> diff;
 				set_difference( x->first.begin(), x->first.end(), it->first.begin(), it->first.end(), std::inserter( diff, diff.begin() ) );
-				cout << "{";
+				string s = "[ ";
 				for( auto item : it->first )
-					cout << " " <<  item ;
-				cout << " } --> {";
+				{
+					if( item != *it->first.begin() )
+						s += ", ";
+					s += item;
+				}
+				s += " ]: " + to_string( it->second ) + " ==> [ ";
 				for( auto item : diff )
-					cout << " " <<  item ;
-				cout << " }, conf: " << x->second << "/" << it->second << " = " <<  static_cast<double>( x->second ) / static_cast<double>( it->second ) << endl;
-				
+				{
+					if( item != *diff.begin() )
+						s += ", ";
+					s += item ;
+				}
+				s += " ]: " + to_string( x->second );
+				asso_rule.push_back( pair<string, double>( s, static_cast<double>( x->second ) / static_cast<double>( it->second ) ) );	
 			}
 		}
 	}
+
+	sort( asso_rule.begin(), asso_rule.end(), assoCmp() );
+	int i = 0;
+	for( auto x : asso_rule )
+		cout << ++i << ". " << x.first << "  <conf(" << std::setprecision( 2 ) << x.second << ")>" << endl;
 
 	#ifdef FREQ
 		cout << "[Frequent Patterns]" << endl;
