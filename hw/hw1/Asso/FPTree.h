@@ -65,6 +65,7 @@ public:
 						 const string& item,
 						 const UINT& tran_num,
 						 const double& min_sup );
+	void showTree( FPTnode_ptr& root );
 private:
 	// 	data member
 	string item;

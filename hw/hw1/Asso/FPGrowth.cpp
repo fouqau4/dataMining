@@ -120,7 +120,9 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 	cout << endl << endl;
 	for( auto tran : transaction )
 	{
+		//	sort all transactions
 		sort( tran.begin(), tran.end(), tranCmp() );
+		//	build & update FP-Tree
 		fptree_root->update( tran, fptree_root, one_itemset, tran_num, min_sup );
 
 		//	show sorted transaction
@@ -134,14 +136,17 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 
 	//	build frequent patterns
 	multiset<pair<set<string>, UINT>, freqPatCmp> freq_pat;
-//	set<pair<set<string>, UINT>> freq_pat;
 
+	//	map<string, pair<uint32_ptr, FPTnode_ptr>> one_itemset;
 	for( auto item : one_itemset )
 	{
 		FPTnode_ptr tmp = item.second.second;
 		FPTnode_ptr conditional_fpt( new FPTnode( "[cond FP Tree root]" ) );
 		map<set<string>, UINT> sub_pat;
-
+/*
+if( item.first == "4" || item.first == "5" )
+	cout << item.first << endl;
+*/
 		while( tmp != nullptr )
 		{
 			deque<FPTnode_ptr> cond_patt_base;
@@ -162,11 +167,36 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 			tmp = tmp->getNext();
 		}
 
+		#ifdef CON_FPT
+if( item.first == "4" || item.first == "5" )
+{
+			conditional_fpt->showTree( conditional_fpt );			
+	cin.ignore();
+}
+		#endif
+
 		//	generate frequent pattern
 		conditional_fpt->genFreqPat( conditional_fpt, sub_pat, item.first, tran_num, min_sup );
+/*
+if( item.first == "4" || item.first == "5" )
+{
+	for( auto zz : sub_pat )
+	{
+		for( auto zzz : zz.first )
+			cout << " " << zzz;
+		cout << " : " << zz.second <<  endl;
+	}
+	cout << "----"<<endl;
+}
+*/
 		//	update frequent pattern map
 		freq_pat.insert( pair<set<string>, UINT >( set<string>{ item.first }, *item.second.first.get() ) );
-		freq_pat.insert( sub_pat.begin(), sub_pat.end() );
+for( auto xx : sub_pat )
+{
+	if( static_cast<double>( xx.second ) / static_cast<double>( tran_num ) >= min_sup )
+		freq_pat.insert( pair<set<string>, UINT >( set<string>{ xx.first }, xx.second ) );
+}		
+//		freq_pat.insert( sub_pat.begin(), sub_pat.end() );
 	}
 
 	//	generate association rules
@@ -200,9 +230,11 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 	}
 
 	sort( asso_rule.begin(), asso_rule.end(), assoCmp() );
-	int i = 0;
-	for( auto x : asso_rule )
-		cout << ++i << ". " << x.first << "  <conf(" << std::setprecision( 2 ) << x.second << ")>" << endl;
+	#ifdef ASSO
+		int i = 0;
+		for( auto x : asso_rule )
+			cout << ++i << ". " << x.first << "  <conf(" << std::setprecision( 2 ) << x.second << ")>" << endl;
+	#endif
 
 	#ifdef FREQ
 		cout << "[Frequent Patterns]" << endl;

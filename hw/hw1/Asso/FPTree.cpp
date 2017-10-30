@@ -36,6 +36,7 @@ void FPTnode::update( deque<pair<string, uint32_ptr>>& tran,
 
 	for( auto item : tran )
 	{
+		//	check minimum support
 		if( static_cast<double>( *item.second ) / static_cast<double>( tran_num ) < min_sup )
 		{
 			one_itemset.erase( item.first );
@@ -100,6 +101,13 @@ void FPTnode::update_cond( deque<FPTnode_ptr>& tran,
 				if( node->item.compare( item->getItem() ) == 0 )
 				{
 					node->count += sup_num;
+/*
+if( node->item == "4" )
+{
+	cout << "4 num : " <<  node->count << endl;
+	cin.ignore();
+}
+*/
 					current_node = node;
 					hit = true;
 					break;
@@ -151,7 +159,7 @@ void FPTnode::genFreqPat( FPTnode_ptr& root,
 			}
 			if( current_node->parent )
 			{
-				if( static_cast<double>( current_node->getCount() ) / static_cast<double>( tran_num ) >= min_sup )
+//				if( static_cast<double>( current_node->getCount() ) / static_cast<double>( tran_num ) >= min_sup )
 				{ 
 					//	add rules
 					vector<pair<set<string>, UINT>> cache;
@@ -166,6 +174,13 @@ void FPTnode::genFreqPat( FPTnode_ptr& root,
 						pat.insert( current_node->getItem() );
 						asso_rule[ pat ] += rule.second;
 					}
+/*
+if( current_node->getItem() == "4" )
+{
+	cout << item << ":4 = " <<  current_node->getCount() << endl;
+	cin.ignore();
+}
+*/
 					asso_rule[ set<string>{ current_node->getItem(), item } ] += current_node->getCount();
 				}
 				//	go back to parent
@@ -180,7 +195,7 @@ void FPTnode::genFreqPat( FPTnode_ptr& root,
 			//	no child node, pop start pos.
 			idx_stack.pop_back();
 			
-			if( static_cast<double>( current_node->getCount() ) / static_cast<double>( tran_num ) >= min_sup )
+//			if( static_cast<double>( current_node->getCount() ) / static_cast<double>( tran_num ) >= min_sup )
 			{ 
 				//	add rule
 				asso_rule[ set<string>{ current_node->getItem(), item } ] += current_node->getCount();
@@ -188,6 +203,46 @@ void FPTnode::genFreqPat( FPTnode_ptr& root,
 
 			//	go back to parent
 			current_node = current_node->parent;
+		}
+		else
+			return;
+	}
+}
+
+void FPTnode::showTree( FPTnode_ptr& root )
+{
+	FPTnode_ptr current_node = root;
+	vector<UINT> idx_stack;
+	idx_stack.push_back( 0 );
+	while( 1 )
+	{
+		if( !current_node->child.empty() )
+		{
+			cout << "[child of " << current_node->item << "] :" << endl;
+			for( auto child : current_node->child )
+				cout << " " << child->item;
+			cout << "|" << endl;
+			UINT child_num = current_node->child.size();
+			UINT idx = idx_stack.back();
+			idx_stack.pop_back();
+			if( idx < child_num )
+			{
+				current_node = current_node->child[idx];
+				idx_stack.push_back( ++idx );
+				idx_stack.push_back( 0 );
+				continue;
+			}
+			
+			if( !current_node->parent )
+				return;
+			idx_stack.pop_back();
+			current_node = current_node->parent;
+		}
+		else if( current_node->parent )
+		{
+			idx_stack.pop_back();
+			current_node = current_node->parent;
+cout << "Go back to parent" << endl;
 		}
 		else
 			return;

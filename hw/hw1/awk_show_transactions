@@ -1,6 +1,6 @@
 #!/usr/bin/awk
 BEGIN{
-	max = 100;
+	max = 10;
     for( i = 0; i < max; i++ ){
         printf "item_%d", i ;
 		if( i < max - 1 ){ printf ","; }
