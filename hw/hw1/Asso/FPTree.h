@@ -46,33 +46,40 @@ public:
 	}
 
 	// public method
-	const string& getItem(){return item;};
-	const UINT& getCount(){return count;};
-	const FPTnode_ptr& getNext(){return next;};
-	const FPTnode_ptr& getParent(){return parent;};
-	const vector<FPTnode_ptr>& getChild(){return child;};
+	const string& getItem()					{ return item;	}
+	const UINT& getCount()					{ return count;	}
+	const FPTnode_ptr& getNext()			{ return next;	}
+	const FPTnode_ptr& getParent()			{ return parent;}
+	const vector<FPTnode_ptr>& getChild()	{ return child;	}
 
+	//	build & update FP Tree 
 	void update( deque<pair<string, uint32_ptr>>& tran,
 				 FPTnode_ptr& root, 
 				 map<string, pair<uint32_ptr, FPTnode_ptr>>& one_itemset,
 				 const UINT& tran_num,
 				 const double& min_sup );
+	//	build & update conditional FP Tree 
 	void update_cond( deque<FPTnode_ptr>& tran,
 	  				  FPTnode_ptr& root,
 					  const UINT& sup_num );
+	//	generate frequent pattern
 	void genFreqPat( FPTnode_ptr& root,
 						 map<set<string>, UINT>& asso_rule,
 						 const string& item,
 						 const UINT& tran_num,
 						 const double& min_sup );
-	void showTree( FPTnode_ptr& root );
 private:
 	// 	data member
+	//	item name
 	string item;
+	//	counter of item
 	UINT count;
+	//	pointer pointing to parent node in FP Tree
 	FPTnode_ptr parent;
-	vector<FPTnode_ptr> child;
+	//	a pointer pointing to next node in one itemset linked list
 	FPTnode_ptr next;
+	//	children of current node
+	vector<FPTnode_ptr> child;
 
 	// private method
 	void addNode( FPTnode_ptr& current_node, const string& item, map<string, pair<uint32_ptr, FPTnode_ptr>>& one_itemset );

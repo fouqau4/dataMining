@@ -47,6 +47,7 @@ public:
 		return a.second > b.second;
 	}
 };
+
 class assoCmp {
 public:
 	bool operator()( const pair<string, double>& a, const pair<string, double>& b ) const
@@ -59,7 +60,6 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 {
 	//	load input file
 	fstream input_file;
-
 	input_file.open( filename, ios::in );
 	#ifdef DEBUG
 		if( !input_file.is_open() )
@@ -70,12 +70,11 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 
 	//	record items' name
 	vector<string> item_name;
-
 	string s;
-	input_file >> s;
-
 	UINT total_item_num = 0;
 	uint64_t beg = 0;
+
+	input_file >> s;
 	while( 1 )
 	{
 		std::string::size_type n = s.find( ',', beg );
@@ -87,41 +86,53 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 	}
 
 	//	build transactions & count 1-itemset
-	vector<deque<pair<string, uint32_ptr>>> transaction;
-	transaction.push_back( deque<pair<string, uint32_ptr>>() );
+	vector<deque<pair<string, uint32_ptr>>> all_tran;
+	all_tran.push_back( deque<pair<string, uint32_ptr>>() );
 
 	UINT tran_num = 0;
+	/*	one itemset container :
+			key( string ) : name of one itemset
+			value( pair<uint32_ptr, FPTnode_ptr> ) : 
+				the first place of value is used as a counter for one itemset.
+				the second place of value is a pointer in FPTnode type and will be used when construct conditional fp tree.
+	*/
 	map<string, pair<uint32_ptr, FPTnode_ptr>> one_itemset;
+
+	//	read transactions from input file
 	while( input_file >> s )
 	{
+		//	check whether reaching the end of transaction
 		if( s.compare( "." )  != 0 )
 		{
+			//	new item
 			if( one_itemset[s].first == nullptr )
 			{
 				one_itemset[s].first = uint32_ptr( new UINT( 0 ) );
 			}
+
+			//	update counter of item
 			++( *( one_itemset[s].first.get() ) );
-			transaction[tran_num].push_back( pair<string, uint32_ptr>( s, one_itemset[s].first ) );
+			//	add item to transaction
+			all_tran[tran_num].push_back( pair<string, uint32_ptr>( s, one_itemset[s].first ) );
 			one_itemset[s].second = nullptr;
-//			cout << s << " ";
 		}
+		//	reach the end of current transaction
 		else
 		{
 			++tran_num;
-			transaction.push_back( deque<pair<string, uint32_ptr>>() );
-//			cout << endl;
+			all_tran.push_back( deque<pair<string, uint32_ptr>>() );
 		}
 	}
-	transaction.pop_back();
+	all_tran.pop_back();
 
 	//	sort transaction & build FP-Tree
 
 	FPTnode_ptr fptree_root( new FPTnode( "[FP Tree root]" ) );
-	cout << endl << endl;
-	for( auto tran : transaction )
+	for( auto tran : all_tran )
 	{
-		//	sort all transactions
+		//	sort transaction by the priority of one itemset
 		sort( tran.begin(), tran.end(), tranCmp() );
+
 		//	build & update FP-Tree
 		fptree_root->update( tran, fptree_root, one_itemset, tran_num, min_sup );
 
@@ -131,7 +142,6 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 				cout << item.first << ":" << *item.second << " ";
 			cout << endl;
 		#endif
-
 	}
 
 	//	build frequent patterns
@@ -139,14 +149,20 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 
 	for( auto item : one_itemset )
 	{
+		//	access the FPTnode pointed by one itemset container
 		FPTnode_ptr tmp = item.second.second;
 		FPTnode_ptr conditional_fpt( new FPTnode( "[cond FP Tree root]" ) );
 
-		//	find conditional pattern base & build conditional fp tree
+		/*	find conditional pattern basis & build conditional fp tree :
+				go through the linked list of item to find all conditional pattern basis of current item.
+				merge all conditional pattern basis to generate a conditional fp tree.
+		*/
 		while( tmp != nullptr )
 		{
 			deque<FPTnode_ptr> cond_patt_base;
 			cond_patt_base.clear();
+
+			//	find conditional pattern base
 			FPTnode_ptr tmp_1 = tmp;
 			UINT tmp_count = tmp_1->getCount();
 			do
@@ -163,7 +179,7 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 				cout << endl;
 			#endif
 
-			//	update conditional FP Tree
+			//	update conditional FP Tree by merging new conditional pattern base
 			conditional_fpt->update_cond( cond_patt_base, conditional_fpt, tmp_count );
 
 			//	go to next position in linked list
@@ -176,14 +192,30 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 
 		//	update frequent pattern map
 		freq_pat.insert( pair<set<string>, UINT >( set<string>{ item.first }, *item.second.first.get() ) );
-		for( auto xx : sub_pat )
+		for( auto pat : sub_pat )
 		{
-			if( static_cast<double>( xx.second ) / static_cast<double>( tran_num ) >= min_sup )
-				freq_pat.insert( pair<set<string>, UINT >( set<string>{ xx.first }, xx.second ) );
+			//	whether the frequent pattern satisfying the minimun support ratio
+			if( static_cast<double>( pat.second ) / static_cast<double>( tran_num ) >= min_sup )
+				freq_pat.insert( pair<set<string>, UINT >( set<string>{ pat.first }, pat.second ) );
 		}		
 	}
 
-	//	generate association rules
+	//	show frequent patterns
+	#ifdef FREQ
+		cout << "[Frequent Patterns]" << endl;
+		for( auto pat : freq_pat )
+		{
+			cout << "{ ";
+			for( auto item : pat.first )
+				cout << item << " ";
+			cout << "}:" << pat.second << endl;
+		}
+	#endif
+
+	/*	generate association rules :
+			the first place of element is an association rule.
+			the second place of element is the confidence of this rule.
+	*/
 	deque<pair<string, double>> asso_rule;
 	for( auto it = freq_pat.begin() ; it != std::prev( freq_pat.end(), 1 ) ; ++it )
 	{
@@ -213,23 +245,16 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 		}
 	}
 
+	//	sort all association rules by their confidence
 	sort( asso_rule.begin(), asso_rule.end(), assoCmp() );
+
+	//	show all association rules
 	#ifdef ASSO
 		int i = 0;
 		for( auto x : asso_rule )
 			cout << ++i << ". " << x.first << "  <conf(" << std::setprecision( 2 ) << x.second << ")>" << endl;
 	#endif
 
-	#ifdef FREQ
-		cout << "[Frequent Patterns]" << endl;
-		for( auto pat : freq_pat )
-		{
-			cout << "{ ";
-			for( auto item : pat.first )
-				cout << item << " ";
-			cout << "}:" << pat.second << endl;
-		}
-	#endif
 
 	input_file.close();
 	#ifdef DEBUG

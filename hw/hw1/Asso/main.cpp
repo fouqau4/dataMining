@@ -17,12 +17,17 @@ int main( int argc, char* argv[] )
 	{
 	case 2:
 		beg = time( NULL );
-		FPGrowth( argv[1], 0.1f );
+		FPGrowth( argv[1], 0.1f, 0.5f );
 		cout << difftime( time( NULL ), beg ) << endl;
 		break;
 	case 3:
 		beg = time( NULL );
-		FPGrowth( argv[1], stod( string( argv[2] ) ) );
+		FPGrowth( argv[1], stod( string( argv[2] ) ), 0.5f );
+		cout << difftime( time( NULL ), beg ) << endl;
+		break;
+	case 4:
+		beg = time( NULL );
+		FPGrowth( argv[1], stod( string( argv[2] ) ), stod( string( argv[3] ) ) );
 		cout << difftime( time( NULL ), beg ) << endl;
 		break;
 	default:
