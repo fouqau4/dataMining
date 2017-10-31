@@ -12,23 +12,30 @@ using std::time; using std::time_t; using std::difftime;
 
 int main( int argc, char* argv[] )
 {
-	time_t beg;
+	time_t beg, end;
+	double diff;
 	switch( argc )
 	{
 	case 2:
 		beg = time( NULL );
 		FPGrowth( argv[1], 0.1f, 0.5f );
-		cout << difftime( time( NULL ), beg ) << endl;
+		end = time( NULL );
+		diff =  difftime( end, beg );
+		cout << endl << "Elapsed time: " << diff << "s" << endl;
 		break;
 	case 3:
 		beg = time( NULL );
 		FPGrowth( argv[1], stod( string( argv[2] ) ), 0.5f );
-		cout << difftime( time( NULL ), beg ) << endl;
+		end = time( NULL );
+		diff =  difftime( end, beg );
+		cout << endl << "Elapsed time: " << diff << "s" << endl;
 		break;
 	case 4:
 		beg = time( NULL );
 		FPGrowth( argv[1], stod( string( argv[2] ) ), stod( string( argv[3] ) ) );
-		cout << difftime( time( NULL ), beg ) << endl;
+		end = time( NULL );
+		diff =  difftime( end, beg );
+		cout << endl << "Elapsed time: " << diff << "s" << endl;
 		break;
 	default:
 		// default case
