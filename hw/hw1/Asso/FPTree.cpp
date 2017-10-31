@@ -138,7 +138,10 @@ void FPTnode::genFreqPat( FPTnode_ptr& root,
 
 	while( 1 )
 	{
-//cout << "[current node] : " << current_node->getItem() << endl;
+if( item == "" )
+{
+cout << "[current node] : " << current_node->getItem() << endl;
+}
 		//	internal node
 		if( !current_node->child.empty() )
 		{
@@ -172,16 +175,31 @@ void FPTnode::genFreqPat( FPTnode_ptr& root,
 					{
 						set<string> pat( pat_pair.first );
 						pat.insert( current_node->getItem() );
-						asso_rule[ pat ] += pat_pair.second;
+if( item == "" )
+{
+	cout << "add pattern to cache:";
+	for( auto x : pat )
+		cout << " " << x;
+	cout << endl << pat_pair.second;
+	cout << endl;
+}
 
 						ccache.push_back( pat_pair );
-						ccache.push_back( pair<set<string>, UINT>( pat, asso_rule[pat] ) );
+						ccache.push_back( pair<set<string>, UINT>( pat, pat_pair.second ) );
 					}
 					cache.pop_back();
 				}
 
 				set<string> ss = { current_node->getItem(), item };
-				asso_rule[ ss ] += current_node->getCount();
+if( item == "" )
+{
+	cout << "add pattern to cache:";
+	for( auto x : ss )
+		cout << " " << x;
+	cout << endl << current_node->getCount();
+	cout << endl;
+}
+//				asso_rule[ ss ] += current_node->getCount();
 
 				ccache.push_back( pair<set<string>, UINT>( ss, current_node->getCount() ) );
 				cache.push_back( ccache );
@@ -190,7 +208,16 @@ void FPTnode::genFreqPat( FPTnode_ptr& root,
 				current_node = current_node->parent;
 			}
 			else
+			{
+				for( auto pat_cache : cache )
+				{
+					for( auto pat : pat_cache )
+					{
+						asso_rule[ pat.first ] += pat.second;
+					}
+				}
 				return;
+			}
 		}
 		//	leaf node
 		else if( current_node->parent )
@@ -202,8 +229,16 @@ void FPTnode::genFreqPat( FPTnode_ptr& root,
 			set<string> ss = { current_node->getItem(), item };
 			cache.push_back( deque<pair<set<string>, UINT>>{ pair<set<string>, UINT>( ss, current_node->getCount() ) } );
 
+if( item == "" )
+{
+	cout << "add pattern to cache:";
+	for( auto x : ss )
+		cout << " " << x;
+	cout << endl << current_node->getCount();
+	cout << endl;
+}
 			//	add rule
-			asso_rule[ ss ] += current_node->getCount();
+//			asso_rule[ ss ] += current_node->getCount();
 
 			//	go back to parent
 			current_node = current_node->parent;

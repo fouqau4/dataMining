@@ -137,16 +137,12 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 	//	build frequent patterns
 	multiset<pair<set<string>, UINT>, freqPatCmp> freq_pat;
 
-	//	map<string, pair<uint32_ptr, FPTnode_ptr>> one_itemset;
 	for( auto item : one_itemset )
 	{
 		FPTnode_ptr tmp = item.second.second;
 		FPTnode_ptr conditional_fpt( new FPTnode( "[cond FP Tree root]" ) );
-		map<set<string>, UINT> sub_pat;
-/*
-if( item.first == "4" || item.first == "5" )
-	cout << item.first << endl;
-*/
+
+		//	find conditional pattern base & build conditional fp tree
 		while( tmp != nullptr )
 		{
 			deque<FPTnode_ptr> cond_patt_base;
@@ -160,6 +156,13 @@ if( item.first == "4" || item.first == "5" )
 			}while( tmp_1->getParent() != nullptr );
 			cond_patt_base.pop_back();
 
+			#ifdef CPB
+				cout << "[conditional pattern base of " << item.first << " ]" << endl;
+				for( auto node : cond_patt_base )
+					cout << " " << node->getItem();
+				cout << endl;
+			#endif
+
 			//	update conditional FP Tree
 			conditional_fpt->update_cond( cond_patt_base, conditional_fpt, tmp_count );
 
@@ -167,36 +170,17 @@ if( item.first == "4" || item.first == "5" )
 			tmp = tmp->getNext();
 		}
 
-		#ifdef CON_FPT
-if( item.first == "4" || item.first == "5" )
-{
-			conditional_fpt->showTree( conditional_fpt );			
-	cin.ignore();
-}
-		#endif
-
 		//	generate frequent pattern
+		map<set<string>, UINT> sub_pat;
 		conditional_fpt->genFreqPat( conditional_fpt, sub_pat, item.first, tran_num, min_sup );
-/*
-if( item.first == "4" || item.first == "5" )
-{
-	for( auto zz : sub_pat )
-	{
-		for( auto zzz : zz.first )
-			cout << " " << zzz;
-		cout << " : " << zz.second <<  endl;
-	}
-	cout << "----"<<endl;
-}
-*/
+
 		//	update frequent pattern map
 		freq_pat.insert( pair<set<string>, UINT >( set<string>{ item.first }, *item.second.first.get() ) );
-for( auto xx : sub_pat )
-{
-	if( static_cast<double>( xx.second ) / static_cast<double>( tran_num ) >= min_sup )
-		freq_pat.insert( pair<set<string>, UINT >( set<string>{ xx.first }, xx.second ) );
-}		
-//		freq_pat.insert( sub_pat.begin(), sub_pat.end() );
+		for( auto xx : sub_pat )
+		{
+			if( static_cast<double>( xx.second ) / static_cast<double>( tran_num ) >= min_sup )
+				freq_pat.insert( pair<set<string>, UINT >( set<string>{ xx.first }, xx.second ) );
+		}		
 	}
 
 	//	generate association rules
