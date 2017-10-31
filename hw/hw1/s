@@ -1,0 +1,31 @@
+FPGrowth found 24 rules
+
+ 1. [Coffee=t]: 2 ==> [Bread=t]: 2   <conf:(1)> lift:(1.29) lev:(0.05) conv:(0.44) 
+ 2. [Beer=t]: 2 ==> [Bread=t]: 2   <conf:(1)> lift:(1.29) lev:(0.05) conv:(0.44) 
+ 3. [Beer=t]: 2 ==> [Milk=t]: 2   <conf:(1)> lift:(1.5) lev:(0.07) conv:(0.67) 
+ 4. [Beer=t]: 2 ==> [Bread=t, Milk=t]: 2   <conf:(1)> lift:(2.25) lev:(0.12) conv:(1.11) 
+ 5. [Bread=t, Beer=t]: 2 ==> [Milk=t]: 2   <conf:(1)> lift:(1.5) lev:(0.07) conv:(0.67) 
+ 6. [Milk=t, Beer=t]: 2 ==> [Bread=t]: 2   <conf:(1)> lift:(1.29) lev:(0.05) conv:(0.44) 
+ 7. [Milk=t]: 6 ==> [Bread=t]: 4   <conf:(0.67)> lift:(0.86) lev:(-0.07) conv:(0.44) 
+ 8. [Eggs=t]: 6 ==> [Bread=t]: 4   <conf:(0.67)> lift:(0.86) lev:(-0.07) conv:(0.44) 
+ 9. [Milk=t]: 6 ==> [Eggs=t]: 4   <conf:(0.67)> lift:(1) lev:(0) conv:(0.67) 
+10. [Eggs=t]: 6 ==> [Milk=t]: 4   <conf:(0.67)> lift:(1) lev:(0) conv:(0.67) 
+11. [Bread=t]: 7 ==> [Milk=t]: 4   <conf:(0.57)> lift:(0.86) lev:(-0.07) conv:(0.58) 
+12. [Bread=t]: 7 ==> [Eggs=t]: 4   <conf:(0.57)> lift:(0.86) lev:(-0.07) conv:(0.58) 
+13. [Bread=t, Milk=t]: 4 ==> [Eggs=t]: 2   <conf:(0.5)> lift:(0.75) lev:(-0.07) conv:(0.44) 
+14. [Bread=t, Eggs=t]: 4 ==> [Milk=t]: 2   <conf:(0.5)> lift:(0.75) lev:(-0.07) conv:(0.44) 
+15. [Milk=t, Eggs=t]: 4 ==> [Bread=t]: 2   <conf:(0.5)> lift:(0.64) lev:(-0.12) conv:(0.3) 
+16. [Bread=t, Milk=t]: 4 ==> [Beer=t]: 2   <conf:(0.5)> lift:(2.25) lev:(0.12) conv:(1.04) 
+17. [Milk=t]: 6 ==> [Beer=t]: 2   <conf:(0.33)> lift:(1.5) lev:(0.07) conv:(0.93) 
+18. [Milk=t]: 6 ==> [Bread=t, Eggs=t]: 2   <conf:(0.33)> lift:(0.75) lev:(-0.07) conv:(0.67) 
+19. [Eggs=t]: 6 ==> [Bread=t, Milk=t]: 2   <conf:(0.33)> lift:(0.75) lev:(-0.07) conv:(0.67) 
+20. [Milk=t]: 6 ==> [Bread=t, Beer=t]: 2   <conf:(0.33)> lift:(1.5) lev:(0.07) conv:(0.93) 
+21. [Bread=t]: 7 ==> [Coffee=t]: 2   <conf:(0.29)> lift:(1.29) lev:(0.05) conv:(0.91) 
+22. [Bread=t]: 7 ==> [Beer=t]: 2   <conf:(0.29)> lift:(1.29) lev:(0.05) conv:(0.91) 
+23. [Bread=t]: 7 ==> [Milk=t, Eggs=t]: 2   <conf:(0.29)> lift:(0.64) lev:(-0.12) conv:(0.65) 
+24. [Bread=t]: 7 ==> [Milk=t, Beer=t]: 2   <conf:(0.29)> lift:(1.29) lev:(0.05) conv:(0.91) 
+
+=== Evaluation ===
+
+Elapsed time: 0.008s
+

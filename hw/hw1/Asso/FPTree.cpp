@@ -101,13 +101,6 @@ void FPTnode::update_cond( deque<FPTnode_ptr>& tran,
 				if( node->item.compare( item->getItem() ) == 0 )
 				{
 					node->count += sup_num;
-/*
-if( node->item == "4" )
-{
-	cout << "4 num : " <<  node->count << endl;
-	cin.ignore();
-}
-*/
 					current_node = node;
 					hit = true;
 					break;
@@ -136,53 +129,63 @@ void FPTnode::genFreqPat( FPTnode_ptr& root,
 						  const double& min_sup )
 {
 	FPTnode_ptr current_node = root;
+
+	deque< deque<pair<set<string>, UINT>> > cache;
+
 	vector<UINT> idx_stack;
 	//	visit child_0 of root
 	idx_stack.push_back( 0 );
+
 	while( 1 )
 	{
+//cout << "[current node] : " << current_node->getItem() << endl;
 		//	internal node
 		if( !current_node->child.empty() )
 		{
+
 			UINT children_num = current_node->child.size();
+
 			//	next visit child
 			UINT current_idx = idx_stack.back();
 			idx_stack.pop_back();
+
 			if( current_idx < children_num )
 			{
 				current_node = current_node->child[current_idx];
+
 				//	next child to visit
 				idx_stack.push_back( ++current_idx );
 				//	start pos. of child_i
 				idx_stack.push_back( 0 );
 				continue;
 			}
+
+			//	has visited all children
 			if( current_node->parent )
 			{
-//				if( static_cast<double>( current_node->getCount() ) / static_cast<double>( tran_num ) >= min_sup )
-				{ 
-					//	add rules
-					vector<pair<set<string>, UINT>> cache;
-					for( auto rule : asso_rule )
+				//	add rules
+				deque<pair<set<string>, UINT>> ccache;
+
+				while( current_idx-- )
+				{
+					for( auto pat_pair : cache.back() )
 					{
-						//	cache existed frequent items
-						cache.push_back( pair<set<string>, UINT>( rule.first, rule.second ) );
-					}
-					for( auto rule : cache )
-					{
-						set<string> pat( rule.first );
+						set<string> pat( pat_pair.first );
 						pat.insert( current_node->getItem() );
-						asso_rule[ pat ] += rule.second;
+						asso_rule[ pat ] += pat_pair.second;
+
+						ccache.push_back( pat_pair );
+						ccache.push_back( pair<set<string>, UINT>( pat, asso_rule[pat] ) );
 					}
-/*
-if( current_node->getItem() == "4" )
-{
-	cout << item << ":4 = " <<  current_node->getCount() << endl;
-	cin.ignore();
-}
-*/
-					asso_rule[ set<string>{ current_node->getItem(), item } ] += current_node->getCount();
+					cache.pop_back();
 				}
+
+				set<string> ss = { current_node->getItem(), item };
+				asso_rule[ ss ] += current_node->getCount();
+
+				ccache.push_back( pair<set<string>, UINT>( ss, current_node->getCount() ) );
+				cache.push_back( ccache );
+
 				//	go back to parent
 				current_node = current_node->parent;
 			}
@@ -194,12 +197,13 @@ if( current_node->getItem() == "4" )
 		{
 			//	no child node, pop start pos.
 			idx_stack.pop_back();
-			
-//			if( static_cast<double>( current_node->getCount() ) / static_cast<double>( tran_num ) >= min_sup )
-			{ 
-				//	add rule
-				asso_rule[ set<string>{ current_node->getItem(), item } ] += current_node->getCount();
-			}
+
+			//	cache 
+			set<string> ss = { current_node->getItem(), item };
+			cache.push_back( deque<pair<set<string>, UINT>>{ pair<set<string>, UINT>( ss, current_node->getCount() ) } );
+
+			//	add rule
+			asso_rule[ ss ] += current_node->getCount();
 
 			//	go back to parent
 			current_node = current_node->parent;
@@ -218,7 +222,7 @@ void FPTnode::showTree( FPTnode_ptr& root )
 	{
 		if( !current_node->child.empty() )
 		{
-			cout << "[child of " << current_node->item << "] :" << endl;
+//			cout << "[child of " << current_node->item << "] :" << endl;
 			for( auto child : current_node->child )
 				cout << " " << child->item;
 			cout << "|" << endl;
