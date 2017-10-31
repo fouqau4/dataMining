@@ -1,4 +1,7 @@
-TMP_FILE=""
-java -cp /home/swli/datamining/weka/weka/weka.jar weka.filters.unsupervised.attribute.RemoveType -i $1 -o ._weka_fpgrowth_tmp
-java -cp /home/swli/datamining/weka/weka/weka.jar weka.core.converters.CSVSaver -i  -o $1 && rm ._weka_fpgrowth_tmp
-java -Xmx2048m -cp /home/swli/datamining/weka/weka/weka.jar weka.associations.FPGrowth $1
+#!/bin/bash
+# $1 : name of input file
+# $2 : flags of fpgrowth algorithm, ex : "-M 0.1 -C 0 -S -t"
+TMP_FILE="._weka_fpgrowth_tmp"
+java -cp /home/swli/datamining/weka/weka/weka.jar weka.filters.unsupervised.attribute.RemoveType -i $1 -o $TMP_FILE
+java -cp /home/swli/datamining/weka/weka/weka.jar weka.core.converters.CSVSaver -i $TMP_FILE -o $1 && rm $TMP_FILE
+java -Xmx2048m -cp /home/swli/datamining/weka/weka/weka.jar weka.associations.FPGrowth $2 $1
