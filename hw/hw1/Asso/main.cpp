@@ -18,21 +18,21 @@ int main( int argc, char* argv[] )
 	{
 	case 2:
 		beg = time( NULL );
-		FPGrowth( argv[1], 0.1f, 0.5f );
+		FPGrowth( string( argv[1] ), 0.1f, 0.5f );
 		end = time( NULL );
 		diff =  difftime( end, beg );
 		cout << endl << "Elapsed time: " << diff << "s" << endl;
 		break;
 	case 3:
 		beg = time( NULL );
-		FPGrowth( argv[1], stod( string( argv[2] ) ), 0.5f );
+		FPGrowth( string( argv[1] ), stod( string( argv[2] ) ), 0.5f );
 		end = time( NULL );
 		diff =  difftime( end, beg );
 		cout << endl << "Elapsed time: " << diff << "s" << endl;
 		break;
 	case 4:
 		beg = time( NULL );
-		FPGrowth( argv[1], stod( string( argv[2] ) ), stod( string( argv[3] ) ) );
+		FPGrowth( string( argv[1] ), stod( string( argv[2] ) ), stod( string( argv[3] ) ) );
 		end = time( NULL );
 		diff =  difftime( end, beg );
 		cout << endl << "Elapsed time: " << diff << "s" << endl;

@@ -56,7 +56,7 @@ public:
 	}
 };
 
-void FPGrowth( char* filename, double min_sup, double min_conf )
+void FPGrowth( string filename, double min_sup, double min_conf )
 {
 	//	load input file
 	fstream input_file;
@@ -98,33 +98,75 @@ void FPGrowth( char* filename, double min_sup, double min_conf )
 	*/
 	map<string, pair<uint32_ptr, FPTnode_ptr>> one_itemset;
 
-	//	read transactions from input file
-	while( input_file >> s )
+	string file_ext = filename.substr( filename.find_last_of( '.' ) + 1 );
+	if( file_ext == "asso" )
 	{
-		//	check whether reaching the end of transaction
-		if( s.compare( "." )  != 0 )
+		//	read transactions from input file
+		while( input_file >> s )
 		{
-			//	new item
-			if( one_itemset[s].first == nullptr )
+			//	check whether reaching the end of transaction
+			if( s.compare( "." )  != 0 )
 			{
-				one_itemset[s].first = uint32_ptr( new UINT( 0 ) );
-			}
+				//	new item
+				if( one_itemset[s].first == nullptr )
+				{
+					one_itemset[s].first = uint32_ptr( new UINT( 0 ) );
+				}
 
-			//	update counter of item
-			++( *( one_itemset[s].first.get() ) );
-			//	add item to transaction
-			all_tran[tran_num].push_back( pair<string, uint32_ptr>( s, one_itemset[s].first ) );
-			one_itemset[s].second = nullptr;
+				//	update counter of item
+				++( *( one_itemset[s].first.get() ) );
+				//	add item to transaction
+				all_tran[tran_num].push_back( pair<string, uint32_ptr>( s, one_itemset[s].first ) );
+				one_itemset[s].second = nullptr;
+			}
+			//	reach the end of current transaction
+			else
+			{
+				++tran_num;
+				all_tran.push_back( deque<pair<string, uint32_ptr>>() );
+			}
 		}
-		//	reach the end of current transaction
-		else
+		all_tran.pop_back();
+	}
+	else if( file_ext == "csv" )
+	{
+		while( input_file >> s )
 		{
+			UINT current_item = 0;
+			beg = 0;
+			while( 1 )
+			{
+				std::string::size_type n = s.find( ',', beg );
+				string current_item_name = s.substr( beg , n - beg );
+				if( current_item_name != "?" )
+				{
+					//	new item
+					if( one_itemset[item_name[current_item]].first == nullptr )
+					{
+						one_itemset[item_name[current_item]].first = uint32_ptr( new UINT( 0 ) );
+					}
+
+					//	update counter of item
+					++( *( one_itemset[item_name[current_item]].first.get() ) );
+					//	add item to transaction
+					all_tran[tran_num].push_back( pair<string, uint32_ptr>( item_name[current_item], one_itemset[item_name[current_item]].first ) );
+					one_itemset[item_name[current_item]].second = nullptr;
+				}
+				if( n == std::string::npos )
+					break;
+				++current_item;
+				beg = n + 1;
+			}
 			++tran_num;
 			all_tran.push_back( deque<pair<string, uint32_ptr>>() );
 		}
+		all_tran.pop_back();
 	}
-	all_tran.pop_back();
-
+	else
+	{
+		input_file.close();
+		return;
+	}
 	//	sort transaction & build FP-Tree
 
 	FPTnode_ptr fptree_root( new FPTnode( "[FP Tree root]" ) );
