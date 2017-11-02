@@ -1,1 +1,5 @@
-123
+1. ./IBM\ Quest\ Data\ Generator/gen lit -ascii -ntrans <n> -tlen <n> -nitems <n> > <ibm_file>
+2. awk -f awk_IBM_data_to_csv <ibm_file> > <csv_file>
+3. cd Asso
+4. make clean MYDEF=-DASSO all
+5. ./asso <csv_file> <min_sup> <min_conf>
