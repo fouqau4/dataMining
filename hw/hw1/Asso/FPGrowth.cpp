@@ -138,7 +138,7 @@ void FPGrowth( string filename, double min_sup, double min_conf )
 			{
 				std::string::size_type n = s.find( ',', beg );
 				string current_item_name = s.substr( beg , n - beg );
-				if( current_item_name != "?" )
+				if( current_item_name != "?" && current_item_name != "" )
 				{
 					//	new item
 					if( one_itemset[item_name[current_item]].first == nullptr )

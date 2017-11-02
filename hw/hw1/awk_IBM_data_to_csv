@@ -1,6 +1,6 @@
 #!/usr/bin/awk
 BEGIN{ 
-	idx = 0;max = 100; getline;
+	idx = 0;max = 3000; getline;
 #	printf "Transaction id";
 	for( i = 0; i < max; i++ ){
 		if( i != 0 )
