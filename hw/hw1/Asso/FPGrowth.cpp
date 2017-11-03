@@ -167,6 +167,8 @@ void FPGrowth( string filename, double min_sup, double min_conf )
 		input_file.close();
 		return;
 	}
+	item_name.clear();
+
 	//	sort transaction & build FP-Tree
 
 	FPTnode_ptr fptree_root( new FPTnode( "[FP Tree root]" ) );
@@ -193,7 +195,7 @@ void FPGrowth( string filename, double min_sup, double min_conf )
 	{
 		//	access the FPTnode pointed by one itemset container
 		FPTnode_ptr tmp = item.second.second;
-		FPTnode_ptr conditional_fpt( new FPTnode( "[cond FP Tree root]" ) );
+		FPTnode_ptr conditional_fpt( new FPTnode( "[cond FP Tree root]" + item.first ) );
 
 		/*	find conditional pattern basis & build conditional fp tree :
 				go through the linked list of item to find all conditional pattern basis of current item.
@@ -230,7 +232,7 @@ void FPGrowth( string filename, double min_sup, double min_conf )
 
 		//	generate frequent pattern
 		map<set<string>, UINT> sub_pat;
-		conditional_fpt->genFreqPat( conditional_fpt, sub_pat, item.first, tran_num, min_sup );
+		conditional_fpt->genFreqPat( conditional_fpt, sub_pat, item.first );
 
 		//	update frequent pattern map
 		freq_pat.insert( pair<set<string>, UINT >( set<string>{ item.first }, *item.second.first.get() ) );
@@ -239,7 +241,7 @@ void FPGrowth( string filename, double min_sup, double min_conf )
 			//	whether the frequent pattern satisfying the minimun support ratio
 			if( static_cast<double>( pat.second ) / static_cast<double>( tran_num ) >= min_sup )
 				freq_pat.insert( pair<set<string>, UINT >( set<string>{ pat.first }, pat.second ) );
-		}		
+		}
 	}
 
 	//	show frequent patterns

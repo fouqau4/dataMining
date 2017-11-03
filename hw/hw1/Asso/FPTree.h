@@ -65,9 +65,7 @@ public:
 	//	generate frequent pattern
 	void genFreqPat( FPTnode_ptr& root,
 						 map<set<string>, UINT>& asso_rule,
-						 const string& item,
-						 const UINT& tran_num,
-						 const double& min_sup );
+						 const string& item );
 private:
 	// 	data member
 	//	item name

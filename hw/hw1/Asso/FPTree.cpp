@@ -97,7 +97,7 @@ void FPTnode::update_cond( deque<FPTnode_ptr>& tran,
 			for( auto node : current_node->child )
 			{
 				//	node exists in conditional FP Tree
-				if( node->item.compare( item->getItem() ) == 0 )
+				if( node->item.compare( item->item ) == 0 )
 				{
 					node->count += sup_num;
 					current_node = node;
@@ -108,7 +108,7 @@ void FPTnode::update_cond( deque<FPTnode_ptr>& tran,
 			//	node does not exists in conditional FP Tree
 			if( !hit )
 			{
-				current_node->child.push_back( FPTnode_ptr( new FPTnode( item->getItem(), sup_num, current_node ) ) );
+				current_node->child.push_back( FPTnode_ptr( new FPTnode( item->item, sup_num, current_node ) ) );
 				current_node = current_node->child.back();
 			}
 		}
@@ -116,7 +116,7 @@ void FPTnode::update_cond( deque<FPTnode_ptr>& tran,
 		else
 		{
 			//	add new node
-			current_node->child.push_back( FPTnode_ptr( new FPTnode( item->getItem(), sup_num, current_node ) ) );
+			current_node->child.push_back( FPTnode_ptr( new FPTnode( item->item, sup_num, current_node ) ) );
 			current_node = current_node->child.back();
 		}
 	}
@@ -124,9 +124,7 @@ void FPTnode::update_cond( deque<FPTnode_ptr>& tran,
 
 void FPTnode::genFreqPat( FPTnode_ptr& root,
 						  map<set<string>, UINT>& asso_rule,
-						  const string& item,
-						  const UINT& tran_num,
-						  const double& min_sup )
+						  const string& item )
 {
 	FPTnode_ptr current_node = root;
 
@@ -171,7 +169,7 @@ void FPTnode::genFreqPat( FPTnode_ptr& root,
 					for( auto pat_pair : cache.back() )
 					{
 						set<string> pat( pat_pair.first );
-						pat.insert( current_node->getItem() );
+						pat.insert( current_node->item );
 
 						ccache.push_back( pat_pair );
 						ccache.push_back( pair<set<string>, UINT>( pat, pat_pair.second ) );
@@ -179,8 +177,7 @@ void FPTnode::genFreqPat( FPTnode_ptr& root,
 					cache.pop_back();
 				}
 
-				set<string> ss = { current_node->getItem(), item };
-				ccache.push_back( pair<set<string>, UINT>( ss, current_node->getCount() ) );
+				ccache.push_back( pair<set<string>, UINT>( { current_node->item, item }, current_node->count ) );
 				cache.push_back( ccache );
 
 				//	go back to parent
@@ -206,8 +203,7 @@ void FPTnode::genFreqPat( FPTnode_ptr& root,
 			idx_stack.pop_back();
 
 			//	cache the pattern
-			set<string> ss = { current_node->getItem(), item };
-			cache.push_back( deque<pair<set<string>, UINT>>{ pair<set<string>, UINT>( ss, current_node->getCount() ) } );
+			cache.push_back( deque<pair<set<string>, UINT>>{ pair<set<string>, UINT>( set<string>{ current_node->item, item }, current_node->count ) } );
 
 			//	go back to parent
 			current_node = current_node->parent;

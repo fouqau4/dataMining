@@ -1,5 +1,7 @@
+#!/bin/bash
 GENERATOR='./IBM Quest Data Generator/gen'
 OUTPUT_DIR='./data/'
 GEN_SUCC_MSG="[OK] Generate data successfully."
 
-"$GENERATOR" lit -ascii -ntrans $1 -tlen $2 -nitems $3 > "$OUTPUT_DIR"T$1L$2N$3_$(date +"%Y%m%d-%T") && echo $GEN_SUCC_MSG
+#"$GENERATOR" lit -ascii -ntrans $1 -tlen $2 -nitems $3 > "$OUTPUT_DIR"T$1L$2N$3_$(date +"%Y%m%d-%T") && echo $GEN_SUCC_MSG
+"$GENERATOR" lit -ascii -ntrans $1 -tlen $2 -nitems $3

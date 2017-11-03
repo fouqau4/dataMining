@@ -1,1 +1,8 @@
-java -Xmx2048m -cp /home/swli/datamining/weka/weka/weka.jar weka.associations.Apriori $1
+#!/bin/bash
+# $1 : name of input file
+# $2 : flags of fpgrowth algorithm, ex : "-M 0.1 -C 0 -S -t"
+TMP_FILE="_weka_apriori_tmp"
+TMP_FILE1="_weka_TMP.csv"
+java -cp /home/swli/datamining/weka/weka/weka.jar weka.filters.unsupervised.attribute.RemoveType -i $1 -o $TMP_FILE
+java -cp /home/swli/datamining/weka/weka/weka.jar weka.core.converters.CSVSaver -i $TMP_FILE -o $TMP_FILE1 && rm $TMP_FILE
+java -Xmx2048m -cp /home/swli/datamining/weka/weka/weka.jar weka.associations.Apriori $2 $TMP_FILE1 && rm $TMP_FILE1
