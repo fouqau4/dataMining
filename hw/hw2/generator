@@ -1,0 +1,36 @@
+#!/bin/bash
+
+NUM=$1
+
+AGE_MAX=100
+GENDER_TYPES=3
+OCCU_TYPES=10
+BLOOD_TYPES=4
+HEIGHT_BASE=140
+HEIGHT_MAX=200
+HEIGHT_VAR=$(( $HEIGHT_MAX-$HEIGHT_BASE ))
+WEIGHT_BASE=35
+WEIGHT_MAX=100
+WEIGHT_VAR=$(( $WEIGHT_MAX-$WEIGHT_BASE ))
+EDU_LEVEL=6;
+REVENUE=
+
+
+
+echo "Age,Gender,Occupations,Blood group,Height,Weight,Education,Revenue,Cosplay"
+
+for (( i = 0; i < $NUM; i++ ))
+do
+	echo -e "\
+\t$(( RANDOM % $AGE_MAX )),\
+\t$(( RANDOM % $GENDER_TYPES )),\
+\t$(( RANDOM % $OCCU_TYPES )),\
+\t$(( RANDOM % $BLOOD_TYPES )),\
+\t$(( ( RANDOM % $HEIGHT_VAR ) + $HEIGHT_BASE )),\
+\t$(( ( RANDOM % $WEIGHT_VAR ) + $WEIGHT_BASE )),\
+\t$(( RANDOM % $EDU_LEVEL )),\
+\t$(( ( RANDOM % 100 + 1 ) * 10 ** ( RANDOM % 3 ) )),\
+\t$(( RANDOM % 2 ))\
+"
+
+done
