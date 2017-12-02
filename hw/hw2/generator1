@@ -1,0 +1,51 @@
+#!/bin/bash
+
+NUM=$1
+
+AGE_MAX=100
+GENDER_LIST=( 'male' 'female' 'third' )
+GENDER_LEN=${#GENDER_LIST[@]}
+OCCUPATIONS_LIST=( 'student' 'teacher' 'engineer' 'programmer' 'salesman' 'neet' 'scientest' 'singer' 'chef' )
+OCCUPATIONS_LEN=${#OCCUPATIONS_LIST[@]}
+BLOOD_LIST=( 'O' 'A' 'B' 'AB' )
+BLOOD_LEN=${#BLOOD_LIST[@]}
+HEIGHT_BASE=140
+HEIGHT_MAX=200
+HEIGHT_VAR=$(( $HEIGHT_MAX-$HEIGHT_BASE ))
+WEIGHT_BASE=35
+WEIGHT_MAX=100
+WEIGHT_VAR=$(( $WEIGHT_MAX-$WEIGHT_BASE ))
+EDU_LIST=( 'primary' 'junior high' 'senior high' 'university' 'master' 'doctor' )
+EDU_LEN=${#EDU_LIST[@]};
+#COS=( 'yes' 'no' )
+
+
+echo "Age,Gender,Occupations,Blood group,Height,Weight,Education,Revenue,Choosed"
+
+for (( i = 0; i < $NUM; i++ ))
+do
+	AGE=$(( RANDOM % $AGE_MAX ))
+	GENDER=${GENDER_LIST[$(( RANDOM % $GENDER_LEN ))]}
+	OCCU=${OCCUPATIONS_LIST[$(( RANDOM % $OCCUPATIONS_LEN ))]}
+	BLOOD=${BLOOD_LIST[$(( RANDOM % $BLOOD_LEN ))]}
+	HEIGHT=$(( ( RANDOM % $HEIGHT_VAR ) + $HEIGHT_BASE ))
+	WEIGHT=$(( ( RANDOM % $WEIGHT_VAR ) + $WEIGHT_BASE ))
+	EDU=${EDU_LIST[$(( RANDOM % $EDU_LEN ))]}
+	REVENUE=$(( ( RANDOM % 100 + 1 ) * 10 ** ( RANDOM % 3 ) ))
+
+	RESULT="$AGE,$GENDER,$OCCU,$BLOOD,$HEIGHT,$WEIGHT,$EDU,$REVENUE"
+
+	if ( [ $AGE -ge 10 ] && [ $AGE -le 17 ] && [ $GENDER == "female" ] && [ $WEIGHT -le 45 ] ) ||\
+	   ( [ $AGE -ge 8 ] && [ $AGE -le 12 ] && [ $GENDER == "male" ] && [ $WEIGHT -le 50 ) ||\
+	   ( [ $AGE -ge 16 ] && [ $AGE -le 40 ] && [ $BLOOD == "O" ] ) ||\
+	   ( [ $AGE -ge 22 ] && [ $AGE -le 50 ] && ( [ "$EDU" == "master" ] || [ "$EDU" == "doctor" ] ) && ( [ "$OCCU" == "programmer" ] || [ "$OCCU" == "scientest" ] || [ "$OCCU" == "engineer" ] ) ) ||\
+	   ( [ $AGE -ge 18 ] && [ $AGE -le 50 ] && [ $OCCU == "chef" ] )
+	then
+		Choosed="yes"
+	else
+		Choosed="no"
+	fi
+	RESULT="$RESULT,$Choosed"
+	echo $RESULT
+
+done
