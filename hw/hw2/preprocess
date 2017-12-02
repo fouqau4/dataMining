@@ -1,0 +1,6 @@
+#!/bin/bash
+IN=$1
+OUT_FILE=(${IN//./ })
+
+java -cp  ~/weka-3-8-1/weka.jar weka.core.converters.CSVLoader $1 > ${OUT_FILE[0]}.arff && echo -e "[OK] Successfully create arff file."
+#java -cp ~/weka-3-8-1/weka.jar weka.filters.unsupervised.attribute.NumericToNominal -R 2-4,7,9 -i data_20.arff

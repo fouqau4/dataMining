@@ -1,0 +1,13 @@
+#!/bin/bash
+
+if [ $# -ne 1 ];
+then
+	echo -e "[HELP]:\n"\
+			"Usage: ./genData <item_number>"
+	exit 1
+fi
+
+CSV_FILE="data_$1.csv"
+
+./generator $1 > $CSV_FILE && echo -e "[OK] Successfully create csv data"
+./preprocess $CSV_FILE

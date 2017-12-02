@@ -3,34 +3,36 @@
 NUM=$1
 
 AGE_MAX=100
-GENDER_TYPES=3
-OCCU_TYPES=10
-BLOOD_TYPES=4
+GENDER=( 'male' 'female' 'third' )
+GENDER_TYPES=${#GENDER[@]}
+OCCU=( 'student' 'teacher' 'engineer' 'programmer' 'salesman' 'neet' 'scientest' 'singer' 'chef' )
+OCCU_TYPES=${#OCCU[@]}
+BLOOD=( 'O' 'A' 'B' 'AB' )
+BLOOD_TYPES=${#BLOOD[@]}
 HEIGHT_BASE=140
 HEIGHT_MAX=200
 HEIGHT_VAR=$(( $HEIGHT_MAX-$HEIGHT_BASE ))
 WEIGHT_BASE=35
 WEIGHT_MAX=100
 WEIGHT_VAR=$(( $WEIGHT_MAX-$WEIGHT_BASE ))
-EDU_LEVEL=6;
-REVENUE=
-
+EDU=( 'primary' 'junior high' 'senior high' 'university' 'master' 'doctor' )
+EDU_LEVEL=${#EDU[@]};
+COS=( 'yes' 'no' );
 
 
 echo "Age,Gender,Occupations,Blood group,Height,Weight,Education,Revenue,Cosplay"
 
 for (( i = 0; i < $NUM; i++ ))
 do
-	echo -e "\
+	echo -e "
 \t$(( RANDOM % $AGE_MAX )),\
-\t$(( RANDOM % $GENDER_TYPES )),\
-\t$(( RANDOM % $OCCU_TYPES )),\
-\t$(( RANDOM % $BLOOD_TYPES )),\
+\t${GENDER[$(( RANDOM % $GENDER_TYPES ))]},\
+\t${OCCU[$(( RANDOM % $OCCU_TYPES ))]},\
+\t${BLOOD[$(( RANDOM % $BLOOD_TYPES ))]},\
 \t$(( ( RANDOM % $HEIGHT_VAR ) + $HEIGHT_BASE )),\
 \t$(( ( RANDOM % $WEIGHT_VAR ) + $WEIGHT_BASE )),\
-\t$(( RANDOM % $EDU_LEVEL )),\
+\t${EDU[$(( RANDOM % $EDU_LEVEL ))]},\
 \t$(( ( RANDOM % 100 + 1 ) * 10 ** ( RANDOM % 3 ) )),\
-\t$(( RANDOM % 2 ))\
-"
+\t${COS[$(( RANDOM % 2 ))]}"
 
 done
