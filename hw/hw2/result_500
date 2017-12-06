@@ -1,0 +1,74 @@
+
+J48 pruned tree
+------------------
+
+Age <= 46
+|   Age <= 11: no (47.0)
+|   Age > 11
+|   |   Blood group = AB: no (24.0/4.0)
+|   |   Blood group = O: yes (36.0/7.0)
+|   |   Blood group = A: no (26.0/5.0)
+|   |   Blood group = B: no (23.0/7.0)
+Age > 46: no (174.0)
+
+Number of Leaves  : 	6
+
+Size of the tree : 	9
+
+
+Time taken to build model: 0.03 seconds
+Time taken to test model on training split: 0.01 seconds
+
+=== Error on training split ===
+
+Correctly Classified Instances         307               93.0303 %
+Incorrectly Classified Instances        23                6.9697 %
+Kappa statistic                          0.6769
+Mean absolute error                      0.1084
+Root mean squared error                  0.2328
+Relative absolute error                 45.6986 %
+Root relative squared error             67.8276 %
+Total Number of Instances              330     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.975    0.356    0.946      0.975    0.960      0.682    0.954     0.990     no
+                 0.644    0.025    0.806      0.644    0.716      0.682    0.954     0.704     yes
+Weighted Avg.    0.930    0.310    0.926      0.930    0.927      0.682    0.954     0.951     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 278   7 |   a = no
+  16  29 |   b = yes
+
+
+=== Error on test split ===
+
+Correctly Classified Instances         158               92.9412 %
+Incorrectly Classified Instances        12                7.0588 %
+Kappa statistic                          0.5643
+Mean absolute error                      0.103 
+Root mean squared error                  0.2383
+Relative absolute error                 46.9437 %
+Root relative squared error             75.3689 %
+Total Number of Instances              170     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.987    0.526    0.937      0.987    0.961      0.590    0.917     0.983     no
+                 0.474    0.013    0.818      0.474    0.600      0.590    0.917     0.601     yes
+Weighted Avg.    0.929    0.469    0.924      0.929    0.921      0.590    0.917     0.940     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 149   2 |   a = no
+  10   9 |   b = yes
+

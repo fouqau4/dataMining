@@ -1,0 +1,120 @@
+
+J48 pruned tree
+------------------
+
+Age <= 50
+|   Age <= 15
+|   |   Weight <= 49
+|   |   |   Age <= 7: no (31.0)
+|   |   |   Age > 7
+|   |   |   |   Gender = male
+|   |   |   |   |   Weight <= 38: no (3.0)
+|   |   |   |   |   Weight > 38: yes (6.0)
+|   |   |   |   Gender = third: no (12.0)
+|   |   |   |   Gender = female
+|   |   |   |   |   Weight <= 45
+|   |   |   |   |   |   Age <= 9: no (2.0)
+|   |   |   |   |   |   Age > 9: yes (6.0)
+|   |   |   |   |   Weight > 45: no (6.0)
+|   |   Weight > 49: no (169.0)
+|   Age > 15
+|   |   Blood group = AB
+|   |   |   Occupations = student: no (19.0)
+|   |   |   Occupations = singer: no (15.0)
+|   |   |   Occupations = scientest: no (5.0/1.0)
+|   |   |   Occupations = programmer
+|   |   |   |   Age <= 28: no (7.0)
+|   |   |   |   Age > 28
+|   |   |   |   |   Revenue <= 730: yes (4.0)
+|   |   |   |   |   Revenue > 730: no (2.0)
+|   |   |   Occupations = teacher: no (14.0)
+|   |   |   Occupations = neet: no (8.0)
+|   |   |   Occupations = chef: yes (13.0/1.0)
+|   |   |   Occupations = salesman: no (10.0)
+|   |   |   Occupations = engineer: no (21.0/3.0)
+|   |   Blood group = O
+|   |   |   Age <= 40: yes (74.0)
+|   |   |   Age > 40
+|   |   |   |   Occupations = student: no (0.0)
+|   |   |   |   Occupations = singer: no (2.0)
+|   |   |   |   Occupations = scientest: no (4.0/1.0)
+|   |   |   |   Occupations = programmer: yes (4.0/1.0)
+|   |   |   |   Occupations = teacher: no (6.0)
+|   |   |   |   Occupations = neet: no (3.0)
+|   |   |   |   Occupations = chef: yes (6.0)
+|   |   |   |   Occupations = salesman: no (2.0)
+|   |   |   |   Occupations = engineer: no (3.0/1.0)
+|   |   Blood group = B
+|   |   |   Occupations = student: no (13.0)
+|   |   |   Occupations = singer: no (15.0)
+|   |   |   Occupations = scientest: no (15.0/3.0)
+|   |   |   Occupations = programmer: no (7.0/1.0)
+|   |   |   Occupations = teacher: no (12.0)
+|   |   |   Occupations = neet: no (9.0)
+|   |   |   Occupations = chef: yes (21.0/1.0)
+|   |   |   Occupations = salesman: no (9.0)
+|   |   |   Occupations = engineer: no (15.0/3.0)
+|   |   Blood group = A: no (109.0/15.0)
+Age > 50: no (638.0)
+
+Number of Leaves  : 	40
+
+Size of the tree : 	55
+
+
+Time taken to build model: 0.07 seconds
+Time taken to test model on training split: 0.02 seconds
+
+=== Error on training split ===
+
+Correctly Classified Instances        1289               97.6515 %
+Incorrectly Classified Instances        31                2.3485 %
+Kappa statistic                          0.8811
+Mean absolute error                      0.0394
+Root mean squared error                  0.1404
+Relative absolute error                 18.5581 %
+Root relative squared error             43.1233 %
+Total Number of Instances             1320     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.997    0.176    0.976      0.997    0.987      0.885    0.989     0.998     no
+                 0.824    0.003    0.978      0.824    0.894      0.885    0.989     0.934     yes
+Weighted Avg.    0.977    0.155    0.977      0.977    0.976      0.885    0.989     0.990     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1158    3 |    a = no
+   28  131 |    b = yes
+
+
+=== Error on test split ===
+
+Correctly Classified Instances         648               95.2941 %
+Incorrectly Classified Instances        32                4.7059 %
+Kappa statistic                          0.7427
+Mean absolute error                      0.062 
+Root mean squared error                  0.1959
+Relative absolute error                 29.4741 %
+Root relative squared error             60.7936 %
+Total Number of Instances              680     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.992    0.338    0.957      0.992    0.974      0.755    0.965     0.993     no
+                 0.663    0.008    0.914      0.663    0.768      0.755    0.965     0.799     yes
+Weighted Avg.    0.953    0.299    0.952      0.953    0.950      0.755    0.965     0.970     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 595   5 |   a = no
+  27  53 |   b = yes
+

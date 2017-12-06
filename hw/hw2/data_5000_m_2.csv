@@ -1,0 +1,5001 @@
+Age,Gender,Occupations,Blood group,Weight,Education,Revenue,Choosed
+76,male,programmer,O,86,doctor,6100,no
+44,third,neet,B,71,doctor,4600,no
+15,male,neet,O,86,senior high,6200,no
+31,female,teacher,AB,88,university,430,no
+55,female,neet,A,80,primary,7000,no
+84,female,scientest,B,37,senior high,80,no
+46,male,singer,AB,70,primary,27,no
+76,male,teacher,O,71,master,520,no
+36,female,programmer,O,61,senior high,390,yes
+98,female,teacher,A,78,senior high,500,no
+76,female,student,AB,95,master,920,no
+60,third,programmer,B,57,senior high,660,no
+59,third,singer,AB,40,university,19,no
+48,third,chef,A,98,senior high,23,yes
+45,third,neet,B,96,senior high,17,no
+59,male,student,AB,75,university,34,no
+36,third,student,B,86,master,9500,no
+25,female,neet,AB,54,university,450,no
+47,third,singer,O,66,doctor,870,no
+40,male,scientest,A,37,senior high,560,no
+93,male,student,B,44,primary,1700,no
+42,third,singer,B,94,primary,51,no
+71,male,student,A,36,master,990,no
+42,male,salesman,A,36,senior high,7900,no
+75,third,singer,B,35,doctor,20,no
+34,third,salesman,O,60,doctor,67,yes
+92,third,student,AB,68,doctor,75,no
+30,male,teacher,AB,95,senior high,35,no
+11,female,engineer,B,57,primary,19,no
+20,female,student,B,60,master,97,no
+42,male,scientest,A,37,primary,40,no
+80,third,scientest,O,41,senior high,59,no
+8,female,programmer,B,55,junior high,970,no
+72,third,scientest,O,49,junior high,46,no
+71,third,singer,O,35,doctor,2000,no
+95,female,scientest,B,92,master,2100,no
+18,female,programmer,A,64,junior high,84,no
+98,third,neet,AB,71,university,83,no
+92,female,student,B,86,university,3400,no
+3,male,salesman,O,93,university,51,no
+63,female,neet,O,80,university,34,no
+2,third,teacher,AB,53,doctor,99,no
+66,third,student,A,92,master,570,no
+85,male,student,O,49,master,79,no
+41,male,neet,O,68,junior high,6000,no
+14,male,student,AB,57,junior high,50,no
+17,male,engineer,AB,35,master,1600,no
+67,female,scientest,AB,49,primary,74,no
+5,female,programmer,AB,49,doctor,21,no
+75,female,programmer,AB,73,master,340,no
+85,male,student,AB,50,master,1800,no
+96,male,student,AB,77,junior high,930,no
+52,third,student,B,57,senior high,27,no
+22,female,teacher,B,74,primary,1100,no
+44,male,salesman,A,42,primary,480,no
+85,third,programmer,B,88,university,64,no
+23,female,chef,A,76,junior high,650,yes
+92,female,salesman,AB,41,senior high,840,no
+30,female,salesman,AB,64,master,3,no
+82,male,programmer,B,70,senior high,19,no
+13,third,neet,A,41,primary,950,no
+28,third,programmer,O,88,master,830,yes
+98,female,student,AB,98,master,270,no
+86,female,teacher,A,81,primary,61,no
+80,female,scientest,AB,35,master,180,no
+55,female,student,A,35,junior high,2400,no
+63,third,teacher,O,93,junior high,5400,no
+81,third,singer,B,94,senior high,590,no
+23,female,programmer,AB,55,master,38,yes
+94,male,programmer,B,43,doctor,8900,no
+24,male,chef,A,97,university,50,yes
+42,third,scientest,B,97,senior high,3500,no
+22,third,scientest,A,42,senior high,800,no
+2,female,student,AB,58,university,7300,no
+41,third,teacher,AB,79,doctor,25,no
+2,male,scientest,AB,61,doctor,210,no
+15,female,scientest,AB,91,university,1000,no
+44,female,neet,O,81,junior high,9400,no
+88,third,programmer,B,65,master,870,no
+78,male,teacher,A,36,master,95,no
+61,male,singer,O,68,junior high,22,no
+41,male,chef,AB,81,university,9400,yes
+99,third,teacher,B,65,junior high,25,no
+3,female,singer,AB,94,master,3000,no
+67,male,neet,O,54,doctor,3900,no
+18,female,teacher,AB,98,doctor,510,no
+43,third,chef,B,38,senior high,180,yes
+53,male,engineer,AB,93,doctor,200,no
+11,male,student,AB,81,doctor,520,no
+21,female,programmer,AB,85,primary,580,no
+17,third,teacher,O,45,senior high,23,yes
+60,male,neet,O,79,primary,850,no
+34,male,chef,A,76,university,940,yes
+2,third,neet,AB,85,junior high,220,no
+20,female,programmer,A,70,primary,99,no
+63,male,neet,O,76,university,1000,no
+93,female,singer,A,47,university,2700,no
+51,third,chef,A,38,doctor,6500,no
+67,female,student,B,77,university,4700,no
+91,male,teacher,AB,73,primary,20,no
+78,third,neet,AB,38,master,19,no
+16,male,chef,AB,88,junior high,10,no
+46,third,neet,B,77,master,2100,no
+37,third,teacher,O,90,junior high,210,yes
+41,male,teacher,O,47,doctor,5000,no
+11,female,teacher,AB,70,primary,1,no
+72,male,engineer,B,52,junior high,1700,no
+62,male,engineer,AB,76,primary,210,no
+90,female,student,O,84,primary,64,no
+69,third,teacher,A,58,doctor,71,no
+66,third,programmer,B,60,primary,740,no
+91,third,engineer,O,91,master,40,no
+67,third,engineer,B,41,primary,67,no
+11,third,chef,O,68,master,210,no
+90,third,singer,B,61,junior high,700,no
+71,male,singer,A,96,doctor,5300,no
+21,male,scientest,AB,77,master,7000,no
+10,male,scientest,B,60,senior high,45,no
+9,female,chef,B,54,junior high,230,no
+46,third,student,A,99,doctor,9900,no
+56,female,engineer,A,66,senior high,9300,no
+42,female,neet,AB,91,primary,100,no
+41,female,neet,AB,67,senior high,18,no
+91,female,singer,B,74,junior high,9100,no
+86,female,singer,B,47,senior high,51,no
+21,male,chef,O,38,university,32,yes
+42,male,engineer,B,62,master,900,yes
+2,female,scientest,AB,68,doctor,56,no
+27,female,scientest,B,69,doctor,42,yes
+28,male,chef,O,70,junior high,330,yes
+50,female,engineer,A,47,senior high,610,no
+16,female,programmer,A,98,junior high,2100,no
+52,third,engineer,B,75,university,3400,no
+24,third,student,AB,81,university,38,no
+44,male,engineer,B,59,master,950,yes
+22,male,teacher,AB,85,primary,7800,no
+29,male,scientest,B,85,junior high,61,no
+49,male,scientest,O,47,university,650,no
+38,male,teacher,B,92,doctor,480,no
+11,male,teacher,B,87,primary,140,no
+55,third,teacher,O,90,junior high,990,no
+79,female,singer,A,41,university,2100,no
+27,male,singer,A,67,senior high,8700,no
+33,male,scientest,AB,55,junior high,420,no
+43,third,chef,O,36,doctor,910,yes
+95,male,student,B,63,junior high,6400,no
+46,male,scientest,AB,79,junior high,900,no
+84,third,student,B,62,senior high,6700,no
+20,third,scientest,AB,90,university,7000,no
+17,third,teacher,B,88,primary,870,no
+42,third,programmer,A,95,master,6400,yes
+37,third,scientest,AB,96,senior high,85,no
+46,male,singer,B,55,primary,30,no
+39,male,salesman,B,84,university,40,no
+21,third,salesman,B,91,junior high,290,no
+12,female,salesman,AB,77,senior high,78,no
+33,third,student,B,77,master,630,no
+23,female,neet,AB,95,junior high,4600,no
+8,third,salesman,A,70,university,60,no
+1,female,scientest,A,68,junior high,8300,no
+39,male,chef,O,90,university,250,yes
+93,male,programmer,B,63,primary,82,no
+61,third,neet,AB,68,university,85,no
+38,male,scientest,AB,42,junior high,330,no
+87,third,salesman,B,85,senior high,6400,no
+73,male,salesman,A,43,doctor,59,no
+7,female,engineer,A,50,primary,48,no
+26,female,programmer,AB,65,senior high,480,no
+23,male,programmer,O,45,primary,10,yes
+9,female,salesman,O,93,master,280,no
+16,male,neet,A,79,doctor,97,no
+32,female,neet,A,59,primary,1700,no
+97,male,student,AB,44,senior high,50,no
+18,male,programmer,B,35,doctor,210,no
+31,third,chef,O,77,primary,3200,yes
+55,female,teacher,A,91,university,38,no
+40,male,salesman,AB,56,university,79,no
+49,third,singer,A,79,junior high,63,no
+57,male,engineer,AB,35,doctor,4900,no
+26,male,student,O,92,doctor,22,yes
+68,male,engineer,B,50,junior high,820,no
+76,third,chef,B,88,primary,72,no
+65,male,scientest,B,55,university,930,no
+87,third,neet,AB,44,primary,56,no
+43,third,salesman,O,47,junior high,760,no
+44,third,teacher,O,87,university,70,no
+41,male,student,O,80,junior high,8800,no
+52,male,scientest,AB,40,master,37,no
+92,male,engineer,A,40,doctor,300,no
+11,male,teacher,A,38,university,330,yes
+40,third,salesman,O,39,primary,760,yes
+34,third,engineer,AB,99,university,400,no
+50,female,singer,O,49,master,19,no
+89,third,teacher,AB,79,senior high,390,no
+27,female,student,B,79,senior high,370,no
+58,male,salesman,AB,48,primary,1100,no
+51,third,programmer,AB,90,doctor,7000,no
+26,third,chef,AB,46,junior high,7000,yes
+68,third,neet,O,96,junior high,8900,no
+6,male,engineer,B,90,master,37,no
+89,third,programmer,O,71,senior high,6700,no
+63,third,engineer,AB,62,doctor,69,no
+33,female,singer,AB,57,university,20,no
+35,female,singer,O,35,doctor,300,yes
+72,male,singer,A,95,master,9600,no
+19,male,salesman,B,72,doctor,330,no
+84,third,chef,B,97,master,3500,no
+73,female,scientest,B,58,doctor,970,no
+35,female,teacher,O,36,primary,9900,yes
+5,female,programmer,AB,91,junior high,40,no
+39,third,programmer,O,67,senior high,8100,yes
+14,male,singer,B,35,primary,8700,no
+91,female,teacher,AB,96,senior high,5900,no
+1,female,scientest,AB,79,primary,59,no
+45,male,engineer,A,91,doctor,26,yes
+44,male,singer,O,78,doctor,8800,no
+92,male,scientest,A,76,junior high,5300,no
+17,female,programmer,A,75,senior high,2100,no
+16,male,salesman,B,82,university,13,no
+94,third,chef,O,40,university,440,no
+96,third,teacher,A,59,master,94,no
+56,female,singer,O,52,master,38,no
+72,third,chef,B,84,junior high,320,no
+11,female,singer,A,76,senior high,7400,no
+93,female,programmer,B,48,junior high,70,no
+84,third,engineer,AB,42,primary,48,no
+93,female,singer,O,99,master,2100,no
+83,female,teacher,O,46,senior high,50,no
+7,third,programmer,AB,51,university,9700,no
+76,male,programmer,B,89,master,2900,no
+45,male,neet,B,84,senior high,80,no
+32,female,teacher,AB,95,university,8900,no
+14,female,teacher,B,69,doctor,8200,no
+33,third,teacher,O,81,university,800,yes
+55,third,neet,AB,57,senior high,60,no
+86,female,chef,B,77,junior high,37,no
+49,female,singer,A,50,doctor,650,no
+8,female,teacher,B,37,university,140,no
+13,male,chef,B,79,junior high,680,no
+73,female,neet,B,42,junior high,23,no
+70,third,chef,O,38,primary,500,no
+95,third,teacher,O,82,primary,340,no
+75,male,singer,A,52,senior high,70,no
+0,third,singer,B,65,doctor,920,no
+83,third,neet,A,50,junior high,95,no
+85,female,chef,O,86,junior high,8700,no
+90,third,programmer,B,36,junior high,8700,no
+48,third,neet,AB,77,master,9400,no
+27,male,scientest,B,90,university,80,no
+67,third,programmer,B,51,doctor,7000,no
+99,female,singer,O,76,master,5,no
+32,female,neet,AB,89,master,77,no
+77,male,scientest,O,66,doctor,340,no
+66,third,programmer,B,42,primary,82,no
+29,male,student,A,60,doctor,40,no
+49,male,scientest,AB,60,university,460,no
+11,third,student,AB,63,university,920,no
+50,male,programmer,A,72,master,6000,yes
+28,male,programmer,B,84,primary,100,no
+21,female,salesman,AB,35,master,31,no
+71,male,salesman,AB,58,junior high,56,no
+80,female,programmer,AB,50,primary,270,no
+38,female,scientest,A,98,master,6400,yes
+73,female,chef,B,92,senior high,1,no
+56,male,salesman,A,67,junior high,100,no
+86,female,chef,O,50,primary,17,no
+7,male,neet,AB,87,primary,310,no
+70,third,neet,AB,99,master,2800,no
+59,female,programmer,O,53,university,3300,no
+29,female,chef,O,90,university,14,yes
+38,male,singer,B,67,primary,740,no
+64,female,teacher,O,61,doctor,91,no
+64,female,chef,AB,36,primary,78,no
+39,female,programmer,A,77,junior high,60,no
+27,female,teacher,B,84,senior high,70,no
+6,female,programmer,AB,96,senior high,320,no
+49,male,chef,AB,42,university,82,yes
+73,male,chef,O,59,primary,80,no
+69,male,teacher,B,49,university,8300,no
+66,third,teacher,B,59,doctor,940,no
+64,male,teacher,AB,38,doctor,9700,no
+65,male,chef,AB,99,doctor,2100,no
+56,third,singer,O,53,doctor,700,no
+80,female,salesman,A,67,university,460,no
+25,male,neet,O,72,doctor,83,yes
+66,male,teacher,A,70,master,1300,no
+54,male,chef,A,47,master,2400,no
+55,third,teacher,O,79,university,5600,no
+7,male,teacher,B,88,senior high,2000,no
+25,female,neet,A,96,university,650,no
+16,male,singer,O,68,doctor,21,yes
+8,female,student,O,87,senior high,54,no
+97,female,student,B,48,senior high,88,no
+93,male,scientest,A,61,master,840,no
+96,third,salesman,O,75,master,250,no
+88,female,neet,AB,42,junior high,390,no
+1,female,student,B,43,primary,91,no
+35,female,singer,B,47,university,33,no
+78,female,singer,AB,52,primary,1800,no
+30,female,neet,B,37,university,300,no
+24,third,teacher,B,60,primary,50,no
+59,third,student,B,90,primary,200,no
+61,female,teacher,B,76,doctor,1600,no
+83,male,salesman,A,86,junior high,820,no
+62,female,scientest,B,65,senior high,380,no
+74,female,programmer,AB,72,senior high,22,no
+47,female,chef,B,90,junior high,5800,yes
+42,third,chef,O,57,senior high,870,yes
+72,female,singer,AB,57,doctor,35,no
+38,female,engineer,O,50,master,6400,yes
+53,third,chef,A,99,master,400,no
+64,female,teacher,AB,62,junior high,940,no
+13,male,singer,B,51,primary,1900,no
+22,male,chef,B,71,master,750,yes
+8,third,teacher,O,40,doctor,27,no
+51,third,neet,B,40,senior high,28,no
+90,third,student,O,52,junior high,8700,no
+60,third,student,A,76,doctor,7500,no
+3,female,teacher,B,95,master,3200,no
+85,female,chef,B,52,doctor,7600,no
+72,female,singer,A,65,junior high,6400,no
+67,third,salesman,B,93,master,9300,no
+24,male,chef,A,51,master,360,yes
+91,male,engineer,AB,70,senior high,97,no
+95,male,teacher,AB,73,junior high,350,no
+54,male,programmer,O,78,university,59,no
+60,third,student,B,87,senior high,420,no
+15,male,salesman,O,52,senior high,59,no
+15,third,programmer,AB,39,master,3200,no
+50,third,neet,AB,57,master,28,no
+7,male,neet,A,48,university,7600,no
+61,female,chef,O,96,university,390,no
+19,male,chef,AB,91,junior high,1600,yes
+50,third,teacher,B,40,master,55,no
+27,third,student,O,39,doctor,62,yes
+79,third,teacher,AB,58,senior high,210,no
+39,third,salesman,A,83,junior high,390,no
+9,female,salesman,AB,43,doctor,7200,no
+94,male,programmer,AB,77,junior high,510,no
+25,male,singer,A,46,junior high,15,no
+24,female,scientest,O,78,master,400,yes
+23,third,singer,O,82,senior high,220,yes
+96,female,singer,O,62,doctor,17,no
+74,male,student,A,87,master,6600,no
+58,male,student,B,35,doctor,9100,no
+68,male,chef,O,90,master,3400,no
+94,third,salesman,A,60,doctor,68,no
+41,third,student,B,37,junior high,1,no
+13,female,scientest,B,52,doctor,710,no
+27,female,scientest,AB,40,junior high,7600,no
+69,male,teacher,AB,43,master,900,no
+97,male,teacher,O,38,primary,32,no
+59,female,singer,AB,66,master,350,no
+57,male,chef,B,35,university,1600,no
+86,male,teacher,A,36,master,1400,no
+41,male,salesman,A,56,university,350,no
+94,male,programmer,B,47,master,4900,no
+90,female,salesman,A,87,doctor,130,no
+78,male,singer,O,65,doctor,520,no
+11,third,singer,B,62,master,580,no
+41,third,programmer,A,60,senior high,5000,no
+64,male,programmer,AB,73,doctor,49,no
+85,third,singer,AB,77,university,1800,no
+70,male,singer,AB,55,primary,6000,no
+48,female,neet,AB,36,doctor,38,no
+58,male,singer,AB,99,senior high,78,no
+78,third,teacher,O,47,university,64,no
+16,male,programmer,O,86,university,34,yes
+72,female,engineer,B,56,senior high,52,no
+25,male,chef,O,43,university,73,yes
+52,female,engineer,B,47,university,38,no
+53,third,programmer,AB,85,senior high,40,no
+86,third,programmer,A,54,university,600,no
+26,third,student,B,56,senior high,560,no
+68,female,engineer,O,55,master,600,no
+17,third,student,B,46,senior high,710,no
+12,male,singer,A,52,master,45,no
+59,female,student,A,74,junior high,3100,no
+9,male,scientest,O,58,senior high,3900,no
+20,third,salesman,AB,88,university,700,no
+33,male,chef,B,48,junior high,18,yes
+51,third,engineer,A,93,university,9800,no
+97,female,salesman,B,97,senior high,7800,no
+0,third,programmer,A,94,junior high,8600,no
+0,third,chef,A,94,senior high,3400,no
+95,third,scientest,A,48,university,310,no
+24,third,scientest,O,67,senior high,52,yes
+28,female,teacher,A,65,senior high,96,no
+17,male,chef,A,49,junior high,77,no
+81,male,teacher,AB,52,master,140,no
+42,female,salesman,O,43,junior high,7400,no
+19,female,scientest,O,43,master,390,yes
+25,male,neet,A,92,university,4500,no
+37,third,teacher,A,72,senior high,970,no
+39,third,neet,B,71,master,73,no
+44,male,student,B,78,doctor,840,no
+65,female,singer,O,54,senior high,54,no
+95,male,programmer,AB,85,primary,570,no
+10,third,neet,O,71,master,22,no
+13,female,salesman,A,53,doctor,680,no
+79,female,student,O,49,primary,14,no
+82,male,programmer,A,86,senior high,77,no
+33,female,singer,A,80,junior high,36,no
+65,male,teacher,B,72,primary,200,no
+6,third,chef,O,99,primary,44,no
+58,third,programmer,AB,79,university,98,no
+58,male,programmer,O,79,primary,6800,no
+35,female,chef,A,51,primary,72,yes
+54,third,salesman,B,93,senior high,50,no
+25,third,programmer,AB,62,university,140,no
+30,male,engineer,AB,93,master,45,yes
+58,third,teacher,A,85,senior high,7,no
+1,third,neet,B,95,junior high,8300,no
+25,female,singer,A,97,doctor,6500,no
+78,female,engineer,O,36,senior high,5,no
+40,female,chef,AB,88,junior high,410,yes
+84,third,salesman,AB,36,master,6300,no
+51,female,scientest,A,99,senior high,13,no
+95,female,student,O,80,primary,720,no
+91,male,student,A,40,university,75,no
+70,female,chef,B,44,primary,39,no
+42,male,student,A,59,junior high,8700,no
+44,female,salesman,A,63,master,10000,no
+15,female,salesman,O,44,primary,2400,yes
+35,male,student,O,74,master,2900,yes
+49,third,student,AB,83,university,460,no
+29,male,salesman,O,77,senior high,110,yes
+97,female,singer,A,47,junior high,20,no
+22,third,student,B,61,primary,90,no
+86,female,chef,A,64,senior high,74,no
+67,male,chef,A,46,doctor,50,no
+59,female,student,O,98,doctor,2100,no
+6,female,engineer,B,75,junior high,400,no
+52,third,neet,B,93,primary,26,no
+83,third,neet,B,60,doctor,85,no
+60,female,singer,AB,76,university,2,no
+96,third,salesman,B,60,doctor,8,no
+67,male,engineer,AB,40,master,4800,no
+0,male,scientest,A,98,senior high,27,no
+10,female,chef,B,84,primary,60,no
+31,female,engineer,AB,84,primary,45,no
+8,male,chef,AB,82,master,830,no
+76,third,neet,O,93,senior high,12,no
+96,third,engineer,A,38,doctor,7900,no
+34,male,teacher,O,81,master,4200,yes
+64,third,salesman,A,46,senior high,91,no
+61,female,neet,B,35,master,15,no
+4,third,salesman,A,79,primary,610,no
+4,male,engineer,O,51,doctor,480,no
+28,female,engineer,A,67,senior high,300,no
+57,third,scientest,B,79,junior high,470,no
+11,male,chef,O,61,junior high,8800,no
+73,third,student,B,92,master,280,no
+81,male,salesman,AB,83,primary,31,no
+20,male,student,O,36,primary,120,yes
+50,female,engineer,B,75,junior high,280,no
+69,female,scientest,B,42,senior high,290,no
+1,female,neet,A,63,doctor,330,no
+35,third,salesman,B,51,doctor,59,no
+97,female,teacher,AB,44,university,39,no
+74,male,singer,O,36,senior high,7900,no
+73,third,scientest,AB,55,university,210,no
+98,male,student,AB,92,junior high,2400,no
+32,third,programmer,A,87,university,59,no
+30,male,salesman,AB,98,senior high,49,no
+84,male,teacher,O,42,senior high,31,no
+56,male,teacher,O,93,primary,430,no
+71,third,chef,B,60,doctor,980,no
+79,female,singer,AB,64,senior high,7700,no
+76,male,student,B,62,junior high,6200,no
+0,male,teacher,O,56,junior high,1800,no
+70,third,singer,O,62,senior high,700,no
+91,female,chef,A,57,senior high,5200,no
+73,female,singer,A,81,primary,630,no
+11,female,singer,A,52,doctor,290,no
+4,female,neet,AB,96,primary,220,no
+69,male,engineer,O,76,senior high,95,no
+82,female,neet,A,82,university,1700,no
+23,third,scientest,AB,84,junior high,540,no
+23,male,engineer,AB,66,master,400,yes
+56,female,neet,A,86,university,330,no
+99,male,student,O,65,doctor,66,no
+45,third,teacher,O,37,doctor,2500,no
+44,female,engineer,B,61,doctor,5700,yes
+92,male,chef,AB,35,senior high,7300,no
+58,female,chef,B,51,primary,12,no
+69,male,programmer,AB,81,primary,400,no
+97,female,scientest,AB,35,senior high,930,no
+17,female,programmer,A,38,senior high,2400,yes
+61,third,teacher,O,42,senior high,90,no
+88,female,student,AB,78,senior high,350,no
+21,female,neet,B,55,senior high,950,no
+1,third,student,A,50,senior high,630,no
+21,third,student,B,89,senior high,10000,no
+84,male,salesman,AB,92,junior high,530,no
+95,third,scientest,O,73,master,870,no
+76,female,engineer,AB,83,primary,71,no
+33,male,scientest,O,51,primary,350,yes
+87,male,chef,AB,43,master,970,no
+80,male,neet,AB,40,university,5400,no
+20,male,programmer,AB,54,master,85,no
+3,male,student,A,69,primary,530,no
+80,male,scientest,O,62,junior high,62,no
+38,third,programmer,B,37,master,4200,yes
+49,third,singer,AB,82,junior high,610,no
+87,third,neet,B,56,doctor,3000,no
+67,male,programmer,A,84,senior high,440,no
+25,male,singer,AB,99,doctor,910,no
+23,female,student,AB,57,doctor,5100,no
+39,female,chef,O,86,master,300,yes
+38,third,chef,O,87,master,990,yes
+70,female,teacher,AB,91,master,55,no
+12,male,engineer,AB,50,junior high,9100,yes
+99,male,programmer,A,37,junior high,17,no
+99,female,singer,AB,81,senior high,8100,no
+91,male,student,A,39,doctor,700,no
+74,female,student,A,62,junior high,840,no
+62,male,teacher,B,49,primary,23,no
+9,male,singer,O,78,senior high,900,no
+49,male,scientest,AB,48,university,840,no
+16,female,engineer,AB,74,junior high,68,no
+98,third,teacher,A,62,junior high,680,no
+49,male,scientest,B,45,university,26,no
+11,female,scientest,B,41,senior high,520,yes
+21,female,chef,A,92,master,920,yes
+77,female,salesman,AB,99,master,30,no
+35,female,student,B,81,senior high,7600,no
+0,third,teacher,O,82,doctor,760,no
+22,male,salesman,B,97,junior high,1100,no
+38,third,teacher,O,73,doctor,300,yes
+85,male,student,A,90,primary,5700,no
+52,male,programmer,A,66,doctor,430,no
+10,male,salesman,A,82,primary,40,no
+15,female,chef,O,68,university,97,no
+37,female,student,AB,75,junior high,18,no
+22,third,student,B,51,university,5500,no
+62,male,singer,O,79,doctor,94,no
+61,third,engineer,O,57,university,4000,no
+80,male,chef,O,76,doctor,20,no
+38,male,programmer,O,91,senior high,520,yes
+20,third,neet,A,96,primary,420,no
+95,female,neet,AB,88,senior high,3400,no
+2,female,programmer,A,93,senior high,66,no
+75,male,teacher,B,76,university,1800,no
+27,third,neet,AB,38,senior high,930,no
+15,male,programmer,AB,62,master,9300,no
+91,third,neet,B,38,master,190,no
+7,male,singer,AB,73,primary,77,no
+90,female,teacher,B,58,university,9,no
+2,male,neet,B,90,primary,87,no
+21,male,scientest,AB,46,junior high,1400,no
+79,female,salesman,O,56,junior high,720,no
+27,female,singer,O,61,university,5600,yes
+51,third,student,O,51,senior high,13,no
+21,male,student,O,74,senior high,38,yes
+0,female,student,O,37,primary,22,no
+31,male,singer,O,86,junior high,93,yes
+64,third,neet,AB,44,primary,71,no
+85,female,salesman,A,38,doctor,7200,no
+72,male,salesman,O,86,master,2800,no
+21,female,singer,B,63,master,4200,no
+20,female,engineer,A,93,senior high,88,no
+60,third,engineer,O,77,junior high,60,no
+72,male,student,A,68,master,3100,no
+27,third,engineer,O,92,master,970,yes
+33,third,neet,O,50,doctor,780,yes
+51,female,scientest,A,47,senior high,510,no
+96,third,engineer,AB,55,doctor,9300,no
+8,male,salesman,O,49,doctor,550,yes
+17,third,chef,O,85,senior high,85,yes
+65,third,engineer,B,78,master,31,no
+49,female,singer,B,94,primary,89,no
+48,female,teacher,A,84,primary,6400,no
+20,female,scientest,O,56,primary,61,yes
+10,female,student,B,44,primary,87,yes
+17,female,teacher,AB,51,senior high,470,no
+61,male,programmer,B,56,university,12,no
+68,female,engineer,B,69,junior high,76,no
+8,male,neet,AB,71,senior high,72,no
+79,female,engineer,O,66,junior high,7100,no
+8,male,student,A,78,doctor,97,no
+18,male,student,AB,86,primary,18,no
+61,third,student,O,53,senior high,12,no
+78,male,teacher,B,37,senior high,26,no
+39,male,programmer,AB,78,primary,490,no
+96,female,student,AB,93,junior high,690,no
+40,male,neet,A,45,doctor,12,no
+82,male,chef,A,82,university,24,no
+66,third,programmer,O,94,master,72,no
+42,female,salesman,A,41,junior high,21,no
+54,male,student,A,93,university,71,no
+8,male,engineer,O,50,master,37,yes
+36,male,programmer,B,38,master,9300,yes
+14,female,engineer,AB,83,senior high,62,no
+17,third,singer,O,91,primary,4900,yes
+97,male,programmer,A,49,master,430,no
+7,female,scientest,B,83,master,760,no
+23,male,programmer,AB,82,master,78,yes
+80,male,engineer,AB,98,master,8900,no
+40,third,neet,AB,39,senior high,6,no
+34,female,programmer,O,47,senior high,7400,yes
+43,female,scientest,A,59,primary,460,no
+67,third,programmer,O,72,doctor,70,no
+13,third,salesman,AB,45,primary,150,no
+2,third,singer,AB,46,master,26,no
+13,male,student,AB,88,master,9800,no
+1,male,chef,AB,71,master,15,no
+88,male,teacher,O,92,primary,42,no
+30,male,teacher,B,50,university,78,no
+46,third,chef,B,47,master,560,yes
+93,third,teacher,B,51,university,71,no
+23,male,singer,B,87,senior high,41,no
+29,female,salesman,O,87,master,3600,yes
+11,third,singer,AB,95,senior high,29,no
+73,third,chef,O,67,senior high,54,no
+54,male,neet,O,42,doctor,1700,no
+46,male,teacher,A,87,doctor,95,no
+62,male,singer,O,65,doctor,44,no
+19,female,salesman,AB,91,master,90,no
+33,male,neet,AB,54,doctor,500,no
+65,male,salesman,A,71,master,30,no
+82,female,singer,AB,82,primary,20,no
+66,third,programmer,AB,59,university,40,no
+68,male,scientest,O,81,university,50,no
+67,female,engineer,B,74,university,85,no
+13,third,student,A,50,university,4400,no
+81,female,neet,B,84,doctor,8300,no
+98,male,engineer,A,93,master,29,no
+35,female,programmer,O,87,university,31,yes
+21,female,chef,A,50,master,9000,yes
+93,third,singer,A,52,senior high,66,no
+34,male,salesman,A,82,master,4000,no
+20,female,singer,B,71,junior high,2400,no
+61,male,singer,O,39,senior high,81,no
+63,male,neet,A,99,university,660,no
+1,male,scientest,A,80,junior high,440,no
+90,female,neet,AB,77,university,1400,no
+29,male,neet,B,74,senior high,6800,no
+2,third,singer,AB,78,university,62,no
+19,male,salesman,B,55,senior high,600,no
+46,male,salesman,B,69,junior high,600,no
+83,third,singer,O,81,university,9000,no
+94,third,scientest,B,45,primary,47,no
+20,male,scientest,AB,57,doctor,30,no
+26,third,chef,A,70,doctor,680,yes
+43,male,neet,O,42,junior high,26,no
+70,female,chef,AB,51,senior high,6100,no
+47,male,salesman,AB,78,doctor,1900,no
+12,third,chef,B,75,junior high,1600,no
+46,male,scientest,AB,46,doctor,30,yes
+48,third,singer,B,73,junior high,7400,no
+85,female,engineer,AB,56,primary,5300,no
+3,male,singer,AB,48,doctor,8600,no
+54,third,neet,O,98,senior high,26,no
+99,male,salesman,B,65,primary,83,no
+3,male,chef,AB,36,doctor,3800,no
+90,female,singer,B,81,doctor,5500,no
+48,female,engineer,O,98,primary,7100,no
+64,male,singer,AB,49,university,5600,no
+27,third,salesman,B,65,master,250,no
+29,male,engineer,O,47,master,42,yes
+46,male,scientest,B,79,senior high,74,no
+96,male,teacher,AB,74,university,930,no
+62,male,engineer,A,81,senior high,7800,no
+81,female,engineer,A,70,junior high,6300,no
+64,female,singer,A,89,university,92,no
+39,third,singer,B,91,senior high,3,no
+37,third,programmer,A,95,university,840,no
+37,female,neet,A,88,senior high,4,no
+65,third,student,O,96,senior high,550,no
+17,third,salesman,AB,84,primary,490,no
+95,female,teacher,A,64,junior high,96,no
+96,female,chef,AB,65,doctor,51,no
+35,third,scientest,O,99,master,48,yes
+14,female,chef,A,73,university,10,no
+69,female,salesman,A,51,senior high,1000,no
+75,third,teacher,A,96,junior high,5600,no
+78,female,singer,A,78,doctor,360,no
+44,female,programmer,A,41,primary,7800,no
+69,male,scientest,B,43,master,33,no
+70,female,singer,A,81,senior high,680,no
+73,female,singer,B,70,junior high,91,no
+8,third,teacher,B,40,university,81,no
+41,male,programmer,O,74,primary,56,no
+93,female,neet,A,91,master,2,no
+0,female,salesman,AB,74,doctor,2400,no
+96,third,programmer,B,73,junior high,69,no
+61,male,teacher,A,77,primary,64,no
+2,female,teacher,A,98,senior high,540,no
+9,third,programmer,B,62,doctor,6000,no
+94,male,salesman,AB,99,master,1500,no
+32,male,neet,B,54,primary,36,no
+88,third,salesman,AB,97,doctor,86,no
+90,third,neet,AB,72,senior high,470,no
+92,female,programmer,AB,79,university,52,no
+49,third,teacher,A,96,university,8200,no
+30,male,scientest,A,44,doctor,8700,yes
+88,third,chef,AB,66,junior high,260,no
+13,male,singer,B,61,master,62,no
+17,male,neet,A,62,junior high,2,no
+40,third,salesman,AB,35,doctor,7000,no
+65,third,salesman,A,56,primary,400,no
+42,third,teacher,AB,45,doctor,830,no
+11,female,singer,AB,54,doctor,4400,no
+59,female,salesman,O,38,junior high,100,no
+1,female,neet,B,58,doctor,6300,no
+54,female,scientest,O,86,doctor,6,no
+26,third,student,A,79,senior high,3200,no
+28,female,engineer,AB,70,university,78,no
+97,female,engineer,AB,91,master,630,no
+28,male,student,AB,66,junior high,650,no
+72,male,neet,A,75,junior high,56,no
+25,female,programmer,O,50,master,3700,yes
+78,male,engineer,O,44,senior high,270,no
+74,third,teacher,B,61,university,7300,no
+33,third,engineer,AB,48,primary,31,no
+96,female,engineer,O,38,doctor,700,no
+91,female,teacher,AB,91,junior high,14,no
+40,male,student,AB,67,senior high,1300,no
+15,third,chef,B,42,doctor,5100,no
+86,female,teacher,AB,72,university,860,no
+82,third,singer,O,97,master,26,no
+74,female,engineer,A,46,university,680,no
+25,third,salesman,B,65,doctor,1100,no
+34,male,student,O,37,doctor,38,yes
+2,male,scientest,O,62,doctor,66,no
+90,female,neet,AB,66,senior high,600,no
+60,third,salesman,B,64,doctor,100,no
+1,male,salesman,A,69,university,52,no
+34,male,neet,O,38,doctor,260,yes
+97,female,scientest,A,79,primary,67,no
+64,third,programmer,AB,96,university,79,no
+43,female,chef,O,83,primary,240,yes
+43,third,scientest,AB,68,university,3000,no
+33,female,teacher,AB,84,doctor,90,no
+90,third,teacher,O,57,doctor,450,no
+72,female,teacher,AB,89,university,990,no
+75,female,student,A,44,university,500,no
+93,female,engineer,A,38,doctor,5700,no
+42,third,salesman,AB,47,university,830,no
+25,third,neet,O,85,university,7800,yes
+72,third,engineer,AB,85,senior high,990,no
+14,third,neet,B,79,university,54,no
+99,female,programmer,B,66,senior high,5900,no
+32,third,programmer,A,94,primary,17,no
+96,female,singer,B,51,junior high,4800,no
+85,female,neet,A,74,doctor,7400,no
+63,female,chef,A,45,university,11,no
+23,male,student,O,88,doctor,39,yes
+1,third,singer,B,53,university,3500,no
+48,third,programmer,A,92,junior high,5200,no
+75,female,singer,O,62,junior high,37,no
+88,female,engineer,A,53,senior high,990,no
+34,male,singer,O,58,master,5900,yes
+25,third,teacher,B,77,primary,1900,no
+6,female,singer,AB,97,senior high,800,no
+91,third,scientest,O,53,master,27,no
+47,third,student,A,79,junior high,41,no
+83,female,salesman,A,51,master,80,no
+6,female,scientest,O,85,senior high,600,no
+1,male,scientest,AB,56,senior high,85,no
+40,female,engineer,O,61,university,7300,yes
+82,third,engineer,AB,57,junior high,70,no
+57,third,singer,O,86,junior high,7000,no
+44,male,chef,AB,37,doctor,71,yes
+44,female,engineer,A,88,master,77,yes
+49,male,engineer,B,67,senior high,840,no
+60,female,teacher,AB,60,senior high,50,no
+90,female,programmer,O,91,senior high,630,no
+44,third,salesman,O,70,master,46,no
+59,female,student,A,73,doctor,24,no
+87,male,neet,A,71,primary,1900,no
+97,third,salesman,A,64,master,5300,no
+22,third,scientest,A,95,senior high,600,no
+34,male,scientest,B,89,senior high,21,no
+58,third,student,AB,77,university,74,no
+77,male,student,AB,66,junior high,5300,no
+0,male,teacher,AB,68,university,55,no
+9,male,singer,AB,37,doctor,5600,yes
+81,third,scientest,O,84,university,2900,no
+30,male,engineer,AB,65,doctor,57,yes
+8,third,chef,A,46,doctor,2600,no
+2,female,student,AB,82,master,30,no
+72,male,singer,A,58,university,170,no
+86,male,chef,B,91,junior high,7100,no
+36,male,neet,A,44,master,65,no
+62,female,teacher,B,58,doctor,5,no
+14,male,chef,B,38,junior high,370,no
+8,third,student,A,63,junior high,8700,no
+5,third,programmer,O,41,junior high,60,no
+40,male,programmer,O,62,university,12,yes
+38,third,chef,O,66,university,69,yes
+42,female,student,A,89,master,440,no
+90,third,scientest,B,77,doctor,450,no
+76,third,programmer,AB,40,master,700,no
+21,female,scientest,O,53,university,580,yes
+35,male,engineer,O,37,primary,23,yes
+5,female,salesman,AB,69,university,680,no
+82,male,programmer,A,77,primary,530,no
+17,female,programmer,AB,45,junior high,8300,yes
+71,third,singer,B,67,senior high,9200,no
+96,female,teacher,A,37,senior high,9,no
+31,male,teacher,B,62,university,96,no
+93,third,singer,A,93,primary,28,no
+8,third,programmer,AB,39,junior high,170,no
+91,third,chef,O,90,master,83,no
+64,female,neet,A,85,junior high,610,no
+85,male,singer,A,45,university,28,no
+99,third,salesman,A,42,master,59,no
+88,third,neet,A,84,junior high,55,no
+11,third,engineer,O,93,junior high,6100,no
+94,male,neet,AB,73,master,66,no
+2,third,teacher,A,37,doctor,2900,no
+54,male,teacher,B,88,master,6300,no
+52,third,programmer,AB,37,university,3700,no
+96,male,chef,AB,82,doctor,90,no
+30,male,teacher,AB,96,master,52,no
+32,female,chef,AB,52,primary,540,yes
+69,female,salesman,A,93,primary,68,no
+43,male,salesman,AB,92,university,46,no
+25,female,chef,A,99,senior high,42,yes
+58,male,chef,B,50,doctor,250,no
+4,female,student,B,92,doctor,100,no
+36,male,chef,AB,84,doctor,8600,yes
+82,third,salesman,B,50,senior high,290,no
+45,third,teacher,O,81,master,1800,no
+85,third,scientest,O,64,doctor,7700,no
+21,female,programmer,B,71,master,270,no
+36,female,teacher,O,83,primary,10000,yes
+52,male,singer,O,91,doctor,8,no
+82,male,singer,A,76,junior high,62,no
+52,female,student,A,60,doctor,5500,no
+50,female,neet,B,36,doctor,10,no
+61,male,teacher,O,89,master,5000,no
+31,female,chef,O,38,primary,18,yes
+22,male,singer,AB,69,junior high,34,no
+28,third,student,AB,91,primary,1300,no
+16,male,scientest,A,83,primary,43,no
+76,female,programmer,AB,35,doctor,60,no
+60,female,chef,B,48,senior high,8200,no
+61,male,programmer,B,78,junior high,5,no
+51,third,singer,B,50,master,550,no
+17,female,salesman,B,82,junior high,3000,no
+60,male,singer,O,93,junior high,130,no
+12,third,engineer,AB,49,primary,81,no
+55,third,engineer,A,54,senior high,1100,no
+62,male,teacher,AB,49,doctor,540,no
+49,male,engineer,A,97,university,99,no
+41,third,scientest,B,86,primary,500,no
+61,third,chef,B,53,doctor,79,no
+97,third,engineer,B,93,university,8100,no
+99,third,singer,AB,35,primary,11,no
+17,third,student,B,64,doctor,1300,no
+33,third,salesman,B,83,senior high,7400,no
+36,third,engineer,AB,96,primary,4000,no
+79,male,engineer,O,95,master,2800,no
+17,male,teacher,B,81,senior high,360,no
+28,third,singer,O,68,senior high,5600,yes
+84,third,teacher,A,72,master,44,no
+11,male,singer,AB,82,master,170,no
+69,female,salesman,AB,43,junior high,10,no
+17,male,student,B,94,master,1800,no
+74,female,student,B,63,senior high,40,no
+15,male,chef,O,71,doctor,740,no
+57,third,singer,A,85,university,5,no
+20,female,student,O,67,junior high,6500,yes
+70,male,salesman,A,77,primary,70,no
+7,female,singer,A,52,senior high,400,no
+21,female,teacher,AB,68,university,77,no
+3,male,scientest,A,99,junior high,86,no
+96,third,scientest,AB,44,primary,50,no
+33,third,engineer,O,35,senior high,640,yes
+74,male,engineer,AB,82,master,250,no
+89,female,salesman,A,92,master,100,no
+62,third,salesman,B,40,junior high,600,no
+55,female,chef,O,93,senior high,56,no
+61,female,engineer,A,98,senior high,9700,no
+15,female,engineer,AB,54,senior high,140,no
+18,third,salesman,B,52,senior high,64,no
+28,third,engineer,O,45,university,20,yes
+26,third,student,O,61,junior high,830,yes
+46,female,engineer,O,51,university,4100,no
+43,female,singer,O,50,university,6,no
+91,female,teacher,B,38,senior high,6200,no
+49,male,singer,AB,39,master,48,no
+23,third,salesman,B,48,primary,80,no
+6,third,teacher,A,90,senior high,4300,no
+71,female,engineer,AB,70,master,3600,no
+83,third,engineer,AB,58,doctor,4000,no
+48,third,teacher,O,84,university,900,no
+26,female,neet,B,57,senior high,7800,no
+90,female,salesman,A,57,junior high,6600,no
+7,female,engineer,O,95,primary,6600,no
+45,third,chef,A,71,master,380,yes
+97,third,programmer,B,65,senior high,610,no
+58,male,singer,O,51,senior high,560,no
+50,third,engineer,O,65,junior high,3900,no
+54,female,chef,O,96,master,58,no
+77,third,teacher,B,80,junior high,9300,no
+19,male,student,B,75,master,7800,no
+35,male,student,B,88,university,5,no
+22,female,chef,O,59,doctor,68,yes
+82,female,teacher,O,37,master,33,no
+44,third,engineer,AB,96,senior high,3200,no
+99,male,neet,AB,41,primary,7400,no
+83,third,student,O,42,senior high,270,no
+28,third,student,AB,93,master,4500,no
+41,female,teacher,O,73,doctor,1000,no
+68,third,student,A,93,primary,51,no
+25,third,student,B,80,senior high,43,no
+17,female,engineer,O,85,senior high,46,yes
+58,female,singer,O,40,university,63,no
+79,third,programmer,A,74,master,520,no
+62,female,scientest,O,64,doctor,90,no
+42,female,neet,B,90,senior high,45,no
+40,female,student,A,75,university,78,no
+16,male,student,A,84,primary,620,no
+72,male,neet,O,43,senior high,420,no
+39,third,neet,AB,74,university,560,no
+15,male,scientest,O,46,master,9000,no
+98,male,chef,A,40,doctor,210,no
+76,third,engineer,O,51,doctor,610,no
+8,third,chef,B,54,doctor,290,no
+92,female,salesman,B,98,doctor,780,no
+76,male,salesman,AB,89,doctor,470,no
+96,male,programmer,O,57,senior high,6000,no
+9,male,salesman,B,67,doctor,22,no
+98,third,teacher,O,64,junior high,40,no
+33,male,scientest,AB,38,doctor,8700,yes
+42,female,programmer,AB,35,university,20,no
+69,third,singer,A,44,university,760,no
+22,male,programmer,A,71,university,9100,no
+73,female,student,AB,67,master,500,no
+32,male,chef,A,75,senior high,2,yes
+33,third,engineer,A,85,primary,4300,no
+82,third,neet,O,49,senior high,170,no
+90,third,student,O,66,senior high,390,no
+72,male,engineer,O,35,senior high,270,no
+8,third,salesman,AB,81,junior high,88,no
+65,female,chef,B,62,university,45,no
+98,female,neet,AB,54,junior high,330,no
+36,female,scientest,A,53,university,14,no
+24,third,chef,B,43,doctor,930,yes
+77,female,student,O,42,senior high,49,no
+79,female,singer,B,42,university,640,no
+42,male,scientest,AB,74,primary,310,no
+83,male,singer,A,36,university,91,no
+11,female,engineer,B,40,senior high,110,yes
+21,male,singer,O,76,doctor,400,yes
+19,male,neet,A,85,primary,550,no
+69,third,engineer,B,40,master,1300,no
+69,third,programmer,B,86,doctor,79,no
+36,female,student,B,48,master,46,no
+17,third,scientest,AB,99,university,660,no
+50,male,student,O,81,junior high,7200,no
+5,male,engineer,O,72,primary,1,no
+77,third,student,A,38,university,190,no
+20,female,neet,O,67,primary,8300,yes
+18,female,chef,AB,72,doctor,540,yes
+83,female,neet,B,46,university,9200,no
+30,male,scientest,B,49,primary,500,no
+63,female,teacher,AB,81,master,720,no
+56,third,salesman,O,72,doctor,1300,no
+20,third,student,A,38,senior high,410,no
+10,male,chef,O,87,primary,83,no
+97,male,chef,AB,63,primary,9900,no
+13,male,student,AB,53,senior high,64,no
+50,male,student,AB,95,senior high,480,no
+87,male,programmer,AB,56,doctor,65,no
+52,male,programmer,B,56,junior high,550,no
+79,female,engineer,AB,80,junior high,5100,no
+90,female,singer,B,58,master,37,no
+41,female,scientest,AB,48,primary,750,no
+59,male,singer,AB,67,doctor,3500,no
+24,male,student,AB,93,university,84,no
+87,third,engineer,A,65,doctor,3600,no
+92,third,teacher,AB,57,master,530,no
+25,third,student,A,45,university,130,no
+7,third,student,B,84,senior high,3600,no
+42,male,engineer,AB,66,master,360,yes
+11,female,salesman,B,39,primary,100,yes
+15,male,programmer,A,93,master,760,no
+74,third,teacher,A,53,junior high,860,no
+89,female,teacher,B,88,senior high,9100,no
+90,third,teacher,AB,68,master,54,no
+98,third,engineer,AB,99,master,800,no
+8,female,student,O,35,junior high,850,no
+54,female,scientest,A,89,university,39,no
+71,third,engineer,B,42,university,170,no
+35,third,singer,B,64,doctor,93,no
+61,female,salesman,A,53,senior high,70,no
+74,male,chef,A,39,doctor,300,no
+24,third,chef,AB,73,senior high,82,yes
+80,male,programmer,AB,46,primary,860,no
+46,male,chef,AB,59,master,260,yes
+6,female,student,O,81,master,30,no
+70,male,salesman,O,44,doctor,5600,no
+34,female,engineer,A,42,primary,4,no
+75,female,teacher,B,52,university,9100,no
+2,third,scientest,B,36,junior high,6000,no
+63,male,teacher,B,77,senior high,500,no
+32,female,singer,O,85,senior high,74,yes
+38,female,singer,B,98,university,300,no
+22,male,scientest,AB,46,university,31,no
+90,male,singer,AB,37,primary,830,no
+50,male,programmer,B,67,senior high,24,no
+35,female,neet,AB,36,junior high,580,no
+97,female,salesman,AB,60,senior high,740,no
+58,female,neet,B,60,junior high,4600,no
+77,male,salesman,AB,65,doctor,1200,no
+12,third,chef,O,77,university,6600,no
+66,female,student,O,98,doctor,32,no
+85,female,scientest,AB,96,senior high,10000,no
+58,third,neet,AB,56,junior high,90,no
+65,male,chef,A,98,primary,66,no
+48,third,engineer,A,49,junior high,70,no
+64,male,neet,A,77,senior high,7500,no
+91,female,engineer,B,86,doctor,2,no
+10,female,student,O,59,doctor,3900,no
+71,male,neet,B,39,master,31,no
+93,male,student,A,42,senior high,330,no
+51,female,chef,A,46,doctor,600,no
+79,male,salesman,O,89,master,150,no
+1,third,programmer,B,68,junior high,830,no
+43,male,student,B,96,junior high,900,no
+14,female,salesman,B,59,senior high,5300,no
+49,female,singer,AB,36,primary,9,no
+63,third,singer,A,36,junior high,250,no
+72,female,singer,AB,96,junior high,22,no
+48,male,singer,AB,45,master,7700,no
+28,male,salesman,AB,75,senior high,19,no
+44,third,teacher,A,56,doctor,550,no
+12,male,neet,A,37,doctor,740,yes
+59,female,neet,O,86,senior high,6,no
+36,third,engineer,B,77,master,280,yes
+15,female,programmer,O,54,doctor,60,no
+94,male,programmer,AB,43,senior high,720,no
+13,female,chef,AB,78,senior high,58,no
+50,female,programmer,AB,81,university,250,no
+96,third,student,AB,39,primary,220,no
+6,female,chef,O,88,university,16,no
+30,male,programmer,AB,87,senior high,1100,no
+34,female,neet,B,62,doctor,6,no
+23,male,engineer,AB,85,senior high,4400,no
+21,male,engineer,O,54,primary,96,yes
+37,male,programmer,B,76,primary,94,no
+91,female,salesman,B,80,junior high,18,no
+78,male,singer,B,91,master,290,no
+6,third,salesman,O,45,master,870,no
+90,male,student,AB,58,master,3,no
+33,female,singer,A,83,junior high,690,no
+32,female,singer,O,78,junior high,9200,yes
+69,third,engineer,B,74,junior high,150,no
+45,male,neet,AB,92,primary,7900,no
+28,male,student,AB,60,senior high,880,no
+83,third,scientest,A,56,university,39,no
+94,female,neet,A,97,senior high,360,no
+3,female,salesman,AB,36,master,40,no
+67,male,student,O,41,university,3800,no
+84,female,neet,B,87,junior high,30,no
+14,third,programmer,O,63,university,700,no
+31,third,programmer,O,79,master,9300,yes
+26,third,chef,A,84,doctor,790,yes
+17,female,salesman,AB,44,doctor,47,yes
+60,male,programmer,A,67,junior high,900,no
+39,third,engineer,B,35,doctor,6300,yes
+16,female,teacher,O,89,junior high,20,yes
+68,third,salesman,B,50,senior high,36,no
+39,third,engineer,AB,82,senior high,98,no
+16,female,salesman,B,41,primary,8500,yes
+49,female,programmer,AB,94,senior high,19,no
+55,third,salesman,A,85,senior high,23,no
+72,male,scientest,O,75,doctor,7900,no
+55,male,programmer,O,85,master,5700,no
+43,third,student,A,49,master,78,no
+24,female,salesman,B,38,doctor,520,no
+9,female,singer,A,38,university,25,no
+58,third,scientest,AB,54,university,2300,no
+2,male,singer,B,94,university,2200,no
+27,female,engineer,AB,43,doctor,450,yes
+36,female,salesman,AB,51,junior high,67,no
+38,male,salesman,AB,67,university,840,no
+66,male,neet,AB,55,senior high,4800,no
+54,female,scientest,AB,73,senior high,1700,no
+31,male,chef,AB,78,university,28,yes
+86,male,student,B,92,doctor,530,no
+53,male,teacher,B,67,junior high,1200,no
+86,female,teacher,A,61,doctor,100,no
+43,male,teacher,AB,65,primary,77,no
+19,male,teacher,B,47,senior high,25,no
+36,female,engineer,A,41,master,66,yes
+54,third,scientest,B,72,primary,86,no
+69,male,scientest,B,83,doctor,7400,no
+39,female,teacher,AB,38,university,4700,no
+85,female,student,B,92,junior high,47,no
+84,female,neet,A,41,senior high,880,no
+24,third,scientest,AB,48,junior high,48,no
+11,male,salesman,AB,78,primary,990,no
+19,male,salesman,A,50,doctor,6300,no
+12,female,engineer,B,89,master,870,no
+89,male,salesman,B,59,doctor,1100,no
+53,female,neet,B,52,primary,50,no
+93,male,programmer,A,78,university,2500,no
+21,male,student,O,69,junior high,9300,yes
+31,third,singer,AB,45,primary,40,no
+7,male,teacher,A,76,primary,9100,no
+3,third,programmer,AB,74,university,29,no
+11,male,scientest,AB,89,junior high,9600,no
+85,male,student,AB,64,university,7,no
+1,male,programmer,A,67,junior high,37,no
+64,female,chef,AB,78,primary,5800,no
+5,male,teacher,A,39,master,50,no
+28,third,programmer,A,74,junior high,830,no
+95,female,chef,A,72,university,9500,no
+98,male,chef,A,83,junior high,6600,no
+15,male,salesman,B,39,senior high,190,no
+81,third,neet,A,79,junior high,80,no
+83,third,teacher,B,99,university,760,no
+56,female,singer,AB,73,university,200,no
+19,male,programmer,B,47,primary,820,no
+4,third,neet,O,45,primary,50,no
+88,female,engineer,O,57,junior high,1700,no
+8,female,teacher,AB,62,senior high,52,no
+54,male,neet,A,56,university,4900,no
+64,third,singer,O,43,primary,61,no
+36,female,scientest,AB,46,doctor,3300,yes
+75,female,scientest,AB,89,university,8300,no
+54,male,salesman,AB,64,doctor,6700,no
+49,male,engineer,B,54,primary,39,no
+46,third,engineer,AB,94,senior high,460,no
+48,male,chef,O,61,senior high,1500,yes
+22,female,scientest,AB,88,master,87,yes
+46,third,engineer,AB,63,master,430,yes
+42,female,programmer,AB,52,university,4100,no
+51,female,chef,B,72,doctor,2600,no
+77,female,singer,B,78,university,270,no
+30,third,singer,B,48,university,3800,no
+72,male,student,O,74,junior high,91,no
+59,third,student,AB,86,primary,15,no
+18,third,scientest,A,45,doctor,140,no
+35,male,student,B,53,senior high,740,no
+2,male,programmer,B,85,junior high,5400,no
+10,third,engineer,O,91,primary,98,no
+41,female,teacher,B,97,university,890,no
+33,third,programmer,AB,42,junior high,32,no
+34,male,teacher,O,61,master,94,yes
+20,third,teacher,AB,47,junior high,7900,no
+35,female,chef,B,89,university,79,yes
+37,female,student,A,39,senior high,640,no
+11,female,neet,A,87,university,780,no
+77,female,teacher,O,62,primary,7800,no
+81,female,neet,A,89,senior high,760,no
+36,female,singer,B,96,university,9400,no
+51,third,teacher,O,99,doctor,370,no
+82,third,neet,A,79,junior high,6800,no
+29,female,scientest,B,97,university,62,no
+35,third,singer,A,44,senior high,810,no
+32,male,programmer,O,72,doctor,750,yes
+86,male,teacher,B,40,master,2700,no
+58,third,neet,AB,79,primary,800,no
+70,female,scientest,O,81,junior high,500,no
+2,third,teacher,O,76,master,25,no
+62,third,singer,O,92,senior high,10000,no
+62,female,scientest,AB,91,primary,30,no
+13,female,chef,A,52,junior high,420,no
+93,third,engineer,A,52,junior high,510,no
+52,male,engineer,O,99,primary,5800,no
+66,female,student,AB,90,junior high,11,no
+75,female,neet,B,74,university,7400,no
+58,third,neet,B,44,doctor,40,no
+90,third,teacher,O,89,primary,8100,no
+32,male,singer,B,59,junior high,34,no
+87,male,engineer,AB,98,university,4100,no
+22,female,programmer,O,38,junior high,83,yes
+49,third,teacher,B,42,doctor,45,no
+64,female,teacher,B,44,junior high,870,no
+94,third,singer,A,64,primary,27,no
+84,male,programmer,A,49,junior high,900,no
+64,female,salesman,AB,75,master,940,no
+14,male,teacher,B,58,doctor,88,no
+11,female,engineer,B,52,university,780,no
+84,male,singer,AB,36,university,63,no
+39,male,student,B,66,primary,8600,no
+50,female,chef,B,41,junior high,91,yes
+89,male,engineer,O,48,university,53,no
+50,male,chef,B,51,junior high,660,yes
+43,male,scientest,AB,90,primary,23,no
+12,third,scientest,B,84,master,8400,no
+15,female,engineer,A,70,university,40,no
+43,male,salesman,B,91,university,5600,no
+61,male,teacher,B,76,junior high,22,no
+39,male,teacher,AB,78,university,940,no
+69,third,programmer,O,91,junior high,5300,no
+35,female,scientest,AB,86,master,7,yes
+31,third,teacher,O,58,master,79,yes
+82,male,programmer,O,70,junior high,72,no
+81,female,student,A,87,senior high,4800,no
+33,third,student,O,79,doctor,860,yes
+85,third,engineer,O,60,senior high,90,no
+84,third,engineer,B,75,primary,62,no
+73,female,singer,O,49,senior high,6800,no
+20,male,programmer,A,68,university,730,no
+33,third,salesman,B,59,master,100,no
+8,female,neet,O,52,doctor,87,no
+96,third,scientest,A,75,master,3800,no
+41,male,student,B,61,senior high,7,no
+80,male,salesman,O,99,university,36,no
+50,female,programmer,A,37,primary,7600,no
+47,male,salesman,B,80,junior high,190,no
+18,third,neet,AB,94,senior high,810,no
+57,male,student,O,63,doctor,990,no
+77,third,programmer,AB,43,doctor,950,no
+43,male,singer,AB,81,junior high,42,no
+2,female,engineer,B,57,university,630,no
+48,male,engineer,O,81,senior high,8,no
+84,third,scientest,O,92,master,2600,no
+21,female,programmer,A,56,university,74,no
+50,female,chef,A,49,junior high,71,yes
+14,female,student,A,79,master,9000,no
+77,male,student,AB,94,senior high,970,no
+38,male,engineer,B,43,junior high,590,no
+16,female,student,O,37,primary,40,yes
+74,female,programmer,B,57,junior high,860,no
+84,female,salesman,AB,56,junior high,50,no
+30,male,student,O,84,junior high,25,yes
+43,female,student,B,38,master,13,no
+88,female,scientest,B,85,doctor,81,no
+28,female,neet,A,85,junior high,57,no
+99,male,neet,B,66,primary,840,no
+80,third,salesman,B,86,junior high,570,no
+6,male,chef,O,55,junior high,92,no
+80,male,engineer,AB,62,primary,2200,no
+16,female,programmer,B,46,university,2,no
+16,third,scientest,B,64,junior high,6300,no
+70,female,teacher,AB,92,doctor,720,no
+48,third,salesman,B,35,senior high,9800,no
+45,male,singer,AB,61,master,10,no
+58,third,salesman,B,88,junior high,860,no
+49,male,scientest,A,86,senior high,60,no
+15,third,teacher,A,70,doctor,80,no
+44,third,scientest,B,78,doctor,1200,yes
+71,male,engineer,AB,83,university,9300,no
+37,male,salesman,A,77,doctor,8800,no
+23,third,salesman,A,39,master,19,no
+74,female,teacher,AB,83,junior high,890,no
+36,male,chef,O,42,doctor,59,yes
+61,female,chef,AB,67,master,230,no
+19,male,neet,O,69,university,190,yes
+76,female,teacher,AB,73,senior high,6400,no
+36,male,programmer,A,81,junior high,50,no
+88,male,teacher,AB,61,senior high,12,no
+44,male,student,AB,52,doctor,54,no
+31,third,programmer,O,81,university,15,yes
+4,third,teacher,B,41,primary,290,no
+33,female,teacher,A,77,junior high,36,no
+69,male,teacher,O,85,senior high,960,no
+6,female,chef,O,85,primary,53,no
+70,female,chef,O,82,primary,62,no
+65,female,programmer,B,76,doctor,61,no
+4,male,singer,AB,72,doctor,30,no
+34,third,singer,A,98,junior high,1300,no
+99,male,scientest,O,69,primary,640,no
+53,third,scientest,A,87,primary,90,no
+78,male,chef,B,38,master,290,no
+11,female,scientest,AB,71,university,6500,no
+62,third,scientest,A,42,university,610,no
+37,male,engineer,AB,84,senior high,26,no
+1,male,scientest,AB,93,university,930,no
+56,female,neet,AB,66,master,5200,no
+0,male,student,AB,68,university,680,no
+65,third,engineer,A,70,primary,3400,no
+70,third,programmer,B,49,university,88,no
+77,third,singer,A,65,primary,2900,no
+18,male,singer,AB,43,junior high,1000,no
+48,female,programmer,AB,76,master,250,yes
+19,female,engineer,O,79,master,800,yes
+86,male,engineer,AB,79,senior high,5300,no
+35,male,neet,B,65,master,3600,no
+82,male,student,A,46,university,1700,no
+49,male,neet,B,89,doctor,8000,no
+38,female,chef,B,99,senior high,2000,yes
+75,third,singer,AB,85,primary,8500,no
+88,male,chef,A,83,university,5900,no
+14,female,student,B,89,master,80,no
+11,female,programmer,B,81,master,4000,no
+24,female,programmer,A,62,senior high,6500,no
+42,third,teacher,B,98,senior high,2800,no
+46,male,engineer,B,75,university,1,no
+82,third,singer,O,81,university,8000,no
+52,female,scientest,O,35,university,23,no
+21,male,singer,O,83,university,32,yes
+67,male,neet,B,36,primary,10,no
+61,female,teacher,AB,78,master,46,no
+74,third,student,AB,62,primary,79,no
+43,female,salesman,A,91,master,490,no
+26,third,chef,A,90,senior high,470,yes
+18,male,teacher,AB,59,doctor,680,no
+63,male,salesman,B,54,master,550,no
+33,male,neet,AB,78,university,27,no
+40,male,scientest,AB,81,university,76,no
+67,third,salesman,O,51,primary,860,no
+19,female,student,AB,42,primary,40,no
+74,female,singer,A,86,university,6600,no
+13,female,neet,AB,73,senior high,5000,no
+67,third,scientest,A,86,senior high,750,no
+60,male,chef,B,62,junior high,36,no
+28,female,chef,O,96,university,990,yes
+49,male,student,AB,95,junior high,65,no
+48,third,salesman,A,83,primary,290,no
+87,male,neet,O,99,junior high,270,no
+17,male,neet,AB,43,senior high,760,no
+87,male,teacher,B,80,doctor,6400,no
+31,female,student,O,90,primary,1500,yes
+44,male,singer,AB,43,senior high,2600,no
+15,male,student,B,58,primary,3300,no
+29,male,singer,AB,45,doctor,8000,no
+7,female,scientest,O,49,senior high,100,no
+58,male,salesman,A,87,master,450,no
+44,third,scientest,O,54,primary,700,no
+82,third,engineer,A,96,doctor,77,no
+22,male,neet,O,46,junior high,55,yes
+44,female,neet,O,64,master,1600,no
+21,male,teacher,A,91,master,5,no
+55,female,scientest,A,88,primary,5800,no
+61,third,student,O,76,senior high,8200,no
+13,third,singer,O,44,master,28,no
+3,third,student,A,52,primary,50,no
+29,third,salesman,B,71,senior high,650,no
+19,female,neet,B,89,junior high,4300,no
+99,third,teacher,AB,80,university,31,no
+52,female,singer,A,43,master,3500,no
+56,female,salesman,A,42,senior high,710,no
+50,male,engineer,AB,55,doctor,7100,yes
+2,male,salesman,B,40,primary,760,no
+20,female,chef,O,88,senior high,34,yes
+19,female,scientest,A,88,university,51,no
+70,male,chef,A,37,primary,72,no
+19,male,engineer,O,49,primary,700,yes
+16,male,engineer,A,57,primary,47,no
+3,third,engineer,A,35,doctor,450,no
+34,third,neet,B,83,university,200,no
+92,male,chef,B,40,doctor,1800,no
+76,female,chef,A,64,junior high,43,no
+89,third,student,A,60,junior high,1700,no
+26,male,teacher,A,96,primary,89,no
+95,third,singer,B,73,junior high,47,no
+25,third,scientest,AB,69,doctor,82,yes
+47,male,scientest,A,58,doctor,260,yes
+75,third,scientest,AB,74,university,100,no
+76,third,singer,AB,43,primary,67,no
+50,male,engineer,O,73,senior high,5800,no
+48,male,salesman,B,95,master,86,no
+34,female,salesman,A,43,doctor,5,no
+74,male,salesman,AB,90,senior high,8100,no
+71,third,scientest,A,93,master,49,no
+74,female,student,AB,97,master,79,no
+28,third,student,B,53,senior high,10000,no
+91,female,neet,AB,40,primary,510,no
+32,male,engineer,B,54,university,13,no
+0,third,engineer,AB,42,master,990,no
+76,male,chef,O,61,junior high,3700,no
+82,female,student,AB,93,doctor,410,no
+38,third,engineer,AB,81,senior high,630,no
+18,female,neet,B,59,university,600,no
+48,male,chef,B,38,senior high,17,yes
+18,male,chef,O,88,primary,4,yes
+29,female,engineer,O,60,master,6400,yes
+19,male,singer,AB,77,master,100,no
+91,female,singer,AB,89,primary,410,no
+84,third,singer,AB,63,master,53,no
+95,male,scientest,A,53,senior high,5300,no
+55,male,neet,AB,85,doctor,38,no
+32,third,neet,O,82,senior high,72,yes
+54,male,scientest,O,91,master,11,no
+79,female,chef,B,84,junior high,670,no
+87,male,teacher,AB,69,junior high,6400,no
+70,female,neet,O,82,junior high,310,no
+71,male,scientest,B,66,junior high,76,no
+74,third,neet,AB,59,junior high,31,no
+13,female,neet,AB,65,primary,62,no
+19,female,neet,A,89,senior high,6300,no
+48,third,singer,O,88,senior high,35,no
+56,third,engineer,AB,49,master,55,no
+65,third,singer,A,41,primary,100,no
+91,male,neet,AB,36,primary,70,no
+1,third,teacher,B,70,junior high,270,no
+92,third,student,A,98,master,1800,no
+63,female,neet,A,45,junior high,6600,no
+22,male,chef,B,93,university,860,yes
+90,third,programmer,O,72,junior high,35,no
+76,third,salesman,A,58,university,9400,no
+40,male,engineer,O,45,senior high,77,yes
+6,male,teacher,O,63,university,2300,no
+57,third,engineer,O,88,junior high,99,no
+86,male,engineer,B,45,doctor,340,no
+9,third,teacher,O,85,master,500,no
+97,male,neet,A,68,master,87,no
+0,third,programmer,A,76,master,640,no
+22,female,engineer,A,79,doctor,100,yes
+59,third,student,AB,48,doctor,720,no
+51,female,teacher,O,64,master,2300,no
+66,female,student,A,49,primary,1200,no
+9,third,programmer,A,58,doctor,90,no
+83,male,neet,O,67,senior high,88,no
+7,third,salesman,O,83,master,750,no
+21,third,programmer,B,86,master,77,no
+71,male,student,O,55,junior high,82,no
+22,male,chef,AB,93,senior high,590,yes
+67,female,neet,A,95,senior high,66,no
+72,female,programmer,B,61,master,7600,no
+77,third,salesman,O,35,master,720,no
+23,third,neet,AB,78,senior high,28,no
+34,third,singer,AB,48,primary,4500,no
+2,female,engineer,B,99,primary,81,no
+81,male,teacher,AB,35,senior high,68,no
+22,third,chef,B,39,master,92,yes
+15,third,teacher,B,97,primary,39,no
+6,male,salesman,B,89,university,9900,no
+65,female,scientest,B,91,primary,4600,no
+5,female,neet,A,63,doctor,370,no
+30,third,neet,AB,96,master,470,no
+91,male,singer,AB,98,doctor,60,no
+73,male,scientest,A,80,master,600,no
+34,male,neet,AB,58,primary,5,no
+47,male,engineer,B,87,primary,43,no
+88,female,salesman,AB,98,senior high,4,no
+57,female,salesman,B,64,master,310,no
+69,male,salesman,AB,45,master,2400,no
+73,male,engineer,B,59,doctor,6600,no
+93,third,neet,B,70,master,81,no
+87,third,neet,B,47,doctor,820,no
+21,female,salesman,O,93,doctor,1700,yes
+0,female,scientest,AB,42,master,220,no
+7,female,salesman,A,42,master,4500,no
+75,male,salesman,AB,69,doctor,64,no
+83,female,salesman,AB,36,master,17,no
+38,third,scientest,A,37,master,5500,yes
+71,male,student,A,82,junior high,13,no
+5,male,scientest,B,82,junior high,4100,no
+53,third,engineer,B,91,junior high,970,no
+68,female,student,B,51,master,75,no
+47,third,salesman,AB,70,university,10,no
+58,male,singer,A,66,doctor,3200,no
+17,male,salesman,O,62,master,6500,yes
+35,third,neet,O,75,master,550,yes
+73,male,programmer,AB,80,junior high,21,no
+80,third,programmer,AB,74,master,93,no
+23,third,student,O,63,doctor,100,yes
+57,female,teacher,AB,53,university,9900,no
+68,male,scientest,AB,57,university,1000,no
+35,male,salesman,O,56,doctor,520,yes
+28,female,student,B,38,junior high,3900,no
+38,third,neet,B,89,junior high,890,no
+53,third,chef,AB,87,doctor,1000,no
+33,third,engineer,B,55,university,10000,no
+55,female,chef,B,51,doctor,600,no
+14,third,programmer,O,69,junior high,84,no
+65,male,student,A,73,doctor,130,no
+32,female,teacher,B,85,primary,50,no
+54,male,engineer,A,58,primary,9400,no
+91,third,neet,A,71,doctor,21,no
+80,third,engineer,O,67,master,620,no
+88,third,chef,AB,75,junior high,28,no
+32,third,scientest,A,78,doctor,3500,yes
+4,male,student,A,97,senior high,870,no
+91,female,teacher,O,87,senior high,3600,no
+13,male,programmer,AB,52,primary,26,no
+43,third,programmer,O,87,primary,980,no
+10,third,neet,B,68,master,56,no
+76,female,engineer,O,96,senior high,56,no
+28,female,engineer,B,50,senior high,5200,no
+76,third,salesman,A,65,senior high,680,no
+66,male,neet,B,93,primary,5,no
+67,female,programmer,A,92,senior high,800,no
+37,third,student,A,38,doctor,56,no
+51,third,teacher,A,53,primary,89,no
+52,female,chef,B,58,junior high,590,no
+82,female,teacher,B,76,doctor,1200,no
+51,female,chef,AB,97,doctor,440,no
+34,male,neet,O,86,junior high,76,yes
+6,male,chef,AB,41,senior high,910,no
+51,third,neet,A,94,senior high,4800,no
+64,third,singer,AB,48,senior high,550,no
+94,male,teacher,O,91,doctor,470,no
+44,third,scientest,B,84,doctor,39,yes
+26,third,engineer,A,36,senior high,61,no
+56,male,singer,AB,94,university,49,no
+61,male,teacher,A,83,master,860,no
+0,male,salesman,B,36,primary,460,no
+72,third,teacher,AB,57,senior high,69,no
+60,male,neet,B,78,university,3500,no
+77,female,chef,AB,85,doctor,1000,no
+86,female,chef,O,35,doctor,92,no
+16,female,singer,A,98,junior high,92,no
+0,female,teacher,O,97,primary,87,no
+9,male,programmer,O,90,doctor,130,no
+3,female,neet,O,90,junior high,450,no
+37,female,engineer,AB,82,senior high,70,no
+8,third,programmer,O,96,junior high,88,no
+1,female,student,AB,65,primary,5600,no
+14,female,chef,B,81,doctor,580,no
+21,third,neet,O,75,junior high,98,yes
+96,third,neet,AB,76,senior high,4500,no
+97,male,engineer,AB,47,master,740,no
+62,female,salesman,O,35,master,700,no
+35,third,scientest,AB,85,master,55,yes
+91,third,engineer,O,54,senior high,4500,no
+90,third,student,A,54,doctor,110,no
+95,male,neet,B,78,senior high,690,no
+24,third,scientest,AB,98,senior high,840,no
+6,male,engineer,AB,53,doctor,23,no
+80,female,student,B,87,senior high,830,no
+48,female,neet,B,99,senior high,8900,no
+63,female,engineer,A,43,university,89,no
+44,female,scientest,AB,92,senior high,8900,no
+45,male,scientest,O,92,doctor,55,yes
+57,male,singer,AB,91,primary,6400,no
+33,third,teacher,AB,75,master,140,no
+60,male,chef,B,67,doctor,110,no
+88,third,singer,AB,85,master,5400,no
+69,female,singer,B,64,university,40,no
+43,female,student,B,78,senior high,490,no
+47,male,chef,B,71,university,80,yes
+12,third,scientest,AB,43,university,400,no
+61,female,engineer,O,79,university,1600,no
+29,female,student,O,75,senior high,7800,yes
+36,male,salesman,AB,50,university,91,no
+14,male,scientest,AB,48,junior high,430,no
+94,male,student,AB,66,senior high,42,no
+33,third,teacher,AB,53,university,560,no
+5,male,student,B,73,university,14,no
+53,third,student,B,99,primary,7800,no
+14,male,programmer,AB,82,junior high,54,no
+84,female,singer,B,51,master,380,no
+8,female,salesman,O,93,university,1900,no
+82,male,salesman,AB,54,senior high,29,no
+14,third,chef,O,44,primary,56,no
+3,female,salesman,AB,54,primary,13,no
+35,third,chef,O,37,junior high,4700,yes
+33,third,student,B,40,junior high,9400,no
+65,female,engineer,A,37,primary,600,no
+21,female,student,B,86,master,550,no
+18,female,teacher,B,62,senior high,66,no
+24,third,salesman,AB,70,senior high,360,no
+71,male,scientest,B,73,master,19,no
+17,female,programmer,A,89,doctor,4400,no
+50,third,singer,O,98,junior high,23,no
+58,female,scientest,A,40,primary,8,no
+64,female,student,AB,75,senior high,730,no
+50,third,student,B,47,junior high,140,no
+11,female,chef,A,91,university,500,no
+36,female,salesman,AB,63,senior high,6800,no
+29,third,salesman,A,38,doctor,5300,no
+83,third,chef,AB,80,primary,60,no
+32,male,neet,O,80,doctor,140,yes
+26,third,singer,B,94,primary,6800,no
+93,male,chef,A,87,master,170,no
+89,female,programmer,AB,84,primary,230,no
+88,male,singer,O,84,master,820,no
+19,third,scientest,O,83,university,390,yes
+90,third,salesman,O,72,junior high,9400,no
+0,female,student,AB,51,university,82,no
+28,male,programmer,O,64,senior high,7600,yes
+13,third,teacher,O,57,doctor,30,no
+36,female,teacher,A,79,primary,42,no
+73,third,chef,B,98,junior high,63,no
+87,third,neet,O,82,doctor,360,no
+66,female,teacher,B,98,doctor,7500,no
+92,female,chef,A,77,university,710,no
+59,female,salesman,AB,47,doctor,1100,no
+80,male,neet,O,47,primary,7,no
+38,third,salesman,O,83,master,64,yes
+75,female,programmer,O,36,primary,790,no
+12,male,student,B,80,master,39,no
+82,female,programmer,O,88,doctor,2700,no
+94,third,chef,B,83,university,80,no
+45,third,singer,O,86,university,170,no
+67,female,programmer,B,51,master,4700,no
+68,third,teacher,AB,79,senior high,87,no
+39,male,student,B,99,primary,140,no
+85,male,engineer,A,62,doctor,4800,no
+17,third,teacher,O,75,primary,2300,yes
+77,female,chef,O,84,primary,1000,no
+12,male,neet,A,89,junior high,770,no
+54,male,scientest,B,54,primary,5,no
+47,male,student,AB,98,primary,90,no
+89,male,neet,B,52,senior high,690,no
+32,third,salesman,A,59,primary,81,no
+2,female,programmer,A,75,junior high,990,no
+72,female,chef,A,76,junior high,60,no
+93,third,scientest,B,61,doctor,900,no
+94,female,singer,B,64,senior high,130,no
+94,female,chef,O,41,doctor,2100,no
+33,female,salesman,A,84,doctor,3000,no
+64,female,student,AB,76,master,8,no
+61,female,scientest,A,61,master,82,no
+42,third,teacher,B,91,university,960,no
+79,female,engineer,AB,51,university,32,no
+32,male,scientest,B,50,doctor,8900,yes
+57,third,neet,AB,68,university,36,no
+67,third,engineer,A,71,senior high,150,no
+80,third,engineer,B,99,master,640,no
+12,female,neet,AB,67,master,7200,no
+37,third,programmer,O,66,primary,7100,yes
+75,female,singer,B,68,master,880,no
+24,third,programmer,A,49,primary,950,no
+96,third,neet,A,50,doctor,42,no
+34,female,teacher,B,70,university,81,no
+94,third,salesman,AB,81,junior high,7900,no
+82,third,scientest,AB,91,primary,20,no
+33,male,scientest,B,83,junior high,35,no
+39,female,singer,B,72,master,23,no
+12,female,chef,B,59,university,630,no
+21,male,singer,O,96,university,670,yes
+72,third,teacher,AB,51,master,780,no
+53,female,teacher,O,40,university,10,no
+0,third,salesman,B,67,senior high,7900,no
+11,male,student,A,71,doctor,40,no
+51,female,engineer,B,98,doctor,78,no
+25,male,engineer,AB,91,master,6000,yes
+3,female,neet,O,68,university,11,no
+44,third,neet,B,95,doctor,8500,no
+90,male,salesman,AB,35,master,330,no
+28,female,singer,O,41,doctor,53,yes
+35,third,chef,O,93,primary,40,yes
+45,female,engineer,A,56,doctor,70,yes
+71,male,chef,A,42,senior high,34,no
+77,female,neet,AB,79,doctor,49,no
+33,male,salesman,A,35,junior high,100,no
+89,third,student,O,77,senior high,810,no
+69,male,programmer,A,47,primary,7200,no
+51,female,chef,A,84,senior high,77,no
+41,male,neet,O,83,master,8000,no
+2,male,student,A,44,junior high,9300,no
+19,male,programmer,B,70,doctor,69,no
+82,male,engineer,AB,48,junior high,440,no
+47,male,scientest,O,72,doctor,3100,yes
+66,female,singer,A,96,university,23,no
+45,female,student,AB,96,senior high,12,no
+37,male,engineer,B,82,junior high,3800,no
+44,female,engineer,A,82,senior high,500,no
+43,female,engineer,A,64,doctor,4900,yes
+56,female,scientest,A,81,university,7700,no
+0,female,scientest,B,88,senior high,6800,no
+77,third,salesman,AB,95,master,94,no
+99,third,singer,O,78,senior high,9400,no
+33,male,engineer,AB,64,junior high,180,no
+6,female,chef,O,50,senior high,81,no
+99,female,neet,B,88,primary,9400,no
+37,third,engineer,AB,81,primary,43,no
+3,third,salesman,AB,53,senior high,360,no
+45,male,student,O,65,university,9600,no
+97,male,singer,AB,82,doctor,4,no
+83,male,singer,AB,63,primary,200,no
+87,third,singer,A,80,master,220,no
+37,female,salesman,O,43,primary,640,yes
+21,female,neet,B,42,doctor,360,no
+39,third,singer,O,75,junior high,8900,yes
+67,male,student,A,36,master,420,no
+11,male,neet,B,35,primary,28,yes
+63,female,programmer,B,82,master,700,no
+56,female,teacher,AB,71,university,250,no
+10,third,salesman,O,71,master,380,no
+27,male,salesman,B,54,primary,8200,no
+47,third,scientest,O,41,senior high,270,no
+88,third,engineer,O,79,primary,690,no
+16,female,teacher,AB,60,master,74,no
+17,female,teacher,B,98,doctor,670,no
+55,female,chef,AB,40,doctor,240,no
+16,male,scientest,AB,42,doctor,10,no
+38,female,student,A,99,doctor,5400,no
+53,third,engineer,AB,47,doctor,65,no
+68,male,student,AB,90,university,870,no
+67,female,neet,O,52,primary,630,no
+8,third,singer,AB,52,primary,740,no
+33,male,programmer,B,78,master,91,yes
+32,male,salesman,A,99,master,9100,no
+90,third,chef,O,81,senior high,4800,no
+9,male,neet,A,36,doctor,800,yes
+87,female,programmer,O,89,junior high,20,no
+55,third,chef,O,48,university,910,no
+34,third,teacher,AB,52,university,99,no
+0,female,scientest,A,52,primary,320,no
+69,female,engineer,AB,85,junior high,240,no
+16,female,teacher,B,73,master,240,no
+18,third,salesman,B,54,primary,27,no
+54,male,student,A,64,junior high,760,no
+34,third,programmer,A,40,master,69,yes
+47,male,salesman,B,88,university,890,no
+15,third,teacher,AB,46,primary,30,no
+33,female,singer,O,76,university,56,yes
+70,male,engineer,O,68,doctor,86,no
+71,female,singer,B,77,master,73,no
+12,female,salesman,A,45,primary,3100,yes
+9,third,singer,B,69,senior high,4700,no
+98,female,singer,AB,61,senior high,76,no
+47,third,salesman,AB,79,junior high,43,no
+39,male,salesman,O,42,primary,92,yes
+81,male,salesman,A,64,primary,5600,no
+55,third,scientest,O,58,master,970,no
+53,female,programmer,B,85,university,5300,no
+28,female,engineer,A,67,senior high,66,no
+93,third,chef,O,99,junior high,380,no
+30,male,chef,B,74,junior high,720,yes
+87,male,salesman,A,95,university,7000,no
+32,third,teacher,O,78,master,5300,yes
+33,male,neet,O,38,junior high,880,yes
+65,third,scientest,B,40,master,3900,no
+6,female,student,O,66,master,270,no
+31,female,salesman,B,41,primary,40,no
+74,male,singer,B,49,junior high,43,no
+46,female,singer,O,88,primary,880,no
+88,male,scientest,B,57,master,88,no
+17,female,student,O,41,primary,26,yes
+76,third,scientest,B,39,primary,85,no
+94,male,engineer,A,51,master,400,no
+36,female,singer,A,98,doctor,65,no
+56,third,singer,O,88,university,9400,no
+25,female,engineer,A,69,primary,3500,no
+9,male,salesman,O,56,doctor,2600,no
+65,third,neet,B,96,doctor,7300,no
+9,male,programmer,B,41,master,51,yes
+36,female,neet,AB,73,master,70,no
+54,male,programmer,O,97,doctor,90,no
+87,male,engineer,AB,97,junior high,1600,no
+5,male,programmer,AB,67,junior high,390,no
+30,male,student,B,58,master,790,no
+8,third,chef,AB,58,master,830,no
+1,third,neet,B,82,senior high,130,no
+25,third,chef,O,84,junior high,400,yes
+47,female,teacher,A,37,doctor,60,no
+72,third,chef,AB,75,university,99,no
+44,female,programmer,O,88,junior high,60,no
+89,third,programmer,AB,38,primary,620,no
+82,male,engineer,O,88,master,30,no
+69,male,programmer,O,39,master,6000,no
+2,male,teacher,O,57,senior high,100,no
+26,male,student,O,51,junior high,63,yes
+97,third,salesman,AB,60,junior high,6500,no
+49,female,scientest,AB,78,doctor,310,yes
+31,third,engineer,AB,98,junior high,8300,no
+46,male,teacher,A,90,primary,760,no
+19,female,engineer,B,66,junior high,540,no
+18,female,engineer,O,40,doctor,9,yes
+28,male,chef,AB,94,master,60,yes
+48,third,salesman,AB,65,senior high,82,no
+30,third,singer,O,51,senior high,530,yes
+6,third,chef,O,52,university,160,no
+39,third,salesman,AB,87,master,4900,no
+47,male,scientest,O,57,doctor,200,yes
+23,male,student,AB,82,junior high,59,no
+24,female,chef,O,97,doctor,990,yes
+79,third,engineer,O,91,primary,990,no
+68,third,student,A,57,senior high,200,no
+7,male,teacher,AB,96,master,1900,no
+13,female,scientest,O,73,master,970,no
+44,female,student,AB,84,doctor,58,no
+28,female,programmer,A,95,senior high,4900,no
+11,female,engineer,A,75,master,8,no
+88,female,salesman,B,72,junior high,3700,no
+11,female,neet,AB,76,university,480,no
+88,female,chef,A,41,university,210,no
+41,female,singer,A,94,primary,19,no
+73,female,scientest,AB,69,senior high,88,no
+78,third,singer,A,49,junior high,700,no
+4,male,neet,B,78,doctor,1500,no
+43,female,teacher,O,39,junior high,7800,no
+53,third,teacher,O,88,senior high,87,no
+3,male,singer,O,45,primary,94,no
+6,male,salesman,A,54,university,300,no
+68,male,singer,B,88,senior high,85,no
+7,female,programmer,O,52,doctor,420,no
+67,female,neet,A,76,doctor,480,no
+36,third,student,AB,55,master,960,no
+72,male,singer,AB,80,primary,100,no
+6,female,salesman,AB,43,junior high,950,no
+74,male,engineer,B,35,primary,1600,no
+95,third,salesman,AB,37,master,6000,no
+36,male,student,O,74,junior high,570,yes
+41,male,engineer,O,70,master,4500,yes
+69,third,singer,B,59,university,96,no
+25,third,salesman,AB,41,doctor,5700,no
+27,male,student,B,81,senior high,850,no
+46,third,programmer,AB,42,university,4200,no
+93,third,student,B,56,junior high,98,no
+20,third,programmer,O,39,senior high,280,yes
+56,third,neet,A,86,master,7700,no
+2,female,teacher,A,72,university,20,no
+29,male,chef,O,45,doctor,670,yes
+7,third,chef,AB,45,senior high,810,no
+13,male,salesman,AB,70,primary,24,no
+65,female,teacher,A,66,university,23,no
+6,third,engineer,B,94,primary,760,no
+28,third,singer,AB,66,master,4600,no
+72,third,salesman,A,94,master,94,no
+68,female,chef,O,83,university,70,no
+58,male,student,O,53,master,2,no
+26,third,scientest,AB,60,university,430,no
+1,male,salesman,B,82,doctor,27,no
+24,third,singer,A,52,master,980,no
+42,female,chef,AB,63,university,200,yes
+73,third,salesman,B,41,master,49,no
+49,third,singer,O,98,doctor,820,no
+37,male,singer,A,54,junior high,41,no
+28,female,student,O,92,senior high,48,yes
+31,male,engineer,AB,49,doctor,6100,yes
+45,female,engineer,AB,64,senior high,590,no
+70,third,programmer,O,40,senior high,100,no
+27,female,programmer,A,39,senior high,9800,no
+50,third,engineer,A,82,doctor,7500,yes
+44,male,scientest,A,89,master,6900,yes
+70,male,neet,O,65,doctor,60,no
+50,male,neet,AB,73,junior high,4400,no
+76,female,scientest,B,94,doctor,340,no
+6,female,student,A,55,senior high,24,no
+51,third,engineer,B,90,junior high,770,no
+47,male,chef,O,85,doctor,670,yes
+52,third,engineer,O,40,doctor,5000,no
+60,third,chef,AB,69,university,19,no
+45,male,salesman,A,43,junior high,10000,no
+26,third,chef,AB,92,senior high,970,yes
+53,third,singer,A,91,senior high,570,no
+3,female,chef,O,36,university,30,no
+92,third,chef,O,50,junior high,97,no
+34,female,chef,B,74,doctor,1400,yes
+81,male,singer,B,81,university,80,no
+41,male,salesman,A,56,doctor,200,no
+41,male,chef,AB,68,junior high,90,yes
+96,female,neet,B,52,master,5400,no
+13,third,salesman,A,75,master,2900,no
+34,female,student,O,94,junior high,730,yes
+94,female,chef,A,79,university,61,no
+7,female,neet,AB,58,master,13,no
+44,third,singer,B,54,junior high,240,no
+6,female,teacher,AB,68,university,460,no
+86,female,salesman,AB,48,primary,77,no
+37,male,singer,A,77,master,4800,no
+94,male,student,B,86,junior high,63,no
+80,male,programmer,AB,47,junior high,720,no
+96,third,student,A,61,senior high,370,no
+55,third,teacher,A,74,junior high,92,no
+93,male,scientest,O,89,doctor,7100,no
+70,male,scientest,AB,65,junior high,2000,no
+75,female,engineer,A,47,doctor,270,no
+98,male,programmer,B,36,doctor,9100,no
+20,third,singer,B,76,primary,9600,no
+22,third,neet,O,61,university,740,yes
+51,female,chef,O,90,doctor,9200,no
+1,female,chef,O,71,university,58,no
+73,female,teacher,A,51,junior high,73,no
+0,female,salesman,O,79,university,81,no
+57,female,student,B,86,senior high,650,no
+17,female,scientest,O,82,junior high,830,yes
+78,female,programmer,O,36,doctor,870,no
+8,male,scientest,O,59,senior high,670,no
+87,male,neet,AB,63,junior high,150,no
+70,third,neet,A,73,junior high,700,no
+48,female,student,O,62,junior high,15,no
+9,third,salesman,B,86,doctor,250,no
+14,male,salesman,A,63,university,4600,no
+15,female,neet,AB,74,junior high,20,no
+29,third,programmer,AB,94,senior high,900,no
+42,third,singer,B,87,doctor,6800,no
+47,female,neet,A,73,university,950,no
+36,third,programmer,O,55,primary,430,yes
+38,third,salesman,AB,81,master,210,no
+86,male,salesman,O,96,doctor,26,no
+76,male,scientest,AB,71,junior high,520,no
+14,female,teacher,O,88,doctor,9800,no
+18,male,chef,A,59,primary,12,yes
+82,female,neet,AB,95,senior high,1,no
+42,female,programmer,B,96,university,38,no
+29,male,engineer,B,55,junior high,30,no
+96,third,singer,AB,57,doctor,22,no
+66,third,neet,AB,41,primary,61,no
+0,male,programmer,O,48,senior high,6700,no
+45,third,chef,B,66,junior high,36,yes
+76,third,singer,AB,54,university,340,no
+60,male,teacher,B,55,university,76,no
+62,female,scientest,AB,72,university,570,no
+92,third,chef,O,59,doctor,350,no
+20,male,neet,O,72,university,380,yes
+33,third,teacher,B,61,senior high,94,no
+75,third,salesman,B,95,primary,9100,no
+84,third,scientest,O,40,doctor,77,no
+62,third,salesman,B,40,primary,180,no
+30,third,programmer,A,61,university,320,no
+80,female,neet,AB,62,junior high,160,no
+69,male,chef,AB,72,university,50,no
+60,third,teacher,A,41,primary,9500,no
+68,female,scientest,B,53,primary,4800,no
+63,female,salesman,B,97,junior high,71,no
+9,male,chef,O,69,master,200,no
+67,male,chef,A,61,junior high,90,no
+51,female,programmer,B,45,university,1300,no
+13,female,neet,AB,40,senior high,82,yes
+13,female,teacher,AB,42,junior high,630,yes
+73,female,student,O,50,master,54,no
+59,male,student,B,45,senior high,19,no
+65,female,neet,B,96,doctor,120,no
+10,female,chef,O,65,primary,92,no
+0,female,teacher,AB,47,primary,540,no
+78,third,engineer,AB,71,master,61,no
+38,third,scientest,A,68,master,12,yes
+92,third,neet,AB,63,primary,5100,no
+7,male,chef,A,89,senior high,6100,no
+70,male,chef,AB,51,senior high,3600,no
+61,third,chef,B,76,master,6200,no
+72,third,neet,B,94,senior high,440,no
+7,male,student,O,94,junior high,100,no
+8,third,programmer,O,47,senior high,500,no
+67,male,programmer,B,37,junior high,6400,no
+32,male,neet,B,43,university,5100,no
+34,male,chef,A,73,primary,7600,yes
+25,male,chef,A,67,junior high,620,yes
+25,male,student,A,66,primary,1100,no
+96,third,engineer,AB,38,primary,62,no
+50,male,programmer,O,75,junior high,98,no
+33,female,scientest,O,92,primary,15,yes
+88,third,scientest,B,36,primary,22,no
+68,male,salesman,O,50,doctor,530,no
+65,third,engineer,AB,56,doctor,1000,no
+47,female,programmer,AB,43,university,360,no
+29,male,student,O,76,primary,11,yes
+51,male,programmer,B,88,primary,27,no
+75,female,salesman,O,73,junior high,3500,no
+25,male,singer,A,66,senior high,550,no
+82,male,scientest,AB,43,junior high,8000,no
+33,female,singer,O,79,primary,7600,yes
+53,female,neet,O,49,junior high,2800,no
+5,female,teacher,O,57,doctor,72,no
+1,third,engineer,O,36,senior high,64,no
+76,third,student,B,47,master,940,no
+46,male,salesman,O,73,senior high,900,no
+50,female,neet,AB,46,university,640,no
+51,male,programmer,A,75,university,4100,no
+64,third,neet,AB,90,senior high,710,no
+34,third,singer,B,95,senior high,10,no
+6,third,singer,O,39,doctor,5500,no
+62,male,engineer,B,82,junior high,21,no
+11,third,teacher,O,52,primary,55,no
+44,male,programmer,A,46,university,3500,no
+11,male,teacher,O,49,master,53,yes
+27,female,student,O,49,university,7900,yes
+64,female,salesman,O,35,junior high,40,no
+10,male,teacher,B,55,primary,180,no
+2,male,scientest,O,88,primary,48,no
+76,third,student,O,43,master,620,no
+24,third,singer,B,73,senior high,210,no
+58,female,student,B,93,primary,64,no
+58,third,programmer,AB,88,university,6900,no
+30,third,programmer,O,66,master,5400,yes
+86,third,neet,AB,81,senior high,990,no
+84,male,student,A,54,senior high,570,no
+64,third,neet,A,55,junior high,80,no
+76,male,singer,O,51,senior high,1,no
+87,male,scientest,A,38,junior high,36,no
+74,female,chef,A,94,university,65,no
+61,female,programmer,B,82,university,70,no
+9,third,teacher,AB,60,university,9900,no
+36,third,engineer,AB,37,university,27,no
+28,third,singer,A,61,primary,330,no
+30,third,chef,A,89,senior high,7200,yes
+12,male,engineer,B,86,university,8400,no
+96,third,teacher,A,58,university,59,no
+88,male,singer,B,39,junior high,460,no
+73,male,student,AB,88,primary,440,no
+61,female,teacher,B,86,master,1300,no
+7,female,chef,AB,68,master,53,no
+58,female,engineer,A,64,master,1000,no
+72,third,salesman,AB,98,doctor,18,no
+44,male,programmer,AB,61,senior high,330,no
+89,female,programmer,A,44,master,610,no
+35,third,programmer,AB,51,university,340,no
+4,third,programmer,B,71,junior high,400,no
+78,female,chef,A,60,master,210,no
+80,third,teacher,AB,39,senior high,9000,no
+7,male,teacher,O,66,junior high,170,no
+29,male,programmer,AB,52,doctor,4600,yes
+4,male,scientest,AB,99,senior high,36,no
+92,male,neet,A,39,university,400,no
+30,third,student,A,89,master,410,no
+41,female,scientest,AB,50,doctor,61,yes
+28,male,salesman,A,85,university,3300,no
+66,male,programmer,B,85,doctor,320,no
+82,male,salesman,AB,37,senior high,8200,no
+73,male,salesman,A,51,primary,4,no
+53,third,salesman,B,71,doctor,40,no
+20,male,engineer,B,37,university,4100,no
+51,male,chef,AB,86,primary,7000,no
+23,male,salesman,AB,57,junior high,940,no
+65,female,programmer,O,72,master,100,no
+45,male,student,O,89,junior high,300,no
+35,male,salesman,AB,61,university,88,no
+41,third,salesman,AB,77,senior high,730,no
+67,third,engineer,B,54,university,62,no
+18,female,teacher,AB,39,primary,280,no
+9,third,salesman,B,64,junior high,91,no
+70,male,chef,AB,62,junior high,91,no
+39,male,neet,A,49,university,710,no
+72,male,neet,AB,70,university,450,no
+31,male,singer,O,39,university,2,yes
+67,male,chef,AB,65,junior high,530,no
+62,female,salesman,B,43,university,9800,no
+56,third,neet,AB,61,master,8200,no
+93,third,student,B,77,doctor,71,no
+62,third,neet,A,91,junior high,61,no
+40,third,scientest,A,45,doctor,39,yes
+72,female,neet,A,81,master,1500,no
+97,female,teacher,O,58,senior high,13,no
+69,female,programmer,O,71,master,200,no
+39,third,singer,B,72,junior high,9000,no
+90,third,teacher,B,79,junior high,2400,no
+73,female,scientest,B,63,junior high,90,no
+45,female,student,O,68,master,2700,no
+17,male,student,A,80,primary,16,no
+63,female,singer,AB,97,junior high,8800,no
+43,male,neet,O,54,primary,10,no
+62,male,teacher,B,78,senior high,20,no
+47,female,scientest,AB,52,junior high,5700,no
+72,female,student,A,94,primary,78,no
+81,female,programmer,AB,44,senior high,200,no
+94,female,salesman,A,57,junior high,930,no
+69,third,neet,A,44,doctor,2400,no
+20,female,scientest,B,39,master,830,no
+90,male,singer,O,90,senior high,7800,no
+85,third,teacher,AB,80,university,5200,no
+82,third,salesman,O,74,university,770,no
+51,third,engineer,A,87,doctor,30,no
+53,female,student,A,46,senior high,9900,no
+12,male,singer,A,58,junior high,550,no
+10,third,engineer,AB,61,junior high,57,no
+10,third,programmer,A,64,primary,1000,no
+14,female,student,B,56,university,930,no
+66,male,programmer,A,92,university,96,no
+7,female,engineer,B,94,doctor,6400,no
+32,female,scientest,AB,86,primary,32,no
+0,third,salesman,AB,36,junior high,1800,no
+34,female,singer,AB,51,doctor,900,no
+60,male,teacher,O,75,university,99,no
+90,male,chef,O,84,doctor,940,no
+4,third,scientest,O,38,university,25,no
+38,male,student,B,51,master,54,no
+75,third,scientest,AB,75,doctor,630,no
+54,third,engineer,B,48,master,510,no
+58,female,student,A,71,doctor,200,no
+82,female,singer,AB,55,doctor,37,no
+54,male,salesman,O,98,primary,840,no
+92,female,chef,A,80,senior high,140,no
+34,third,chef,B,55,primary,600,yes
+26,male,neet,B,61,university,480,no
+6,male,salesman,O,35,doctor,290,no
+82,male,scientest,AB,74,junior high,780,no
+25,female,salesman,B,97,doctor,7900,no
+22,female,student,O,55,junior high,14,yes
+36,female,teacher,O,78,junior high,8100,yes
+80,male,engineer,O,96,master,56,no
+50,third,salesman,B,77,senior high,96,no
+54,male,student,AB,97,master,80,no
+51,female,singer,A,39,senior high,8000,no
+9,male,programmer,AB,87,university,730,no
+74,third,singer,B,84,doctor,67,no
+94,female,neet,O,91,senior high,98,no
+39,third,salesman,O,60,master,90,yes
+36,male,student,AB,91,master,8500,no
+8,female,programmer,B,37,master,260,no
+61,male,student,A,58,university,3,no
+98,third,chef,O,79,junior high,680,no
+87,female,engineer,B,69,doctor,810,no
+4,male,programmer,B,36,senior high,1600,no
+78,female,chef,O,62,junior high,760,no
+97,male,engineer,A,68,senior high,1500,no
+47,male,salesman,B,57,senior high,40,no
+39,male,neet,B,39,university,53,no
+50,female,singer,A,65,doctor,3000,no
+2,male,chef,AB,52,primary,880,no
+19,third,singer,O,47,primary,14,yes
+55,third,chef,O,81,primary,1300,no
+78,female,teacher,O,62,primary,370,no
+72,male,salesman,AB,54,primary,83,no
+84,female,neet,O,49,primary,400,no
+83,third,neet,B,52,primary,160,no
+48,female,singer,B,87,master,66,no
+6,third,salesman,AB,77,master,47,no
+51,male,neet,A,62,senior high,51,no
+81,female,student,B,58,university,400,no
+96,third,scientest,AB,48,senior high,62,no
+57,male,engineer,A,91,doctor,68,no
+58,male,teacher,AB,97,doctor,4000,no
+33,female,student,O,52,primary,6200,yes
+97,third,engineer,O,65,doctor,2,no
+52,female,programmer,A,58,senior high,340,no
+52,third,scientest,AB,62,university,23,no
+42,male,scientest,O,45,primary,90,no
+53,male,salesman,O,42,university,6400,no
+45,male,teacher,O,45,primary,10,no
+1,male,programmer,A,84,senior high,520,no
+10,female,singer,AB,69,senior high,27,no
+2,female,teacher,B,98,senior high,8000,no
+37,male,singer,AB,79,junior high,610,no
+77,third,teacher,O,66,master,820,no
+14,female,student,AB,64,senior high,780,no
+55,third,student,O,91,university,7900,no
+63,female,engineer,AB,60,master,92,no
+29,third,teacher,A,48,university,610,no
+52,third,programmer,O,69,senior high,550,no
+61,third,neet,O,97,master,310,no
+32,female,teacher,B,75,doctor,470,no
+55,male,singer,AB,72,doctor,880,no
+74,female,engineer,B,66,master,9800,no
+81,female,teacher,O,93,primary,7700,no
+81,third,neet,B,66,university,9700,no
+10,third,student,O,85,primary,40,no
+85,third,singer,B,47,senior high,19,no
+9,third,engineer,AB,78,junior high,890,no
+46,female,programmer,A,50,primary,3800,no
+5,third,chef,AB,35,master,7700,no
+80,third,scientest,AB,47,primary,940,no
+65,third,neet,AB,67,senior high,5,no
+70,female,scientest,AB,59,primary,500,no
+36,female,teacher,A,70,doctor,1000,no
+65,third,programmer,B,73,doctor,190,no
+14,third,neet,B,95,master,830,no
+48,third,teacher,A,92,junior high,580,no
+6,male,programmer,A,35,senior high,930,no
+37,female,salesman,O,41,junior high,520,yes
+89,third,neet,O,57,university,66,no
+31,female,scientest,B,76,junior high,6400,no
+3,male,singer,A,62,doctor,1200,no
+90,third,neet,AB,63,junior high,740,no
+42,third,programmer,A,63,primary,5300,no
+91,third,singer,AB,96,master,26,no
+51,female,engineer,A,50,junior high,4400,no
+37,third,student,B,42,doctor,7800,no
+14,third,chef,B,41,primary,5,no
+96,third,teacher,B,77,primary,370,no
+78,female,teacher,O,44,junior high,740,no
+91,third,teacher,AB,92,doctor,46,no
+97,male,programmer,A,65,university,9500,no
+22,third,singer,A,66,primary,300,no
+46,female,neet,AB,66,university,510,no
+14,male,salesman,A,55,doctor,8200,no
+40,third,programmer,AB,71,junior high,560,no
+7,female,scientest,AB,76,doctor,9800,no
+72,third,chef,A,48,master,8200,no
+97,third,teacher,O,41,master,27,no
+96,female,engineer,O,64,primary,180,no
+93,female,student,O,77,senior high,71,no
+19,female,salesman,A,94,doctor,20,no
+22,female,salesman,A,84,senior high,86,no
+22,male,teacher,AB,96,doctor,730,no
+47,male,teacher,A,86,primary,2,no
+25,male,neet,A,65,senior high,80,no
+40,female,salesman,AB,66,doctor,5800,no
+18,male,chef,O,60,junior high,5400,yes
+34,third,scientest,O,88,primary,5100,yes
+49,female,singer,B,46,primary,770,no
+2,male,singer,A,95,primary,3100,no
+35,third,salesman,AB,92,senior high,100,no
+21,third,singer,A,98,master,4800,no
+27,male,salesman,B,49,master,700,no
+6,male,teacher,B,71,primary,1200,no
+68,third,salesman,A,56,university,50,no
+99,third,programmer,B,54,primary,8300,no
+14,male,engineer,B,36,doctor,70,no
+43,third,scientest,AB,64,master,970,yes
+8,male,programmer,O,72,master,70,no
+36,male,salesman,AB,82,doctor,43,no
+96,female,chef,B,57,junior high,240,no
+34,female,salesman,O,44,junior high,430,yes
+53,male,programmer,AB,62,junior high,20,no
+24,third,programmer,A,35,senior high,9900,no
+28,female,student,O,43,primary,90,yes
+70,third,teacher,B,37,master,78,no
+33,male,singer,O,54,university,730,yes
+34,third,scientest,AB,77,primary,710,no
+63,third,engineer,A,58,master,66,no
+81,male,teacher,O,44,university,6700,no
+23,third,programmer,O,73,senior high,990,yes
+30,female,teacher,B,46,doctor,9200,no
+9,third,salesman,AB,92,doctor,1300,no
+78,male,engineer,A,39,university,500,no
+28,male,engineer,AB,99,master,2800,yes
+92,male,scientest,B,81,primary,100,no
+30,male,teacher,B,55,university,100,no
+34,female,chef,AB,88,junior high,610,yes
+66,male,scientest,A,70,master,5300,no
+87,third,scientest,B,67,senior high,6100,no
+61,male,student,A,50,master,4,no
+99,male,salesman,AB,35,primary,940,no
+91,male,programmer,AB,35,university,680,no
+24,third,student,O,38,primary,1000,yes
+65,third,engineer,A,73,primary,69,no
+8,female,chef,B,65,university,390,no
+28,female,programmer,B,95,university,1900,no
+43,female,programmer,AB,40,junior high,460,no
+11,female,neet,B,62,doctor,990,no
+9,male,student,O,93,doctor,300,no
+77,male,teacher,O,83,master,750,no
+53,female,chef,B,43,master,40,no
+20,third,scientest,B,97,junior high,540,no
+39,male,programmer,AB,79,primary,1000,no
+99,third,neet,AB,77,junior high,1700,no
+91,male,teacher,O,89,senior high,7900,no
+20,female,salesman,AB,60,junior high,820,no
+30,female,programmer,A,58,master,74,yes
+20,third,chef,A,59,university,13,yes
+26,third,neet,A,97,primary,7300,no
+20,third,singer,B,46,university,660,no
+55,third,scientest,A,46,university,20,no
+4,female,programmer,AB,81,senior high,8,no
+85,third,student,AB,53,university,3400,no
+87,male,singer,O,51,senior high,520,no
+56,female,chef,B,93,master,5800,no
+34,female,scientest,B,39,master,5500,yes
+96,third,salesman,AB,38,senior high,810,no
+82,female,programmer,B,70,university,8400,no
+61,third,singer,AB,36,master,360,no
+86,male,chef,O,86,doctor,62,no
+71,female,scientest,O,86,junior high,22,no
+29,female,programmer,A,88,junior high,510,no
+97,male,student,B,61,junior high,37,no
+62,female,chef,A,43,doctor,80,no
+5,female,scientest,A,64,junior high,90,no
+94,female,scientest,A,71,primary,4,no
+59,third,scientest,A,78,master,2700,no
+1,third,scientest,AB,93,master,2400,no
+7,third,chef,B,59,primary,71,no
+32,female,singer,AB,94,junior high,100,no
+75,female,engineer,O,96,doctor,830,no
+13,female,student,B,73,primary,16,no
+88,male,teacher,O,39,senior high,3500,no
+70,female,neet,B,98,primary,8,no
+49,third,teacher,O,83,master,96,no
+77,female,student,B,83,doctor,83,no
+94,male,engineer,B,48,doctor,570,no
+35,female,student,O,75,senior high,390,yes
+87,female,chef,B,72,university,67,no
+60,male,salesman,B,50,master,55,no
+79,male,salesman,B,37,senior high,40,no
+17,male,scientest,A,42,master,83,no
+32,third,programmer,AB,50,primary,6400,no
+40,third,student,A,52,master,90,no
+40,third,neet,A,36,junior high,36,no
+81,male,scientest,B,54,junior high,1100,no
+26,third,chef,A,58,university,10,yes
+47,female,student,AB,52,master,80,no
+89,female,salesman,B,60,primary,3100,no
+51,male,programmer,O,58,doctor,60,no
+36,female,engineer,O,42,doctor,5600,yes
+89,female,neet,A,68,primary,2000,no
+31,female,neet,A,84,primary,740,no
+50,female,salesman,A,64,doctor,960,no
+67,male,scientest,B,78,junior high,690,no
+85,third,chef,B,36,doctor,170,no
+9,third,scientest,B,35,doctor,410,no
+34,male,chef,O,52,university,440,yes
+68,third,singer,B,76,junior high,62,no
+78,third,neet,O,72,junior high,20,no
+19,male,neet,A,47,university,30,no
+95,female,programmer,B,81,master,880,no
+18,male,engineer,A,84,doctor,150,no
+16,male,neet,AB,62,doctor,52,no
+71,female,neet,AB,64,university,430,no
+58,female,student,AB,72,master,15,no
+26,female,salesman,O,66,university,43,yes
+95,third,neet,AB,88,doctor,70,no
+42,female,scientest,A,91,doctor,5100,yes
+7,female,teacher,AB,39,master,700,no
+12,male,singer,A,54,master,2800,no
+14,male,singer,B,71,master,19,no
+3,third,chef,B,84,master,9800,no
+85,male,chef,B,52,university,370,no
+5,third,programmer,B,87,master,810,no
+42,third,salesman,AB,75,university,800,no
+93,third,teacher,B,39,university,590,no
+32,male,salesman,O,70,primary,1000,yes
+14,third,singer,O,61,junior high,5700,no
+64,third,neet,AB,55,senior high,86,no
+47,male,student,A,67,junior high,740,no
+36,male,chef,B,36,senior high,170,yes
+30,male,salesman,B,93,primary,9500,no
+17,male,singer,A,41,primary,5400,no
+0,third,engineer,B,37,master,82,no
+8,female,teacher,A,65,master,21,no
+59,female,engineer,O,84,primary,8600,no
+83,third,chef,A,47,senior high,400,no
+89,third,programmer,O,68,doctor,5700,no
+67,male,chef,O,41,junior high,1800,no
+68,female,neet,B,58,doctor,2500,no
+99,male,engineer,B,37,senior high,71,no
+68,third,salesman,A,76,junior high,280,no
+21,female,salesman,A,44,primary,990,no
+94,female,singer,AB,68,master,83,no
+69,female,salesman,A,75,senior high,6800,no
+35,female,singer,O,50,master,500,yes
+2,female,singer,AB,56,primary,6700,no
+65,female,programmer,B,41,senior high,100,no
+86,male,chef,O,85,doctor,30,no
+49,female,singer,O,93,junior high,11,no
+78,male,salesman,AB,90,junior high,41,no
+52,female,chef,AB,52,senior high,5900,no
+35,male,student,A,59,junior high,9300,no
+70,male,neet,O,75,master,580,no
+50,female,scientest,A,65,primary,8000,no
+33,male,scientest,A,87,university,40,no
+27,female,engineer,AB,76,university,750,no
+10,third,teacher,B,81,doctor,45,no
+77,male,singer,AB,79,doctor,10,no
+89,third,chef,B,63,senior high,40,no
+14,male,teacher,AB,68,master,300,no
+28,third,teacher,B,43,master,730,no
+19,male,student,B,39,senior high,25,no
+83,male,student,B,83,primary,14,no
+52,male,salesman,AB,97,university,7100,no
+65,male,salesman,AB,67,primary,1800,no
+34,third,scientest,O,58,university,8600,yes
+99,third,programmer,A,53,university,200,no
+19,female,student,AB,43,senior high,6,no
+1,third,salesman,A,65,university,83,no
+94,third,student,O,63,university,590,no
+63,male,neet,O,35,university,7000,no
+80,male,chef,AB,75,master,79,no
+42,third,teacher,AB,99,junior high,67,no
+59,male,scientest,O,60,senior high,330,no
+20,male,programmer,B,83,junior high,530,no
+41,male,singer,AB,50,master,1500,no
+22,female,student,O,61,senior high,55,yes
+81,female,neet,AB,87,university,850,no
+23,female,salesman,O,57,junior high,820,yes
+20,third,teacher,O,53,master,300,yes
+61,female,neet,B,59,university,1900,no
+7,third,teacher,B,51,senior high,3,no
+51,female,teacher,B,36,doctor,260,no
+35,female,scientest,AB,55,primary,2200,no
+32,third,teacher,AB,94,senior high,97,no
+92,male,programmer,AB,80,primary,96,no
+34,third,student,A,87,senior high,1,no
+48,third,neet,B,76,senior high,6900,no
+11,female,neet,A,85,university,930,no
+10,third,engineer,AB,62,master,2500,no
+22,male,programmer,A,64,primary,720,no
+76,male,programmer,A,65,senior high,51,no
+0,third,engineer,B,52,junior high,700,no
+12,female,scientest,B,36,master,13,yes
+28,male,student,A,67,doctor,35,no
+56,third,scientest,O,61,primary,10000,no
+26,female,singer,A,50,doctor,7500,no
+63,female,engineer,B,83,doctor,9900,no
+1,third,engineer,AB,68,master,77,no
+91,female,engineer,A,96,junior high,1500,no
+64,female,neet,O,59,primary,760,no
+33,male,scientest,O,69,doctor,9600,yes
+96,female,chef,O,65,primary,3900,no
+93,third,programmer,B,66,senior high,330,no
+58,male,salesman,B,95,senior high,12,no
+43,male,programmer,A,70,master,380,yes
+65,third,teacher,O,52,doctor,3700,no
+54,female,engineer,O,64,junior high,5,no
+75,male,programmer,O,63,junior high,700,no
+91,third,teacher,O,51,university,200,no
+98,male,teacher,AB,52,doctor,25,no
+99,third,student,AB,71,master,62,no
+3,male,singer,A,99,junior high,8500,no
+38,female,scientest,B,77,senior high,32,no
+13,female,chef,B,53,master,4300,no
+75,female,engineer,A,91,senior high,73,no
+21,female,neet,O,80,university,9400,yes
+60,female,chef,A,60,doctor,980,no
+75,male,programmer,B,50,senior high,310,no
+44,male,scientest,A,73,junior high,40,no
+71,male,teacher,A,53,primary,480,no
+39,third,singer,O,77,junior high,200,yes
+43,third,salesman,A,67,junior high,9000,no
+21,third,engineer,AB,60,junior high,970,no
+59,male,engineer,O,39,senior high,570,no
+81,third,engineer,A,79,university,400,no
+70,female,programmer,B,62,master,630,no
+86,female,singer,B,84,primary,1000,no
+50,third,neet,B,96,senior high,8700,no
+20,female,chef,B,41,university,7600,yes
+54,third,chef,AB,71,senior high,4300,no
+73,male,engineer,B,70,university,7300,no
+65,male,programmer,A,91,primary,42,no
+23,male,engineer,A,72,primary,13,no
+37,male,chef,A,58,junior high,670,yes
+83,male,salesman,B,42,junior high,770,no
+82,third,programmer,B,42,university,950,no
+42,third,engineer,O,87,doctor,5000,yes
+48,third,student,B,72,primary,940,no
+50,third,programmer,AB,74,junior high,1000,no
+39,third,neet,O,98,senior high,62,yes
+96,third,engineer,O,64,university,690,no
+65,third,engineer,AB,98,master,160,no
+62,third,scientest,B,88,university,960,no
+84,third,teacher,A,79,junior high,1000,no
+85,third,scientest,AB,79,master,540,no
+54,third,salesman,A,64,master,7800,no
+58,female,singer,AB,60,university,850,no
+97,female,salesman,B,39,master,2100,no
+33,third,chef,AB,97,master,41,yes
+59,female,salesman,B,49,doctor,260,no
+35,third,singer,A,70,senior high,760,no
+61,third,teacher,O,97,junior high,4100,no
+25,third,salesman,AB,35,master,2500,no
+41,male,scientest,AB,80,primary,800,no
+82,male,teacher,A,57,senior high,83,no
+44,female,chef,O,42,senior high,75,yes
+59,female,programmer,AB,76,master,510,no
+25,male,chef,A,59,primary,340,yes
+78,male,engineer,AB,92,doctor,570,no
+78,third,student,A,55,doctor,390,no
+22,female,engineer,AB,81,master,560,yes
+71,male,singer,AB,49,university,580,no
+18,male,chef,AB,54,master,5300,yes
+49,female,chef,O,84,senior high,520,yes
+32,third,chef,B,46,university,46,yes
+5,female,chef,AB,90,senior high,65,no
+17,female,engineer,AB,63,university,2500,no
+27,female,scientest,B,40,primary,920,no
+93,male,singer,O,52,master,26,no
+74,female,student,AB,35,senior high,930,no
+65,third,salesman,O,81,primary,47,no
+49,male,teacher,AB,51,master,40,no
+52,female,programmer,B,85,university,96,no
+78,third,neet,AB,88,senior high,500,no
+72,male,scientest,A,72,doctor,400,no
+35,male,teacher,A,77,primary,360,no
+83,male,teacher,B,39,doctor,130,no
+95,male,salesman,O,39,doctor,91,no
+28,female,singer,AB,95,junior high,100,no
+3,third,engineer,AB,60,doctor,51,no
+13,male,student,B,76,primary,2100,no
+49,male,engineer,B,86,university,4500,no
+55,male,student,AB,85,senior high,550,no
+69,third,chef,O,85,junior high,8500,no
+59,female,programmer,O,68,senior high,250,no
+54,third,singer,B,46,university,440,no
+81,female,singer,O,63,doctor,1300,no
+34,third,neet,O,83,junior high,610,yes
+31,third,scientest,O,60,primary,58,yes
+44,third,salesman,A,73,university,820,no
+51,female,scientest,O,83,doctor,68,no
+6,third,singer,AB,39,senior high,730,no
+60,male,neet,AB,82,master,3700,no
+2,female,salesman,B,90,doctor,7100,no
+97,male,singer,B,89,primary,16,no
+64,female,engineer,AB,65,master,890,no
+84,third,student,A,77,primary,35,no
+87,female,teacher,AB,76,master,660,no
+12,female,chef,B,99,primary,6000,no
+22,female,student,A,98,primary,210,no
+58,third,salesman,A,90,doctor,8600,no
+68,male,teacher,B,80,senior high,96,no
+9,third,programmer,O,82,senior high,56,no
+67,male,salesman,B,64,junior high,77,no
+4,third,neet,O,80,master,16,no
+59,female,scientest,A,62,university,1800,no
+7,female,singer,O,75,junior high,6500,no
+44,third,scientest,AB,96,doctor,2600,yes
+58,female,singer,O,40,senior high,80,no
+34,third,singer,A,51,junior high,53,no
+36,female,engineer,B,71,doctor,70,yes
+16,female,student,A,67,senior high,69,no
+78,female,chef,B,60,master,32,no
+77,male,teacher,O,72,master,230,no
+76,third,scientest,B,59,primary,66,no
+79,third,chef,O,67,junior high,1000,no
+6,female,neet,B,64,senior high,670,no
+80,female,salesman,A,61,junior high,150,no
+19,male,student,A,51,university,6900,no
+82,female,engineer,A,99,primary,73,no
+7,female,programmer,B,60,junior high,80,no
+5,third,salesman,B,42,doctor,850,no
+62,third,teacher,B,54,master,7100,no
+79,female,salesman,O,85,junior high,88,no
+45,third,singer,A,90,university,30,no
+23,male,teacher,B,38,junior high,100,no
+20,female,teacher,O,79,doctor,590,yes
+95,male,student,B,44,master,640,no
+78,female,scientest,AB,36,master,890,no
+72,third,teacher,O,50,master,26,no
+57,male,salesman,O,60,senior high,57,no
+49,female,salesman,B,97,doctor,31,no
+21,male,chef,O,55,primary,42,yes
+49,female,student,A,73,senior high,470,no
+24,male,salesman,AB,37,doctor,8700,no
+32,female,student,B,81,senior high,560,no
+1,male,singer,A,45,senior high,84,no
+26,male,scientest,AB,49,master,110,yes
+10,third,teacher,AB,36,primary,5400,no
+13,third,scientest,O,39,primary,870,no
+85,third,singer,AB,90,junior high,51,no
+50,third,programmer,O,52,master,58,yes
+5,third,neet,A,76,junior high,67,no
+81,male,neet,AB,55,university,85,no
+32,female,salesman,A,72,junior high,1,no
+29,third,programmer,O,67,primary,6900,yes
+7,female,programmer,A,60,primary,790,no
+79,male,singer,AB,45,primary,8900,no
+81,third,scientest,A,45,doctor,98,no
+1,female,teacher,B,51,university,24,no
+39,third,engineer,AB,56,senior high,7000,no
+28,female,salesman,B,66,master,89,no
+82,third,programmer,B,63,doctor,770,no
+51,third,singer,A,64,doctor,4200,no
+64,female,singer,O,93,doctor,58,no
+2,third,singer,A,47,primary,460,no
+7,male,programmer,AB,64,university,370,no
+38,third,engineer,A,37,university,13,no
+62,female,scientest,A,61,doctor,1000,no
+2,female,scientest,B,67,university,25,no
+71,male,student,O,90,university,2,no
+48,female,singer,B,90,senior high,62,no
+81,third,teacher,A,37,junior high,3,no
+13,female,teacher,AB,51,master,7400,no
+52,male,teacher,A,49,doctor,37,no
+24,female,singer,O,91,doctor,1600,yes
+79,male,student,B,77,doctor,17,no
+13,third,salesman,B,65,senior high,7000,no
+52,third,salesman,O,92,doctor,47,no
+80,male,salesman,AB,93,primary,440,no
+28,male,singer,A,41,senior high,2200,no
+89,third,singer,AB,53,junior high,5900,no
+88,female,teacher,A,86,senior high,59,no
+20,third,chef,A,53,master,35,yes
+35,female,teacher,B,93,doctor,87,no
+92,female,student,B,51,primary,6200,no
+39,male,engineer,O,49,master,69,yes
+1,female,teacher,O,35,university,66,no
+11,female,engineer,O,97,senior high,19,no
+63,female,scientest,O,55,doctor,3,no
+26,third,singer,O,35,senior high,99,yes
+87,third,programmer,B,36,doctor,830,no
+86,male,student,A,83,junior high,850,no
+67,male,engineer,A,50,doctor,2200,no
+93,female,neet,B,55,university,4500,no
+44,third,neet,O,75,junior high,5400,no
+51,male,scientest,AB,52,primary,28,no
+68,female,teacher,B,35,university,3000,no
+79,female,singer,AB,90,master,10,no
+73,female,neet,A,70,senior high,46,no
+72,third,teacher,AB,70,university,40,no
+64,male,teacher,B,97,university,850,no
+90,third,scientest,A,48,primary,6400,no
+48,male,engineer,B,58,doctor,7400,yes
+6,female,chef,O,55,junior high,8,no
+21,female,scientest,A,35,primary,3900,no
+15,male,engineer,A,39,master,6100,no
+17,female,neet,AB,53,university,410,no
+89,male,salesman,AB,43,senior high,590,no
+33,third,scientest,A,89,university,18,no
+46,male,salesman,B,71,senior high,9700,no
+33,third,engineer,B,63,junior high,6000,no
+93,third,teacher,B,47,doctor,9100,no
+8,female,programmer,O,69,junior high,7800,no
+17,female,student,B,73,junior high,5600,no
+95,female,salesman,AB,89,university,990,no
+92,male,student,A,63,senior high,6200,no
+75,third,scientest,B,35,senior high,780,no
+65,male,singer,A,77,primary,40,no
+42,male,neet,A,78,junior high,2500,no
+85,female,student,A,49,senior high,510,no
+37,male,student,A,68,primary,33,no
+71,female,singer,B,97,primary,660,no
+87,male,singer,O,69,primary,360,no
+80,male,chef,AB,91,university,530,no
+19,male,teacher,O,46,doctor,480,yes
+11,male,engineer,A,39,primary,3200,yes
+14,female,student,AB,39,primary,9600,yes
+77,female,programmer,A,98,master,2,no
+44,third,neet,B,80,senior high,36,no
+11,male,student,O,94,primary,1600,no
+60,third,chef,A,70,university,80,no
+8,third,chef,A,75,junior high,79,no
+94,female,singer,AB,49,university,1600,no
+39,female,salesman,AB,98,junior high,690,no
+52,third,scientest,B,71,doctor,15,no
+65,male,neet,O,65,university,8800,no
+6,male,programmer,AB,60,doctor,63,no
+77,female,teacher,B,63,primary,800,no
+22,third,engineer,B,51,primary,940,no
+1,female,engineer,O,66,master,45,no
+5,third,student,B,48,master,70,no
+18,female,programmer,O,58,university,35,yes
+98,male,programmer,A,37,university,9000,no
+86,female,singer,O,76,doctor,340,no
+54,female,chef,AB,59,university,4600,no
+80,third,neet,AB,65,doctor,1500,no
+97,male,neet,O,35,senior high,7300,no
+13,male,scientest,A,63,university,87,no
+51,third,singer,A,38,junior high,940,no
+38,third,engineer,AB,78,senior high,900,no
+46,male,scientest,O,40,junior high,4,no
+43,female,salesman,AB,87,master,97,no
+17,female,singer,AB,46,university,8,no
+3,female,singer,B,64,university,940,no
+83,male,salesman,O,37,primary,3400,no
+36,female,singer,B,91,senior high,220,no
+51,female,scientest,A,90,junior high,26,no
+10,third,programmer,AB,67,master,2300,no
+6,male,chef,O,45,master,6600,no
+37,female,salesman,B,45,master,420,no
+58,male,teacher,O,67,master,490,no
+41,male,salesman,A,81,junior high,9,no
+90,male,engineer,O,72,primary,41,no
+90,third,singer,B,74,master,810,no
+0,third,neet,AB,68,master,49,no
+9,female,student,AB,55,master,95,no
+28,third,singer,B,52,doctor,2700,no
+8,third,singer,A,78,university,390,no
+86,male,scientest,O,58,senior high,92,no
+7,female,neet,A,88,junior high,9000,no
+20,female,chef,B,52,doctor,7,yes
+72,third,singer,A,82,university,64,no
+41,male,engineer,A,37,university,82,no
+77,male,teacher,B,45,senior high,6600,no
+65,third,student,O,79,primary,660,no
+45,male,chef,B,75,senior high,470,yes
+83,third,neet,AB,89,primary,8200,no
+23,male,salesman,B,63,primary,87,no
+10,female,neet,A,57,junior high,8600,no
+69,male,chef,B,63,university,850,no
+53,male,teacher,A,90,senior high,44,no
+74,male,neet,A,45,master,110,no
+53,male,neet,A,50,master,5400,no
+87,third,singer,A,52,primary,6500,no
+18,female,salesman,O,50,doctor,60,yes
+86,male,singer,O,55,junior high,3000,no
+63,third,chef,A,63,primary,3100,no
+15,female,singer,B,90,doctor,32,no
+64,male,teacher,A,38,master,5300,no
+20,third,neet,AB,92,university,630,no
+43,third,programmer,O,54,master,4800,yes
+24,male,chef,O,62,master,6000,yes
+85,third,scientest,O,38,senior high,70,no
+37,male,salesman,O,67,university,3500,yes
+98,male,chef,B,46,junior high,83,no
+56,male,salesman,B,72,junior high,19,no
+11,male,student,B,40,university,4900,yes
+90,third,neet,O,46,primary,2700,no
+61,female,salesman,B,92,primary,100,no
+50,third,programmer,O,63,senior high,95,no
+4,female,neet,A,42,junior high,870,no
+79,male,teacher,O,74,junior high,2,no
+40,female,singer,AB,93,junior high,56,no
+90,third,singer,B,43,senior high,9100,no
+5,male,singer,A,52,doctor,5700,no
+54,male,engineer,A,90,primary,1500,no
+95,male,salesman,A,95,senior high,7,no
+7,female,student,A,67,senior high,180,no
+71,third,programmer,O,56,junior high,90,no
+24,female,singer,AB,54,junior high,49,no
+47,female,singer,B,37,doctor,430,no
+59,male,singer,O,57,junior high,29,no
+16,third,student,B,69,junior high,790,no
+26,female,chef,A,83,senior high,48,yes
+47,female,singer,A,80,primary,870,no
+57,female,neet,A,48,master,87,no
+83,male,engineer,AB,89,junior high,1400,no
+82,female,engineer,B,92,senior high,450,no
+53,male,singer,B,45,master,550,no
+39,male,scientest,B,46,master,50,yes
+45,female,singer,O,91,master,370,no
+52,male,chef,B,95,junior high,770,no
+67,female,scientest,B,55,master,97,no
+14,female,neet,AB,54,senior high,840,no
+2,male,student,A,36,master,120,no
+85,male,scientest,B,84,university,810,no
+53,third,salesman,A,52,primary,3100,no
+55,female,teacher,AB,69,doctor,9700,no
+13,female,neet,AB,50,university,490,no
+48,male,engineer,A,48,university,30,no
+36,third,teacher,O,89,doctor,710,yes
+63,male,student,AB,44,doctor,8800,no
+69,male,teacher,AB,97,junior high,33,no
+74,female,student,O,99,master,580,no
+16,female,scientest,B,51,master,950,no
+45,third,neet,O,63,doctor,600,no
+38,third,salesman,A,57,doctor,670,no
+93,third,salesman,A,38,senior high,92,no
+60,third,salesman,O,63,primary,55,no
+17,third,teacher,AB,99,primary,70,no
+80,female,teacher,AB,99,primary,180,no
+21,third,teacher,O,79,senior high,11,yes
+98,third,scientest,B,83,master,50,no
+51,male,scientest,O,64,university,550,no
+62,female,neet,AB,48,university,9000,no
+13,female,teacher,O,92,senior high,210,no
+10,third,teacher,O,78,university,14,no
+80,female,chef,B,96,senior high,880,no
+68,third,singer,O,84,doctor,2300,no
+22,male,engineer,O,81,doctor,1200,yes
+27,female,neet,A,53,primary,560,no
+15,third,salesman,AB,39,senior high,9000,no
+72,female,singer,AB,83,primary,820,no
+15,female,neet,A,73,senior high,510,no
+83,male,teacher,B,85,doctor,600,no
+93,female,chef,AB,59,senior high,6700,no
+74,male,scientest,B,36,master,280,no
+78,third,neet,B,38,doctor,6100,no
+99,third,programmer,O,46,master,140,no
+85,female,salesman,A,69,university,74,no
+41,third,chef,O,72,senior high,46,yes
+67,third,chef,O,90,junior high,600,no
+8,male,chef,A,63,master,4500,no
+74,female,engineer,A,74,junior high,650,no
+93,male,teacher,O,98,master,16,no
+42,female,singer,B,36,senior high,8300,no
+69,third,chef,AB,77,doctor,640,no
+42,third,neet,B,57,master,20,no
+27,male,singer,O,75,junior high,2200,yes
+66,male,salesman,A,74,junior high,7500,no
+51,third,salesman,B,92,doctor,470,no
+88,male,engineer,O,53,senior high,190,no
+78,third,chef,B,88,doctor,900,no
+94,third,chef,A,96,doctor,860,no
+65,female,teacher,AB,92,junior high,100,no
+38,third,teacher,A,59,primary,330,no
+13,third,salesman,B,75,junior high,6,no
+66,male,neet,A,42,university,47,no
+56,male,engineer,A,80,primary,910,no
+48,male,salesman,B,68,university,760,no
+36,female,chef,A,78,primary,37,yes
+27,third,scientest,A,79,doctor,90,yes
+32,female,engineer,O,45,senior high,8500,yes
+27,third,scientest,O,52,master,2600,yes
+78,male,chef,O,44,master,9800,no
+91,male,neet,B,81,senior high,2800,no
+18,female,programmer,B,88,master,53,no
+82,male,singer,AB,41,senior high,43,no
+44,male,singer,B,69,university,72,no
+4,male,chef,AB,47,master,550,no
+22,third,neet,AB,35,doctor,790,no
+41,male,neet,A,45,master,390,no
+15,third,neet,A,44,university,59,no
+72,third,salesman,O,52,primary,54,no
+60,female,engineer,AB,71,university,8300,no
+8,male,engineer,B,53,university,120,no
+37,third,scientest,B,72,junior high,150,no
+53,third,programmer,O,95,university,920,no
+93,third,programmer,O,50,primary,3,no
+36,male,salesman,O,91,primary,4500,yes
+11,male,singer,AB,82,primary,25,no
+56,female,neet,O,86,primary,8300,no
+84,male,scientest,AB,92,junior high,6100,no
+84,male,neet,O,89,senior high,27,no
+4,female,engineer,B,58,primary,690,no
+47,female,teacher,A,95,doctor,350,no
+47,third,scientest,A,49,master,910,yes
+98,third,teacher,B,48,doctor,8700,no
+15,female,salesman,A,96,senior high,40,no
+36,female,student,A,84,senior high,65,no
+65,male,student,AB,81,doctor,51,no
+11,third,chef,AB,44,junior high,150,no
+85,third,teacher,AB,77,senior high,95,no
+44,third,student,AB,63,senior high,1,no
+40,female,scientest,B,63,junior high,6100,no
+31,male,salesman,A,95,primary,7200,no
+25,female,teacher,B,51,university,6000,no
+80,male,teacher,B,75,primary,18,no
+83,male,teacher,A,84,master,29,no
+36,third,engineer,O,83,senior high,390,yes
+1,male,student,AB,98,doctor,120,no
+86,male,chef,B,36,master,8300,no
+40,female,neet,AB,93,university,87,no
+1,third,student,AB,67,senior high,5700,no
+51,female,singer,A,55,master,850,no
+20,female,programmer,A,48,primary,93,no
+26,third,neet,AB,78,university,6200,no
+14,male,student,B,64,master,65,no
+65,third,scientest,AB,68,master,150,no
+87,third,chef,O,46,doctor,300,no
+43,female,chef,A,60,primary,81,yes
+8,male,salesman,B,63,junior high,510,no
+54,female,programmer,AB,96,master,2100,no
+89,third,teacher,B,70,university,54,no
+60,female,student,O,91,primary,5900,no
+48,female,programmer,AB,56,doctor,5900,yes
+94,third,chef,O,74,primary,50,no
+15,third,engineer,B,77,primary,2700,no
+37,female,teacher,B,41,junior high,3300,no
+27,male,student,A,75,master,49,no
+36,male,chef,AB,92,university,10,yes
+97,male,scientest,A,42,master,410,no
+87,female,engineer,B,71,doctor,6700,no
+39,female,chef,A,96,university,240,yes
+97,third,programmer,AB,91,doctor,130,no
+13,male,salesman,AB,87,senior high,190,no
+50,male,teacher,A,56,master,7900,no
+90,male,scientest,AB,51,university,710,no
+79,third,student,O,51,senior high,85,no
+60,female,programmer,AB,60,primary,700,no
+42,male,salesman,O,37,university,5300,no
+77,male,scientest,AB,41,senior high,390,no
+31,male,teacher,AB,96,junior high,3000,no
+4,female,neet,B,57,primary,810,no
+55,third,singer,O,39,master,510,no
+81,third,salesman,O,72,university,68,no
+47,male,engineer,AB,43,doctor,96,yes
+11,male,programmer,AB,43,primary,580,yes
+99,female,neet,AB,47,junior high,300,no
+76,male,singer,A,75,master,40,no
+22,third,programmer,AB,85,university,770,no
+82,third,programmer,AB,38,senior high,39,no
+77,female,student,A,48,junior high,4100,no
+92,third,neet,O,53,doctor,8000,no
+51,male,salesman,A,40,master,60,no
+59,male,engineer,O,61,senior high,200,no
+82,male,teacher,A,47,university,57,no
+56,male,chef,B,99,primary,640,no
+92,male,neet,AB,86,junior high,70,no
+36,male,teacher,AB,48,junior high,3700,no
+39,male,salesman,A,42,junior high,260,no
+91,female,engineer,O,79,senior high,9200,no
+56,male,singer,AB,50,junior high,6100,no
+81,female,chef,A,54,primary,15,no
+32,male,engineer,AB,66,master,6300,yes
+88,female,programmer,O,62,junior high,2,no
+52,male,teacher,A,36,primary,23,no
+45,male,engineer,A,89,primary,4900,no
+95,third,singer,A,98,university,33,no
+40,female,programmer,O,75,master,24,yes
+25,female,chef,AB,75,doctor,280,yes
+38,third,programmer,O,83,doctor,47,yes
+15,female,singer,B,38,master,8000,yes
+55,male,singer,B,93,master,30,no
+87,male,salesman,AB,74,junior high,6100,no
+55,male,chef,B,35,doctor,60,no
+2,third,neet,AB,64,primary,58,no
+62,female,scientest,A,85,junior high,20,no
+13,male,student,O,41,doctor,1200,no
+51,male,singer,B,38,university,6000,no
+53,female,student,A,75,doctor,3600,no
+80,female,singer,AB,98,senior high,700,no
+15,third,neet,B,62,university,900,no
+93,third,engineer,B,47,master,97,no
+58,third,engineer,A,64,junior high,5700,no
+64,female,singer,O,99,senior high,200,no
+65,female,student,O,67,university,96,no
+85,third,student,O,36,university,620,no
+15,female,singer,A,52,doctor,47,no
+65,third,singer,A,62,primary,21,no
+61,male,neet,A,44,senior high,2800,no
+34,female,engineer,B,57,primary,7500,no
+66,female,scientest,AB,43,senior high,1300,no
+30,male,student,AB,43,primary,29,no
+11,male,neet,O,37,master,11,yes
+51,female,programmer,AB,75,doctor,2300,no
+96,female,singer,AB,37,university,42,no
+41,female,scientest,A,51,primary,5900,no
+35,third,singer,B,35,senior high,95,no
+82,female,teacher,O,36,primary,73,no
+91,female,chef,AB,97,university,44,no
+33,male,salesman,O,57,master,64,yes
+94,male,student,A,64,senior high,14,no
+1,third,student,B,76,junior high,62,no
+74,male,engineer,B,62,senior high,7100,no
+25,third,engineer,AB,57,master,1900,yes
+29,male,scientest,B,94,senior high,7300,no
+65,female,programmer,A,54,university,76,no
+56,third,programmer,O,64,primary,86,no
+99,female,chef,A,56,doctor,7000,no
+94,female,engineer,A,73,primary,550,no
+80,third,scientest,AB,61,junior high,24,no
+81,male,engineer,B,80,junior high,630,no
+27,third,programmer,B,86,university,840,no
+90,male,chef,A,47,university,71,no
+56,male,programmer,AB,47,junior high,2300,no
+33,female,chef,AB,60,master,69,yes
+95,third,student,AB,53,university,190,no
+5,male,salesman,A,58,junior high,780,no
+13,female,scientest,A,97,master,4500,no
+51,male,salesman,B,98,master,530,no
+42,male,engineer,B,94,junior high,340,no
+72,female,programmer,O,39,senior high,2300,no
+1,female,scientest,B,87,senior high,9000,no
+93,male,student,A,80,doctor,62,no
+41,third,neet,A,86,master,83,no
+79,female,neet,B,38,university,35,no
+5,male,teacher,AB,91,junior high,9600,no
+8,male,programmer,O,91,doctor,40,no
+6,female,teacher,B,44,senior high,6800,no
+59,third,singer,B,56,primary,90,no
+19,female,singer,B,60,university,64,no
+6,male,singer,B,86,junior high,20,no
+32,male,student,O,88,junior high,7900,yes
+48,third,neet,A,68,university,42,no
+17,third,scientest,A,41,doctor,1900,no
+82,third,scientest,AB,82,university,990,no
+25,third,chef,O,73,doctor,890,yes
+81,male,neet,B,83,senior high,8,no
+3,male,chef,O,90,primary,250,no
+51,third,neet,AB,35,university,4,no
+38,third,engineer,O,78,junior high,86,yes
+44,male,chef,O,69,university,1500,yes
+4,third,singer,B,75,junior high,9400,no
+56,third,programmer,O,38,primary,96,no
+33,third,programmer,A,60,primary,8100,no
+44,third,chef,O,44,university,950,yes
+18,third,chef,O,39,junior high,9200,yes
+50,third,scientest,AB,80,junior high,200,no
+63,third,salesman,O,92,master,9300,no
+74,female,engineer,A,83,primary,270,no
+79,third,scientest,A,74,master,3200,no
+64,male,neet,B,61,junior high,600,no
+36,male,teacher,B,85,senior high,750,no
+48,female,scientest,AB,88,primary,700,no
+49,female,singer,O,52,junior high,690,no
+16,female,neet,AB,88,university,29,no
+18,male,singer,AB,63,senior high,6600,no
+16,female,singer,AB,38,senior high,900,yes
+66,female,teacher,AB,53,senior high,9500,no
+20,female,scientest,B,92,senior high,1,no
+87,female,chef,AB,41,master,750,no
+40,third,engineer,A,47,master,3100,yes
+46,third,singer,O,58,junior high,32,no
+4,third,teacher,B,87,senior high,95,no
+15,third,chef,AB,78,university,72,no
+88,female,teacher,O,37,junior high,3100,no
+97,female,student,O,55,primary,110,no
+47,male,engineer,A,70,senior high,40,no
+13,male,chef,A,43,doctor,4600,no
+73,third,salesman,AB,46,master,550,no
+51,female,teacher,B,54,junior high,82,no
+80,male,teacher,AB,76,university,340,no
+80,female,singer,A,63,primary,450,no
+47,male,chef,A,80,doctor,41,yes
+74,male,scientest,B,45,master,620,no
+55,female,singer,O,99,primary,57,no
+90,male,scientest,AB,95,university,530,no
+64,third,programmer,AB,80,primary,8000,no
+11,third,chef,AB,83,senior high,170,no
+63,male,singer,A,40,master,40,no
+13,third,chef,AB,35,master,520,no
+73,male,scientest,B,88,master,85,no
+68,third,neet,B,78,university,350,no
+12,third,engineer,A,51,junior high,770,no
+92,female,chef,A,63,doctor,780,no
+18,third,singer,B,58,master,6300,no
+7,male,student,AB,38,junior high,590,no
+51,female,scientest,AB,56,junior high,7,no
+85,female,scientest,AB,87,primary,10000,no
+56,male,chef,AB,97,junior high,58,no
+50,male,engineer,A,74,master,5500,yes
+95,male,engineer,A,46,senior high,6200,no
+77,female,salesman,A,35,university,25,no
+87,third,chef,AB,52,senior high,110,no
+55,male,teacher,AB,65,senior high,820,no
+83,female,neet,A,35,junior high,58,no
+8,female,scientest,A,42,junior high,26,no
+59,female,neet,A,85,primary,990,no
+84,third,student,B,74,senior high,900,no
+17,female,programmer,AB,79,master,85,no
+50,third,salesman,AB,43,junior high,14,no
+14,third,scientest,AB,91,primary,65,no
+98,female,singer,O,58,master,490,no
+24,male,neet,B,73,university,3600,no
+61,female,student,A,68,doctor,500,no
+2,male,student,B,71,university,360,no
+36,male,teacher,AB,62,doctor,150,no
+18,female,engineer,AB,51,junior high,600,no
+44,third,neet,O,52,junior high,18,no
+21,female,singer,A,38,senior high,5700,no
+13,male,salesman,O,42,junior high,44,no
+42,female,neet,A,50,primary,98,no
+28,male,scientest,A,62,master,6400,yes
+55,female,teacher,O,88,doctor,66,no
+77,third,singer,A,72,university,1500,no
+16,female,teacher,AB,93,primary,93,no
+1,third,student,A,53,master,470,no
+68,female,salesman,O,73,junior high,58,no
+4,male,scientest,B,68,master,6400,no
+40,male,chef,B,68,university,8000,yes
+24,male,teacher,AB,82,senior high,610,no
+86,third,teacher,A,66,master,49,no
+29,third,salesman,AB,41,master,72,no
+45,third,singer,AB,71,university,710,no
+91,male,salesman,AB,41,senior high,84,no
+71,third,teacher,A,71,senior high,8900,no
+84,male,salesman,AB,89,junior high,6200,no
+23,male,neet,B,64,master,8500,no
+0,male,programmer,O,92,junior high,77,no
+28,third,programmer,AB,94,primary,450,no
+49,male,student,A,53,junior high,40,no
+83,third,singer,AB,51,primary,4800,no
+34,female,programmer,AB,85,primary,790,no
+85,male,programmer,A,95,senior high,85,no
+48,male,salesman,AB,67,primary,2000,no
+55,male,engineer,O,79,master,340,no
+19,male,engineer,B,84,master,360,no
+63,third,neet,AB,88,primary,420,no
+43,male,chef,AB,39,senior high,71,yes
+43,third,student,AB,54,primary,170,no
+4,female,programmer,B,43,junior high,3100,no
+56,male,scientest,O,51,primary,120,no
+11,male,student,A,80,university,8100,no
+78,female,engineer,A,40,senior high,440,no
+16,male,neet,AB,63,senior high,430,no
+3,male,salesman,B,59,senior high,5800,no
+42,female,engineer,B,77,university,55,no
+72,female,teacher,A,61,university,6000,no
+88,male,salesman,O,65,primary,3300,no
+68,third,programmer,O,68,junior high,8800,no
+91,third,teacher,O,59,junior high,670,no
+7,male,programmer,O,55,junior high,2700,no
+29,third,scientest,AB,55,junior high,5900,no
+95,third,singer,AB,73,master,2800,no
+53,male,scientest,O,47,junior high,520,no
+25,third,programmer,AB,94,primary,85,no
+80,female,singer,AB,85,primary,5100,no
+41,female,singer,A,81,junior high,6200,no
+99,third,singer,A,37,junior high,69,no
+25,male,student,AB,88,senior high,61,no
+31,female,scientest,O,38,junior high,78,yes
+33,third,programmer,B,51,primary,2400,no
+50,female,chef,AB,60,doctor,54,yes
+3,third,engineer,B,57,junior high,50,no
+53,female,student,AB,35,junior high,490,no
+91,male,singer,O,91,university,3800,no
+71,female,scientest,A,94,university,380,no
+82,third,engineer,O,83,master,4800,no
+37,female,singer,O,60,senior high,3,yes
+2,male,singer,O,35,doctor,450,no
+35,female,teacher,AB,92,master,35,no
+71,third,engineer,B,91,senior high,860,no
+96,male,engineer,A,63,master,3700,no
+53,male,student,A,53,senior high,95,no
+43,third,student,O,70,primary,9200,no
+51,female,engineer,O,85,university,110,no
+47,third,chef,O,40,junior high,82,yes
+91,female,student,A,84,junior high,300,no
+86,male,singer,A,97,primary,450,no
+15,female,engineer,A,98,senior high,84,no
+68,third,student,O,50,primary,31,no
+70,third,programmer,A,51,university,3500,no
+76,third,chef,B,42,senior high,81,no
+36,female,programmer,B,77,university,4600,no
+39,third,salesman,AB,59,primary,250,no
+47,male,student,O,65,junior high,2300,no
+89,third,singer,A,98,master,40,no
+66,third,engineer,A,86,doctor,33,no
+7,third,singer,B,38,university,93,no
+0,third,neet,B,40,university,8000,no
+81,male,scientest,A,54,primary,650,no
+47,female,salesman,O,75,primary,500,no
+94,male,programmer,O,48,doctor,510,no
+71,female,student,A,97,university,3200,no
+65,female,student,B,41,master,120,no
+26,third,teacher,B,38,doctor,12,no
+68,male,engineer,A,78,senior high,400,no
+85,female,chef,AB,36,university,110,no
+56,third,neet,A,73,senior high,490,no
+33,male,scientest,A,91,university,98,no
+53,male,scientest,AB,77,university,5800,no
+31,third,programmer,O,74,senior high,75,yes
+30,male,engineer,AB,40,primary,79,no
+58,female,student,AB,76,junior high,77,no
+64,third,student,A,38,junior high,29,no
+17,third,scientest,A,95,primary,700,no
+87,third,scientest,O,95,university,300,no
+60,female,salesman,AB,99,senior high,30,no
+54,male,scientest,A,77,senior high,130,no
+95,third,teacher,A,54,senior high,63,no
+96,male,chef,A,52,senior high,700,no
+56,male,singer,B,63,primary,5600,no
+71,third,engineer,AB,76,master,230,no
+41,female,scientest,O,72,junior high,7000,no
+14,female,programmer,AB,98,doctor,700,no
+14,female,neet,B,56,master,460,no
+46,male,neet,O,44,primary,78,no
+5,male,neet,AB,50,master,200,no
+85,third,scientest,B,70,primary,890,no
+46,male,teacher,A,70,master,75,no
+82,third,singer,AB,74,university,2000,no
+17,third,salesman,B,92,university,160,no
+9,female,teacher,AB,81,primary,6400,no
+35,third,scientest,A,92,junior high,14,no
+68,female,neet,O,99,junior high,58,no
+44,third,student,AB,74,master,36,no
+88,male,programmer,A,52,university,520,no
+10,female,scientest,AB,43,doctor,6900,yes
+44,male,singer,O,65,primary,2800,no
+59,third,student,O,78,primary,4100,no
+95,third,teacher,B,96,doctor,960,no
+72,male,scientest,B,72,master,9300,no
+24,third,neet,A,67,university,930,no
+50,third,engineer,O,95,senior high,9500,no
+10,third,engineer,A,62,senior high,2200,no
+32,female,programmer,A,35,senior high,49,no
+22,female,programmer,A,64,master,200,yes
+58,male,chef,O,35,primary,960,no
+70,male,salesman,AB,39,university,570,no
+27,female,chef,AB,67,junior high,14,yes
+52,third,student,A,86,junior high,6200,no
+13,female,neet,AB,83,junior high,8900,no
+55,male,neet,A,47,master,7,no
+70,third,singer,AB,41,junior high,5700,no
+55,third,programmer,AB,98,junior high,840,no
+83,third,neet,O,55,primary,2100,no
+65,male,neet,B,54,master,3800,no
+56,third,salesman,AB,77,senior high,6500,no
+28,third,neet,A,37,university,8900,no
+78,female,scientest,A,98,primary,39,no
+10,male,engineer,AB,57,junior high,450,no
+88,female,teacher,AB,85,master,59,no
+15,third,scientest,B,84,senior high,73,no
+97,male,student,AB,50,junior high,1600,no
+69,male,scientest,O,40,university,28,no
+49,male,chef,AB,51,senior high,520,yes
+63,male,scientest,O,49,senior high,620,no
+42,male,chef,A,88,doctor,95,yes
+78,male,singer,A,75,doctor,54,no
+8,female,singer,O,55,doctor,98,no
+22,third,student,B,69,master,640,no
+48,male,salesman,O,51,university,110,no
+43,third,programmer,A,49,master,4300,yes
+25,third,student,O,52,senior high,92,yes
+39,male,neet,B,42,doctor,9200,no
+61,female,singer,O,46,junior high,78,no
+30,third,chef,B,59,doctor,180,yes
+33,female,teacher,O,97,master,7,yes
+76,third,programmer,AB,77,master,340,no
+9,third,engineer,B,94,university,51,no
+64,female,neet,O,66,doctor,3200,no
+52,female,singer,O,95,primary,8500,no
+76,third,salesman,O,63,senior high,10000,no
+27,male,singer,O,97,primary,190,yes
+80,female,teacher,A,59,doctor,2000,no
+54,male,chef,A,35,junior high,71,no
+99,third,scientest,A,81,junior high,13,no
+12,male,scientest,A,37,junior high,73,yes
+70,male,programmer,A,90,doctor,6800,no
+26,third,chef,AB,72,junior high,61,yes
+70,male,salesman,AB,44,junior high,840,no
+79,third,student,B,40,senior high,580,no
+66,female,salesman,AB,94,doctor,5400,no
+78,male,scientest,A,71,senior high,34,no
+18,male,singer,O,87,primary,6100,yes
+98,third,programmer,B,90,primary,8000,no
+16,third,engineer,O,48,doctor,370,yes
+48,male,student,B,81,doctor,8700,no
+28,female,scientest,O,35,master,800,yes
+86,female,chef,A,74,primary,930,no
+8,male,neet,AB,84,university,98,no
+9,female,chef,AB,66,junior high,35,no
+11,female,salesman,A,86,master,67,no
+25,female,neet,B,80,senior high,5000,no
+53,third,student,B,38,master,31,no
+18,female,chef,O,53,doctor,60,yes
+3,third,teacher,B,83,primary,44,no
+75,third,programmer,O,68,senior high,140,no
+21,female,singer,O,99,master,230,yes
+51,female,singer,A,58,primary,5700,no
+33,female,chef,AB,52,master,2000,yes
+11,female,scientest,O,69,master,16,no
+29,third,engineer,O,96,university,620,yes
+83,third,salesman,B,89,primary,66,no
+81,female,student,A,51,junior high,8700,no
+25,female,engineer,AB,99,primary,17,no
+75,female,chef,A,76,primary,420,no
+82,female,engineer,A,68,senior high,5600,no
+75,third,programmer,AB,51,senior high,7100,no
+80,male,programmer,B,79,senior high,100,no
+98,female,teacher,B,38,senior high,93,no
+54,female,chef,AB,52,master,49,no
+63,male,neet,O,41,university,45,no
+69,third,student,AB,55,senior high,140,no
+19,male,scientest,A,82,master,3600,no
+68,female,teacher,A,72,university,450,no
+25,female,chef,A,41,university,2700,yes
+82,female,student,O,85,primary,500,no
+62,third,chef,O,49,doctor,95,no
+89,male,salesman,A,45,university,5500,no
+71,male,singer,A,59,senior high,650,no
+36,female,teacher,AB,76,junior high,90,no
+59,third,salesman,AB,36,junior high,5,no
+31,third,salesman,B,36,senior high,600,no
+91,third,scientest,AB,38,doctor,54,no
+0,male,neet,O,44,senior high,45,no
+15,female,engineer,A,79,university,7600,no
+96,female,scientest,AB,48,university,9300,no
+81,female,engineer,B,41,university,600,no
+13,third,salesman,O,49,junior high,980,no
+42,male,singer,O,45,university,17,no
+51,male,singer,A,68,junior high,380,no
+65,male,chef,A,57,primary,1600,no
+76,third,engineer,O,96,master,6500,no
+90,male,singer,B,76,junior high,800,no
+61,male,programmer,AB,73,junior high,9700,no
+66,male,salesman,A,62,primary,560,no
+49,female,engineer,B,91,doctor,330,yes
+18,male,scientest,O,87,university,5700,yes
+43,third,singer,B,87,doctor,89,no
+32,male,singer,AB,61,university,1800,no
+54,female,singer,O,60,university,4100,no
+38,third,programmer,A,42,junior high,6600,no
+3,male,engineer,O,44,primary,84,no
+73,female,neet,O,90,primary,69,no
+75,male,singer,O,93,university,280,no
+86,third,singer,A,45,primary,1200,no
+15,male,teacher,AB,69,junior high,57,no
+15,third,programmer,O,69,doctor,8,no
+73,third,salesman,O,76,doctor,450,no
+35,third,programmer,AB,44,primary,700,no
+35,female,engineer,B,43,master,6200,yes
+50,third,teacher,B,85,junior high,9100,no
+53,male,singer,B,78,senior high,97,no
+67,female,singer,A,39,junior high,1900,no
+10,third,scientest,A,40,primary,5900,no
+98,female,engineer,B,37,master,8100,no
+99,female,chef,A,85,doctor,510,no
+87,female,programmer,A,98,junior high,420,no
+86,male,engineer,A,35,primary,51,no
+10,male,student,A,73,primary,9800,no
+27,male,chef,AB,96,junior high,700,yes
+21,third,engineer,O,78,master,3600,yes
+48,third,scientest,A,40,senior high,3,no
+47,female,teacher,B,80,primary,4600,no
+74,female,salesman,B,43,doctor,1800,no
+76,male,chef,A,93,primary,97,no
+92,male,neet,O,44,primary,4000,no
+54,female,scientest,A,56,junior high,1700,no
+83,male,singer,A,80,master,440,no
+45,male,teacher,O,50,primary,790,no
+12,third,teacher,B,64,primary,87,no
+43,female,scientest,AB,62,master,95,yes
+5,male,chef,AB,94,senior high,7000,no
+63,female,neet,AB,58,junior high,700,no
+27,female,salesman,AB,98,doctor,100,no
+41,third,chef,B,42,primary,10,yes
+33,third,student,AB,85,senior high,150,no
+47,third,programmer,O,84,university,660,no
+70,male,teacher,A,46,primary,7300,no
+5,male,programmer,AB,88,primary,22,no
+74,female,neet,AB,65,university,280,no
+53,third,engineer,B,93,primary,850,no
+70,third,chef,A,47,senior high,720,no
+95,male,student,AB,64,junior high,8500,no
+36,male,teacher,B,67,primary,44,no
+72,third,singer,A,46,university,900,no
+34,male,salesman,AB,77,master,680,no
+30,third,salesman,O,76,junior high,8900,yes
+56,third,chef,A,67,university,64,no
+83,female,salesman,A,60,senior high,7900,no
+87,female,chef,B,97,university,62,no
+47,female,singer,AB,57,doctor,96,no
+75,third,engineer,A,55,primary,900,no
+87,third,chef,A,95,master,7,no
+13,male,programmer,AB,90,senior high,900,no
+6,female,singer,B,66,senior high,7,no
+5,third,teacher,AB,62,university,76,no
+7,third,programmer,O,44,junior high,900,no
+50,female,chef,AB,47,university,98,yes
+39,female,neet,O,42,senior high,8900,yes
+99,male,neet,AB,46,master,84,no
+88,third,salesman,O,90,primary,73,no
+41,female,student,B,89,senior high,4600,no
+79,third,teacher,A,92,doctor,64,no
+12,third,scientest,B,95,doctor,6100,no
+71,male,neet,AB,84,master,450,no
+12,female,salesman,B,94,senior high,5200,no
+64,third,programmer,AB,53,master,150,no
+60,female,singer,A,92,university,63,no
+27,female,salesman,O,46,senior high,54,yes
+57,female,singer,A,45,primary,7800,no
+25,female,engineer,AB,42,master,280,yes
+54,male,neet,A,80,senior high,55,no
+39,third,chef,O,81,master,8200,yes
+99,male,teacher,AB,93,senior high,1500,no
+0,female,chef,A,52,master,600,no
+83,third,salesman,A,80,senior high,41,no
+54,third,engineer,O,53,junior high,31,no
+32,female,chef,A,90,junior high,2200,yes
+2,male,scientest,AB,79,university,76,no
+50,third,teacher,O,51,junior high,320,no
+47,third,scientest,A,88,junior high,94,no
+78,third,scientest,B,73,junior high,59,no
+14,third,engineer,A,81,university,2900,no
+47,female,chef,B,92,primary,570,yes
+77,female,scientest,A,46,primary,80,no
+52,male,scientest,A,49,doctor,50,no
+14,female,student,A,99,senior high,5500,no
+81,female,salesman,AB,88,senior high,470,no
+50,female,teacher,B,52,primary,7400,no
+51,third,singer,O,43,university,11,no
+75,female,engineer,O,74,university,4500,no
+84,male,teacher,AB,87,master,4000,no
+50,female,programmer,AB,53,doctor,1900,yes
+91,female,student,B,71,master,790,no
+77,male,engineer,B,59,senior high,6900,no
+79,third,engineer,AB,85,primary,890,no
+31,third,singer,O,72,primary,92,yes
+71,female,singer,AB,96,senior high,61,no
+5,third,salesman,O,91,doctor,290,no
+62,male,engineer,O,59,junior high,54,no
+20,female,singer,AB,86,senior high,46,no
+19,female,chef,O,78,university,41,yes
+7,female,singer,AB,77,university,720,no
+3,third,singer,B,69,doctor,3100,no
+95,male,teacher,O,59,master,880,no
+72,female,chef,A,75,doctor,450,no
+74,third,chef,A,88,junior high,320,no
+52,third,scientest,AB,71,junior high,7000,no
+66,third,scientest,O,84,master,220,no
+89,third,singer,AB,97,senior high,170,no
+93,female,salesman,A,37,master,79,no
+40,third,programmer,B,43,master,10,yes
+64,male,salesman,A,38,university,1600,no
+46,female,singer,AB,90,master,6000,no
+22,male,salesman,B,48,junior high,4200,no
+99,male,teacher,A,95,university,310,no
+87,male,singer,A,53,primary,1,no
+69,third,salesman,A,68,junior high,9300,no
+47,male,scientest,B,52,university,9000,no
+47,female,teacher,AB,95,primary,1800,no
+95,third,engineer,AB,53,master,2,no
+5,female,student,A,95,university,7100,no
+68,female,chef,A,77,primary,6800,no
+52,female,scientest,AB,43,senior high,30,no
+48,female,engineer,A,95,junior high,25,no
+16,female,teacher,B,82,primary,800,no
+58,female,scientest,O,75,senior high,53,no
+19,third,programmer,A,80,primary,1,no
+14,male,student,O,95,senior high,3800,no
+83,female,salesman,A,87,doctor,5200,no
+46,male,salesman,A,86,senior high,35,no
+19,male,neet,O,45,doctor,5500,yes
+80,third,engineer,B,62,senior high,200,no
+79,male,singer,A,51,master,2200,no
+27,male,neet,O,42,senior high,3500,yes
+61,male,student,O,93,master,57,no
+82,third,neet,B,49,university,970,no
+40,female,chef,B,40,senior high,13,yes
+29,third,salesman,A,85,university,5400,no
+40,female,salesman,B,61,primary,6200,no
+20,third,programmer,B,51,primary,59,no
+97,male,teacher,AB,87,university,71,no
+5,third,chef,O,55,senior high,3500,no
+28,third,programmer,A,90,master,6,yes
+22,third,programmer,B,92,master,17,yes
+35,male,salesman,AB,85,doctor,22,no
+10,third,programmer,AB,49,primary,150,no
+95,third,singer,B,81,senior high,9200,no
+52,third,singer,AB,38,university,470,no
+64,female,programmer,O,72,master,100,no
+68,male,programmer,AB,95,primary,8400,no
+4,third,neet,O,52,junior high,100,no
+83,female,student,AB,54,senior high,3900,no
+56,female,engineer,AB,73,junior high,17,no
+1,male,chef,B,78,primary,2,no
+82,female,engineer,AB,61,university,7400,no
+97,third,singer,O,98,master,30,no
+74,third,scientest,B,40,university,110,no
+34,third,teacher,A,79,doctor,270,no
+16,third,chef,O,75,doctor,32,yes
+86,male,student,AB,54,university,280,no
+76,female,salesman,O,41,doctor,5900,no
+28,third,salesman,B,99,senior high,66,no
+72,female,singer,O,75,senior high,4000,no
+33,third,programmer,O,57,master,110,yes
+33,third,engineer,O,99,junior high,43,yes
+65,third,student,O,75,primary,5700,no
+34,third,programmer,A,62,primary,570,no
+54,female,salesman,B,56,master,6600,no
+85,male,salesman,AB,94,university,460,no
+96,third,scientest,O,67,junior high,57,no
+1,female,neet,B,64,senior high,260,no
+9,third,chef,A,35,junior high,9800,no
+30,third,teacher,O,96,senior high,3,yes
+86,third,neet,AB,55,senior high,9600,no
+97,female,teacher,A,55,university,200,no
+16,male,chef,AB,45,senior high,2700,no
+30,male,teacher,B,59,junior high,710,no
+85,third,chef,A,98,primary,4600,no
+57,female,scientest,O,78,senior high,2800,no
+1,third,student,AB,36,senior high,180,no
+46,third,salesman,O,41,master,12,no
+27,female,teacher,A,98,primary,64,no
+98,male,chef,A,96,primary,50,no
+5,male,scientest,O,75,primary,53,no
+23,female,engineer,B,50,master,2500,yes
+18,female,singer,O,70,master,490,yes
+93,female,engineer,A,70,master,330,no
+10,third,singer,A,48,university,6900,no
+5,male,salesman,O,82,doctor,80,no
+39,third,neet,A,89,university,53,no
+39,male,singer,B,43,junior high,520,no
+48,female,engineer,A,75,university,22,no
+50,male,singer,O,92,master,17,no
+55,third,programmer,B,66,university,180,no
+86,third,singer,B,83,primary,4100,no
+65,male,singer,O,70,doctor,920,no
+81,third,neet,O,87,junior high,330,no
+6,male,scientest,A,57,senior high,850,no
+59,female,engineer,AB,91,primary,6200,no
+50,male,engineer,AB,62,master,19,yes
+90,male,singer,A,46,university,7100,no
+57,female,scientest,B,65,doctor,360,no
+53,female,teacher,AB,87,university,510,no
+46,male,teacher,B,82,senior high,5000,no
+65,female,teacher,O,68,doctor,67,no
+73,third,chef,A,84,junior high,11,no
+67,male,neet,B,48,primary,89,no
+91,female,neet,O,64,university,89,no
+56,third,student,A,68,master,2000,no
+50,third,student,O,76,junior high,920,no
+36,female,teacher,O,63,master,29,yes
+34,third,teacher,O,76,master,890,yes
+92,third,singer,O,42,master,330,no
+37,female,student,O,73,master,1400,yes
+95,third,programmer,AB,41,primary,530,no
+67,male,chef,O,73,doctor,24,no
+20,third,scientest,AB,58,senior high,5400,no
+2,male,chef,AB,46,senior high,7,no
+97,third,scientest,O,59,senior high,810,no
+55,female,teacher,AB,72,university,800,no
+77,male,chef,O,52,junior high,2100,no
+63,male,programmer,B,59,university,9100,no
+11,male,salesman,A,85,master,5300,no
+63,female,singer,O,45,junior high,4700,no
+79,third,teacher,B,96,senior high,5700,no
+56,female,programmer,O,56,primary,6,no
+25,third,neet,O,56,primary,63,yes
+30,female,teacher,AB,88,senior high,7000,no
+54,female,salesman,B,35,university,9900,no
+87,male,student,B,99,senior high,8700,no
+44,male,student,O,68,doctor,470,no
+11,female,programmer,O,79,doctor,71,no
+78,male,chef,O,60,university,14,no
+84,male,chef,O,82,university,50,no
+19,male,singer,B,67,primary,510,no
+48,male,chef,A,57,university,380,yes
+74,female,salesman,AB,46,senior high,360,no
+93,third,scientest,AB,70,primary,19,no
+27,third,singer,B,50,primary,630,no
+54,female,programmer,B,39,senior high,410,no
+44,female,student,AB,49,primary,8000,no
+76,female,chef,B,57,university,26,no
+58,third,scientest,O,97,senior high,380,no
+75,third,salesman,O,94,doctor,2500,no
+40,third,programmer,O,66,junior high,61,yes
+33,male,teacher,B,73,junior high,9200,no
+90,male,neet,AB,52,master,1900,no
+85,third,student,O,96,primary,8,no
+52,male,neet,AB,43,university,39,no
+73,third,chef,B,66,senior high,5300,no
+78,third,chef,A,66,junior high,87,no
+78,third,programmer,AB,82,junior high,15,no
+56,male,programmer,B,98,university,390,no
+69,male,scientest,A,47,university,240,no
+91,female,student,A,50,university,9400,no
+65,male,student,B,41,doctor,510,no
+94,male,programmer,B,61,master,43,no
+64,female,student,B,59,university,2200,no
+73,male,chef,B,58,master,210,no
+90,male,engineer,AB,49,master,480,no
+21,female,salesman,A,80,junior high,4100,no
+73,third,chef,AB,63,junior high,4,no
+64,female,engineer,A,78,primary,400,no
+45,female,salesman,AB,84,doctor,100,no
+37,third,programmer,B,91,master,770,yes
+35,female,engineer,O,90,primary,35,yes
+19,third,scientest,AB,76,doctor,42,no
+7,female,student,B,90,doctor,44,no
+66,female,teacher,AB,45,primary,66,no
+77,male,engineer,AB,49,university,570,no
+55,male,engineer,O,56,doctor,49,no
+91,third,student,AB,53,senior high,56,no
+66,male,engineer,AB,73,senior high,5800,no
+1,female,salesman,O,36,senior high,310,no
+22,male,scientest,AB,59,senior high,190,no
+57,male,singer,O,94,senior high,83,no
+97,third,singer,AB,84,master,35,no
+8,female,chef,B,71,senior high,76,no
+44,female,chef,AB,39,primary,550,yes
+67,female,neet,B,79,senior high,980,no
+16,female,student,A,77,master,570,no
+73,female,engineer,O,76,master,920,no
+42,female,neet,A,64,master,140,no
+42,female,engineer,B,51,doctor,9100,yes
+45,third,chef,AB,67,university,490,yes
+22,male,programmer,B,35,junior high,60,no
+92,male,singer,A,70,university,8500,no
+91,male,student,AB,54,junior high,730,no
+7,male,scientest,AB,52,university,170,no
+31,female,neet,AB,80,junior high,20,no
+76,male,chef,B,39,master,730,no
+83,third,neet,B,78,master,35,no
+78,female,singer,O,36,primary,3200,no
+66,third,student,B,89,university,38,no
+39,male,student,O,42,doctor,3100,yes
+71,third,teacher,A,93,primary,5000,no
+75,third,salesman,B,72,senior high,370,no
+3,female,chef,AB,92,doctor,400,no
+36,third,student,AB,81,junior high,230,no
+70,third,teacher,A,73,doctor,7100,no
+28,male,singer,A,58,senior high,95,no
+44,male,scientest,B,97,primary,870,no
+22,male,scientest,AB,68,university,100,no
+8,third,engineer,AB,48,primary,480,no
+91,third,teacher,O,38,university,60,no
+13,male,teacher,A,53,master,160,no
+0,male,programmer,A,82,senior high,750,no
+85,male,engineer,AB,85,doctor,62,no
+50,male,salesman,AB,63,junior high,69,no
+42,female,teacher,AB,37,master,350,no
+51,male,neet,O,37,university,390,no
+98,female,neet,A,71,senior high,6600,no
+84,female,teacher,AB,38,master,43,no
+97,male,student,A,76,junior high,74,no
+82,third,student,B,96,doctor,18,no
+95,female,chef,O,51,primary,44,no
+32,third,scientest,B,92,primary,1800,no
+92,female,neet,B,37,university,78,no
+5,third,student,B,59,doctor,2300,no
+36,third,chef,B,84,primary,49,yes
+90,female,scientest,AB,81,doctor,900,no
+69,third,engineer,B,65,senior high,720,no
+53,male,programmer,A,97,primary,5700,no
+62,male,salesman,AB,40,doctor,380,no
+24,female,teacher,O,42,senior high,7600,yes
+25,third,student,O,62,master,6900,yes
+57,male,neet,AB,72,university,87,no
+67,female,neet,AB,62,master,5,no
+3,female,singer,A,73,senior high,3100,no
+67,third,programmer,O,54,university,760,no
+76,female,student,O,97,doctor,5900,no
+12,female,teacher,AB,45,primary,610,yes
+93,third,salesman,B,69,primary,1200,no
+59,male,teacher,A,92,university,5900,no
+46,third,teacher,A,52,primary,5300,no
+48,male,chef,B,80,senior high,14,yes
+37,third,teacher,A,85,junior high,2000,no
+5,third,teacher,AB,47,senior high,490,no
+41,female,teacher,A,70,primary,13,no
+26,third,scientest,O,74,junior high,250,yes
+55,male,chef,O,47,junior high,6100,no
+91,male,chef,A,96,master,19,no
+39,third,scientest,O,57,doctor,440,yes
+9,male,teacher,B,84,master,700,no
+96,female,student,B,96,university,210,no
+37,male,programmer,A,77,junior high,78,no
+92,female,singer,O,91,junior high,83,no
+89,third,chef,O,50,senior high,8300,no
+52,third,teacher,A,44,junior high,4500,no
+85,female,teacher,O,76,primary,63,no
+8,female,chef,B,68,junior high,570,no
+45,male,neet,A,98,university,230,no
+75,female,chef,A,99,university,5500,no
+97,male,scientest,O,81,university,3400,no
+27,third,salesman,AB,79,doctor,160,no
+54,female,neet,O,77,master,670,no
+53,male,scientest,B,93,doctor,4100,no
+32,male,student,AB,86,primary,720,no
+50,male,neet,O,91,primary,5700,no
+10,female,salesman,O,90,primary,54,no
+71,male,teacher,A,63,doctor,1,no
+60,male,scientest,B,89,master,99,no
+22,male,student,O,68,university,1500,yes
+83,third,scientest,O,79,junior high,40,no
+82,third,student,B,44,university,56,no
+82,third,salesman,A,76,master,180,no
+94,male,neet,A,87,senior high,7900,no
+2,male,neet,O,61,master,960,no
+20,third,scientest,AB,98,university,83,no
+94,male,engineer,A,99,junior high,90,no
+13,third,neet,B,99,university,5,no
+94,third,scientest,A,55,university,93,no
+32,male,engineer,A,67,primary,8700,no
+92,female,scientest,O,94,university,8500,no
+57,male,neet,B,98,senior high,6500,no
+97,male,student,O,87,university,94,no
+20,male,engineer,O,56,primary,10,yes
+32,female,neet,AB,71,university,240,no
+16,male,student,B,79,master,4000,no
+77,male,singer,O,78,doctor,4700,no
+65,female,programmer,A,92,master,4700,no
+99,female,chef,O,60,doctor,11,no
+60,female,salesman,A,90,junior high,43,no
+73,male,engineer,A,46,senior high,9500,no
+2,female,salesman,A,49,senior high,240,no
+8,male,engineer,B,67,master,8,no
+40,third,teacher,O,62,senior high,810,yes
+9,third,chef,O,47,master,30,no
+38,male,programmer,A,42,master,4800,yes
+48,male,neet,B,89,master,45,no
+93,third,salesman,AB,36,doctor,100,no
+70,female,teacher,A,36,primary,890,no
+93,female,scientest,AB,45,doctor,78,no
+90,male,singer,B,60,university,480,no
+12,female,scientest,O,85,senior high,92,no
+21,male,programmer,O,72,junior high,15,yes
+22,male,salesman,O,78,master,69,yes
+31,third,engineer,A,55,senior high,73,no
+34,male,salesman,B,63,university,620,no
+14,male,student,B,39,senior high,900,no
+92,third,teacher,O,98,senior high,95,no
+30,third,programmer,AB,70,master,1000,yes
+0,male,student,A,41,master,700,no
+49,male,salesman,A,51,primary,10,no
+96,third,chef,AB,43,university,7500,no
+0,male,programmer,AB,83,junior high,300,no
+62,male,teacher,O,91,primary,54,no
+22,third,salesman,O,80,senior high,3900,yes
+19,female,neet,O,61,master,200,yes
+12,female,singer,O,79,master,3200,no
+12,third,chef,A,44,junior high,47,no
+24,female,teacher,O,35,doctor,930,yes
+66,female,programmer,B,88,junior high,910,no
+30,male,engineer,B,43,university,15,no
+70,female,engineer,AB,63,university,92,no
+36,third,scientest,A,60,master,590,yes
+30,third,salesman,AB,89,junior high,10000,no
+91,male,student,A,69,doctor,10,no
+72,third,chef,B,59,master,6800,no
+0,third,programmer,B,52,doctor,600,no
+74,third,chef,AB,91,primary,6300,no
+92,male,engineer,B,94,primary,160,no
+41,third,chef,O,82,university,340,yes
+65,female,programmer,B,93,university,230,no
+58,female,scientest,AB,56,doctor,90,no
+67,female,student,O,48,master,280,no
+4,male,teacher,B,99,doctor,830,no
+72,female,neet,O,41,university,8700,no
+48,third,programmer,O,82,senior high,630,no
+71,female,teacher,O,89,master,34,no
+38,male,salesman,B,61,junior high,3900,no
+2,female,engineer,AB,92,senior high,680,no
+2,male,neet,AB,55,junior high,88,no
+13,female,teacher,A,80,primary,28,no
+96,third,chef,A,51,senior high,110,no
+52,third,student,AB,62,primary,22,no
+47,third,scientest,B,38,junior high,86,no
+74,third,chef,AB,65,junior high,4500,no
+34,female,programmer,AB,39,university,71,no
+81,third,engineer,AB,51,university,46,no
+94,male,chef,O,53,university,300,no
+56,third,neet,A,38,primary,750,no
+6,female,chef,O,55,primary,3,no
+36,female,singer,O,53,primary,100,yes
+46,third,programmer,B,54,university,90,no
+80,third,programmer,AB,57,junior high,39,no
+33,female,scientest,B,88,senior high,97,no
+20,male,student,AB,67,primary,550,no
+30,third,salesman,AB,91,master,67,no
+39,male,student,AB,97,senior high,44,no
+90,third,singer,AB,80,master,780,no
+96,male,salesman,A,67,doctor,8500,no
+20,male,scientest,A,87,university,45,no
+35,male,neet,A,81,senior high,8000,no
+97,third,teacher,B,47,junior high,8300,no
+29,third,salesman,B,68,master,5,no
+59,third,programmer,A,38,junior high,95,no
+9,male,chef,AB,84,master,44,no
+99,male,programmer,AB,90,doctor,100,no
+18,female,teacher,O,74,doctor,8300,yes
+50,female,chef,B,78,junior high,76,yes
+4,male,chef,A,44,junior high,560,no
+69,third,singer,AB,42,junior high,7100,no
+98,third,student,AB,52,primary,61,no
+45,female,scientest,O,62,senior high,63,no
+95,third,engineer,B,51,primary,65,no
+93,third,scientest,O,64,junior high,820,no
+87,male,student,A,85,junior high,900,no
+7,third,neet,B,44,master,90,no
+59,female,chef,A,59,doctor,51,no
+2,female,chef,O,87,junior high,9900,no
+40,female,scientest,O,99,senior high,2700,yes
+79,male,salesman,A,69,junior high,6100,no
+34,third,programmer,O,85,master,960,yes
+6,female,programmer,O,55,master,1,no
+94,male,neet,B,43,doctor,56,no
+49,female,chef,AB,43,master,69,yes
+54,female,singer,A,48,senior high,62,no
+97,female,student,O,95,doctor,82,no
+38,male,singer,AB,68,doctor,340,no
+27,female,programmer,O,90,junior high,5800,yes
+93,male,singer,O,61,primary,2300,no
+48,male,engineer,A,88,master,400,yes
+4,female,salesman,AB,59,senior high,6900,no
+6,female,student,O,85,primary,890,no
+92,third,teacher,AB,70,primary,57,no
+21,male,scientest,A,80,primary,8100,no
+61,male,engineer,AB,95,doctor,610,no
+32,male,student,AB,94,master,53,no
+81,third,student,A,91,junior high,92,no
+22,female,student,A,98,senior high,19,no
+83,male,teacher,A,40,junior high,990,no
+65,male,student,A,49,doctor,290,no
+32,female,neet,AB,41,doctor,90,no
+74,third,chef,B,86,doctor,48,no
+3,female,programmer,O,38,university,5200,no
+45,female,singer,O,35,primary,630,no
+46,male,chef,A,91,doctor,9700,yes
+36,third,chef,B,82,doctor,42,yes
+31,female,teacher,AB,99,doctor,22,no
+11,third,chef,O,92,master,61,no
+54,female,teacher,B,99,master,27,no
+41,male,salesman,AB,65,junior high,58,no
+50,third,neet,B,71,primary,550,no
+78,third,chef,A,95,primary,50,no
+78,female,teacher,A,51,junior high,31,no
+27,female,engineer,O,44,doctor,1000,yes
+86,female,teacher,AB,65,junior high,160,no
+30,female,programmer,A,87,master,10000,yes
+29,third,student,B,59,primary,13,no
+3,third,salesman,AB,88,master,810,no
+91,female,programmer,O,77,doctor,380,no
+44,female,engineer,B,44,doctor,83,yes
+59,male,neet,O,70,university,3,no
+32,female,neet,B,48,junior high,69,no
+44,third,student,A,98,master,750,no
+53,female,engineer,B,37,master,7100,no
+58,male,singer,B,69,doctor,8300,no
+82,male,student,O,97,doctor,29,no
+33,third,scientest,B,51,university,5400,no
+67,third,teacher,B,55,university,86,no
+60,male,chef,A,44,primary,7300,no
+74,male,teacher,B,61,university,1200,no
+61,female,singer,B,49,primary,9000,no
+12,third,salesman,O,44,primary,87,no
+76,male,scientest,B,90,junior high,43,no
+44,male,scientest,AB,70,university,490,no
+70,male,student,B,36,primary,980,no
+87,male,salesman,AB,79,master,540,no
+1,third,neet,B,57,master,300,no
+6,male,chef,B,43,primary,70,no
+1,third,engineer,B,79,master,53,no
+73,third,chef,O,49,master,72,no
+55,male,scientest,O,71,junior high,9,no
+31,female,neet,A,85,doctor,210,no
+2,third,singer,A,87,senior high,32,no
+47,female,scientest,O,88,doctor,84,yes
+72,third,programmer,O,43,primary,620,no
+65,third,scientest,B,48,university,4200,no
+58,female,engineer,AB,56,senior high,9100,no
+3,male,engineer,AB,94,senior high,5700,no
+95,female,chef,B,91,junior high,860,no
+65,female,engineer,A,68,university,5900,no
+39,third,scientest,A,55,primary,480,no
+45,third,teacher,B,47,master,2100,no
+28,female,chef,B,70,senior high,96,yes
+30,male,programmer,A,47,primary,460,no
+16,third,programmer,A,38,master,800,no
+65,third,teacher,O,57,senior high,6100,no
+20,male,engineer,AB,63,junior high,100,no
+90,male,salesman,AB,93,master,1,no
+83,third,chef,AB,73,doctor,440,no
+98,third,scientest,AB,75,senior high,19,no
+44,female,teacher,AB,69,university,55,no
+0,third,neet,A,61,junior high,330,no
+44,female,engineer,O,40,university,13,no
+54,male,salesman,B,78,junior high,590,no
+12,female,chef,A,94,senior high,500,no
+9,male,neet,AB,84,senior high,52,no
+97,third,student,A,95,university,78,no
+82,male,neet,O,77,doctor,390,no
+60,male,engineer,O,79,junior high,56,no
+31,male,salesman,A,87,primary,400,no
+89,third,teacher,O,54,doctor,97,no
+50,third,chef,A,56,junior high,53,yes
+88,male,engineer,O,79,primary,6400,no
+97,third,engineer,B,41,university,310,no
+54,female,scientest,O,56,university,9300,no
+68,male,programmer,B,58,senior high,140,no
+35,third,salesman,A,92,master,9100,no
+62,third,salesman,AB,39,primary,940,no
+30,third,engineer,B,68,junior high,5800,no
+93,female,student,B,64,master,11,no
+1,female,student,B,43,junior high,9900,no
+55,female,singer,B,42,university,6500,no
+79,male,scientest,O,60,master,5300,no
+93,female,singer,A,84,master,8600,no
+59,third,chef,A,43,university,6900,no
+64,male,teacher,O,68,university,98,no
+39,male,singer,O,91,doctor,10000,yes
+96,female,neet,A,80,university,30,no
+18,third,scientest,B,87,university,1100,no
+74,male,scientest,AB,52,master,83,no
+87,third,salesman,AB,43,primary,72,no
+23,male,engineer,A,74,senior high,6800,no
+57,female,neet,O,60,junior high,20,no
+37,third,student,O,76,senior high,72,yes
+93,third,singer,AB,54,university,40,no
+64,third,neet,AB,54,university,91,no
+17,third,neet,AB,77,master,8,no
+25,male,singer,A,74,primary,410,no
+74,third,chef,B,57,senior high,14,no
+19,male,singer,B,51,doctor,160,no
+59,female,teacher,O,80,university,5100,no
+70,female,singer,B,88,master,10,no
+27,female,chef,B,39,university,85,yes
+72,female,scientest,A,52,university,980,no
+72,male,singer,A,99,primary,6700,no
+51,male,engineer,O,52,university,88,no
+46,female,student,B,97,junior high,7800,no
+12,male,salesman,B,99,senior high,900,no
+45,female,engineer,O,94,senior high,73,no
+74,female,salesman,O,52,master,320,no
+46,male,neet,B,64,junior high,3900,no
+85,male,scientest,O,75,doctor,8000,no
+38,male,teacher,AB,88,junior high,2200,no
+9,male,engineer,B,72,doctor,10000,no
+47,male,teacher,A,75,junior high,340,no
+11,third,student,AB,51,doctor,3500,no
+71,female,chef,AB,94,university,410,no
+68,male,chef,A,42,university,470,no
+30,male,salesman,AB,72,doctor,570,no
+37,third,salesman,AB,38,doctor,50,no
+39,female,neet,AB,47,doctor,100,no
+61,male,engineer,O,86,master,8000,no
+50,female,singer,A,63,junior high,6200,no
+4,female,teacher,O,54,university,660,no
+74,third,chef,B,88,senior high,6500,no
+60,third,neet,AB,78,university,300,no
+24,female,salesman,O,94,university,11,yes
+54,third,scientest,B,55,primary,310,no
+58,male,salesman,AB,66,university,770,no
+59,male,singer,O,42,doctor,99,no
+82,male,scientest,O,98,primary,30,no
+48,male,chef,O,56,primary,78,yes
+57,third,chef,B,71,junior high,95,no
+59,male,teacher,AB,97,primary,96,no
+32,third,scientest,O,45,senior high,57,yes
+5,female,scientest,O,76,senior high,9100,no
+4,male,singer,O,64,junior high,25,no
+84,female,teacher,A,66,university,5,no
+51,third,singer,AB,56,university,2300,no
+47,third,scientest,O,41,university,9000,no
+57,female,student,AB,62,doctor,9900,no
+74,female,programmer,B,66,primary,630,no
+9,male,teacher,A,46,doctor,170,yes
+46,female,programmer,AB,42,master,38,yes
+32,male,singer,B,76,doctor,90,no
+77,third,scientest,O,45,doctor,3500,no
+82,female,programmer,A,63,junior high,690,no
+64,female,programmer,B,46,doctor,410,no
+5,female,scientest,O,98,master,1700,no
+36,female,salesman,AB,57,junior high,51,no
+85,third,programmer,O,80,master,10,no
+59,male,singer,A,39,master,4600,no
+29,third,student,B,66,junior high,40,no
+85,female,scientest,A,56,master,3300,no
+98,female,teacher,A,40,senior high,1000,no
+75,male,chef,B,81,primary,28,no
+45,female,teacher,B,71,senior high,55,no
+56,female,student,A,61,master,660,no
+94,male,singer,A,56,university,50,no
+80,male,engineer,B,72,doctor,27,no
+23,female,chef,A,95,doctor,99,yes
+74,male,programmer,A,39,primary,360,no
+59,male,teacher,A,59,junior high,59,no
+98,female,chef,A,52,university,82,no
+62,female,engineer,A,76,primary,3900,no
+0,female,scientest,AB,74,junior high,6600,no
+68,female,salesman,O,79,junior high,370,no
+29,male,engineer,A,53,master,380,yes
+28,third,scientest,A,42,doctor,1100,yes
+57,female,programmer,A,69,junior high,700,no
+89,male,chef,A,37,junior high,400,no
+55,male,scientest,B,76,senior high,84,no
+47,male,scientest,O,77,master,3,yes
+17,male,programmer,B,69,university,600,no
+61,male,student,O,99,junior high,60,no
+80,male,scientest,A,51,senior high,6600,no
+61,female,student,AB,57,primary,79,no
+28,male,teacher,O,56,senior high,310,yes
+1,male,singer,O,80,master,80,no
+45,female,engineer,B,94,primary,70,no
+33,female,chef,B,47,master,8800,yes
+33,male,scientest,O,93,junior high,4200,yes
+68,female,engineer,AB,88,master,90,no
+39,third,student,AB,54,junior high,1200,no
+45,female,singer,AB,73,master,2500,no
+4,female,singer,O,66,doctor,7900,no
+98,female,engineer,AB,92,senior high,1300,no
+42,third,neet,B,79,university,8,no
+21,third,engineer,B,82,master,540,no
+77,female,engineer,AB,87,junior high,450,no
+60,third,salesman,AB,92,junior high,1800,no
+97,male,programmer,O,35,senior high,400,no
+14,male,scientest,A,43,doctor,400,no
+2,male,student,O,96,junior high,76,no
+89,male,salesman,B,40,doctor,200,no
+19,male,chef,A,98,university,100,yes
+87,female,programmer,AB,70,university,2,no
+28,male,singer,AB,89,junior high,31,no
+5,third,singer,B,69,doctor,25,no
+48,third,singer,B,51,junior high,35,no
+63,third,student,AB,93,primary,94,no
+55,female,chef,A,72,university,62,no
+21,third,programmer,B,81,master,600,no
+11,female,teacher,B,49,junior high,6700,no
+5,male,salesman,A,94,master,870,no
+63,male,chef,O,63,senior high,36,no
+41,female,student,O,65,university,180,no
+58,female,salesman,AB,53,university,200,no
+67,female,singer,O,82,doctor,1000,no
+70,female,engineer,O,38,doctor,150,no
+78,female,student,AB,89,university,700,no
+18,third,neet,B,42,senior high,6500,no
+70,third,scientest,A,76,university,20,no
+18,third,neet,A,92,doctor,5000,no
+75,third,programmer,B,83,senior high,4200,no
+47,female,student,O,64,primary,5300,no
+45,third,singer,B,46,doctor,34,no
+8,third,chef,B,38,university,94,no
+65,male,engineer,B,79,junior high,6,no
+56,female,teacher,B,42,master,8800,no
+36,male,teacher,O,38,junior high,69,yes
+12,female,student,AB,71,doctor,6700,no
+42,female,neet,A,95,master,39,no
+44,male,singer,B,36,doctor,700,no
+48,female,salesman,B,47,junior high,100,no
+73,third,teacher,O,95,senior high,230,no
+13,male,engineer,AB,37,doctor,9200,no
+24,male,teacher,B,41,master,63,no
+50,female,engineer,A,73,university,7,no
+68,male,student,O,55,primary,68,no
+25,male,neet,O,67,junior high,49,yes
+80,male,student,B,39,primary,94,no
+96,female,student,A,88,university,100,no
+37,third,chef,AB,89,university,8800,yes
+63,third,teacher,O,39,doctor,3700,no
+49,third,engineer,AB,90,junior high,4100,no
+99,female,programmer,O,99,university,2600,no
+93,third,programmer,O,79,master,110,no
+89,third,teacher,O,96,junior high,32,no
+74,male,teacher,O,85,doctor,83,no
+20,female,engineer,B,35,junior high,1400,no
+83,female,teacher,AB,45,master,2400,no
+71,female,neet,AB,61,doctor,870,no
+79,male,teacher,O,80,senior high,6700,no
+19,male,singer,B,44,primary,570,no
+5,third,programmer,O,96,doctor,730,no
+5,third,neet,AB,40,university,2500,no
+78,female,engineer,O,45,master,47,no
+56,female,salesman,A,95,primary,29,no
+26,male,salesman,AB,86,junior high,870,no
+89,third,scientest,AB,99,junior high,920,no
+89,female,chef,A,90,master,16,no
+29,female,salesman,B,71,university,5200,no
+90,female,chef,AB,38,master,84,no
+48,male,teacher,B,68,master,25,no
+90,male,teacher,AB,96,junior high,9800,no
+48,male,programmer,A,53,doctor,3600,yes
+86,male,student,O,49,primary,700,no
+13,male,teacher,B,57,doctor,600,no
+72,female,singer,A,67,senior high,490,no
+3,male,engineer,B,36,primary,89,no
+91,third,student,B,45,doctor,2900,no
+51,female,singer,A,99,university,7700,no
+42,third,chef,B,67,doctor,870,yes
+66,male,programmer,AB,60,primary,35,no
+32,male,teacher,B,81,primary,23,no
+94,male,chef,AB,70,doctor,790,no
+67,third,scientest,O,89,university,930,no
+60,male,engineer,AB,93,doctor,510,no
+88,female,engineer,A,66,master,860,no
+29,female,chef,O,38,senior high,6300,yes
+87,third,scientest,B,47,doctor,1300,no
+22,third,teacher,AB,84,primary,480,no
+13,female,teacher,A,75,university,78,no
+45,female,student,B,40,junior high,460,no
+96,third,student,AB,55,university,32,no
+80,female,chef,B,46,primary,550,no
+40,third,student,O,61,primary,23,yes
+94,female,singer,AB,36,senior high,450,no
+91,third,singer,A,77,university,350,no
+39,female,teacher,B,61,primary,10,no
+95,male,salesman,AB,96,primary,9400,no
+57,female,singer,B,41,junior high,21,no
+3,female,salesman,AB,37,senior high,3000,no
+54,male,neet,AB,82,doctor,1000,no
+25,male,programmer,O,59,doctor,810,yes
+47,male,singer,A,54,doctor,140,no
+22,third,scientest,B,35,senior high,77,no
+85,third,neet,AB,41,university,3600,no
+87,male,programmer,O,69,doctor,940,no
+1,third,teacher,A,35,university,920,no
+59,male,teacher,B,98,university,2000,no
+69,female,singer,B,97,primary,8400,no
+22,third,singer,A,64,junior high,40,no
+71,third,scientest,B,53,primary,200,no
+46,third,engineer,O,62,senior high,3400,no
+35,male,salesman,B,84,primary,220,no
+20,female,singer,B,45,junior high,430,no
+78,third,teacher,A,50,master,6200,no
+80,female,engineer,AB,73,junior high,54,no
+18,third,salesman,AB,76,junior high,370,no
+59,third,scientest,B,63,primary,8100,no
+8,third,scientest,B,93,university,510,no
+88,male,neet,O,72,university,34,no
+3,male,engineer,B,96,primary,7200,no
+2,female,teacher,A,70,primary,2100,no
+11,male,student,B,65,university,20,no
+1,female,singer,A,74,senior high,16,no
+49,male,chef,B,73,senior high,190,yes
+86,male,teacher,O,60,doctor,7100,no
+93,male,neet,O,82,junior high,360,no
+3,male,singer,A,40,junior high,9400,no
+22,third,engineer,AB,60,doctor,2700,yes
+13,female,singer,A,52,junior high,600,no
+16,male,salesman,AB,58,doctor,3200,no
+29,female,teacher,AB,93,doctor,3500,no
+44,third,teacher,B,57,junior high,83,no
+19,third,student,B,96,senior high,750,no
+59,female,chef,AB,44,master,860,no
+49,male,chef,A,44,university,960,yes
+91,female,chef,A,59,master,74,no
+8,third,engineer,A,39,university,94,no
+71,female,engineer,O,66,junior high,7800,no
+90,female,neet,A,58,master,96,no
+8,male,neet,AB,84,doctor,790,no
+62,male,teacher,O,60,master,10,no
+72,third,scientest,AB,73,primary,40,no
+53,female,singer,O,95,senior high,820,no
+13,third,programmer,AB,79,university,590,no
+27,male,neet,A,76,junior high,55,no
+11,third,student,B,79,master,7400,no
+23,third,salesman,O,41,doctor,3700,yes
+5,third,teacher,B,66,master,630,no
+24,third,programmer,O,65,master,390,yes
+14,male,neet,B,46,senior high,3700,no
+42,male,scientest,A,57,university,940,no
+85,male,salesman,A,46,senior high,51,no
+37,female,neet,O,48,master,6400,yes
+32,male,scientest,A,52,doctor,3300,yes
+74,third,scientest,B,87,primary,340,no
+36,female,scientest,A,86,primary,67,no
+97,male,student,O,96,university,2300,no
+1,male,singer,A,62,junior high,120,no
+86,third,salesman,O,59,senior high,40,no
+37,female,programmer,O,79,university,3300,yes
+67,male,engineer,B,92,junior high,310,no
+39,female,chef,O,56,doctor,600,yes
+31,female,student,O,98,master,29,yes
+73,female,scientest,O,54,senior high,990,no
+55,male,neet,O,94,master,620,no
+68,third,scientest,B,46,doctor,7800,no
+26,male,neet,AB,57,senior high,5800,no
+49,female,singer,B,75,university,670,no
+31,male,salesman,A,45,university,980,no
+97,third,teacher,A,40,master,940,no
+48,male,singer,A,65,master,1400,no
+94,third,neet,O,38,junior high,380,no
+54,male,scientest,O,57,university,5500,no
+3,third,teacher,AB,89,primary,13,no
+48,female,engineer,O,57,junior high,870,no
+7,female,teacher,O,68,university,260,no
+41,third,student,A,91,doctor,6300,no
+29,third,salesman,O,97,university,920,yes
+31,female,student,B,56,primary,7400,no
+87,male,scientest,O,97,junior high,71,no
+77,male,student,AB,36,master,47,no
+42,female,salesman,B,41,doctor,1700,no
+39,male,scientest,O,83,senior high,550,yes
+38,third,programmer,O,46,master,100,yes
+36,female,engineer,B,58,university,69,no
+31,female,engineer,O,77,doctor,740,yes
+9,female,neet,B,78,senior high,580,no
+64,female,salesman,O,41,primary,1,no
+4,third,programmer,O,62,primary,41,no
+90,female,scientest,A,79,doctor,50,no
+62,female,programmer,A,37,junior high,97,no
+67,third,neet,AB,37,primary,57,no
+16,female,teacher,B,68,university,890,no
+32,male,neet,O,91,university,9200,yes
+63,third,teacher,A,38,master,91,no
+35,female,engineer,AB,94,master,820,yes
+1,male,neet,A,60,primary,73,no
+5,female,salesman,B,88,primary,580,no
+3,male,teacher,O,42,doctor,380,no
+1,male,teacher,A,44,primary,760,no
+73,third,teacher,B,90,doctor,2000,no
+61,third,engineer,B,67,university,750,no
+88,male,singer,A,71,senior high,5500,no
+36,male,student,A,41,primary,460,no
+36,female,singer,A,74,primary,230,no
+37,female,chef,AB,78,junior high,360,yes
+69,female,teacher,B,84,university,80,no
+95,male,engineer,O,93,primary,5500,no
+46,third,programmer,O,95,primary,130,no
+63,third,teacher,O,76,primary,24,no
+23,female,chef,B,59,junior high,46,yes
+46,male,neet,AB,51,university,20,no
+68,third,student,B,62,master,850,no
+64,third,neet,O,39,senior high,40,no
+84,male,engineer,AB,50,doctor,4400,no
+67,male,programmer,B,40,junior high,77,no
+27,female,teacher,AB,79,university,190,no
+87,male,programmer,A,90,master,74,no
+71,third,singer,O,36,university,5,no
+3,male,scientest,A,75,university,7400,no
+70,female,singer,B,43,junior high,10,no
+45,male,singer,A,89,junior high,440,no
+73,female,chef,B,80,doctor,7900,no
+4,male,scientest,B,88,university,81,no
+35,male,neet,AB,77,master,480,no
+5,female,neet,A,56,primary,5000,no
+80,female,neet,AB,84,primary,860,no
+34,female,chef,AB,76,master,6800,yes
+24,male,teacher,A,97,university,570,no
+49,female,salesman,B,56,primary,31,no
+53,third,programmer,A,75,junior high,260,no
+65,third,teacher,A,95,junior high,64,no
+56,male,neet,B,68,senior high,9300,no
+23,third,neet,B,85,university,9600,no
+94,male,engineer,O,94,primary,2700,no
+52,female,student,A,45,primary,4400,no
+32,third,teacher,A,89,university,84,no
+37,male,chef,B,51,primary,670,yes
+58,female,neet,O,55,primary,7300,no
+5,third,chef,A,85,senior high,3400,no
+93,third,student,A,67,senior high,72,no
+7,female,programmer,A,35,doctor,79,no
+23,female,neet,AB,85,university,78,no
+85,male,student,B,65,junior high,19,no
+50,male,singer,A,82,master,64,no
+56,third,neet,A,54,doctor,8,no
+60,female,salesman,O,73,junior high,95,no
+83,female,neet,A,57,master,8700,no
+72,female,neet,O,47,senior high,28,no
+78,third,scientest,A,66,doctor,2200,no
+37,male,singer,O,89,university,5,yes
+8,male,salesman,B,78,master,860,no
+45,third,programmer,AB,35,university,960,no
+22,female,engineer,A,79,junior high,3800,no
+95,female,neet,O,37,primary,8100,no
+8,female,singer,AB,86,senior high,89,no
+50,female,chef,AB,70,master,70,yes
+55,female,programmer,AB,98,doctor,5800,no
+15,female,programmer,B,54,senior high,6100,no
+71,female,salesman,A,64,primary,720,no
+47,female,scientest,AB,63,doctor,7700,yes
+21,third,student,O,86,junior high,5900,yes
+87,female,salesman,O,84,master,33,no
+94,third,salesman,AB,75,master,400,no
+51,female,teacher,A,55,university,2500,no
+73,third,engineer,AB,39,doctor,710,no
+22,third,scientest,AB,87,primary,88,no
+84,male,scientest,O,49,master,27,no
+56,female,engineer,AB,82,master,89,no
+0,female,neet,B,96,university,60,no
+64,third,salesman,B,42,primary,160,no
+46,female,neet,A,43,junior high,350,no
+78,female,salesman,B,72,university,620,no
+62,third,singer,O,73,senior high,4,no
+57,third,scientest,A,35,university,1300,no
+43,female,chef,O,79,junior high,200,yes
+86,female,chef,B,96,university,370,no
+7,male,chef,O,72,master,8100,no
+87,male,teacher,A,88,primary,50,no
+67,female,programmer,A,63,junior high,1300,no
+43,third,student,O,85,doctor,7500,no
+31,female,singer,O,93,university,980,yes
+7,female,programmer,O,63,master,81,no
+49,male,student,A,81,master,29,no
+90,male,scientest,A,43,junior high,18,no
+41,female,engineer,AB,92,senior high,450,no
+32,third,salesman,O,73,university,610,yes
+35,male,neet,O,65,doctor,33,yes
+27,female,programmer,B,78,university,810,no
+65,third,chef,O,44,junior high,1000,no
+21,male,neet,AB,37,primary,880,no
+40,female,singer,O,78,university,2100,yes
+33,third,student,AB,49,junior high,88,no
+0,female,scientest,O,95,senior high,80,no
+68,male,engineer,AB,86,master,97,no
+54,third,chef,O,78,doctor,28,no
+80,third,engineer,B,55,master,33,no
+40,third,singer,AB,82,junior high,470,no
+4,third,neet,O,37,primary,2400,no
+7,female,teacher,O,61,master,720,no
+33,female,salesman,AB,59,junior high,80,no
+47,female,chef,AB,94,senior high,1000,yes
+61,third,student,B,57,senior high,350,no
+46,third,singer,O,50,senior high,86,no
+63,third,programmer,AB,46,master,6600,no
+96,female,singer,B,35,junior high,470,no
+45,third,scientest,A,45,university,360,no
+65,female,singer,A,97,master,4800,no
+91,female,chef,B,65,senior high,14,no
+1,third,neet,A,68,junior high,8500,no
+32,third,teacher,AB,98,senior high,320,no
+69,third,salesman,AB,91,senior high,9600,no
+13,female,scientest,O,69,primary,960,no
+94,third,neet,O,82,university,550,no
+44,male,engineer,B,43,junior high,60,no
+67,male,teacher,B,56,senior high,500,no
+23,male,chef,O,69,doctor,7000,yes
+12,third,student,B,37,doctor,410,no
+94,female,teacher,O,98,junior high,370,no
+24,third,neet,O,72,junior high,870,yes
+57,female,student,AB,78,university,5800,no
+78,female,scientest,B,49,junior high,8800,no
+27,third,engineer,B,91,doctor,850,yes
+27,third,engineer,O,79,senior high,28,yes
+50,third,programmer,AB,57,master,460,yes
+72,female,teacher,AB,82,senior high,6700,no
+76,female,programmer,A,91,primary,4300,no
+5,third,chef,A,40,junior high,76,no
+74,third,teacher,O,93,primary,2700,no
+85,third,teacher,A,57,master,51,no
+88,male,neet,O,62,master,23,no
+41,male,teacher,A,60,primary,9600,no
+1,third,salesman,O,54,master,8000,no
+52,female,chef,O,57,senior high,30,no
+47,male,neet,B,67,university,73,no
+15,third,engineer,B,38,senior high,91,no
+37,female,salesman,AB,61,junior high,6400,no
+16,third,scientest,A,82,senior high,8900,no
+24,female,student,A,40,senior high,48,no
+29,female,student,A,85,junior high,9900,no
+18,third,neet,AB,66,doctor,510,no
+96,male,singer,AB,99,master,1300,no
+50,female,student,A,83,junior high,550,no
+60,male,singer,A,56,master,9200,no
+33,male,teacher,AB,44,primary,10,no
+88,third,singer,AB,38,doctor,590,no
+33,female,singer,O,96,primary,600,yes
+7,female,engineer,AB,59,doctor,58,no
+11,male,student,B,85,university,2400,no
+70,female,scientest,O,39,primary,230,no
+60,third,student,B,66,master,19,no
+16,male,teacher,B,89,doctor,2200,no
+95,female,student,A,82,university,860,no
+35,female,chef,B,41,master,400,yes
+60,third,chef,O,65,senior high,300,no
+28,male,scientest,B,82,master,20,yes
+90,male,neet,AB,39,senior high,920,no
+34,third,programmer,B,77,master,420,yes
+37,male,programmer,AB,70,doctor,70,yes
+95,male,neet,O,91,doctor,10000,no
+3,third,neet,B,65,junior high,1800,no
+78,female,singer,AB,46,university,57,no
+20,male,chef,O,51,senior high,7300,yes
+19,female,student,AB,53,doctor,880,no
+1,male,scientest,O,59,doctor,6300,no
+41,male,teacher,A,99,junior high,6900,no
+22,third,scientest,B,84,university,92,no
+9,third,singer,AB,45,university,910,no
+31,male,neet,B,43,senior high,940,no
+72,third,student,O,55,university,270,no
+5,female,scientest,O,72,junior high,57,no
+93,female,engineer,AB,55,university,880,no
+30,female,teacher,O,81,primary,37,yes
+14,third,scientest,AB,60,senior high,4300,no
+53,third,chef,O,96,doctor,2900,no
+73,male,student,A,39,doctor,340,no
+75,male,neet,A,80,junior high,3000,no
+97,male,salesman,B,80,doctor,17,no
+24,female,neet,AB,40,master,3300,no
+50,female,engineer,B,44,senior high,420,no
+56,third,chef,A,75,university,660,no
+52,male,neet,A,75,junior high,40,no
+93,female,chef,AB,60,university,7,no
+89,third,neet,O,98,senior high,1400,no
+70,male,engineer,B,78,senior high,8000,no
+14,female,engineer,B,78,junior high,6600,no
+30,third,teacher,O,97,primary,670,yes
+65,male,neet,A,63,doctor,78,no
+79,female,chef,O,51,doctor,6300,no
+29,third,programmer,A,80,university,6300,no
+67,third,singer,B,45,primary,2900,no
+48,male,chef,B,92,doctor,770,yes
+50,third,student,B,72,senior high,22,no
+58,male,neet,O,49,junior high,370,no
+64,third,singer,AB,87,primary,9500,no
+10,female,teacher,A,93,master,4,no
+98,third,student,AB,82,university,620,no
+85,third,teacher,B,51,master,180,no
+82,male,chef,A,95,junior high,76,no
+46,male,neet,O,47,senior high,50,no
+78,male,salesman,O,66,university,540,no
+72,male,engineer,O,50,junior high,780,no
+61,third,student,O,61,junior high,5600,no
+8,female,engineer,O,43,master,260,no
+21,third,student,AB,40,university,3400,no
+84,third,engineer,A,96,master,8200,no
+82,male,neet,A,36,university,8,no
+95,male,salesman,AB,53,master,480,no
+92,third,teacher,A,73,university,2,no
+18,female,student,AB,91,primary,830,no
+26,female,scientest,O,95,primary,5000,yes
+0,third,neet,B,85,primary,800,no
+32,third,scientest,A,72,doctor,350,yes
+48,male,neet,B,95,master,95,no
+84,female,singer,B,58,junior high,4700,no
+46,female,teacher,B,50,master,26,no
+21,male,student,B,77,primary,7,no
+93,male,chef,O,62,doctor,7500,no
+98,third,salesman,O,40,senior high,24,no
+20,third,programmer,AB,46,master,100,no
+76,female,scientest,A,82,junior high,250,no
+11,male,teacher,B,80,primary,70,no
+17,male,student,A,79,primary,840,no
+78,female,teacher,B,79,junior high,640,no
+36,female,scientest,B,51,primary,61,no
+15,third,student,O,62,junior high,40,no
+34,female,teacher,A,77,senior high,120,no
+76,female,neet,A,50,university,4,no
+32,male,chef,O,37,junior high,1300,yes
+36,female,neet,O,78,doctor,3500,yes
+0,third,engineer,O,65,primary,7700,no
+20,male,singer,O,62,junior high,660,yes
+62,third,neet,A,43,university,3100,no
+25,female,engineer,A,70,junior high,6000,no
+15,male,student,O,47,doctor,58,no
+52,third,teacher,B,77,master,7000,no
+96,female,programmer,B,65,senior high,63,no
+84,male,scientest,O,70,master,6600,no
+34,male,neet,O,85,primary,780,yes
+97,third,engineer,AB,79,primary,5400,no
+91,male,neet,O,92,university,52,no
+45,male,student,B,85,senior high,900,no
+82,male,neet,A,54,primary,130,no
+13,female,programmer,AB,68,university,400,no
+16,male,programmer,A,98,primary,2500,no
+51,male,teacher,O,76,doctor,2200,no
+59,third,singer,B,75,junior high,79,no
+1,male,teacher,AB,55,senior high,810,no
+50,third,scientest,A,81,doctor,74,yes
+28,male,salesman,AB,46,senior high,19,no
+63,female,singer,AB,40,primary,730,no
+6,third,chef,A,68,primary,20,no
+15,male,scientest,O,88,junior high,3900,no
+20,female,salesman,A,99,university,40,no
+16,third,programmer,A,89,senior high,790,no
+33,male,engineer,A,48,junior high,550,no
+37,third,engineer,AB,60,doctor,300,yes
+73,female,programmer,AB,80,junior high,34,no
+96,third,singer,B,43,primary,510,no
+65,third,student,O,72,university,5200,no
+21,male,neet,A,89,doctor,9500,no
+74,female,teacher,A,93,master,94,no
+78,third,scientest,B,78,university,15,no
+29,third,engineer,AB,65,primary,820,no
+82,male,teacher,B,95,master,700,no
+60,female,student,AB,39,primary,45,no
+13,third,chef,O,42,junior high,370,no
+93,third,engineer,AB,82,university,540,no
+88,third,teacher,O,54,senior high,38,no
+78,male,salesman,AB,69,junior high,39,no
+17,third,student,AB,51,doctor,8000,no
+82,female,chef,B,37,junior high,5400,no
+99,third,teacher,O,36,junior high,11,no
+48,male,chef,O,70,primary,1500,yes
+98,male,scientest,A,85,junior high,950,no
+67,third,neet,O,90,senior high,920,no
+12,male,engineer,B,80,junior high,81,no
+23,female,singer,O,67,master,83,yes
+58,male,singer,O,85,university,6700,no
+60,female,student,A,83,doctor,89,no
+24,female,engineer,O,94,junior high,6800,yes
+93,female,singer,B,79,primary,2,no
+11,female,scientest,B,49,junior high,9800,no
+34,male,engineer,A,58,university,640,no
+6,female,student,O,62,junior high,75,no
+58,female,salesman,B,63,junior high,8200,no
+24,female,neet,O,41,senior high,8300,yes
+94,female,programmer,AB,44,doctor,5100,no
+19,third,singer,A,51,doctor,79,no
+48,male,programmer,A,92,master,200,yes
+84,third,teacher,AB,67,senior high,7100,no
+67,third,engineer,A,49,junior high,3600,no
+1,third,engineer,AB,91,doctor,100,no
+65,male,salesman,O,48,primary,48,no
+76,female,singer,AB,43,doctor,160,no
+40,female,singer,B,74,doctor,120,no
+51,male,salesman,B,73,junior high,37,no
+2,female,neet,AB,69,primary,15,no
+45,third,programmer,B,65,senior high,840,no
+10,male,chef,O,49,master,480,yes
+3,third,singer,B,96,primary,230,no
+87,third,scientest,A,37,junior high,260,no
+32,male,teacher,O,45,senior high,7900,yes
+97,third,neet,A,99,primary,92,no
+22,third,programmer,O,99,senior high,370,yes
+40,female,salesman,AB,44,junior high,410,no
+16,female,teacher,AB,89,primary,2000,no
+11,male,scientest,AB,65,doctor,2400,no
+65,third,student,O,81,primary,6300,no
+12,female,salesman,O,41,master,8500,yes
+64,third,programmer,B,93,primary,650,no
+28,male,student,B,95,university,6900,no
+34,female,chef,B,63,junior high,6,yes
+30,male,chef,O,85,junior high,6200,yes
+74,male,neet,A,95,university,49,no
+96,male,salesman,A,64,senior high,3,no
+31,female,programmer,B,68,university,38,no
+30,third,engineer,A,38,university,7400,no
+70,female,chef,O,69,primary,930,no
+69,third,neet,AB,41,senior high,1100,no
+5,male,programmer,O,81,doctor,660,no
+11,female,engineer,A,73,junior high,1100,no
+80,male,chef,O,90,junior high,90,no
+31,female,teacher,A,66,primary,110,no
+4,male,engineer,O,35,primary,790,no
+64,female,programmer,A,82,junior high,6200,no
+3,female,chef,O,51,master,2200,no
+97,female,chef,A,70,primary,6000,no
+92,female,student,O,74,doctor,630,no
+72,female,engineer,B,92,senior high,97,no
+59,male,chef,A,81,junior high,54,no
+81,third,teacher,AB,93,university,9300,no
+60,third,chef,B,95,primary,9000,no
+43,female,chef,AB,76,doctor,580,yes
+46,female,chef,B,96,junior high,47,yes
+31,third,scientest,O,93,primary,30,yes
+25,female,salesman,B,68,primary,90,no
+40,male,salesman,O,63,junior high,390,yes
+18,third,singer,A,67,university,95,no
+93,male,salesman,A,94,master,14,no
+87,third,programmer,O,70,master,35,no
+12,third,scientest,B,60,junior high,84,no
+36,female,chef,A,66,doctor,900,yes
+87,male,programmer,AB,61,university,5900,no
+64,third,engineer,B,36,university,21,no
+40,female,programmer,AB,72,master,200,yes
+53,male,chef,B,87,university,35,no
+8,male,student,A,57,master,640,no
+71,male,singer,O,70,master,7300,no
+51,male,chef,O,72,primary,370,no
+73,third,teacher,AB,84,master,46,no
+33,female,chef,O,38,master,4800,yes
+4,female,singer,B,75,doctor,410,no
+60,female,chef,O,87,university,280,no
+27,female,salesman,O,82,primary,88,yes
+53,third,scientest,A,75,master,23,no
+74,female,engineer,AB,45,senior high,6500,no
+61,third,salesman,AB,98,university,2500,no
+20,female,scientest,O,84,university,12,yes
+22,female,salesman,AB,92,master,180,no
+52,female,scientest,A,90,senior high,580,no
+20,third,teacher,B,35,university,390,no
+22,third,salesman,B,46,doctor,710,no
+77,male,programmer,A,66,doctor,30,no
+28,male,student,O,45,master,590,yes
+74,male,engineer,AB,68,doctor,900,no
+6,male,student,A,95,university,24,no
+14,male,chef,B,76,doctor,7400,no
+99,female,student,A,59,primary,640,no
+4,third,programmer,B,44,senior high,50,no
+3,third,singer,AB,93,senior high,660,no
+31,female,programmer,O,97,doctor,570,yes
+79,female,engineer,A,35,primary,8900,no
+41,female,scientest,O,83,senior high,89,no
+35,third,scientest,O,73,master,7500,yes
+49,male,neet,AB,83,university,24,no
+39,third,salesman,A,92,senior high,99,no
+36,third,student,AB,95,senior high,900,no
+56,third,salesman,A,56,doctor,6000,no
+12,male,engineer,O,53,doctor,31,no
+46,third,engineer,O,92,senior high,9900,no
+41,female,neet,A,90,primary,2000,no
+85,third,chef,A,94,doctor,8,no
+99,male,salesman,O,68,doctor,21,no
+62,third,chef,O,52,university,15,no
+84,third,chef,AB,88,junior high,100,no
+88,male,singer,O,94,doctor,280,no
+33,male,student,AB,74,junior high,67,no
+8,third,scientest,B,99,primary,68,no
+88,third,student,O,43,junior high,90,no
+16,female,student,B,71,senior high,270,no
+17,third,salesman,AB,62,junior high,17,no
+82,male,student,A,77,junior high,470,no
+64,female,neet,B,67,junior high,7300,no
+15,female,salesman,B,43,junior high,260,yes
+86,third,student,AB,98,junior high,8700,no
+13,male,teacher,B,66,senior high,4800,no
+82,third,programmer,AB,35,master,600,no
+75,male,singer,AB,84,university,81,no
+94,male,chef,A,88,doctor,5600,no
+79,female,scientest,AB,65,master,7,no
+5,third,programmer,B,99,university,3500,no
+5,male,engineer,AB,84,junior high,90,no
+93,male,singer,AB,62,university,2100,no
+85,male,scientest,A,71,university,26,no
+59,third,engineer,B,84,primary,560,no
+52,male,programmer,AB,52,junior high,76,no
+16,third,engineer,A,87,university,39,no
+15,third,chef,AB,69,university,3100,no
+83,female,chef,A,80,university,970,no
+5,female,teacher,B,90,university,3400,no
+56,male,engineer,B,89,master,950,no
+88,third,neet,O,58,university,21,no
+44,male,singer,O,71,primary,1,no
+63,third,salesman,A,94,doctor,800,no
+59,female,teacher,AB,48,primary,7800,no
+26,third,scientest,B,72,primary,97,no
+36,female,singer,O,80,doctor,4200,yes
+90,third,engineer,O,88,junior high,14,no
+56,male,programmer,AB,70,junior high,420,no
+90,third,engineer,B,67,university,200,no
+76,third,neet,A,81,primary,63,no
+93,female,neet,A,79,primary,7900,no
+41,third,neet,A,47,senior high,43,no
+5,female,engineer,O,62,doctor,44,no
+8,male,chef,AB,45,junior high,930,yes
+28,male,chef,O,49,university,700,yes
+88,third,student,A,60,junior high,89,no
+55,male,student,O,66,master,7200,no
+67,male,student,AB,67,doctor,6600,no
+23,male,chef,AB,56,primary,3200,yes
+32,female,salesman,O,79,university,400,yes
+53,female,student,A,49,junior high,800,no
+3,male,salesman,O,62,junior high,27,no
+94,male,chef,A,79,master,26,no
+3,female,programmer,A,83,doctor,770,no
+21,male,student,A,90,primary,1000,no
+97,third,engineer,A,99,junior high,2200,no
+66,third,salesman,A,57,senior high,46,no
+91,third,salesman,A,55,master,7500,no
+23,female,neet,A,75,university,350,no
+28,female,scientest,B,41,doctor,2900,yes
+89,female,scientest,B,49,junior high,3800,no
+39,third,programmer,A,75,doctor,53,yes
+26,male,neet,A,84,primary,330,no
+0,third,chef,AB,38,master,7000,no
+19,male,teacher,AB,42,doctor,300,no
+29,female,chef,A,49,primary,54,yes
+96,female,programmer,B,40,junior high,610,no
+19,third,scientest,A,82,master,630,no
+43,male,programmer,O,81,university,150,no
+85,male,scientest,O,83,doctor,97,no
+21,female,student,A,45,university,940,no
+74,male,neet,O,78,junior high,53,no
+68,male,student,AB,37,junior high,4100,no
+36,male,salesman,B,84,university,870,no
+32,female,salesman,B,69,senior high,5700,no
+6,female,singer,A,75,university,920,no
+16,third,scientest,B,56,senior high,2800,no
+76,female,singer,B,96,master,2300,no
+31,male,chef,A,80,doctor,7300,yes
+68,male,neet,B,48,doctor,71,no
+66,male,scientest,O,35,doctor,60,no
+53,male,scientest,A,75,master,840,no
+13,male,scientest,B,37,senior high,7900,no
+51,male,singer,AB,87,master,10,no
+84,male,neet,O,91,master,400,no
+70,male,chef,O,74,senior high,9000,no
+49,female,salesman,AB,57,primary,8000,no
+47,third,engineer,AB,87,doctor,57,yes
+52,third,salesman,AB,66,senior high,960,no
+97,male,engineer,A,61,primary,650,no
+24,male,chef,B,58,master,4900,yes
+44,female,programmer,A,51,master,5200,yes
+22,female,teacher,A,42,doctor,350,no
+46,male,student,A,68,primary,26,no
+81,male,salesman,O,60,university,200,no
+27,third,singer,A,41,junior high,8700,no
+98,female,teacher,A,59,doctor,8900,no
+35,male,teacher,A,58,master,8300,no
+48,third,salesman,AB,56,primary,5700,no
+80,third,salesman,O,98,junior high,690,no
+99,male,salesman,O,76,primary,74,no
+94,female,student,B,51,master,800,no
+37,male,student,O,90,university,580,yes
+23,male,student,B,61,master,5700,no
+90,male,student,O,80,doctor,64,no
+26,male,engineer,AB,73,university,45,no
+65,female,neet,B,79,senior high,4000,no
+41,third,scientest,AB,56,junior high,2800,no
+95,third,scientest,O,84,doctor,470,no
+22,male,chef,O,49,doctor,7100,yes
+65,female,engineer,B,53,primary,450,no
+62,female,student,A,69,university,24,no
+86,female,neet,O,53,primary,9300,no
+82,male,teacher,O,46,university,15,no
+80,female,neet,O,62,university,80,no
+85,third,singer,AB,86,master,6,no
+83,third,singer,O,75,primary,96,no
+53,female,chef,AB,77,master,51,no
+71,female,chef,AB,71,primary,17,no
+93,male,engineer,AB,62,senior high,750,no
+87,male,scientest,A,78,university,23,no
+19,male,student,AB,94,primary,2200,no
+46,male,student,B,89,university,2,no
+3,female,scientest,B,62,junior high,90,no
+25,female,engineer,O,74,master,9300,yes
+14,male,student,B,76,senior high,25,no
+63,male,chef,O,67,university,290,no
+7,third,teacher,AB,85,doctor,86,no
+6,third,student,B,48,university,280,no
+74,third,engineer,B,76,university,89,no
+99,male,student,O,58,senior high,500,no
+48,third,chef,O,36,senior high,15,yes
+97,female,scientest,B,50,primary,510,no
+57,third,scientest,B,49,doctor,170,no
+82,female,scientest,A,64,senior high,60,no
+39,female,singer,AB,71,master,53,no
+76,third,teacher,A,37,junior high,94,no
+95,female,student,O,86,doctor,6,no
+74,female,scientest,O,36,university,770,no
+77,male,student,B,70,primary,220,no
+25,third,singer,AB,91,doctor,17,no
+17,third,neet,B,97,senior high,5500,no
+59,male,chef,AB,66,junior high,61,no
+86,male,neet,A,54,junior high,35,no
+21,female,engineer,AB,43,junior high,100,no
+31,female,neet,B,67,senior high,3700,no
+81,female,engineer,A,65,university,730,no
+26,third,singer,B,86,junior high,780,no
+40,third,engineer,O,48,senior high,940,yes
+72,female,teacher,AB,53,junior high,94,no
+18,third,salesman,B,91,junior high,720,no
+27,third,student,A,39,junior high,110,no
+21,third,programmer,B,35,doctor,7500,no
+93,third,programmer,AB,57,doctor,6800,no
+22,female,neet,AB,82,doctor,270,no
+50,female,chef,O,78,primary,6500,yes
+58,female,singer,O,86,doctor,6200,no
+23,male,singer,B,52,doctor,4400,no
+20,female,neet,A,59,university,620,no
+66,male,engineer,O,92,university,1,no
+82,female,salesman,A,81,master,8400,no
+22,female,programmer,B,82,junior high,6,no
+72,female,chef,A,55,primary,6600,no
+80,male,student,A,58,university,51,no
+1,male,teacher,B,35,doctor,42,no
+98,male,singer,B,86,senior high,62,no
+30,third,programmer,O,79,doctor,63,yes
+85,male,teacher,AB,63,university,9700,no
+79,female,singer,A,55,master,3000,no
+27,male,engineer,B,68,primary,2500,no
+20,third,neet,A,37,junior high,94,no
+95,third,teacher,B,69,senior high,6900,no
+55,third,singer,AB,54,doctor,6800,no
+74,female,student,A,53,master,4000,no
+75,female,scientest,B,42,junior high,9200,no
+70,male,engineer,A,69,university,360,no
+0,female,chef,AB,37,university,6800,no
+23,male,singer,B,78,university,3200,no
+95,third,salesman,B,93,university,66,no
+40,female,salesman,A,87,senior high,77,no
+31,third,chef,A,77,primary,700,yes
+88,third,teacher,B,45,doctor,190,no
+1,male,salesman,B,70,primary,13,no
+22,male,teacher,AB,52,primary,300,no
+82,third,student,B,86,doctor,2000,no
+14,third,neet,O,92,primary,27,no
+78,female,salesman,O,98,university,73,no
+55,male,teacher,O,41,university,830,no
+46,third,student,A,96,primary,170,no
+21,male,salesman,AB,99,junior high,900,no
+66,male,scientest,O,57,master,5400,no
+73,male,chef,AB,94,doctor,640,no
+59,female,teacher,O,71,senior high,4100,no
+50,third,neet,B,44,senior high,420,no
+95,male,scientest,A,50,senior high,190,no
+1,male,salesman,B,79,master,7600,no
+50,male,student,A,96,junior high,6400,no
+63,male,singer,AB,38,primary,50,no
+78,female,student,O,97,university,48,no
+22,male,teacher,A,92,senior high,670,no
+49,third,programmer,B,86,primary,95,no
+17,third,engineer,A,40,master,330,no
+1,third,chef,A,99,doctor,270,no
+44,female,salesman,O,80,primary,17,no
+16,female,chef,O,53,university,26,yes
+23,female,scientest,O,93,university,6200,yes
+8,female,student,AB,90,doctor,210,no
+16,female,student,A,59,junior high,350,no
+30,female,neet,O,84,master,650,yes
+82,female,salesman,AB,42,senior high,430,no
+2,third,singer,A,53,doctor,170,no
+91,female,singer,A,91,master,990,no
+47,male,scientest,A,83,university,79,no
+94,third,programmer,A,97,junior high,59,no
+3,third,neet,O,90,junior high,31,no
+92,third,programmer,AB,86,junior high,86,no
+7,third,salesman,AB,47,junior high,4100,no
+63,male,salesman,O,73,doctor,83,no
+73,third,salesman,B,62,primary,26,no
+10,female,salesman,A,47,senior high,40,no
+95,third,neet,AB,43,master,570,no
+89,male,teacher,A,55,master,58,no
+53,male,student,A,93,university,9700,no
+46,female,programmer,O,80,senior high,930,no
+21,third,scientest,A,76,primary,40,no
+0,third,chef,A,49,master,660,no
+21,third,teacher,AB,78,doctor,78,no
+1,male,scientest,A,67,master,7300,no
+65,male,student,AB,90,master,170,no
+89,male,singer,B,41,university,230,no
+5,female,chef,O,56,primary,7100,no
+22,third,scientest,O,51,junior high,27,yes
+58,female,student,B,83,master,62,no
+4,female,student,A,51,junior high,730,no
+98,female,scientest,A,57,doctor,21,no
+12,female,salesman,O,78,junior high,3900,no
+45,third,salesman,O,35,primary,22,no
+51,third,scientest,A,76,doctor,58,no
+35,third,chef,B,76,senior high,900,yes
+40,third,chef,O,99,university,2600,yes
+78,female,chef,O,49,junior high,10,no
+94,male,salesman,B,46,junior high,5200,no
+59,male,chef,B,85,primary,72,no
+3,female,singer,B,76,senior high,54,no
+31,male,neet,B,49,senior high,900,no
+6,female,engineer,B,51,university,380,no
+55,male,salesman,A,73,junior high,690,no
+52,third,programmer,O,75,senior high,300,no
+98,female,salesman,O,52,senior high,2200,no
+45,third,programmer,A,85,university,6100,no
+0,female,engineer,B,91,primary,4400,no
+80,third,salesman,AB,50,senior high,47,no
+1,male,scientest,O,44,university,5200,no
+88,third,chef,O,50,primary,180,no
+3,female,engineer,B,42,university,71,no
+28,male,programmer,O,83,senior high,8600,yes
+5,male,chef,AB,45,senior high,33,no
+41,female,singer,B,72,junior high,880,no
+9,third,neet,A,36,senior high,4400,no
+75,third,scientest,O,81,senior high,370,no
+71,male,salesman,B,93,doctor,62,no
+38,female,neet,A,58,master,10,no
+54,third,neet,B,90,doctor,680,no
+2,third,teacher,A,57,primary,6500,no
+0,third,programmer,A,40,junior high,920,no
+61,female,chef,O,93,junior high,1100,no
+41,female,scientest,A,42,primary,5100,no
+81,third,engineer,AB,80,doctor,960,no
+17,female,student,O,92,master,2500,yes
+77,third,singer,O,56,primary,8,no
+79,male,neet,AB,95,primary,61,no
+64,female,singer,A,37,senior high,9800,no
+30,third,programmer,O,60,university,60,yes
+60,third,student,O,63,primary,13,no
+55,male,chef,A,70,doctor,9000,no
+9,male,salesman,AB,57,primary,520,no
+14,male,teacher,B,96,senior high,11,no
+96,female,student,B,99,doctor,7300,no
+56,third,singer,B,45,senior high,3000,no
+63,third,salesman,A,99,doctor,720,no
+23,third,student,B,59,senior high,310,no
+36,female,programmer,O,85,senior high,43,yes
+0,third,chef,B,97,master,220,no
+18,male,scientest,AB,78,junior high,7900,no
+9,male,programmer,O,52,university,91,no
+82,third,neet,B,38,primary,57,no
+19,male,singer,O,37,university,1800,yes
+79,female,chef,O,51,university,2300,no
+72,female,programmer,O,59,master,530,no
+21,third,student,O,51,master,930,yes
+45,third,scientest,B,96,master,260,yes
+43,male,salesman,A,49,doctor,990,no
+73,male,salesman,O,47,master,700,no
+66,third,scientest,O,75,senior high,4,no
+85,female,engineer,AB,44,university,300,no
+9,female,singer,AB,79,primary,53,no
+39,female,teacher,O,65,junior high,7100,yes
+15,male,salesman,A,73,senior high,550,no
+65,third,student,AB,55,junior high,4500,no
+74,third,neet,AB,99,senior high,740,no
+86,female,chef,AB,84,university,7100,no
+37,third,engineer,B,64,primary,710,no
+46,male,singer,A,55,primary,32,no
+17,female,chef,B,59,junior high,59,no
+14,third,scientest,A,69,doctor,5,no
+7,male,scientest,A,48,senior high,980,no
+81,male,student,O,87,junior high,3100,no
+65,male,singer,AB,44,primary,820,no
+8,male,neet,O,92,junior high,930,no
+27,male,salesman,B,70,senior high,15,no
+42,female,student,O,92,junior high,4300,no
+77,male,engineer,O,71,master,570,no
+56,male,programmer,B,95,university,490,no
+49,male,engineer,O,85,senior high,180,no
+92,third,singer,B,67,university,9500,no
+68,third,scientest,AB,84,university,490,no
+46,male,programmer,B,37,primary,300,no
+15,third,chef,A,83,primary,350,no
+97,male,scientest,A,53,university,440,no
+12,male,programmer,B,59,master,80,no
+36,male,teacher,AB,94,master,18,no
+39,female,singer,AB,82,university,2700,no
+90,male,chef,A,41,doctor,89,no
+10,female,teacher,A,77,junior high,9800,no
+15,third,student,B,40,primary,5900,no
+27,third,singer,A,65,university,48,no
+94,third,chef,B,58,senior high,860,no
+10,male,student,A,43,doctor,920,yes
+57,third,neet,A,85,junior high,35,no
+78,male,engineer,A,83,master,7300,no
+73,female,teacher,B,89,primary,8000,no
+89,female,engineer,A,63,junior high,60,no
+80,female,chef,B,65,university,57,no
+70,female,programmer,O,50,doctor,890,no
+11,female,singer,O,68,primary,45,no
+85,third,teacher,A,68,primary,6700,no
+77,third,neet,A,85,doctor,6,no
+62,female,singer,B,61,primary,83,no
+70,female,programmer,B,87,university,92,no
+32,female,salesman,O,64,doctor,130,yes
+6,female,singer,O,76,university,32,no
+54,third,salesman,AB,64,junior high,6700,no
+89,male,singer,A,67,primary,60,no
+87,third,programmer,AB,67,university,39,no
+23,third,teacher,AB,97,doctor,43,no
+71,female,teacher,A,49,master,8100,no
+32,female,engineer,O,66,doctor,200,yes
+80,female,student,A,94,university,56,no
+93,female,teacher,O,46,doctor,3100,no
+26,female,neet,O,69,primary,57,yes
+55,third,programmer,AB,99,university,240,no
+53,male,neet,O,75,primary,69,no
+65,third,singer,AB,96,junior high,9000,no
+18,third,student,A,38,primary,2400,no
+89,third,student,B,71,master,260,no
+2,female,teacher,B,67,junior high,70,no
+26,third,student,A,74,university,140,no
+67,female,singer,O,63,primary,98,no
+62,female,engineer,B,46,senior high,45,no
+42,third,teacher,A,97,university,75,no
+22,male,singer,A,69,doctor,190,no
+17,male,teacher,B,52,senior high,29,no
+22,male,neet,A,69,master,6400,no
+88,female,programmer,B,43,junior high,800,no
+27,female,singer,B,59,doctor,510,no
+95,third,student,A,82,junior high,890,no
+37,female,student,B,86,doctor,520,no
+37,third,engineer,A,99,junior high,4700,no
+62,third,engineer,A,60,junior high,62,no
+55,female,singer,B,66,university,63,no
+10,male,salesman,AB,72,doctor,3700,no
+75,female,neet,O,50,university,8100,no
+15,third,singer,O,54,doctor,310,no
+35,male,singer,A,51,senior high,950,no
+95,third,chef,B,63,doctor,74,no
+17,third,student,B,77,doctor,52,no
+58,male,singer,O,56,primary,23,no
+8,third,neet,O,62,senior high,3500,no
+92,female,neet,A,54,senior high,230,no
+16,third,chef,B,48,doctor,960,no
+6,male,student,O,53,university,100,no
+61,female,neet,B,38,master,600,no
+80,female,scientest,B,49,primary,25,no
+45,third,programmer,O,52,master,210,yes
+66,third,scientest,A,56,junior high,1900,no
+79,female,neet,B,38,senior high,2400,no
+45,female,teacher,A,37,senior high,42,no
+58,third,chef,AB,37,senior high,53,no
+20,male,student,AB,89,master,290,no
+0,female,engineer,O,89,master,58,no
+78,male,engineer,O,87,senior high,650,no
+41,third,scientest,B,38,junior high,10,no
+45,third,neet,O,85,university,36,no
+29,male,chef,B,94,senior high,99,yes
+71,third,chef,B,78,doctor,470,no
+5,female,scientest,AB,45,master,210,no
+87,female,singer,A,74,senior high,930,no
+5,male,student,A,57,doctor,20,no
+95,third,singer,AB,97,junior high,60,no
+88,female,programmer,AB,76,primary,11,no
+25,third,teacher,B,69,junior high,3600,no
+39,male,engineer,B,93,senior high,220,no
+95,male,programmer,B,74,senior high,900,no
+78,third,programmer,O,84,master,1800,no
+88,third,neet,AB,40,university,4000,no
+51,third,salesman,B,67,senior high,4000,no
+66,female,singer,B,35,university,8500,no
+78,male,singer,AB,39,primary,800,no
+56,female,neet,B,63,doctor,900,no
+17,male,teacher,B,83,senior high,990,no
+24,third,student,B,59,senior high,320,no
+65,male,engineer,O,81,primary,100,no
+69,third,engineer,AB,47,senior high,400,no
+50,male,teacher,O,97,senior high,8,no
+15,female,teacher,AB,55,master,700,no
+68,third,scientest,B,75,master,59,no
+1,male,teacher,A,54,master,9500,no
+80,female,singer,AB,89,junior high,91,no
+12,third,salesman,B,97,doctor,4900,no
+84,third,engineer,O,55,university,83,no
+66,male,chef,AB,71,university,70,no
+40,female,programmer,A,96,senior high,1700,no
+66,third,teacher,A,61,junior high,620,no
+66,third,singer,A,64,doctor,90,no
+70,female,salesman,O,75,senior high,46,no
+6,female,programmer,B,65,junior high,3900,no
+42,third,neet,AB,85,junior high,21,no
+31,female,student,A,62,primary,40,no
+93,third,scientest,O,78,master,12,no
+45,male,scientest,A,77,doctor,2000,yes
+87,female,programmer,O,68,doctor,56,no
+98,female,neet,AB,69,master,31,no
+12,male,salesman,A,91,junior high,4700,no
+58,third,engineer,A,66,university,2600,no
+39,third,singer,AB,81,senior high,3100,no
+36,male,chef,A,93,senior high,880,yes
+31,third,singer,AB,82,master,1600,no
+66,male,singer,O,93,senior high,330,no
+13,third,teacher,B,57,junior high,3800,no
+54,female,programmer,O,59,doctor,8300,no
+78,third,engineer,O,95,university,300,no
+73,third,teacher,AB,79,master,58,no
+55,third,engineer,O,44,junior high,3900,no
+58,male,programmer,O,47,primary,57,no
+31,third,programmer,B,82,university,950,no
+24,third,teacher,O,74,senior high,28,yes
+11,male,scientest,O,88,university,4700,no
+18,male,teacher,B,81,senior high,160,no
+10,third,singer,B,48,primary,800,no
+38,female,engineer,A,57,primary,8200,no
+53,male,chef,B,43,senior high,2,no
+9,third,programmer,A,62,doctor,48,no
+57,third,salesman,A,91,university,730,no
+62,third,teacher,B,70,primary,540,no
+85,female,chef,AB,87,doctor,2200,no
+42,male,chef,A,87,senior high,4000,yes
+91,female,teacher,AB,65,doctor,3100,no
+29,third,student,A,67,junior high,410,no
+38,third,engineer,O,99,junior high,7,yes
+54,female,salesman,B,52,primary,29,no
+2,male,scientest,B,83,primary,400,no
+85,female,teacher,AB,47,doctor,3600,no
+60,male,chef,O,91,junior high,520,no
+3,third,scientest,AB,61,primary,4800,no
+51,third,student,AB,35,senior high,1000,no
+47,male,chef,A,58,senior high,540,yes
+69,female,teacher,AB,71,junior high,1400,no
+92,female,engineer,B,47,university,480,no
+70,female,salesman,A,76,junior high,1600,no
+51,male,engineer,A,72,junior high,4700,no
+39,female,singer,B,62,master,310,no
+49,male,engineer,B,55,primary,2500,no
+39,third,teacher,AB,96,primary,6200,no
+88,third,singer,A,86,senior high,5900,no
+0,male,scientest,A,51,primary,6800,no
+40,male,scientest,AB,79,senior high,21,no
+34,male,neet,A,85,junior high,3400,no
+90,female,salesman,O,66,master,26,no
+75,third,student,O,65,master,56,no
+23,male,singer,B,69,primary,71,no
+39,third,scientest,A,42,senior high,9500,no
+72,male,programmer,B,78,university,8,no
+15,male,singer,O,70,senior high,8100,no
+36,female,salesman,B,53,master,8800,no
+31,male,chef,O,81,senior high,630,yes
+93,female,salesman,A,65,university,58,no
+14,male,salesman,A,88,master,8700,no
+76,third,teacher,AB,70,doctor,350,no
+32,male,neet,B,47,senior high,93,no
+27,male,teacher,B,40,senior high,82,no
+31,female,student,A,75,master,140,no
+90,third,neet,AB,98,master,23,no
+94,third,student,B,43,primary,90,no
+64,female,chef,A,97,university,340,no
+39,male,neet,O,48,master,12,yes
+56,third,teacher,O,72,junior high,700,no
+89,male,engineer,AB,89,doctor,7500,no
+15,female,scientest,AB,99,senior high,160,no
+86,female,programmer,B,71,junior high,5500,no
+7,third,student,A,88,master,110,no
+81,third,teacher,B,87,university,77,no
+55,male,salesman,AB,54,junior high,84,no
+26,male,teacher,B,58,primary,1300,no
+79,female,chef,AB,83,master,800,no
+35,third,neet,B,79,doctor,630,no
+41,male,neet,AB,37,primary,860,no
+10,third,neet,AB,86,primary,2100,no
+92,third,chef,AB,51,university,790,no
+19,third,programmer,AB,90,doctor,97,no
+22,third,chef,AB,85,doctor,900,yes
+93,female,engineer,AB,98,senior high,47,no
+9,male,engineer,A,75,doctor,1400,no
+23,third,programmer,A,91,junior high,36,no
+16,male,teacher,O,96,master,46,yes
+61,female,singer,O,91,primary,67,no
+29,male,salesman,O,63,primary,990,yes
+1,third,teacher,B,89,doctor,610,no
+54,third,scientest,O,89,master,3500,no
+85,third,student,A,43,junior high,94,no
+4,male,student,O,89,senior high,52,no
+15,female,scientest,B,37,master,93,yes
+52,third,student,B,46,junior high,7100,no
+65,female,neet,B,77,university,38,no
+58,male,salesman,O,52,junior high,800,no
+18,third,chef,O,90,university,8700,yes
+57,female,scientest,AB,49,university,290,no
+66,male,engineer,O,47,junior high,53,no
+14,third,programmer,O,54,master,230,no
+3,male,student,A,96,senior high,4900,no
+64,male,singer,AB,73,primary,600,no
+56,third,engineer,B,46,master,2100,no
+99,third,chef,AB,39,master,200,no
+14,third,salesman,AB,80,university,99,no
+26,third,chef,AB,85,primary,480,yes
+30,third,salesman,B,43,junior high,670,no
+35,male,salesman,AB,52,primary,25,no
+85,male,engineer,B,95,university,2200,no
+72,male,student,B,94,senior high,6900,no
+14,third,salesman,AB,76,senior high,150,no
+42,female,engineer,A,45,junior high,72,no
+89,male,neet,AB,86,doctor,7800,no
+35,male,programmer,A,66,senior high,38,no
+50,female,scientest,O,54,junior high,87,no

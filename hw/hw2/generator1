@@ -36,7 +36,7 @@ do
 	RESULT="$AGE,$GENDER,$OCCU,$BLOOD,$HEIGHT,$WEIGHT,$EDU,$REVENUE"
 
 	if ( [ $AGE -ge 10 ] && [ $AGE -le 17 ] && [ $GENDER == "female" ] && [ $WEIGHT -le 45 ] ) ||\
-	   ( [ $AGE -ge 8 ] && [ $AGE -le 12 ] && [ $GENDER == "male" ] && [ $WEIGHT -le 50 ) ||\
+	   ( [ $AGE -ge 8 ] && [ $AGE -le 12 ] && [ $GENDER == "male" ] && [ $WEIGHT -le 50 ] ) ||\
 	   ( [ $AGE -ge 16 ] && [ $AGE -le 40 ] && [ $BLOOD == "O" ] ) ||\
 	   ( [ $AGE -ge 22 ] && [ $AGE -le 50 ] && ( [ "$EDU" == "master" ] || [ "$EDU" == "doctor" ] ) && ( [ "$OCCU" == "programmer" ] || [ "$OCCU" == "scientest" ] || [ "$OCCU" == "engineer" ] ) ) ||\
 	   ( [ $AGE -ge 18 ] && [ $AGE -le 50 ] && [ $OCCU == "chef" ] )

@@ -1,0 +1,5001 @@
+Gender,Occupations,Blood group,Weight,Education,Choosed
+male,programmer,O,86,doctor,no
+third,neet,B,71,doctor,no
+male,neet,O,86,senior high,no
+female,teacher,AB,88,university,no
+female,neet,A,80,primary,no
+female,scientest,B,37,senior high,no
+male,singer,AB,70,primary,no
+male,teacher,O,71,master,no
+female,programmer,O,61,senior high,yes
+female,teacher,A,78,senior high,no
+female,student,AB,95,master,no
+third,programmer,B,57,senior high,no
+third,singer,AB,40,university,no
+third,chef,A,98,senior high,yes
+third,neet,B,96,senior high,no
+male,student,AB,75,university,no
+third,student,B,86,master,no
+female,neet,AB,54,university,no
+third,singer,O,66,doctor,no
+male,scientest,A,37,senior high,no
+male,student,B,44,primary,no
+third,singer,B,94,primary,no
+male,student,A,36,master,no
+male,salesman,A,36,senior high,no
+third,singer,B,35,doctor,no
+third,salesman,O,60,doctor,yes
+third,student,AB,68,doctor,no
+male,teacher,AB,95,senior high,no
+female,engineer,B,57,primary,no
+female,student,B,60,master,no
+male,scientest,A,37,primary,no
+third,scientest,O,41,senior high,no
+female,programmer,B,55,junior high,no
+third,scientest,O,49,junior high,no
+third,singer,O,35,doctor,no
+female,scientest,B,92,master,no
+female,programmer,A,64,junior high,no
+third,neet,AB,71,university,no
+female,student,B,86,university,no
+male,salesman,O,93,university,no
+female,neet,O,80,university,no
+third,teacher,AB,53,doctor,no
+third,student,A,92,master,no
+male,student,O,49,master,no
+male,neet,O,68,junior high,no
+male,student,AB,57,junior high,no
+male,engineer,AB,35,master,no
+female,scientest,AB,49,primary,no
+female,programmer,AB,49,doctor,no
+female,programmer,AB,73,master,no
+male,student,AB,50,master,no
+male,student,AB,77,junior high,no
+third,student,B,57,senior high,no
+female,teacher,B,74,primary,no
+male,salesman,A,42,primary,no
+third,programmer,B,88,university,no
+female,chef,A,76,junior high,yes
+female,salesman,AB,41,senior high,no
+female,salesman,AB,64,master,no
+male,programmer,B,70,senior high,no
+third,neet,A,41,primary,no
+third,programmer,O,88,master,yes
+female,student,AB,98,master,no
+female,teacher,A,81,primary,no
+female,scientest,AB,35,master,no
+female,student,A,35,junior high,no
+third,teacher,O,93,junior high,no
+third,singer,B,94,senior high,no
+female,programmer,AB,55,master,yes
+male,programmer,B,43,doctor,no
+male,chef,A,97,university,yes
+third,scientest,B,97,senior high,no
+third,scientest,A,42,senior high,no
+female,student,AB,58,university,no
+third,teacher,AB,79,doctor,no
+male,scientest,AB,61,doctor,no
+female,scientest,AB,91,university,no
+female,neet,O,81,junior high,no
+third,programmer,B,65,master,no
+male,teacher,A,36,master,no
+male,singer,O,68,junior high,no
+male,chef,AB,81,university,yes
+third,teacher,B,65,junior high,no
+female,singer,AB,94,master,no
+male,neet,O,54,doctor,no
+female,teacher,AB,98,doctor,no
+third,chef,B,38,senior high,yes
+male,engineer,AB,93,doctor,no
+male,student,AB,81,doctor,no
+female,programmer,AB,85,primary,no
+third,teacher,O,45,senior high,yes
+male,neet,O,79,primary,no
+male,chef,A,76,university,yes
+third,neet,AB,85,junior high,no
+female,programmer,A,70,primary,no
+male,neet,O,76,university,no
+female,singer,A,47,university,no
+third,chef,A,38,doctor,no
+female,student,B,77,university,no
+male,teacher,AB,73,primary,no
+third,neet,AB,38,master,no
+male,chef,AB,88,junior high,no
+third,neet,B,77,master,no
+third,teacher,O,90,junior high,yes
+male,teacher,O,47,doctor,no
+female,teacher,AB,70,primary,no
+male,engineer,B,52,junior high,no
+male,engineer,AB,76,primary,no
+female,student,O,84,primary,no
+third,teacher,A,58,doctor,no
+third,programmer,B,60,primary,no
+third,engineer,O,91,master,no
+third,engineer,B,41,primary,no
+third,chef,O,68,master,no
+third,singer,B,61,junior high,no
+male,singer,A,96,doctor,no
+male,scientest,AB,77,master,no
+male,scientest,B,60,senior high,no
+female,chef,B,54,junior high,no
+third,student,A,99,doctor,no
+female,engineer,A,66,senior high,no
+female,neet,AB,91,primary,no
+female,neet,AB,67,senior high,no
+female,singer,B,74,junior high,no
+female,singer,B,47,senior high,no
+male,chef,O,38,university,yes
+male,engineer,B,62,master,yes
+female,scientest,AB,68,doctor,no
+female,scientest,B,69,doctor,yes
+male,chef,O,70,junior high,yes
+female,engineer,A,47,senior high,no
+female,programmer,A,98,junior high,no
+third,engineer,B,75,university,no
+third,student,AB,81,university,no
+male,engineer,B,59,master,yes
+male,teacher,AB,85,primary,no
+male,scientest,B,85,junior high,no
+male,scientest,O,47,university,no
+male,teacher,B,92,doctor,no
+male,teacher,B,87,primary,no
+third,teacher,O,90,junior high,no
+female,singer,A,41,university,no
+male,singer,A,67,senior high,no
+male,scientest,AB,55,junior high,no
+third,chef,O,36,doctor,yes
+male,student,B,63,junior high,no
+male,scientest,AB,79,junior high,no
+third,student,B,62,senior high,no
+third,scientest,AB,90,university,no
+third,teacher,B,88,primary,no
+third,programmer,A,95,master,yes
+third,scientest,AB,96,senior high,no
+male,singer,B,55,primary,no
+male,salesman,B,84,university,no
+third,salesman,B,91,junior high,no
+female,salesman,AB,77,senior high,no
+third,student,B,77,master,no
+female,neet,AB,95,junior high,no
+third,salesman,A,70,university,no
+female,scientest,A,68,junior high,no
+male,chef,O,90,university,yes
+male,programmer,B,63,primary,no
+third,neet,AB,68,university,no
+male,scientest,AB,42,junior high,no
+third,salesman,B,85,senior high,no
+male,salesman,A,43,doctor,no
+female,engineer,A,50,primary,no
+female,programmer,AB,65,senior high,no
+male,programmer,O,45,primary,yes
+female,salesman,O,93,master,no
+male,neet,A,79,doctor,no
+female,neet,A,59,primary,no
+male,student,AB,44,senior high,no
+male,programmer,B,35,doctor,no
+third,chef,O,77,primary,yes
+female,teacher,A,91,university,no
+male,salesman,AB,56,university,no
+third,singer,A,79,junior high,no
+male,engineer,AB,35,doctor,no
+male,student,O,92,doctor,yes
+male,engineer,B,50,junior high,no
+third,chef,B,88,primary,no
+male,scientest,B,55,university,no
+third,neet,AB,44,primary,no
+third,salesman,O,47,junior high,no
+third,teacher,O,87,university,no
+male,student,O,80,junior high,no
+male,scientest,AB,40,master,no
+male,engineer,A,40,doctor,no
+male,teacher,A,38,university,yes
+third,salesman,O,39,primary,yes
+third,engineer,AB,99,university,no
+female,singer,O,49,master,no
+third,teacher,AB,79,senior high,no
+female,student,B,79,senior high,no
+male,salesman,AB,48,primary,no
+third,programmer,AB,90,doctor,no
+third,chef,AB,46,junior high,yes
+third,neet,O,96,junior high,no
+male,engineer,B,90,master,no
+third,programmer,O,71,senior high,no
+third,engineer,AB,62,doctor,no
+female,singer,AB,57,university,no
+female,singer,O,35,doctor,yes
+male,singer,A,95,master,no
+male,salesman,B,72,doctor,no
+third,chef,B,97,master,no
+female,scientest,B,58,doctor,no
+female,teacher,O,36,primary,yes
+female,programmer,AB,91,junior high,no
+third,programmer,O,67,senior high,yes
+male,singer,B,35,primary,no
+female,teacher,AB,96,senior high,no
+female,scientest,AB,79,primary,no
+male,engineer,A,91,doctor,yes
+male,singer,O,78,doctor,no
+male,scientest,A,76,junior high,no
+female,programmer,A,75,senior high,no
+male,salesman,B,82,university,no
+third,chef,O,40,university,no
+third,teacher,A,59,master,no
+female,singer,O,52,master,no
+third,chef,B,84,junior high,no
+female,singer,A,76,senior high,no
+female,programmer,B,48,junior high,no
+third,engineer,AB,42,primary,no
+female,singer,O,99,master,no
+female,teacher,O,46,senior high,no
+third,programmer,AB,51,university,no
+male,programmer,B,89,master,no
+male,neet,B,84,senior high,no
+female,teacher,AB,95,university,no
+female,teacher,B,69,doctor,no
+third,teacher,O,81,university,yes
+third,neet,AB,57,senior high,no
+female,chef,B,77,junior high,no
+female,singer,A,50,doctor,no
+female,teacher,B,37,university,no
+male,chef,B,79,junior high,no
+female,neet,B,42,junior high,no
+third,chef,O,38,primary,no
+third,teacher,O,82,primary,no
+male,singer,A,52,senior high,no
+third,singer,B,65,doctor,no
+third,neet,A,50,junior high,no
+female,chef,O,86,junior high,no
+third,programmer,B,36,junior high,no
+third,neet,AB,77,master,no
+male,scientest,B,90,university,no
+third,programmer,B,51,doctor,no
+female,singer,O,76,master,no
+female,neet,AB,89,master,no
+male,scientest,O,66,doctor,no
+third,programmer,B,42,primary,no
+male,student,A,60,doctor,no
+male,scientest,AB,60,university,no
+third,student,AB,63,university,no
+male,programmer,A,72,master,yes
+male,programmer,B,84,primary,no
+female,salesman,AB,35,master,no
+male,salesman,AB,58,junior high,no
+female,programmer,AB,50,primary,no
+female,scientest,A,98,master,yes
+female,chef,B,92,senior high,no
+male,salesman,A,67,junior high,no
+female,chef,O,50,primary,no
+male,neet,AB,87,primary,no
+third,neet,AB,99,master,no
+female,programmer,O,53,university,no
+female,chef,O,90,university,yes
+male,singer,B,67,primary,no
+female,teacher,O,61,doctor,no
+female,chef,AB,36,primary,no
+female,programmer,A,77,junior high,no
+female,teacher,B,84,senior high,no
+female,programmer,AB,96,senior high,no
+male,chef,AB,42,university,yes
+male,chef,O,59,primary,no
+male,teacher,B,49,university,no
+third,teacher,B,59,doctor,no
+male,teacher,AB,38,doctor,no
+male,chef,AB,99,doctor,no
+third,singer,O,53,doctor,no
+female,salesman,A,67,university,no
+male,neet,O,72,doctor,yes
+male,teacher,A,70,master,no
+male,chef,A,47,master,no
+third,teacher,O,79,university,no
+male,teacher,B,88,senior high,no
+female,neet,A,96,university,no
+male,singer,O,68,doctor,yes
+female,student,O,87,senior high,no
+female,student,B,48,senior high,no
+male,scientest,A,61,master,no
+third,salesman,O,75,master,no
+female,neet,AB,42,junior high,no
+female,student,B,43,primary,no
+female,singer,B,47,university,no
+female,singer,AB,52,primary,no
+female,neet,B,37,university,no
+third,teacher,B,60,primary,no
+third,student,B,90,primary,no
+female,teacher,B,76,doctor,no
+male,salesman,A,86,junior high,no
+female,scientest,B,65,senior high,no
+female,programmer,AB,72,senior high,no
+female,chef,B,90,junior high,yes
+third,chef,O,57,senior high,yes
+female,singer,AB,57,doctor,no
+female,engineer,O,50,master,yes
+third,chef,A,99,master,no
+female,teacher,AB,62,junior high,no
+male,singer,B,51,primary,no
+male,chef,B,71,master,yes
+third,teacher,O,40,doctor,no
+third,neet,B,40,senior high,no
+third,student,O,52,junior high,no
+third,student,A,76,doctor,no
+female,teacher,B,95,master,no
+female,chef,B,52,doctor,no
+female,singer,A,65,junior high,no
+third,salesman,B,93,master,no
+male,chef,A,51,master,yes
+male,engineer,AB,70,senior high,no
+male,teacher,AB,73,junior high,no
+male,programmer,O,78,university,no
+third,student,B,87,senior high,no
+male,salesman,O,52,senior high,no
+third,programmer,AB,39,master,no
+third,neet,AB,57,master,no
+male,neet,A,48,university,no
+female,chef,O,96,university,no
+male,chef,AB,91,junior high,yes
+third,teacher,B,40,master,no
+third,student,O,39,doctor,yes
+third,teacher,AB,58,senior high,no
+third,salesman,A,83,junior high,no
+female,salesman,AB,43,doctor,no
+male,programmer,AB,77,junior high,no
+male,singer,A,46,junior high,no
+female,scientest,O,78,master,yes
+third,singer,O,82,senior high,yes
+female,singer,O,62,doctor,no
+male,student,A,87,master,no
+male,student,B,35,doctor,no
+male,chef,O,90,master,no
+third,salesman,A,60,doctor,no
+third,student,B,37,junior high,no
+female,scientest,B,52,doctor,no
+female,scientest,AB,40,junior high,no
+male,teacher,AB,43,master,no
+male,teacher,O,38,primary,no
+female,singer,AB,66,master,no
+male,chef,B,35,university,no
+male,teacher,A,36,master,no
+male,salesman,A,56,university,no
+male,programmer,B,47,master,no
+female,salesman,A,87,doctor,no
+male,singer,O,65,doctor,no
+third,singer,B,62,master,no
+third,programmer,A,60,senior high,no
+male,programmer,AB,73,doctor,no
+third,singer,AB,77,university,no
+male,singer,AB,55,primary,no
+female,neet,AB,36,doctor,no
+male,singer,AB,99,senior high,no
+third,teacher,O,47,university,no
+male,programmer,O,86,university,yes
+female,engineer,B,56,senior high,no
+male,chef,O,43,university,yes
+female,engineer,B,47,university,no
+third,programmer,AB,85,senior high,no
+third,programmer,A,54,university,no
+third,student,B,56,senior high,no
+female,engineer,O,55,master,no
+third,student,B,46,senior high,no
+male,singer,A,52,master,no
+female,student,A,74,junior high,no
+male,scientest,O,58,senior high,no
+third,salesman,AB,88,university,no
+male,chef,B,48,junior high,yes
+third,engineer,A,93,university,no
+female,salesman,B,97,senior high,no
+third,programmer,A,94,junior high,no
+third,chef,A,94,senior high,no
+third,scientest,A,48,university,no
+third,scientest,O,67,senior high,yes
+female,teacher,A,65,senior high,no
+male,chef,A,49,junior high,no
+male,teacher,AB,52,master,no
+female,salesman,O,43,junior high,no
+female,scientest,O,43,master,yes
+male,neet,A,92,university,no
+third,teacher,A,72,senior high,no
+third,neet,B,71,master,no
+male,student,B,78,doctor,no
+female,singer,O,54,senior high,no
+male,programmer,AB,85,primary,no
+third,neet,O,71,master,no
+female,salesman,A,53,doctor,no
+female,student,O,49,primary,no
+male,programmer,A,86,senior high,no
+female,singer,A,80,junior high,no
+male,teacher,B,72,primary,no
+third,chef,O,99,primary,no
+third,programmer,AB,79,university,no
+male,programmer,O,79,primary,no
+female,chef,A,51,primary,yes
+third,salesman,B,93,senior high,no
+third,programmer,AB,62,university,no
+male,engineer,AB,93,master,yes
+third,teacher,A,85,senior high,no
+third,neet,B,95,junior high,no
+female,singer,A,97,doctor,no
+female,engineer,O,36,senior high,no
+female,chef,AB,88,junior high,yes
+third,salesman,AB,36,master,no
+female,scientest,A,99,senior high,no
+female,student,O,80,primary,no
+male,student,A,40,university,no
+female,chef,B,44,primary,no
+male,student,A,59,junior high,no
+female,salesman,A,63,master,no
+female,salesman,O,44,primary,yes
+male,student,O,74,master,yes
+third,student,AB,83,university,no
+male,salesman,O,77,senior high,yes
+female,singer,A,47,junior high,no
+third,student,B,61,primary,no
+female,chef,A,64,senior high,no
+male,chef,A,46,doctor,no
+female,student,O,98,doctor,no
+female,engineer,B,75,junior high,no
+third,neet,B,93,primary,no
+third,neet,B,60,doctor,no
+female,singer,AB,76,university,no
+third,salesman,B,60,doctor,no
+male,engineer,AB,40,master,no
+male,scientest,A,98,senior high,no
+female,chef,B,84,primary,no
+female,engineer,AB,84,primary,no
+male,chef,AB,82,master,no
+third,neet,O,93,senior high,no
+third,engineer,A,38,doctor,no
+male,teacher,O,81,master,yes
+third,salesman,A,46,senior high,no
+female,neet,B,35,master,no
+third,salesman,A,79,primary,no
+male,engineer,O,51,doctor,no
+female,engineer,A,67,senior high,no
+third,scientest,B,79,junior high,no
+male,chef,O,61,junior high,no
+third,student,B,92,master,no
+male,salesman,AB,83,primary,no
+male,student,O,36,primary,yes
+female,engineer,B,75,junior high,no
+female,scientest,B,42,senior high,no
+female,neet,A,63,doctor,no
+third,salesman,B,51,doctor,no
+female,teacher,AB,44,university,no
+male,singer,O,36,senior high,no
+third,scientest,AB,55,university,no
+male,student,AB,92,junior high,no
+third,programmer,A,87,university,no
+male,salesman,AB,98,senior high,no
+male,teacher,O,42,senior high,no
+male,teacher,O,93,primary,no
+third,chef,B,60,doctor,no
+female,singer,AB,64,senior high,no
+male,student,B,62,junior high,no
+male,teacher,O,56,junior high,no
+third,singer,O,62,senior high,no
+female,chef,A,57,senior high,no
+female,singer,A,81,primary,no
+female,singer,A,52,doctor,no
+female,neet,AB,96,primary,no
+male,engineer,O,76,senior high,no
+female,neet,A,82,university,no
+third,scientest,AB,84,junior high,no
+male,engineer,AB,66,master,yes
+female,neet,A,86,university,no
+male,student,O,65,doctor,no
+third,teacher,O,37,doctor,no
+female,engineer,B,61,doctor,yes
+male,chef,AB,35,senior high,no
+female,chef,B,51,primary,no
+male,programmer,AB,81,primary,no
+female,scientest,AB,35,senior high,no
+female,programmer,A,38,senior high,yes
+third,teacher,O,42,senior high,no
+female,student,AB,78,senior high,no
+female,neet,B,55,senior high,no
+third,student,A,50,senior high,no
+third,student,B,89,senior high,no
+male,salesman,AB,92,junior high,no
+third,scientest,O,73,master,no
+female,engineer,AB,83,primary,no
+male,scientest,O,51,primary,yes
+male,chef,AB,43,master,no
+male,neet,AB,40,university,no
+male,programmer,AB,54,master,no
+male,student,A,69,primary,no
+male,scientest,O,62,junior high,no
+third,programmer,B,37,master,yes
+third,singer,AB,82,junior high,no
+third,neet,B,56,doctor,no
+male,programmer,A,84,senior high,no
+male,singer,AB,99,doctor,no
+female,student,AB,57,doctor,no
+female,chef,O,86,master,yes
+third,chef,O,87,master,yes
+female,teacher,AB,91,master,no
+male,engineer,AB,50,junior high,yes
+male,programmer,A,37,junior high,no
+female,singer,AB,81,senior high,no
+male,student,A,39,doctor,no
+female,student,A,62,junior high,no
+male,teacher,B,49,primary,no
+male,singer,O,78,senior high,no
+male,scientest,AB,48,university,no
+female,engineer,AB,74,junior high,no
+third,teacher,A,62,junior high,no
+male,scientest,B,45,university,no
+female,scientest,B,41,senior high,yes
+female,chef,A,92,master,yes
+female,salesman,AB,99,master,no
+female,student,B,81,senior high,no
+third,teacher,O,82,doctor,no
+male,salesman,B,97,junior high,no
+third,teacher,O,73,doctor,yes
+male,student,A,90,primary,no
+male,programmer,A,66,doctor,no
+male,salesman,A,82,primary,no
+female,chef,O,68,university,no
+female,student,AB,75,junior high,no
+third,student,B,51,university,no
+male,singer,O,79,doctor,no
+third,engineer,O,57,university,no
+male,chef,O,76,doctor,no
+male,programmer,O,91,senior high,yes
+third,neet,A,96,primary,no
+female,neet,AB,88,senior high,no
+female,programmer,A,93,senior high,no
+male,teacher,B,76,university,no
+third,neet,AB,38,senior high,no
+male,programmer,AB,62,master,no
+third,neet,B,38,master,no
+male,singer,AB,73,primary,no
+female,teacher,B,58,university,no
+male,neet,B,90,primary,no
+male,scientest,AB,46,junior high,no
+female,salesman,O,56,junior high,no
+female,singer,O,61,university,yes
+third,student,O,51,senior high,no
+male,student,O,74,senior high,yes
+female,student,O,37,primary,no
+male,singer,O,86,junior high,yes
+third,neet,AB,44,primary,no
+female,salesman,A,38,doctor,no
+male,salesman,O,86,master,no
+female,singer,B,63,master,no
+female,engineer,A,93,senior high,no
+third,engineer,O,77,junior high,no
+male,student,A,68,master,no
+third,engineer,O,92,master,yes
+third,neet,O,50,doctor,yes
+female,scientest,A,47,senior high,no
+third,engineer,AB,55,doctor,no
+male,salesman,O,49,doctor,yes
+third,chef,O,85,senior high,yes
+third,engineer,B,78,master,no
+female,singer,B,94,primary,no
+female,teacher,A,84,primary,no
+female,scientest,O,56,primary,yes
+female,student,B,44,primary,yes
+female,teacher,AB,51,senior high,no
+male,programmer,B,56,university,no
+female,engineer,B,69,junior high,no
+male,neet,AB,71,senior high,no
+female,engineer,O,66,junior high,no
+male,student,A,78,doctor,no
+male,student,AB,86,primary,no
+third,student,O,53,senior high,no
+male,teacher,B,37,senior high,no
+male,programmer,AB,78,primary,no
+female,student,AB,93,junior high,no
+male,neet,A,45,doctor,no
+male,chef,A,82,university,no
+third,programmer,O,94,master,no
+female,salesman,A,41,junior high,no
+male,student,A,93,university,no
+male,engineer,O,50,master,yes
+male,programmer,B,38,master,yes
+female,engineer,AB,83,senior high,no
+third,singer,O,91,primary,yes
+male,programmer,A,49,master,no
+female,scientest,B,83,master,no
+male,programmer,AB,82,master,yes
+male,engineer,AB,98,master,no
+third,neet,AB,39,senior high,no
+female,programmer,O,47,senior high,yes
+female,scientest,A,59,primary,no
+third,programmer,O,72,doctor,no
+third,salesman,AB,45,primary,no
+third,singer,AB,46,master,no
+male,student,AB,88,master,no
+male,chef,AB,71,master,no
+male,teacher,O,92,primary,no
+male,teacher,B,50,university,no
+third,chef,B,47,master,yes
+third,teacher,B,51,university,no
+male,singer,B,87,senior high,no
+female,salesman,O,87,master,yes
+third,singer,AB,95,senior high,no
+third,chef,O,67,senior high,no
+male,neet,O,42,doctor,no
+male,teacher,A,87,doctor,no
+male,singer,O,65,doctor,no
+female,salesman,AB,91,master,no
+male,neet,AB,54,doctor,no
+male,salesman,A,71,master,no
+female,singer,AB,82,primary,no
+third,programmer,AB,59,university,no
+male,scientest,O,81,university,no
+female,engineer,B,74,university,no
+third,student,A,50,university,no
+female,neet,B,84,doctor,no
+male,engineer,A,93,master,no
+female,programmer,O,87,university,yes
+female,chef,A,50,master,yes
+third,singer,A,52,senior high,no
+male,salesman,A,82,master,no
+female,singer,B,71,junior high,no
+male,singer,O,39,senior high,no
+male,neet,A,99,university,no
+male,scientest,A,80,junior high,no
+female,neet,AB,77,university,no
+male,neet,B,74,senior high,no
+third,singer,AB,78,university,no
+male,salesman,B,55,senior high,no
+male,salesman,B,69,junior high,no
+third,singer,O,81,university,no
+third,scientest,B,45,primary,no
+male,scientest,AB,57,doctor,no
+third,chef,A,70,doctor,yes
+male,neet,O,42,junior high,no
+female,chef,AB,51,senior high,no
+male,salesman,AB,78,doctor,no
+third,chef,B,75,junior high,no
+male,scientest,AB,46,doctor,yes
+third,singer,B,73,junior high,no
+female,engineer,AB,56,primary,no
+male,singer,AB,48,doctor,no
+third,neet,O,98,senior high,no
+male,salesman,B,65,primary,no
+male,chef,AB,36,doctor,no
+female,singer,B,81,doctor,no
+female,engineer,O,98,primary,no
+male,singer,AB,49,university,no
+third,salesman,B,65,master,no
+male,engineer,O,47,master,yes
+male,scientest,B,79,senior high,no
+male,teacher,AB,74,university,no
+male,engineer,A,81,senior high,no
+female,engineer,A,70,junior high,no
+female,singer,A,89,university,no
+third,singer,B,91,senior high,no
+third,programmer,A,95,university,no
+female,neet,A,88,senior high,no
+third,student,O,96,senior high,no
+third,salesman,AB,84,primary,no
+female,teacher,A,64,junior high,no
+female,chef,AB,65,doctor,no
+third,scientest,O,99,master,yes
+female,chef,A,73,university,no
+female,salesman,A,51,senior high,no
+third,teacher,A,96,junior high,no
+female,singer,A,78,doctor,no
+female,programmer,A,41,primary,no
+male,scientest,B,43,master,no
+female,singer,A,81,senior high,no
+female,singer,B,70,junior high,no
+third,teacher,B,40,university,no
+male,programmer,O,74,primary,no
+female,neet,A,91,master,no
+female,salesman,AB,74,doctor,no
+third,programmer,B,73,junior high,no
+male,teacher,A,77,primary,no
+female,teacher,A,98,senior high,no
+third,programmer,B,62,doctor,no
+male,salesman,AB,99,master,no
+male,neet,B,54,primary,no
+third,salesman,AB,97,doctor,no
+third,neet,AB,72,senior high,no
+female,programmer,AB,79,university,no
+third,teacher,A,96,university,no
+male,scientest,A,44,doctor,yes
+third,chef,AB,66,junior high,no
+male,singer,B,61,master,no
+male,neet,A,62,junior high,no
+third,salesman,AB,35,doctor,no
+third,salesman,A,56,primary,no
+third,teacher,AB,45,doctor,no
+female,singer,AB,54,doctor,no
+female,salesman,O,38,junior high,no
+female,neet,B,58,doctor,no
+female,scientest,O,86,doctor,no
+third,student,A,79,senior high,no
+female,engineer,AB,70,university,no
+female,engineer,AB,91,master,no
+male,student,AB,66,junior high,no
+male,neet,A,75,junior high,no
+female,programmer,O,50,master,yes
+male,engineer,O,44,senior high,no
+third,teacher,B,61,university,no
+third,engineer,AB,48,primary,no
+female,engineer,O,38,doctor,no
+female,teacher,AB,91,junior high,no
+male,student,AB,67,senior high,no
+third,chef,B,42,doctor,no
+female,teacher,AB,72,university,no
+third,singer,O,97,master,no
+female,engineer,A,46,university,no
+third,salesman,B,65,doctor,no
+male,student,O,37,doctor,yes
+male,scientest,O,62,doctor,no
+female,neet,AB,66,senior high,no
+third,salesman,B,64,doctor,no
+male,salesman,A,69,university,no
+male,neet,O,38,doctor,yes
+female,scientest,A,79,primary,no
+third,programmer,AB,96,university,no
+female,chef,O,83,primary,yes
+third,scientest,AB,68,university,no
+female,teacher,AB,84,doctor,no
+third,teacher,O,57,doctor,no
+female,teacher,AB,89,university,no
+female,student,A,44,university,no
+female,engineer,A,38,doctor,no
+third,salesman,AB,47,university,no
+third,neet,O,85,university,yes
+third,engineer,AB,85,senior high,no
+third,neet,B,79,university,no
+female,programmer,B,66,senior high,no
+third,programmer,A,94,primary,no
+female,singer,B,51,junior high,no
+female,neet,A,74,doctor,no
+female,chef,A,45,university,no
+male,student,O,88,doctor,yes
+third,singer,B,53,university,no
+third,programmer,A,92,junior high,no
+female,singer,O,62,junior high,no
+female,engineer,A,53,senior high,no
+male,singer,O,58,master,yes
+third,teacher,B,77,primary,no
+female,singer,AB,97,senior high,no
+third,scientest,O,53,master,no
+third,student,A,79,junior high,no
+female,salesman,A,51,master,no
+female,scientest,O,85,senior high,no
+male,scientest,AB,56,senior high,no
+female,engineer,O,61,university,yes
+third,engineer,AB,57,junior high,no
+third,singer,O,86,junior high,no
+male,chef,AB,37,doctor,yes
+female,engineer,A,88,master,yes
+male,engineer,B,67,senior high,no
+female,teacher,AB,60,senior high,no
+female,programmer,O,91,senior high,no
+third,salesman,O,70,master,no
+female,student,A,73,doctor,no
+male,neet,A,71,primary,no
+third,salesman,A,64,master,no
+third,scientest,A,95,senior high,no
+male,scientest,B,89,senior high,no
+third,student,AB,77,university,no
+male,student,AB,66,junior high,no
+male,teacher,AB,68,university,no
+male,singer,AB,37,doctor,yes
+third,scientest,O,84,university,no
+male,engineer,AB,65,doctor,yes
+third,chef,A,46,doctor,no
+female,student,AB,82,master,no
+male,singer,A,58,university,no
+male,chef,B,91,junior high,no
+male,neet,A,44,master,no
+female,teacher,B,58,doctor,no
+male,chef,B,38,junior high,no
+third,student,A,63,junior high,no
+third,programmer,O,41,junior high,no
+male,programmer,O,62,university,yes
+third,chef,O,66,university,yes
+female,student,A,89,master,no
+third,scientest,B,77,doctor,no
+third,programmer,AB,40,master,no
+female,scientest,O,53,university,yes
+male,engineer,O,37,primary,yes
+female,salesman,AB,69,university,no
+male,programmer,A,77,primary,no
+female,programmer,AB,45,junior high,yes
+third,singer,B,67,senior high,no
+female,teacher,A,37,senior high,no
+male,teacher,B,62,university,no
+third,singer,A,93,primary,no
+third,programmer,AB,39,junior high,no
+third,chef,O,90,master,no
+female,neet,A,85,junior high,no
+male,singer,A,45,university,no
+third,salesman,A,42,master,no
+third,neet,A,84,junior high,no
+third,engineer,O,93,junior high,no
+male,neet,AB,73,master,no
+third,teacher,A,37,doctor,no
+male,teacher,B,88,master,no
+third,programmer,AB,37,university,no
+male,chef,AB,82,doctor,no
+male,teacher,AB,96,master,no
+female,chef,AB,52,primary,yes
+female,salesman,A,93,primary,no
+male,salesman,AB,92,university,no
+female,chef,A,99,senior high,yes
+male,chef,B,50,doctor,no
+female,student,B,92,doctor,no
+male,chef,AB,84,doctor,yes
+third,salesman,B,50,senior high,no
+third,teacher,O,81,master,no
+third,scientest,O,64,doctor,no
+female,programmer,B,71,master,no
+female,teacher,O,83,primary,yes
+male,singer,O,91,doctor,no
+male,singer,A,76,junior high,no
+female,student,A,60,doctor,no
+female,neet,B,36,doctor,no
+male,teacher,O,89,master,no
+female,chef,O,38,primary,yes
+male,singer,AB,69,junior high,no
+third,student,AB,91,primary,no
+male,scientest,A,83,primary,no
+female,programmer,AB,35,doctor,no
+female,chef,B,48,senior high,no
+male,programmer,B,78,junior high,no
+third,singer,B,50,master,no
+female,salesman,B,82,junior high,no
+male,singer,O,93,junior high,no
+third,engineer,AB,49,primary,no
+third,engineer,A,54,senior high,no
+male,teacher,AB,49,doctor,no
+male,engineer,A,97,university,no
+third,scientest,B,86,primary,no
+third,chef,B,53,doctor,no
+third,engineer,B,93,university,no
+third,singer,AB,35,primary,no
+third,student,B,64,doctor,no
+third,salesman,B,83,senior high,no
+third,engineer,AB,96,primary,no
+male,engineer,O,95,master,no
+male,teacher,B,81,senior high,no
+third,singer,O,68,senior high,yes
+third,teacher,A,72,master,no
+male,singer,AB,82,master,no
+female,salesman,AB,43,junior high,no
+male,student,B,94,master,no
+female,student,B,63,senior high,no
+male,chef,O,71,doctor,no
+third,singer,A,85,university,no
+female,student,O,67,junior high,yes
+male,salesman,A,77,primary,no
+female,singer,A,52,senior high,no
+female,teacher,AB,68,university,no
+male,scientest,A,99,junior high,no
+third,scientest,AB,44,primary,no
+third,engineer,O,35,senior high,yes
+male,engineer,AB,82,master,no
+female,salesman,A,92,master,no
+third,salesman,B,40,junior high,no
+female,chef,O,93,senior high,no
+female,engineer,A,98,senior high,no
+female,engineer,AB,54,senior high,no
+third,salesman,B,52,senior high,no
+third,engineer,O,45,university,yes
+third,student,O,61,junior high,yes
+female,engineer,O,51,university,no
+female,singer,O,50,university,no
+female,teacher,B,38,senior high,no
+male,singer,AB,39,master,no
+third,salesman,B,48,primary,no
+third,teacher,A,90,senior high,no
+female,engineer,AB,70,master,no
+third,engineer,AB,58,doctor,no
+third,teacher,O,84,university,no
+female,neet,B,57,senior high,no
+female,salesman,A,57,junior high,no
+female,engineer,O,95,primary,no
+third,chef,A,71,master,yes
+third,programmer,B,65,senior high,no
+male,singer,O,51,senior high,no
+third,engineer,O,65,junior high,no
+female,chef,O,96,master,no
+third,teacher,B,80,junior high,no
+male,student,B,75,master,no
+male,student,B,88,university,no
+female,chef,O,59,doctor,yes
+female,teacher,O,37,master,no
+third,engineer,AB,96,senior high,no
+male,neet,AB,41,primary,no
+third,student,O,42,senior high,no
+third,student,AB,93,master,no
+female,teacher,O,73,doctor,no
+third,student,A,93,primary,no
+third,student,B,80,senior high,no
+female,engineer,O,85,senior high,yes
+female,singer,O,40,university,no
+third,programmer,A,74,master,no
+female,scientest,O,64,doctor,no
+female,neet,B,90,senior high,no
+female,student,A,75,university,no
+male,student,A,84,primary,no
+male,neet,O,43,senior high,no
+third,neet,AB,74,university,no
+male,scientest,O,46,master,no
+male,chef,A,40,doctor,no
+third,engineer,O,51,doctor,no
+third,chef,B,54,doctor,no
+female,salesman,B,98,doctor,no
+male,salesman,AB,89,doctor,no
+male,programmer,O,57,senior high,no
+male,salesman,B,67,doctor,no
+third,teacher,O,64,junior high,no
+male,scientest,AB,38,doctor,yes
+female,programmer,AB,35,university,no
+third,singer,A,44,university,no
+male,programmer,A,71,university,no
+female,student,AB,67,master,no
+male,chef,A,75,senior high,yes
+third,engineer,A,85,primary,no
+third,neet,O,49,senior high,no
+third,student,O,66,senior high,no
+male,engineer,O,35,senior high,no
+third,salesman,AB,81,junior high,no
+female,chef,B,62,university,no
+female,neet,AB,54,junior high,no
+female,scientest,A,53,university,no
+third,chef,B,43,doctor,yes
+female,student,O,42,senior high,no
+female,singer,B,42,university,no
+male,scientest,AB,74,primary,no
+male,singer,A,36,university,no
+female,engineer,B,40,senior high,yes
+male,singer,O,76,doctor,yes
+male,neet,A,85,primary,no
+third,engineer,B,40,master,no
+third,programmer,B,86,doctor,no
+female,student,B,48,master,no
+third,scientest,AB,99,university,no
+male,student,O,81,junior high,no
+male,engineer,O,72,primary,no
+third,student,A,38,university,no
+female,neet,O,67,primary,yes
+female,chef,AB,72,doctor,yes
+female,neet,B,46,university,no
+male,scientest,B,49,primary,no
+female,teacher,AB,81,master,no
+third,salesman,O,72,doctor,no
+third,student,A,38,senior high,no
+male,chef,O,87,primary,no
+male,chef,AB,63,primary,no
+male,student,AB,53,senior high,no
+male,student,AB,95,senior high,no
+male,programmer,AB,56,doctor,no
+male,programmer,B,56,junior high,no
+female,engineer,AB,80,junior high,no
+female,singer,B,58,master,no
+female,scientest,AB,48,primary,no
+male,singer,AB,67,doctor,no
+male,student,AB,93,university,no
+third,engineer,A,65,doctor,no
+third,teacher,AB,57,master,no
+third,student,A,45,university,no
+third,student,B,84,senior high,no
+male,engineer,AB,66,master,yes
+female,salesman,B,39,primary,yes
+male,programmer,A,93,master,no
+third,teacher,A,53,junior high,no
+female,teacher,B,88,senior high,no
+third,teacher,AB,68,master,no
+third,engineer,AB,99,master,no
+female,student,O,35,junior high,no
+female,scientest,A,89,university,no
+third,engineer,B,42,university,no
+third,singer,B,64,doctor,no
+female,salesman,A,53,senior high,no
+male,chef,A,39,doctor,no
+third,chef,AB,73,senior high,yes
+male,programmer,AB,46,primary,no
+male,chef,AB,59,master,yes
+female,student,O,81,master,no
+male,salesman,O,44,doctor,no
+female,engineer,A,42,primary,no
+female,teacher,B,52,university,no
+third,scientest,B,36,junior high,no
+male,teacher,B,77,senior high,no
+female,singer,O,85,senior high,yes
+female,singer,B,98,university,no
+male,scientest,AB,46,university,no
+male,singer,AB,37,primary,no
+male,programmer,B,67,senior high,no
+female,neet,AB,36,junior high,no
+female,salesman,AB,60,senior high,no
+female,neet,B,60,junior high,no
+male,salesman,AB,65,doctor,no
+third,chef,O,77,university,no
+female,student,O,98,doctor,no
+female,scientest,AB,96,senior high,no
+third,neet,AB,56,junior high,no
+male,chef,A,98,primary,no
+third,engineer,A,49,junior high,no
+male,neet,A,77,senior high,no
+female,engineer,B,86,doctor,no
+female,student,O,59,doctor,no
+male,neet,B,39,master,no
+male,student,A,42,senior high,no
+female,chef,A,46,doctor,no
+male,salesman,O,89,master,no
+third,programmer,B,68,junior high,no
+male,student,B,96,junior high,no
+female,salesman,B,59,senior high,no
+female,singer,AB,36,primary,no
+third,singer,A,36,junior high,no
+female,singer,AB,96,junior high,no
+male,singer,AB,45,master,no
+male,salesman,AB,75,senior high,no
+third,teacher,A,56,doctor,no
+male,neet,A,37,doctor,yes
+female,neet,O,86,senior high,no
+third,engineer,B,77,master,yes
+female,programmer,O,54,doctor,no
+male,programmer,AB,43,senior high,no
+female,chef,AB,78,senior high,no
+female,programmer,AB,81,university,no
+third,student,AB,39,primary,no
+female,chef,O,88,university,no
+male,programmer,AB,87,senior high,no
+female,neet,B,62,doctor,no
+male,engineer,AB,85,senior high,no
+male,engineer,O,54,primary,yes
+male,programmer,B,76,primary,no
+female,salesman,B,80,junior high,no
+male,singer,B,91,master,no
+third,salesman,O,45,master,no
+male,student,AB,58,master,no
+female,singer,A,83,junior high,no
+female,singer,O,78,junior high,yes
+third,engineer,B,74,junior high,no
+male,neet,AB,92,primary,no
+male,student,AB,60,senior high,no
+third,scientest,A,56,university,no
+female,neet,A,97,senior high,no
+female,salesman,AB,36,master,no
+male,student,O,41,university,no
+female,neet,B,87,junior high,no
+third,programmer,O,63,university,no
+third,programmer,O,79,master,yes
+third,chef,A,84,doctor,yes
+female,salesman,AB,44,doctor,yes
+male,programmer,A,67,junior high,no
+third,engineer,B,35,doctor,yes
+female,teacher,O,89,junior high,yes
+third,salesman,B,50,senior high,no
+third,engineer,AB,82,senior high,no
+female,salesman,B,41,primary,yes
+female,programmer,AB,94,senior high,no
+third,salesman,A,85,senior high,no
+male,scientest,O,75,doctor,no
+male,programmer,O,85,master,no
+third,student,A,49,master,no
+female,salesman,B,38,doctor,no
+female,singer,A,38,university,no
+third,scientest,AB,54,university,no
+male,singer,B,94,university,no
+female,engineer,AB,43,doctor,yes
+female,salesman,AB,51,junior high,no
+male,salesman,AB,67,university,no
+male,neet,AB,55,senior high,no
+female,scientest,AB,73,senior high,no
+male,chef,AB,78,university,yes
+male,student,B,92,doctor,no
+male,teacher,B,67,junior high,no
+female,teacher,A,61,doctor,no
+male,teacher,AB,65,primary,no
+male,teacher,B,47,senior high,no
+female,engineer,A,41,master,yes
+third,scientest,B,72,primary,no
+male,scientest,B,83,doctor,no
+female,teacher,AB,38,university,no
+female,student,B,92,junior high,no
+female,neet,A,41,senior high,no
+third,scientest,AB,48,junior high,no
+male,salesman,AB,78,primary,no
+male,salesman,A,50,doctor,no
+female,engineer,B,89,master,no
+male,salesman,B,59,doctor,no
+female,neet,B,52,primary,no
+male,programmer,A,78,university,no
+male,student,O,69,junior high,yes
+third,singer,AB,45,primary,no
+male,teacher,A,76,primary,no
+third,programmer,AB,74,university,no
+male,scientest,AB,89,junior high,no
+male,student,AB,64,university,no
+male,programmer,A,67,junior high,no
+female,chef,AB,78,primary,no
+male,teacher,A,39,master,no
+third,programmer,A,74,junior high,no
+female,chef,A,72,university,no
+male,chef,A,83,junior high,no
+male,salesman,B,39,senior high,no
+third,neet,A,79,junior high,no
+third,teacher,B,99,university,no
+female,singer,AB,73,university,no
+male,programmer,B,47,primary,no
+third,neet,O,45,primary,no
+female,engineer,O,57,junior high,no
+female,teacher,AB,62,senior high,no
+male,neet,A,56,university,no
+third,singer,O,43,primary,no
+female,scientest,AB,46,doctor,yes
+female,scientest,AB,89,university,no
+male,salesman,AB,64,doctor,no
+male,engineer,B,54,primary,no
+third,engineer,AB,94,senior high,no
+male,chef,O,61,senior high,yes
+female,scientest,AB,88,master,yes
+third,engineer,AB,63,master,yes
+female,programmer,AB,52,university,no
+female,chef,B,72,doctor,no
+female,singer,B,78,university,no
+third,singer,B,48,university,no
+male,student,O,74,junior high,no
+third,student,AB,86,primary,no
+third,scientest,A,45,doctor,no
+male,student,B,53,senior high,no
+male,programmer,B,85,junior high,no
+third,engineer,O,91,primary,no
+female,teacher,B,97,university,no
+third,programmer,AB,42,junior high,no
+male,teacher,O,61,master,yes
+third,teacher,AB,47,junior high,no
+female,chef,B,89,university,yes
+female,student,A,39,senior high,no
+female,neet,A,87,university,no
+female,teacher,O,62,primary,no
+female,neet,A,89,senior high,no
+female,singer,B,96,university,no
+third,teacher,O,99,doctor,no
+third,neet,A,79,junior high,no
+female,scientest,B,97,university,no
+third,singer,A,44,senior high,no
+male,programmer,O,72,doctor,yes
+male,teacher,B,40,master,no
+third,neet,AB,79,primary,no
+female,scientest,O,81,junior high,no
+third,teacher,O,76,master,no
+third,singer,O,92,senior high,no
+female,scientest,AB,91,primary,no
+female,chef,A,52,junior high,no
+third,engineer,A,52,junior high,no
+male,engineer,O,99,primary,no
+female,student,AB,90,junior high,no
+female,neet,B,74,university,no
+third,neet,B,44,doctor,no
+third,teacher,O,89,primary,no
+male,singer,B,59,junior high,no
+male,engineer,AB,98,university,no
+female,programmer,O,38,junior high,yes
+third,teacher,B,42,doctor,no
+female,teacher,B,44,junior high,no
+third,singer,A,64,primary,no
+male,programmer,A,49,junior high,no
+female,salesman,AB,75,master,no
+male,teacher,B,58,doctor,no
+female,engineer,B,52,university,no
+male,singer,AB,36,university,no
+male,student,B,66,primary,no
+female,chef,B,41,junior high,yes
+male,engineer,O,48,university,no
+male,chef,B,51,junior high,yes
+male,scientest,AB,90,primary,no
+third,scientest,B,84,master,no
+female,engineer,A,70,university,no
+male,salesman,B,91,university,no
+male,teacher,B,76,junior high,no
+male,teacher,AB,78,university,no
+third,programmer,O,91,junior high,no
+female,scientest,AB,86,master,yes
+third,teacher,O,58,master,yes
+male,programmer,O,70,junior high,no
+female,student,A,87,senior high,no
+third,student,O,79,doctor,yes
+third,engineer,O,60,senior high,no
+third,engineer,B,75,primary,no
+female,singer,O,49,senior high,no
+male,programmer,A,68,university,no
+third,salesman,B,59,master,no
+female,neet,O,52,doctor,no
+third,scientest,A,75,master,no
+male,student,B,61,senior high,no
+male,salesman,O,99,university,no
+female,programmer,A,37,primary,no
+male,salesman,B,80,junior high,no
+third,neet,AB,94,senior high,no
+male,student,O,63,doctor,no
+third,programmer,AB,43,doctor,no
+male,singer,AB,81,junior high,no
+female,engineer,B,57,university,no
+male,engineer,O,81,senior high,no
+third,scientest,O,92,master,no
+female,programmer,A,56,university,no
+female,chef,A,49,junior high,yes
+female,student,A,79,master,no
+male,student,AB,94,senior high,no
+male,engineer,B,43,junior high,no
+female,student,O,37,primary,yes
+female,programmer,B,57,junior high,no
+female,salesman,AB,56,junior high,no
+male,student,O,84,junior high,yes
+female,student,B,38,master,no
+female,scientest,B,85,doctor,no
+female,neet,A,85,junior high,no
+male,neet,B,66,primary,no
+third,salesman,B,86,junior high,no
+male,chef,O,55,junior high,no
+male,engineer,AB,62,primary,no
+female,programmer,B,46,university,no
+third,scientest,B,64,junior high,no
+female,teacher,AB,92,doctor,no
+third,salesman,B,35,senior high,no
+male,singer,AB,61,master,no
+third,salesman,B,88,junior high,no
+male,scientest,A,86,senior high,no
+third,teacher,A,70,doctor,no
+third,scientest,B,78,doctor,yes
+male,engineer,AB,83,university,no
+male,salesman,A,77,doctor,no
+third,salesman,A,39,master,no
+female,teacher,AB,83,junior high,no
+male,chef,O,42,doctor,yes
+female,chef,AB,67,master,no
+male,neet,O,69,university,yes
+female,teacher,AB,73,senior high,no
+male,programmer,A,81,junior high,no
+male,teacher,AB,61,senior high,no
+male,student,AB,52,doctor,no
+third,programmer,O,81,university,yes
+third,teacher,B,41,primary,no
+female,teacher,A,77,junior high,no
+male,teacher,O,85,senior high,no
+female,chef,O,85,primary,no
+female,chef,O,82,primary,no
+female,programmer,B,76,doctor,no
+male,singer,AB,72,doctor,no
+third,singer,A,98,junior high,no
+male,scientest,O,69,primary,no
+third,scientest,A,87,primary,no
+male,chef,B,38,master,no
+female,scientest,AB,71,university,no
+third,scientest,A,42,university,no
+male,engineer,AB,84,senior high,no
+male,scientest,AB,93,university,no
+female,neet,AB,66,master,no
+male,student,AB,68,university,no
+third,engineer,A,70,primary,no
+third,programmer,B,49,university,no
+third,singer,A,65,primary,no
+male,singer,AB,43,junior high,no
+female,programmer,AB,76,master,yes
+female,engineer,O,79,master,yes
+male,engineer,AB,79,senior high,no
+male,neet,B,65,master,no
+male,student,A,46,university,no
+male,neet,B,89,doctor,no
+female,chef,B,99,senior high,yes
+third,singer,AB,85,primary,no
+male,chef,A,83,university,no
+female,student,B,89,master,no
+female,programmer,B,81,master,no
+female,programmer,A,62,senior high,no
+third,teacher,B,98,senior high,no
+male,engineer,B,75,university,no
+third,singer,O,81,university,no
+female,scientest,O,35,university,no
+male,singer,O,83,university,yes
+male,neet,B,36,primary,no
+female,teacher,AB,78,master,no
+third,student,AB,62,primary,no
+female,salesman,A,91,master,no
+third,chef,A,90,senior high,yes
+male,teacher,AB,59,doctor,no
+male,salesman,B,54,master,no
+male,neet,AB,78,university,no
+male,scientest,AB,81,university,no
+third,salesman,O,51,primary,no
+female,student,AB,42,primary,no
+female,singer,A,86,university,no
+female,neet,AB,73,senior high,no
+third,scientest,A,86,senior high,no
+male,chef,B,62,junior high,no
+female,chef,O,96,university,yes
+male,student,AB,95,junior high,no
+third,salesman,A,83,primary,no
+male,neet,O,99,junior high,no
+male,neet,AB,43,senior high,no
+male,teacher,B,80,doctor,no
+female,student,O,90,primary,yes
+male,singer,AB,43,senior high,no
+male,student,B,58,primary,no
+male,singer,AB,45,doctor,no
+female,scientest,O,49,senior high,no
+male,salesman,A,87,master,no
+third,scientest,O,54,primary,no
+third,engineer,A,96,doctor,no
+male,neet,O,46,junior high,yes
+female,neet,O,64,master,no
+male,teacher,A,91,master,no
+female,scientest,A,88,primary,no
+third,student,O,76,senior high,no
+third,singer,O,44,master,no
+third,student,A,52,primary,no
+third,salesman,B,71,senior high,no
+female,neet,B,89,junior high,no
+third,teacher,AB,80,university,no
+female,singer,A,43,master,no
+female,salesman,A,42,senior high,no
+male,engineer,AB,55,doctor,yes
+male,salesman,B,40,primary,no
+female,chef,O,88,senior high,yes
+female,scientest,A,88,university,no
+male,chef,A,37,primary,no
+male,engineer,O,49,primary,yes
+male,engineer,A,57,primary,no
+third,engineer,A,35,doctor,no
+third,neet,B,83,university,no
+male,chef,B,40,doctor,no
+female,chef,A,64,junior high,no
+third,student,A,60,junior high,no
+male,teacher,A,96,primary,no
+third,singer,B,73,junior high,no
+third,scientest,AB,69,doctor,yes
+male,scientest,A,58,doctor,yes
+third,scientest,AB,74,university,no
+third,singer,AB,43,primary,no
+male,engineer,O,73,senior high,no
+male,salesman,B,95,master,no
+female,salesman,A,43,doctor,no
+male,salesman,AB,90,senior high,no
+third,scientest,A,93,master,no
+female,student,AB,97,master,no
+third,student,B,53,senior high,no
+female,neet,AB,40,primary,no
+male,engineer,B,54,university,no
+third,engineer,AB,42,master,no
+male,chef,O,61,junior high,no
+female,student,AB,93,doctor,no
+third,engineer,AB,81,senior high,no
+female,neet,B,59,university,no
+male,chef,B,38,senior high,yes
+male,chef,O,88,primary,yes
+female,engineer,O,60,master,yes
+male,singer,AB,77,master,no
+female,singer,AB,89,primary,no
+third,singer,AB,63,master,no
+male,scientest,A,53,senior high,no
+male,neet,AB,85,doctor,no
+third,neet,O,82,senior high,yes
+male,scientest,O,91,master,no
+female,chef,B,84,junior high,no
+male,teacher,AB,69,junior high,no
+female,neet,O,82,junior high,no
+male,scientest,B,66,junior high,no
+third,neet,AB,59,junior high,no
+female,neet,AB,65,primary,no
+female,neet,A,89,senior high,no
+third,singer,O,88,senior high,no
+third,engineer,AB,49,master,no
+third,singer,A,41,primary,no
+male,neet,AB,36,primary,no
+third,teacher,B,70,junior high,no
+third,student,A,98,master,no
+female,neet,A,45,junior high,no
+male,chef,B,93,university,yes
+third,programmer,O,72,junior high,no
+third,salesman,A,58,university,no
+male,engineer,O,45,senior high,yes
+male,teacher,O,63,university,no
+third,engineer,O,88,junior high,no
+male,engineer,B,45,doctor,no
+third,teacher,O,85,master,no
+male,neet,A,68,master,no
+third,programmer,A,76,master,no
+female,engineer,A,79,doctor,yes
+third,student,AB,48,doctor,no
+female,teacher,O,64,master,no
+female,student,A,49,primary,no
+third,programmer,A,58,doctor,no
+male,neet,O,67,senior high,no
+third,salesman,O,83,master,no
+third,programmer,B,86,master,no
+male,student,O,55,junior high,no
+male,chef,AB,93,senior high,yes
+female,neet,A,95,senior high,no
+female,programmer,B,61,master,no
+third,salesman,O,35,master,no
+third,neet,AB,78,senior high,no
+third,singer,AB,48,primary,no
+female,engineer,B,99,primary,no
+male,teacher,AB,35,senior high,no
+third,chef,B,39,master,yes
+third,teacher,B,97,primary,no
+male,salesman,B,89,university,no
+female,scientest,B,91,primary,no
+female,neet,A,63,doctor,no
+third,neet,AB,96,master,no
+male,singer,AB,98,doctor,no
+male,scientest,A,80,master,no
+male,neet,AB,58,primary,no
+male,engineer,B,87,primary,no
+female,salesman,AB,98,senior high,no
+female,salesman,B,64,master,no
+male,salesman,AB,45,master,no
+male,engineer,B,59,doctor,no
+third,neet,B,70,master,no
+third,neet,B,47,doctor,no
+female,salesman,O,93,doctor,yes
+female,scientest,AB,42,master,no
+female,salesman,A,42,master,no
+male,salesman,AB,69,doctor,no
+female,salesman,AB,36,master,no
+third,scientest,A,37,master,yes
+male,student,A,82,junior high,no
+male,scientest,B,82,junior high,no
+third,engineer,B,91,junior high,no
+female,student,B,51,master,no
+third,salesman,AB,70,university,no
+male,singer,A,66,doctor,no
+male,salesman,O,62,master,yes
+third,neet,O,75,master,yes
+male,programmer,AB,80,junior high,no
+third,programmer,AB,74,master,no
+third,student,O,63,doctor,yes
+female,teacher,AB,53,university,no
+male,scientest,AB,57,university,no
+male,salesman,O,56,doctor,yes
+female,student,B,38,junior high,no
+third,neet,B,89,junior high,no
+third,chef,AB,87,doctor,no
+third,engineer,B,55,university,no
+female,chef,B,51,doctor,no
+third,programmer,O,69,junior high,no
+male,student,A,73,doctor,no
+female,teacher,B,85,primary,no
+male,engineer,A,58,primary,no
+third,neet,A,71,doctor,no
+third,engineer,O,67,master,no
+third,chef,AB,75,junior high,no
+third,scientest,A,78,doctor,yes
+male,student,A,97,senior high,no
+female,teacher,O,87,senior high,no
+male,programmer,AB,52,primary,no
+third,programmer,O,87,primary,no
+third,neet,B,68,master,no
+female,engineer,O,96,senior high,no
+female,engineer,B,50,senior high,no
+third,salesman,A,65,senior high,no
+male,neet,B,93,primary,no
+female,programmer,A,92,senior high,no
+third,student,A,38,doctor,no
+third,teacher,A,53,primary,no
+female,chef,B,58,junior high,no
+female,teacher,B,76,doctor,no
+female,chef,AB,97,doctor,no
+male,neet,O,86,junior high,yes
+male,chef,AB,41,senior high,no
+third,neet,A,94,senior high,no
+third,singer,AB,48,senior high,no
+male,teacher,O,91,doctor,no
+third,scientest,B,84,doctor,yes
+third,engineer,A,36,senior high,no
+male,singer,AB,94,university,no
+male,teacher,A,83,master,no
+male,salesman,B,36,primary,no
+third,teacher,AB,57,senior high,no
+male,neet,B,78,university,no
+female,chef,AB,85,doctor,no
+female,chef,O,35,doctor,no
+female,singer,A,98,junior high,no
+female,teacher,O,97,primary,no
+male,programmer,O,90,doctor,no
+female,neet,O,90,junior high,no
+female,engineer,AB,82,senior high,no
+third,programmer,O,96,junior high,no
+female,student,AB,65,primary,no
+female,chef,B,81,doctor,no
+third,neet,O,75,junior high,yes
+third,neet,AB,76,senior high,no
+male,engineer,AB,47,master,no
+female,salesman,O,35,master,no
+third,scientest,AB,85,master,yes
+third,engineer,O,54,senior high,no
+third,student,A,54,doctor,no
+male,neet,B,78,senior high,no
+third,scientest,AB,98,senior high,no
+male,engineer,AB,53,doctor,no
+female,student,B,87,senior high,no
+female,neet,B,99,senior high,no
+female,engineer,A,43,university,no
+female,scientest,AB,92,senior high,no
+male,scientest,O,92,doctor,yes
+male,singer,AB,91,primary,no
+third,teacher,AB,75,master,no
+male,chef,B,67,doctor,no
+third,singer,AB,85,master,no
+female,singer,B,64,university,no
+female,student,B,78,senior high,no
+male,chef,B,71,university,yes
+third,scientest,AB,43,university,no
+female,engineer,O,79,university,no
+female,student,O,75,senior high,yes
+male,salesman,AB,50,university,no
+male,scientest,AB,48,junior high,no
+male,student,AB,66,senior high,no
+third,teacher,AB,53,university,no
+male,student,B,73,university,no
+third,student,B,99,primary,no
+male,programmer,AB,82,junior high,no
+female,singer,B,51,master,no
+female,salesman,O,93,university,no
+male,salesman,AB,54,senior high,no
+third,chef,O,44,primary,no
+female,salesman,AB,54,primary,no
+third,chef,O,37,junior high,yes
+third,student,B,40,junior high,no
+female,engineer,A,37,primary,no
+female,student,B,86,master,no
+female,teacher,B,62,senior high,no
+third,salesman,AB,70,senior high,no
+male,scientest,B,73,master,no
+female,programmer,A,89,doctor,no
+third,singer,O,98,junior high,no
+female,scientest,A,40,primary,no
+female,student,AB,75,senior high,no
+third,student,B,47,junior high,no
+female,chef,A,91,university,no
+female,salesman,AB,63,senior high,no
+third,salesman,A,38,doctor,no
+third,chef,AB,80,primary,no
+male,neet,O,80,doctor,yes
+third,singer,B,94,primary,no
+male,chef,A,87,master,no
+female,programmer,AB,84,primary,no
+male,singer,O,84,master,no
+third,scientest,O,83,university,yes
+third,salesman,O,72,junior high,no
+female,student,AB,51,university,no
+male,programmer,O,64,senior high,yes
+third,teacher,O,57,doctor,no
+female,teacher,A,79,primary,no
+third,chef,B,98,junior high,no
+third,neet,O,82,doctor,no
+female,teacher,B,98,doctor,no
+female,chef,A,77,university,no
+female,salesman,AB,47,doctor,no
+male,neet,O,47,primary,no
+third,salesman,O,83,master,yes
+female,programmer,O,36,primary,no
+male,student,B,80,master,no
+female,programmer,O,88,doctor,no
+third,chef,B,83,university,no
+third,singer,O,86,university,no
+female,programmer,B,51,master,no
+third,teacher,AB,79,senior high,no
+male,student,B,99,primary,no
+male,engineer,A,62,doctor,no
+third,teacher,O,75,primary,yes
+female,chef,O,84,primary,no
+male,neet,A,89,junior high,no
+male,scientest,B,54,primary,no
+male,student,AB,98,primary,no
+male,neet,B,52,senior high,no
+third,salesman,A,59,primary,no
+female,programmer,A,75,junior high,no
+female,chef,A,76,junior high,no
+third,scientest,B,61,doctor,no
+female,singer,B,64,senior high,no
+female,chef,O,41,doctor,no
+female,salesman,A,84,doctor,no
+female,student,AB,76,master,no
+female,scientest,A,61,master,no
+third,teacher,B,91,university,no
+female,engineer,AB,51,university,no
+male,scientest,B,50,doctor,yes
+third,neet,AB,68,university,no
+third,engineer,A,71,senior high,no
+third,engineer,B,99,master,no
+female,neet,AB,67,master,no
+third,programmer,O,66,primary,yes
+female,singer,B,68,master,no
+third,programmer,A,49,primary,no
+third,neet,A,50,doctor,no
+female,teacher,B,70,university,no
+third,salesman,AB,81,junior high,no
+third,scientest,AB,91,primary,no
+male,scientest,B,83,junior high,no
+female,singer,B,72,master,no
+female,chef,B,59,university,no
+male,singer,O,96,university,yes
+third,teacher,AB,51,master,no
+female,teacher,O,40,university,no
+third,salesman,B,67,senior high,no
+male,student,A,71,doctor,no
+female,engineer,B,98,doctor,no
+male,engineer,AB,91,master,yes
+female,neet,O,68,university,no
+third,neet,B,95,doctor,no
+male,salesman,AB,35,master,no
+female,singer,O,41,doctor,yes
+third,chef,O,93,primary,yes
+female,engineer,A,56,doctor,yes
+male,chef,A,42,senior high,no
+female,neet,AB,79,doctor,no
+male,salesman,A,35,junior high,no
+third,student,O,77,senior high,no
+male,programmer,A,47,primary,no
+female,chef,A,84,senior high,no
+male,neet,O,83,master,no
+male,student,A,44,junior high,no
+male,programmer,B,70,doctor,no
+male,engineer,AB,48,junior high,no
+male,scientest,O,72,doctor,yes
+female,singer,A,96,university,no
+female,student,AB,96,senior high,no
+male,engineer,B,82,junior high,no
+female,engineer,A,82,senior high,no
+female,engineer,A,64,doctor,yes
+female,scientest,A,81,university,no
+female,scientest,B,88,senior high,no
+third,salesman,AB,95,master,no
+third,singer,O,78,senior high,no
+male,engineer,AB,64,junior high,no
+female,chef,O,50,senior high,no
+female,neet,B,88,primary,no
+third,engineer,AB,81,primary,no
+third,salesman,AB,53,senior high,no
+male,student,O,65,university,no
+male,singer,AB,82,doctor,no
+male,singer,AB,63,primary,no
+third,singer,A,80,master,no
+female,salesman,O,43,primary,yes
+female,neet,B,42,doctor,no
+third,singer,O,75,junior high,yes
+male,student,A,36,master,no
+male,neet,B,35,primary,yes
+female,programmer,B,82,master,no
+female,teacher,AB,71,university,no
+third,salesman,O,71,master,no
+male,salesman,B,54,primary,no
+third,scientest,O,41,senior high,no
+third,engineer,O,79,primary,no
+female,teacher,AB,60,master,no
+female,teacher,B,98,doctor,no
+female,chef,AB,40,doctor,no
+male,scientest,AB,42,doctor,no
+female,student,A,99,doctor,no
+third,engineer,AB,47,doctor,no
+male,student,AB,90,university,no
+female,neet,O,52,primary,no
+third,singer,AB,52,primary,no
+male,programmer,B,78,master,yes
+male,salesman,A,99,master,no
+third,chef,O,81,senior high,no
+male,neet,A,36,doctor,yes
+female,programmer,O,89,junior high,no
+third,chef,O,48,university,no
+third,teacher,AB,52,university,no
+female,scientest,A,52,primary,no
+female,engineer,AB,85,junior high,no
+female,teacher,B,73,master,no
+third,salesman,B,54,primary,no
+male,student,A,64,junior high,no
+third,programmer,A,40,master,yes
+male,salesman,B,88,university,no
+third,teacher,AB,46,primary,no
+female,singer,O,76,university,yes
+male,engineer,O,68,doctor,no
+female,singer,B,77,master,no
+female,salesman,A,45,primary,yes
+third,singer,B,69,senior high,no
+female,singer,AB,61,senior high,no
+third,salesman,AB,79,junior high,no
+male,salesman,O,42,primary,yes
+male,salesman,A,64,primary,no
+third,scientest,O,58,master,no
+female,programmer,B,85,university,no
+female,engineer,A,67,senior high,no
+third,chef,O,99,junior high,no
+male,chef,B,74,junior high,yes
+male,salesman,A,95,university,no
+third,teacher,O,78,master,yes
+male,neet,O,38,junior high,yes
+third,scientest,B,40,master,no
+female,student,O,66,master,no
+female,salesman,B,41,primary,no
+male,singer,B,49,junior high,no
+female,singer,O,88,primary,no
+male,scientest,B,57,master,no
+female,student,O,41,primary,yes
+third,scientest,B,39,primary,no
+male,engineer,A,51,master,no
+female,singer,A,98,doctor,no
+third,singer,O,88,university,no
+female,engineer,A,69,primary,no
+male,salesman,O,56,doctor,no
+third,neet,B,96,doctor,no
+male,programmer,B,41,master,yes
+female,neet,AB,73,master,no
+male,programmer,O,97,doctor,no
+male,engineer,AB,97,junior high,no
+male,programmer,AB,67,junior high,no
+male,student,B,58,master,no
+third,chef,AB,58,master,no
+third,neet,B,82,senior high,no
+third,chef,O,84,junior high,yes
+female,teacher,A,37,doctor,no
+third,chef,AB,75,university,no
+female,programmer,O,88,junior high,no
+third,programmer,AB,38,primary,no
+male,engineer,O,88,master,no
+male,programmer,O,39,master,no
+male,teacher,O,57,senior high,no
+male,student,O,51,junior high,yes
+third,salesman,AB,60,junior high,no
+female,scientest,AB,78,doctor,yes
+third,engineer,AB,98,junior high,no
+male,teacher,A,90,primary,no
+female,engineer,B,66,junior high,no
+female,engineer,O,40,doctor,yes
+male,chef,AB,94,master,yes
+third,salesman,AB,65,senior high,no
+third,singer,O,51,senior high,yes
+third,chef,O,52,university,no
+third,salesman,AB,87,master,no
+male,scientest,O,57,doctor,yes
+male,student,AB,82,junior high,no
+female,chef,O,97,doctor,yes
+third,engineer,O,91,primary,no
+third,student,A,57,senior high,no
+male,teacher,AB,96,master,no
+female,scientest,O,73,master,no
+female,student,AB,84,doctor,no
+female,programmer,A,95,senior high,no
+female,engineer,A,75,master,no
+female,salesman,B,72,junior high,no
+female,neet,AB,76,university,no
+female,chef,A,41,university,no
+female,singer,A,94,primary,no
+female,scientest,AB,69,senior high,no
+third,singer,A,49,junior high,no
+male,neet,B,78,doctor,no
+female,teacher,O,39,junior high,no
+third,teacher,O,88,senior high,no
+male,singer,O,45,primary,no
+male,salesman,A,54,university,no
+male,singer,B,88,senior high,no
+female,programmer,O,52,doctor,no
+female,neet,A,76,doctor,no
+third,student,AB,55,master,no
+male,singer,AB,80,primary,no
+female,salesman,AB,43,junior high,no
+male,engineer,B,35,primary,no
+third,salesman,AB,37,master,no
+male,student,O,74,junior high,yes
+male,engineer,O,70,master,yes
+third,singer,B,59,university,no
+third,salesman,AB,41,doctor,no
+male,student,B,81,senior high,no
+third,programmer,AB,42,university,no
+third,student,B,56,junior high,no
+third,programmer,O,39,senior high,yes
+third,neet,A,86,master,no
+female,teacher,A,72,university,no
+male,chef,O,45,doctor,yes
+third,chef,AB,45,senior high,no
+male,salesman,AB,70,primary,no
+female,teacher,A,66,university,no
+third,engineer,B,94,primary,no
+third,singer,AB,66,master,no
+third,salesman,A,94,master,no
+female,chef,O,83,university,no
+male,student,O,53,master,no
+third,scientest,AB,60,university,no
+male,salesman,B,82,doctor,no
+third,singer,A,52,master,no
+female,chef,AB,63,university,yes
+third,salesman,B,41,master,no
+third,singer,O,98,doctor,no
+male,singer,A,54,junior high,no
+female,student,O,92,senior high,yes
+male,engineer,AB,49,doctor,yes
+female,engineer,AB,64,senior high,no
+third,programmer,O,40,senior high,no
+female,programmer,A,39,senior high,no
+third,engineer,A,82,doctor,yes
+male,scientest,A,89,master,yes
+male,neet,O,65,doctor,no
+male,neet,AB,73,junior high,no
+female,scientest,B,94,doctor,no
+female,student,A,55,senior high,no
+third,engineer,B,90,junior high,no
+male,chef,O,85,doctor,yes
+third,engineer,O,40,doctor,no
+third,chef,AB,69,university,no
+male,salesman,A,43,junior high,no
+third,chef,AB,92,senior high,yes
+third,singer,A,91,senior high,no
+female,chef,O,36,university,no
+third,chef,O,50,junior high,no
+female,chef,B,74,doctor,yes
+male,singer,B,81,university,no
+male,salesman,A,56,doctor,no
+male,chef,AB,68,junior high,yes
+female,neet,B,52,master,no
+third,salesman,A,75,master,no
+female,student,O,94,junior high,yes
+female,chef,A,79,university,no
+female,neet,AB,58,master,no
+third,singer,B,54,junior high,no
+female,teacher,AB,68,university,no
+female,salesman,AB,48,primary,no
+male,singer,A,77,master,no
+male,student,B,86,junior high,no
+male,programmer,AB,47,junior high,no
+third,student,A,61,senior high,no
+third,teacher,A,74,junior high,no
+male,scientest,O,89,doctor,no
+male,scientest,AB,65,junior high,no
+female,engineer,A,47,doctor,no
+male,programmer,B,36,doctor,no
+third,singer,B,76,primary,no
+third,neet,O,61,university,yes
+female,chef,O,90,doctor,no
+female,chef,O,71,university,no
+female,teacher,A,51,junior high,no
+female,salesman,O,79,university,no
+female,student,B,86,senior high,no
+female,scientest,O,82,junior high,yes
+female,programmer,O,36,doctor,no
+male,scientest,O,59,senior high,no
+male,neet,AB,63,junior high,no
+third,neet,A,73,junior high,no
+female,student,O,62,junior high,no
+third,salesman,B,86,doctor,no
+male,salesman,A,63,university,no
+female,neet,AB,74,junior high,no
+third,programmer,AB,94,senior high,no
+third,singer,B,87,doctor,no
+female,neet,A,73,university,no
+third,programmer,O,55,primary,yes
+third,salesman,AB,81,master,no
+male,salesman,O,96,doctor,no
+male,scientest,AB,71,junior high,no
+female,teacher,O,88,doctor,no
+male,chef,A,59,primary,yes
+female,neet,AB,95,senior high,no
+female,programmer,B,96,university,no
+male,engineer,B,55,junior high,no
+third,singer,AB,57,doctor,no
+third,neet,AB,41,primary,no
+male,programmer,O,48,senior high,no
+third,chef,B,66,junior high,yes
+third,singer,AB,54,university,no
+male,teacher,B,55,university,no
+female,scientest,AB,72,university,no
+third,chef,O,59,doctor,no
+male,neet,O,72,university,yes
+third,teacher,B,61,senior high,no
+third,salesman,B,95,primary,no
+third,scientest,O,40,doctor,no
+third,salesman,B,40,primary,no
+third,programmer,A,61,university,no
+female,neet,AB,62,junior high,no
+male,chef,AB,72,university,no
+third,teacher,A,41,primary,no
+female,scientest,B,53,primary,no
+female,salesman,B,97,junior high,no
+male,chef,O,69,master,no
+male,chef,A,61,junior high,no
+female,programmer,B,45,university,no
+female,neet,AB,40,senior high,yes
+female,teacher,AB,42,junior high,yes
+female,student,O,50,master,no
+male,student,B,45,senior high,no
+female,neet,B,96,doctor,no
+female,chef,O,65,primary,no
+female,teacher,AB,47,primary,no
+third,engineer,AB,71,master,no
+third,scientest,A,68,master,yes
+third,neet,AB,63,primary,no
+male,chef,A,89,senior high,no
+male,chef,AB,51,senior high,no
+third,chef,B,76,master,no
+third,neet,B,94,senior high,no
+male,student,O,94,junior high,no
+third,programmer,O,47,senior high,no
+male,programmer,B,37,junior high,no
+male,neet,B,43,university,no
+male,chef,A,73,primary,yes
+male,chef,A,67,junior high,yes
+male,student,A,66,primary,no
+third,engineer,AB,38,primary,no
+male,programmer,O,75,junior high,no
+female,scientest,O,92,primary,yes
+third,scientest,B,36,primary,no
+male,salesman,O,50,doctor,no
+third,engineer,AB,56,doctor,no
+female,programmer,AB,43,university,no
+male,student,O,76,primary,yes
+male,programmer,B,88,primary,no
+female,salesman,O,73,junior high,no
+male,singer,A,66,senior high,no
+male,scientest,AB,43,junior high,no
+female,singer,O,79,primary,yes
+female,neet,O,49,junior high,no
+female,teacher,O,57,doctor,no
+third,engineer,O,36,senior high,no
+third,student,B,47,master,no
+male,salesman,O,73,senior high,no
+female,neet,AB,46,university,no
+male,programmer,A,75,university,no
+third,neet,AB,90,senior high,no
+third,singer,B,95,senior high,no
+third,singer,O,39,doctor,no
+male,engineer,B,82,junior high,no
+third,teacher,O,52,primary,no
+male,programmer,A,46,university,no
+male,teacher,O,49,master,yes
+female,student,O,49,university,yes
+female,salesman,O,35,junior high,no
+male,teacher,B,55,primary,no
+male,scientest,O,88,primary,no
+third,student,O,43,master,no
+third,singer,B,73,senior high,no
+female,student,B,93,primary,no
+third,programmer,AB,88,university,no
+third,programmer,O,66,master,yes
+third,neet,AB,81,senior high,no
+male,student,A,54,senior high,no
+third,neet,A,55,junior high,no
+male,singer,O,51,senior high,no
+male,scientest,A,38,junior high,no
+female,chef,A,94,university,no
+female,programmer,B,82,university,no
+third,teacher,AB,60,university,no
+third,engineer,AB,37,university,no
+third,singer,A,61,primary,no
+third,chef,A,89,senior high,yes
+male,engineer,B,86,university,no
+third,teacher,A,58,university,no
+male,singer,B,39,junior high,no
+male,student,AB,88,primary,no
+female,teacher,B,86,master,no
+female,chef,AB,68,master,no
+female,engineer,A,64,master,no
+third,salesman,AB,98,doctor,no
+male,programmer,AB,61,senior high,no
+female,programmer,A,44,master,no
+third,programmer,AB,51,university,no
+third,programmer,B,71,junior high,no
+female,chef,A,60,master,no
+third,teacher,AB,39,senior high,no
+male,teacher,O,66,junior high,no
+male,programmer,AB,52,doctor,yes
+male,scientest,AB,99,senior high,no
+male,neet,A,39,university,no
+third,student,A,89,master,no
+female,scientest,AB,50,doctor,yes
+male,salesman,A,85,university,no
+male,programmer,B,85,doctor,no
+male,salesman,AB,37,senior high,no
+male,salesman,A,51,primary,no
+third,salesman,B,71,doctor,no
+male,engineer,B,37,university,no
+male,chef,AB,86,primary,no
+male,salesman,AB,57,junior high,no
+female,programmer,O,72,master,no
+male,student,O,89,junior high,no
+male,salesman,AB,61,university,no
+third,salesman,AB,77,senior high,no
+third,engineer,B,54,university,no
+female,teacher,AB,39,primary,no
+third,salesman,B,64,junior high,no
+male,chef,AB,62,junior high,no
+male,neet,A,49,university,no
+male,neet,AB,70,university,no
+male,singer,O,39,university,yes
+male,chef,AB,65,junior high,no
+female,salesman,B,43,university,no
+third,neet,AB,61,master,no
+third,student,B,77,doctor,no
+third,neet,A,91,junior high,no
+third,scientest,A,45,doctor,yes
+female,neet,A,81,master,no
+female,teacher,O,58,senior high,no
+female,programmer,O,71,master,no
+third,singer,B,72,junior high,no
+third,teacher,B,79,junior high,no
+female,scientest,B,63,junior high,no
+female,student,O,68,master,no
+male,student,A,80,primary,no
+female,singer,AB,97,junior high,no
+male,neet,O,54,primary,no
+male,teacher,B,78,senior high,no
+female,scientest,AB,52,junior high,no
+female,student,A,94,primary,no
+female,programmer,AB,44,senior high,no
+female,salesman,A,57,junior high,no
+third,neet,A,44,doctor,no
+female,scientest,B,39,master,no
+male,singer,O,90,senior high,no
+third,teacher,AB,80,university,no
+third,salesman,O,74,university,no
+third,engineer,A,87,doctor,no
+female,student,A,46,senior high,no
+male,singer,A,58,junior high,no
+third,engineer,AB,61,junior high,no
+third,programmer,A,64,primary,no
+female,student,B,56,university,no
+male,programmer,A,92,university,no
+female,engineer,B,94,doctor,no
+female,scientest,AB,86,primary,no
+third,salesman,AB,36,junior high,no
+female,singer,AB,51,doctor,no
+male,teacher,O,75,university,no
+male,chef,O,84,doctor,no
+third,scientest,O,38,university,no
+male,student,B,51,master,no
+third,scientest,AB,75,doctor,no
+third,engineer,B,48,master,no
+female,student,A,71,doctor,no
+female,singer,AB,55,doctor,no
+male,salesman,O,98,primary,no
+female,chef,A,80,senior high,no
+third,chef,B,55,primary,yes
+male,neet,B,61,university,no
+male,salesman,O,35,doctor,no
+male,scientest,AB,74,junior high,no
+female,salesman,B,97,doctor,no
+female,student,O,55,junior high,yes
+female,teacher,O,78,junior high,yes
+male,engineer,O,96,master,no
+third,salesman,B,77,senior high,no
+male,student,AB,97,master,no
+female,singer,A,39,senior high,no
+male,programmer,AB,87,university,no
+third,singer,B,84,doctor,no
+female,neet,O,91,senior high,no
+third,salesman,O,60,master,yes
+male,student,AB,91,master,no
+female,programmer,B,37,master,no
+male,student,A,58,university,no
+third,chef,O,79,junior high,no
+female,engineer,B,69,doctor,no
+male,programmer,B,36,senior high,no
+female,chef,O,62,junior high,no
+male,engineer,A,68,senior high,no
+male,salesman,B,57,senior high,no
+male,neet,B,39,university,no
+female,singer,A,65,doctor,no
+male,chef,AB,52,primary,no
+third,singer,O,47,primary,yes
+third,chef,O,81,primary,no
+female,teacher,O,62,primary,no
+male,salesman,AB,54,primary,no
+female,neet,O,49,primary,no
+third,neet,B,52,primary,no
+female,singer,B,87,master,no
+third,salesman,AB,77,master,no
+male,neet,A,62,senior high,no
+female,student,B,58,university,no
+third,scientest,AB,48,senior high,no
+male,engineer,A,91,doctor,no
+male,teacher,AB,97,doctor,no
+female,student,O,52,primary,yes
+third,engineer,O,65,doctor,no
+female,programmer,A,58,senior high,no
+third,scientest,AB,62,university,no
+male,scientest,O,45,primary,no
+male,salesman,O,42,university,no
+male,teacher,O,45,primary,no
+male,programmer,A,84,senior high,no
+female,singer,AB,69,senior high,no
+female,teacher,B,98,senior high,no
+male,singer,AB,79,junior high,no
+third,teacher,O,66,master,no
+female,student,AB,64,senior high,no
+third,student,O,91,university,no
+female,engineer,AB,60,master,no
+third,teacher,A,48,university,no
+third,programmer,O,69,senior high,no
+third,neet,O,97,master,no
+female,teacher,B,75,doctor,no
+male,singer,AB,72,doctor,no
+female,engineer,B,66,master,no
+female,teacher,O,93,primary,no
+third,neet,B,66,university,no
+third,student,O,85,primary,no
+third,singer,B,47,senior high,no
+third,engineer,AB,78,junior high,no
+female,programmer,A,50,primary,no
+third,chef,AB,35,master,no
+third,scientest,AB,47,primary,no
+third,neet,AB,67,senior high,no
+female,scientest,AB,59,primary,no
+female,teacher,A,70,doctor,no
+third,programmer,B,73,doctor,no
+third,neet,B,95,master,no
+third,teacher,A,92,junior high,no
+male,programmer,A,35,senior high,no
+female,salesman,O,41,junior high,yes
+third,neet,O,57,university,no
+female,scientest,B,76,junior high,no
+male,singer,A,62,doctor,no
+third,neet,AB,63,junior high,no
+third,programmer,A,63,primary,no
+third,singer,AB,96,master,no
+female,engineer,A,50,junior high,no
+third,student,B,42,doctor,no
+third,chef,B,41,primary,no
+third,teacher,B,77,primary,no
+female,teacher,O,44,junior high,no
+third,teacher,AB,92,doctor,no
+male,programmer,A,65,university,no
+third,singer,A,66,primary,no
+female,neet,AB,66,university,no
+male,salesman,A,55,doctor,no
+third,programmer,AB,71,junior high,no
+female,scientest,AB,76,doctor,no
+third,chef,A,48,master,no
+third,teacher,O,41,master,no
+female,engineer,O,64,primary,no
+female,student,O,77,senior high,no
+female,salesman,A,94,doctor,no
+female,salesman,A,84,senior high,no
+male,teacher,AB,96,doctor,no
+male,teacher,A,86,primary,no
+male,neet,A,65,senior high,no
+female,salesman,AB,66,doctor,no
+male,chef,O,60,junior high,yes
+third,scientest,O,88,primary,yes
+female,singer,B,46,primary,no
+male,singer,A,95,primary,no
+third,salesman,AB,92,senior high,no
+third,singer,A,98,master,no
+male,salesman,B,49,master,no
+male,teacher,B,71,primary,no
+third,salesman,A,56,university,no
+third,programmer,B,54,primary,no
+male,engineer,B,36,doctor,no
+third,scientest,AB,64,master,yes
+male,programmer,O,72,master,no
+male,salesman,AB,82,doctor,no
+female,chef,B,57,junior high,no
+female,salesman,O,44,junior high,yes
+male,programmer,AB,62,junior high,no
+third,programmer,A,35,senior high,no
+female,student,O,43,primary,yes
+third,teacher,B,37,master,no
+male,singer,O,54,university,yes
+third,scientest,AB,77,primary,no
+third,engineer,A,58,master,no
+male,teacher,O,44,university,no
+third,programmer,O,73,senior high,yes
+female,teacher,B,46,doctor,no
+third,salesman,AB,92,doctor,no
+male,engineer,A,39,university,no
+male,engineer,AB,99,master,yes
+male,scientest,B,81,primary,no
+male,teacher,B,55,university,no
+female,chef,AB,88,junior high,yes
+male,scientest,A,70,master,no
+third,scientest,B,67,senior high,no
+male,student,A,50,master,no
+male,salesman,AB,35,primary,no
+male,programmer,AB,35,university,no
+third,student,O,38,primary,yes
+third,engineer,A,73,primary,no
+female,chef,B,65,university,no
+female,programmer,B,95,university,no
+female,programmer,AB,40,junior high,no
+female,neet,B,62,doctor,no
+male,student,O,93,doctor,no
+male,teacher,O,83,master,no
+female,chef,B,43,master,no
+third,scientest,B,97,junior high,no
+male,programmer,AB,79,primary,no
+third,neet,AB,77,junior high,no
+male,teacher,O,89,senior high,no
+female,salesman,AB,60,junior high,no
+female,programmer,A,58,master,yes
+third,chef,A,59,university,yes
+third,neet,A,97,primary,no
+third,singer,B,46,university,no
+third,scientest,A,46,university,no
+female,programmer,AB,81,senior high,no
+third,student,AB,53,university,no
+male,singer,O,51,senior high,no
+female,chef,B,93,master,no
+female,scientest,B,39,master,yes
+third,salesman,AB,38,senior high,no
+female,programmer,B,70,university,no
+third,singer,AB,36,master,no
+male,chef,O,86,doctor,no
+female,scientest,O,86,junior high,no
+female,programmer,A,88,junior high,no
+male,student,B,61,junior high,no
+female,chef,A,43,doctor,no
+female,scientest,A,64,junior high,no
+female,scientest,A,71,primary,no
+third,scientest,A,78,master,no
+third,scientest,AB,93,master,no
+third,chef,B,59,primary,no
+female,singer,AB,94,junior high,no
+female,engineer,O,96,doctor,no
+female,student,B,73,primary,no
+male,teacher,O,39,senior high,no
+female,neet,B,98,primary,no
+third,teacher,O,83,master,no
+female,student,B,83,doctor,no
+male,engineer,B,48,doctor,no
+female,student,O,75,senior high,yes
+female,chef,B,72,university,no
+male,salesman,B,50,master,no
+male,salesman,B,37,senior high,no
+male,scientest,A,42,master,no
+third,programmer,AB,50,primary,no
+third,student,A,52,master,no
+third,neet,A,36,junior high,no
+male,scientest,B,54,junior high,no
+third,chef,A,58,university,yes
+female,student,AB,52,master,no
+female,salesman,B,60,primary,no
+male,programmer,O,58,doctor,no
+female,engineer,O,42,doctor,yes
+female,neet,A,68,primary,no
+female,neet,A,84,primary,no
+female,salesman,A,64,doctor,no
+male,scientest,B,78,junior high,no
+third,chef,B,36,doctor,no
+third,scientest,B,35,doctor,no
+male,chef,O,52,university,yes
+third,singer,B,76,junior high,no
+third,neet,O,72,junior high,no
+male,neet,A,47,university,no
+female,programmer,B,81,master,no
+male,engineer,A,84,doctor,no
+male,neet,AB,62,doctor,no
+female,neet,AB,64,university,no
+female,student,AB,72,master,no
+female,salesman,O,66,university,yes
+third,neet,AB,88,doctor,no
+female,scientest,A,91,doctor,yes
+female,teacher,AB,39,master,no
+male,singer,A,54,master,no
+male,singer,B,71,master,no
+third,chef,B,84,master,no
+male,chef,B,52,university,no
+third,programmer,B,87,master,no
+third,salesman,AB,75,university,no
+third,teacher,B,39,university,no
+male,salesman,O,70,primary,yes
+third,singer,O,61,junior high,no
+third,neet,AB,55,senior high,no
+male,student,A,67,junior high,no
+male,chef,B,36,senior high,yes
+male,salesman,B,93,primary,no
+male,singer,A,41,primary,no
+third,engineer,B,37,master,no
+female,teacher,A,65,master,no
+female,engineer,O,84,primary,no
+third,chef,A,47,senior high,no
+third,programmer,O,68,doctor,no
+male,chef,O,41,junior high,no
+female,neet,B,58,doctor,no
+male,engineer,B,37,senior high,no
+third,salesman,A,76,junior high,no
+female,salesman,A,44,primary,no
+female,singer,AB,68,master,no
+female,salesman,A,75,senior high,no
+female,singer,O,50,master,yes
+female,singer,AB,56,primary,no
+female,programmer,B,41,senior high,no
+male,chef,O,85,doctor,no
+female,singer,O,93,junior high,no
+male,salesman,AB,90,junior high,no
+female,chef,AB,52,senior high,no
+male,student,A,59,junior high,no
+male,neet,O,75,master,no
+female,scientest,A,65,primary,no
+male,scientest,A,87,university,no
+female,engineer,AB,76,university,no
+third,teacher,B,81,doctor,no
+male,singer,AB,79,doctor,no
+third,chef,B,63,senior high,no
+male,teacher,AB,68,master,no
+third,teacher,B,43,master,no
+male,student,B,39,senior high,no
+male,student,B,83,primary,no
+male,salesman,AB,97,university,no
+male,salesman,AB,67,primary,no
+third,scientest,O,58,university,yes
+third,programmer,A,53,university,no
+female,student,AB,43,senior high,no
+third,salesman,A,65,university,no
+third,student,O,63,university,no
+male,neet,O,35,university,no
+male,chef,AB,75,master,no
+third,teacher,AB,99,junior high,no
+male,scientest,O,60,senior high,no
+male,programmer,B,83,junior high,no
+male,singer,AB,50,master,no
+female,student,O,61,senior high,yes
+female,neet,AB,87,university,no
+female,salesman,O,57,junior high,yes
+third,teacher,O,53,master,yes
+female,neet,B,59,university,no
+third,teacher,B,51,senior high,no
+female,teacher,B,36,doctor,no
+female,scientest,AB,55,primary,no
+third,teacher,AB,94,senior high,no
+male,programmer,AB,80,primary,no
+third,student,A,87,senior high,no
+third,neet,B,76,senior high,no
+female,neet,A,85,university,no
+third,engineer,AB,62,master,no
+male,programmer,A,64,primary,no
+male,programmer,A,65,senior high,no
+third,engineer,B,52,junior high,no
+female,scientest,B,36,master,yes
+male,student,A,67,doctor,no
+third,scientest,O,61,primary,no
+female,singer,A,50,doctor,no
+female,engineer,B,83,doctor,no
+third,engineer,AB,68,master,no
+female,engineer,A,96,junior high,no
+female,neet,O,59,primary,no
+male,scientest,O,69,doctor,yes
+female,chef,O,65,primary,no
+third,programmer,B,66,senior high,no
+male,salesman,B,95,senior high,no
+male,programmer,A,70,master,yes
+third,teacher,O,52,doctor,no
+female,engineer,O,64,junior high,no
+male,programmer,O,63,junior high,no
+third,teacher,O,51,university,no
+male,teacher,AB,52,doctor,no
+third,student,AB,71,master,no
+male,singer,A,99,junior high,no
+female,scientest,B,77,senior high,no
+female,chef,B,53,master,no
+female,engineer,A,91,senior high,no
+female,neet,O,80,university,yes
+female,chef,A,60,doctor,no
+male,programmer,B,50,senior high,no
+male,scientest,A,73,junior high,no
+male,teacher,A,53,primary,no
+third,singer,O,77,junior high,yes
+third,salesman,A,67,junior high,no
+third,engineer,AB,60,junior high,no
+male,engineer,O,39,senior high,no
+third,engineer,A,79,university,no
+female,programmer,B,62,master,no
+female,singer,B,84,primary,no
+third,neet,B,96,senior high,no
+female,chef,B,41,university,yes
+third,chef,AB,71,senior high,no
+male,engineer,B,70,university,no
+male,programmer,A,91,primary,no
+male,engineer,A,72,primary,no
+male,chef,A,58,junior high,yes
+male,salesman,B,42,junior high,no
+third,programmer,B,42,university,no
+third,engineer,O,87,doctor,yes
+third,student,B,72,primary,no
+third,programmer,AB,74,junior high,no
+third,neet,O,98,senior high,yes
+third,engineer,O,64,university,no
+third,engineer,AB,98,master,no
+third,scientest,B,88,university,no
+third,teacher,A,79,junior high,no
+third,scientest,AB,79,master,no
+third,salesman,A,64,master,no
+female,singer,AB,60,university,no
+female,salesman,B,39,master,no
+third,chef,AB,97,master,yes
+female,salesman,B,49,doctor,no
+third,singer,A,70,senior high,no
+third,teacher,O,97,junior high,no
+third,salesman,AB,35,master,no
+male,scientest,AB,80,primary,no
+male,teacher,A,57,senior high,no
+female,chef,O,42,senior high,yes
+female,programmer,AB,76,master,no
+male,chef,A,59,primary,yes
+male,engineer,AB,92,doctor,no
+third,student,A,55,doctor,no
+female,engineer,AB,81,master,yes
+male,singer,AB,49,university,no
+male,chef,AB,54,master,yes
+female,chef,O,84,senior high,yes
+third,chef,B,46,university,yes
+female,chef,AB,90,senior high,no
+female,engineer,AB,63,university,no
+female,scientest,B,40,primary,no
+male,singer,O,52,master,no
+female,student,AB,35,senior high,no
+third,salesman,O,81,primary,no
+male,teacher,AB,51,master,no
+female,programmer,B,85,university,no
+third,neet,AB,88,senior high,no
+male,scientest,A,72,doctor,no
+male,teacher,A,77,primary,no
+male,teacher,B,39,doctor,no
+male,salesman,O,39,doctor,no
+female,singer,AB,95,junior high,no
+third,engineer,AB,60,doctor,no
+male,student,B,76,primary,no
+male,engineer,B,86,university,no
+male,student,AB,85,senior high,no
+third,chef,O,85,junior high,no
+female,programmer,O,68,senior high,no
+third,singer,B,46,university,no
+female,singer,O,63,doctor,no
+third,neet,O,83,junior high,yes
+third,scientest,O,60,primary,yes
+third,salesman,A,73,university,no
+female,scientest,O,83,doctor,no
+third,singer,AB,39,senior high,no
+male,neet,AB,82,master,no
+female,salesman,B,90,doctor,no
+male,singer,B,89,primary,no
+female,engineer,AB,65,master,no
+third,student,A,77,primary,no
+female,teacher,AB,76,master,no
+female,chef,B,99,primary,no
+female,student,A,98,primary,no
+third,salesman,A,90,doctor,no
+male,teacher,B,80,senior high,no
+third,programmer,O,82,senior high,no
+male,salesman,B,64,junior high,no
+third,neet,O,80,master,no
+female,scientest,A,62,university,no
+female,singer,O,75,junior high,no
+third,scientest,AB,96,doctor,yes
+female,singer,O,40,senior high,no
+third,singer,A,51,junior high,no
+female,engineer,B,71,doctor,yes
+female,student,A,67,senior high,no
+female,chef,B,60,master,no
+male,teacher,O,72,master,no
+third,scientest,B,59,primary,no
+third,chef,O,67,junior high,no
+female,neet,B,64,senior high,no
+female,salesman,A,61,junior high,no
+male,student,A,51,university,no
+female,engineer,A,99,primary,no
+female,programmer,B,60,junior high,no
+third,salesman,B,42,doctor,no
+third,teacher,B,54,master,no
+female,salesman,O,85,junior high,no
+third,singer,A,90,university,no
+male,teacher,B,38,junior high,no
+female,teacher,O,79,doctor,yes
+male,student,B,44,master,no
+female,scientest,AB,36,master,no
+third,teacher,O,50,master,no
+male,salesman,O,60,senior high,no
+female,salesman,B,97,doctor,no
+male,chef,O,55,primary,yes
+female,student,A,73,senior high,no
+male,salesman,AB,37,doctor,no
+female,student,B,81,senior high,no
+male,singer,A,45,senior high,no
+male,scientest,AB,49,master,yes
+third,teacher,AB,36,primary,no
+third,scientest,O,39,primary,no
+third,singer,AB,90,junior high,no
+third,programmer,O,52,master,yes
+third,neet,A,76,junior high,no
+male,neet,AB,55,university,no
+female,salesman,A,72,junior high,no
+third,programmer,O,67,primary,yes
+female,programmer,A,60,primary,no
+male,singer,AB,45,primary,no
+third,scientest,A,45,doctor,no
+female,teacher,B,51,university,no
+third,engineer,AB,56,senior high,no
+female,salesman,B,66,master,no
+third,programmer,B,63,doctor,no
+third,singer,A,64,doctor,no
+female,singer,O,93,doctor,no
+third,singer,A,47,primary,no
+male,programmer,AB,64,university,no
+third,engineer,A,37,university,no
+female,scientest,A,61,doctor,no
+female,scientest,B,67,university,no
+male,student,O,90,university,no
+female,singer,B,90,senior high,no
+third,teacher,A,37,junior high,no
+female,teacher,AB,51,master,no
+male,teacher,A,49,doctor,no
+female,singer,O,91,doctor,yes
+male,student,B,77,doctor,no
+third,salesman,B,65,senior high,no
+third,salesman,O,92,doctor,no
+male,salesman,AB,93,primary,no
+male,singer,A,41,senior high,no
+third,singer,AB,53,junior high,no
+female,teacher,A,86,senior high,no
+third,chef,A,53,master,yes
+female,teacher,B,93,doctor,no
+female,student,B,51,primary,no
+male,engineer,O,49,master,yes
+female,teacher,O,35,university,no
+female,engineer,O,97,senior high,no
+female,scientest,O,55,doctor,no
+third,singer,O,35,senior high,yes
+third,programmer,B,36,doctor,no
+male,student,A,83,junior high,no
+male,engineer,A,50,doctor,no
+female,neet,B,55,university,no
+third,neet,O,75,junior high,no
+male,scientest,AB,52,primary,no
+female,teacher,B,35,university,no
+female,singer,AB,90,master,no
+female,neet,A,70,senior high,no
+third,teacher,AB,70,university,no
+male,teacher,B,97,university,no
+third,scientest,A,48,primary,no
+male,engineer,B,58,doctor,yes
+female,chef,O,55,junior high,no
+female,scientest,A,35,primary,no
+male,engineer,A,39,master,no
+female,neet,AB,53,university,no
+male,salesman,AB,43,senior high,no
+third,scientest,A,89,university,no
+male,salesman,B,71,senior high,no
+third,engineer,B,63,junior high,no
+third,teacher,B,47,doctor,no
+female,programmer,O,69,junior high,no
+female,student,B,73,junior high,no
+female,salesman,AB,89,university,no
+male,student,A,63,senior high,no
+third,scientest,B,35,senior high,no
+male,singer,A,77,primary,no
+male,neet,A,78,junior high,no
+female,student,A,49,senior high,no
+male,student,A,68,primary,no
+female,singer,B,97,primary,no
+male,singer,O,69,primary,no
+male,chef,AB,91,university,no
+male,teacher,O,46,doctor,yes
+male,engineer,A,39,primary,yes
+female,student,AB,39,primary,yes
+female,programmer,A,98,master,no
+third,neet,B,80,senior high,no
+male,student,O,94,primary,no
+third,chef,A,70,university,no
+third,chef,A,75,junior high,no
+female,singer,AB,49,university,no
+female,salesman,AB,98,junior high,no
+third,scientest,B,71,doctor,no
+male,neet,O,65,university,no
+male,programmer,AB,60,doctor,no
+female,teacher,B,63,primary,no
+third,engineer,B,51,primary,no
+female,engineer,O,66,master,no
+third,student,B,48,master,no
+female,programmer,O,58,university,yes
+male,programmer,A,37,university,no
+female,singer,O,76,doctor,no
+female,chef,AB,59,university,no
+third,neet,AB,65,doctor,no
+male,neet,O,35,senior high,no
+male,scientest,A,63,university,no
+third,singer,A,38,junior high,no
+third,engineer,AB,78,senior high,no
+male,scientest,O,40,junior high,no
+female,salesman,AB,87,master,no
+female,singer,AB,46,university,no
+female,singer,B,64,university,no
+male,salesman,O,37,primary,no
+female,singer,B,91,senior high,no
+female,scientest,A,90,junior high,no
+third,programmer,AB,67,master,no
+male,chef,O,45,master,no
+female,salesman,B,45,master,no
+male,teacher,O,67,master,no
+male,salesman,A,81,junior high,no
+male,engineer,O,72,primary,no
+third,singer,B,74,master,no
+third,neet,AB,68,master,no
+female,student,AB,55,master,no
+third,singer,B,52,doctor,no
+third,singer,A,78,university,no
+male,scientest,O,58,senior high,no
+female,neet,A,88,junior high,no
+female,chef,B,52,doctor,yes
+third,singer,A,82,university,no
+male,engineer,A,37,university,no
+male,teacher,B,45,senior high,no
+third,student,O,79,primary,no
+male,chef,B,75,senior high,yes
+third,neet,AB,89,primary,no
+male,salesman,B,63,primary,no
+female,neet,A,57,junior high,no
+male,chef,B,63,university,no
+male,teacher,A,90,senior high,no
+male,neet,A,45,master,no
+male,neet,A,50,master,no
+third,singer,A,52,primary,no
+female,salesman,O,50,doctor,yes
+male,singer,O,55,junior high,no
+third,chef,A,63,primary,no
+female,singer,B,90,doctor,no
+male,teacher,A,38,master,no
+third,neet,AB,92,university,no
+third,programmer,O,54,master,yes
+male,chef,O,62,master,yes
+third,scientest,O,38,senior high,no
+male,salesman,O,67,university,yes
+male,chef,B,46,junior high,no
+male,salesman,B,72,junior high,no
+male,student,B,40,university,yes
+third,neet,O,46,primary,no
+female,salesman,B,92,primary,no
+third,programmer,O,63,senior high,no
+female,neet,A,42,junior high,no
+male,teacher,O,74,junior high,no
+female,singer,AB,93,junior high,no
+third,singer,B,43,senior high,no
+male,singer,A,52,doctor,no
+male,engineer,A,90,primary,no
+male,salesman,A,95,senior high,no
+female,student,A,67,senior high,no
+third,programmer,O,56,junior high,no
+female,singer,AB,54,junior high,no
+female,singer,B,37,doctor,no
+male,singer,O,57,junior high,no
+third,student,B,69,junior high,no
+female,chef,A,83,senior high,yes
+female,singer,A,80,primary,no
+female,neet,A,48,master,no
+male,engineer,AB,89,junior high,no
+female,engineer,B,92,senior high,no
+male,singer,B,45,master,no
+male,scientest,B,46,master,yes
+female,singer,O,91,master,no
+male,chef,B,95,junior high,no
+female,scientest,B,55,master,no
+female,neet,AB,54,senior high,no
+male,student,A,36,master,no
+male,scientest,B,84,university,no
+third,salesman,A,52,primary,no
+female,teacher,AB,69,doctor,no
+female,neet,AB,50,university,no
+male,engineer,A,48,university,no
+third,teacher,O,89,doctor,yes
+male,student,AB,44,doctor,no
+male,teacher,AB,97,junior high,no
+female,student,O,99,master,no
+female,scientest,B,51,master,no
+third,neet,O,63,doctor,no
+third,salesman,A,57,doctor,no
+third,salesman,A,38,senior high,no
+third,salesman,O,63,primary,no
+third,teacher,AB,99,primary,no
+female,teacher,AB,99,primary,no
+third,teacher,O,79,senior high,yes
+third,scientest,B,83,master,no
+male,scientest,O,64,university,no
+female,neet,AB,48,university,no
+female,teacher,O,92,senior high,no
+third,teacher,O,78,university,no
+female,chef,B,96,senior high,no
+third,singer,O,84,doctor,no
+male,engineer,O,81,doctor,yes
+female,neet,A,53,primary,no
+third,salesman,AB,39,senior high,no
+female,singer,AB,83,primary,no
+female,neet,A,73,senior high,no
+male,teacher,B,85,doctor,no
+female,chef,AB,59,senior high,no
+male,scientest,B,36,master,no
+third,neet,B,38,doctor,no
+third,programmer,O,46,master,no
+female,salesman,A,69,university,no
+third,chef,O,72,senior high,yes
+third,chef,O,90,junior high,no
+male,chef,A,63,master,no
+female,engineer,A,74,junior high,no
+male,teacher,O,98,master,no
+female,singer,B,36,senior high,no
+third,chef,AB,77,doctor,no
+third,neet,B,57,master,no
+male,singer,O,75,junior high,yes
+male,salesman,A,74,junior high,no
+third,salesman,B,92,doctor,no
+male,engineer,O,53,senior high,no
+third,chef,B,88,doctor,no
+third,chef,A,96,doctor,no
+female,teacher,AB,92,junior high,no
+third,teacher,A,59,primary,no
+third,salesman,B,75,junior high,no
+male,neet,A,42,university,no
+male,engineer,A,80,primary,no
+male,salesman,B,68,university,no
+female,chef,A,78,primary,yes
+third,scientest,A,79,doctor,yes
+female,engineer,O,45,senior high,yes
+third,scientest,O,52,master,yes
+male,chef,O,44,master,no
+male,neet,B,81,senior high,no
+female,programmer,B,88,master,no
+male,singer,AB,41,senior high,no
+male,singer,B,69,university,no
+male,chef,AB,47,master,no
+third,neet,AB,35,doctor,no
+male,neet,A,45,master,no
+third,neet,A,44,university,no
+third,salesman,O,52,primary,no
+female,engineer,AB,71,university,no
+male,engineer,B,53,university,no
+third,scientest,B,72,junior high,no
+third,programmer,O,95,university,no
+third,programmer,O,50,primary,no
+male,salesman,O,91,primary,yes
+male,singer,AB,82,primary,no
+female,neet,O,86,primary,no
+male,scientest,AB,92,junior high,no
+male,neet,O,89,senior high,no
+female,engineer,B,58,primary,no
+female,teacher,A,95,doctor,no
+third,scientest,A,49,master,yes
+third,teacher,B,48,doctor,no
+female,salesman,A,96,senior high,no
+female,student,A,84,senior high,no
+male,student,AB,81,doctor,no
+third,chef,AB,44,junior high,no
+third,teacher,AB,77,senior high,no
+third,student,AB,63,senior high,no
+female,scientest,B,63,junior high,no
+male,salesman,A,95,primary,no
+female,teacher,B,51,university,no
+male,teacher,B,75,primary,no
+male,teacher,A,84,master,no
+third,engineer,O,83,senior high,yes
+male,student,AB,98,doctor,no
+male,chef,B,36,master,no
+female,neet,AB,93,university,no
+third,student,AB,67,senior high,no
+female,singer,A,55,master,no
+female,programmer,A,48,primary,no
+third,neet,AB,78,university,no
+male,student,B,64,master,no
+third,scientest,AB,68,master,no
+third,chef,O,46,doctor,no
+female,chef,A,60,primary,yes
+male,salesman,B,63,junior high,no
+female,programmer,AB,96,master,no
+third,teacher,B,70,university,no
+female,student,O,91,primary,no
+female,programmer,AB,56,doctor,yes
+third,chef,O,74,primary,no
+third,engineer,B,77,primary,no
+female,teacher,B,41,junior high,no
+male,student,A,75,master,no
+male,chef,AB,92,university,yes
+male,scientest,A,42,master,no
+female,engineer,B,71,doctor,no
+female,chef,A,96,university,yes
+third,programmer,AB,91,doctor,no
+male,salesman,AB,87,senior high,no
+male,teacher,A,56,master,no
+male,scientest,AB,51,university,no
+third,student,O,51,senior high,no
+female,programmer,AB,60,primary,no
+male,salesman,O,37,university,no
+male,scientest,AB,41,senior high,no
+male,teacher,AB,96,junior high,no
+female,neet,B,57,primary,no
+third,singer,O,39,master,no
+third,salesman,O,72,university,no
+male,engineer,AB,43,doctor,yes
+male,programmer,AB,43,primary,yes
+female,neet,AB,47,junior high,no
+male,singer,A,75,master,no
+third,programmer,AB,85,university,no
+third,programmer,AB,38,senior high,no
+female,student,A,48,junior high,no
+third,neet,O,53,doctor,no
+male,salesman,A,40,master,no
+male,engineer,O,61,senior high,no
+male,teacher,A,47,university,no
+male,chef,B,99,primary,no
+male,neet,AB,86,junior high,no
+male,teacher,AB,48,junior high,no
+male,salesman,A,42,junior high,no
+female,engineer,O,79,senior high,no
+male,singer,AB,50,junior high,no
+female,chef,A,54,primary,no
+male,engineer,AB,66,master,yes
+female,programmer,O,62,junior high,no
+male,teacher,A,36,primary,no
+male,engineer,A,89,primary,no
+third,singer,A,98,university,no
+female,programmer,O,75,master,yes
+female,chef,AB,75,doctor,yes
+third,programmer,O,83,doctor,yes
+female,singer,B,38,master,yes
+male,singer,B,93,master,no
+male,salesman,AB,74,junior high,no
+male,chef,B,35,doctor,no
+third,neet,AB,64,primary,no
+female,scientest,A,85,junior high,no
+male,student,O,41,doctor,no
+male,singer,B,38,university,no
+female,student,A,75,doctor,no
+female,singer,AB,98,senior high,no
+third,neet,B,62,university,no
+third,engineer,B,47,master,no
+third,engineer,A,64,junior high,no
+female,singer,O,99,senior high,no
+female,student,O,67,university,no
+third,student,O,36,university,no
+female,singer,A,52,doctor,no
+third,singer,A,62,primary,no
+male,neet,A,44,senior high,no
+female,engineer,B,57,primary,no
+female,scientest,AB,43,senior high,no
+male,student,AB,43,primary,no
+male,neet,O,37,master,yes
+female,programmer,AB,75,doctor,no
+female,singer,AB,37,university,no
+female,scientest,A,51,primary,no
+third,singer,B,35,senior high,no
+female,teacher,O,36,primary,no
+female,chef,AB,97,university,no
+male,salesman,O,57,master,yes
+male,student,A,64,senior high,no
+third,student,B,76,junior high,no
+male,engineer,B,62,senior high,no
+third,engineer,AB,57,master,yes
+male,scientest,B,94,senior high,no
+female,programmer,A,54,university,no
+third,programmer,O,64,primary,no
+female,chef,A,56,doctor,no
+female,engineer,A,73,primary,no
+third,scientest,AB,61,junior high,no
+male,engineer,B,80,junior high,no
+third,programmer,B,86,university,no
+male,chef,A,47,university,no
+male,programmer,AB,47,junior high,no
+female,chef,AB,60,master,yes
+third,student,AB,53,university,no
+male,salesman,A,58,junior high,no
+female,scientest,A,97,master,no
+male,salesman,B,98,master,no
+male,engineer,B,94,junior high,no
+female,programmer,O,39,senior high,no
+female,scientest,B,87,senior high,no
+male,student,A,80,doctor,no
+third,neet,A,86,master,no
+female,neet,B,38,university,no
+male,teacher,AB,91,junior high,no
+male,programmer,O,91,doctor,no
+female,teacher,B,44,senior high,no
+third,singer,B,56,primary,no
+female,singer,B,60,university,no
+male,singer,B,86,junior high,no
+male,student,O,88,junior high,yes
+third,neet,A,68,university,no
+third,scientest,A,41,doctor,no
+third,scientest,AB,82,university,no
+third,chef,O,73,doctor,yes
+male,neet,B,83,senior high,no
+male,chef,O,90,primary,no
+third,neet,AB,35,university,no
+third,engineer,O,78,junior high,yes
+male,chef,O,69,university,yes
+third,singer,B,75,junior high,no
+third,programmer,O,38,primary,no
+third,programmer,A,60,primary,no
+third,chef,O,44,university,yes
+third,chef,O,39,junior high,yes
+third,scientest,AB,80,junior high,no
+third,salesman,O,92,master,no
+female,engineer,A,83,primary,no
+third,scientest,A,74,master,no
+male,neet,B,61,junior high,no
+male,teacher,B,85,senior high,no
+female,scientest,AB,88,primary,no
+female,singer,O,52,junior high,no
+female,neet,AB,88,university,no
+male,singer,AB,63,senior high,no
+female,singer,AB,38,senior high,yes
+female,teacher,AB,53,senior high,no
+female,scientest,B,92,senior high,no
+female,chef,AB,41,master,no
+third,engineer,A,47,master,yes
+third,singer,O,58,junior high,no
+third,teacher,B,87,senior high,no
+third,chef,AB,78,university,no
+female,teacher,O,37,junior high,no
+female,student,O,55,primary,no
+male,engineer,A,70,senior high,no
+male,chef,A,43,doctor,no
+third,salesman,AB,46,master,no
+female,teacher,B,54,junior high,no
+male,teacher,AB,76,university,no
+female,singer,A,63,primary,no
+male,chef,A,80,doctor,yes
+male,scientest,B,45,master,no
+female,singer,O,99,primary,no
+male,scientest,AB,95,university,no
+third,programmer,AB,80,primary,no
+third,chef,AB,83,senior high,no
+male,singer,A,40,master,no
+third,chef,AB,35,master,no
+male,scientest,B,88,master,no
+third,neet,B,78,university,no
+third,engineer,A,51,junior high,no
+female,chef,A,63,doctor,no
+third,singer,B,58,master,no
+male,student,AB,38,junior high,no
+female,scientest,AB,56,junior high,no
+female,scientest,AB,87,primary,no
+male,chef,AB,97,junior high,no
+male,engineer,A,74,master,yes
+male,engineer,A,46,senior high,no
+female,salesman,A,35,university,no
+third,chef,AB,52,senior high,no
+male,teacher,AB,65,senior high,no
+female,neet,A,35,junior high,no
+female,scientest,A,42,junior high,no
+female,neet,A,85,primary,no
+third,student,B,74,senior high,no
+female,programmer,AB,79,master,no
+third,salesman,AB,43,junior high,no
+third,scientest,AB,91,primary,no
+female,singer,O,58,master,no
+male,neet,B,73,university,no
+female,student,A,68,doctor,no
+male,student,B,71,university,no
+male,teacher,AB,62,doctor,no
+female,engineer,AB,51,junior high,no
+third,neet,O,52,junior high,no
+female,singer,A,38,senior high,no
+male,salesman,O,42,junior high,no
+female,neet,A,50,primary,no
+male,scientest,A,62,master,yes
+female,teacher,O,88,doctor,no
+third,singer,A,72,university,no
+female,teacher,AB,93,primary,no
+third,student,A,53,master,no
+female,salesman,O,73,junior high,no
+male,scientest,B,68,master,no
+male,chef,B,68,university,yes
+male,teacher,AB,82,senior high,no
+third,teacher,A,66,master,no
+third,salesman,AB,41,master,no
+third,singer,AB,71,university,no
+male,salesman,AB,41,senior high,no
+third,teacher,A,71,senior high,no
+male,salesman,AB,89,junior high,no
+male,neet,B,64,master,no
+male,programmer,O,92,junior high,no
+third,programmer,AB,94,primary,no
+male,student,A,53,junior high,no
+third,singer,AB,51,primary,no
+female,programmer,AB,85,primary,no
+male,programmer,A,95,senior high,no
+male,salesman,AB,67,primary,no
+male,engineer,O,79,master,no
+male,engineer,B,84,master,no
+third,neet,AB,88,primary,no
+male,chef,AB,39,senior high,yes
+third,student,AB,54,primary,no
+female,programmer,B,43,junior high,no
+male,scientest,O,51,primary,no
+male,student,A,80,university,no
+female,engineer,A,40,senior high,no
+male,neet,AB,63,senior high,no
+male,salesman,B,59,senior high,no
+female,engineer,B,77,university,no
+female,teacher,A,61,university,no
+male,salesman,O,65,primary,no
+third,programmer,O,68,junior high,no
+third,teacher,O,59,junior high,no
+male,programmer,O,55,junior high,no
+third,scientest,AB,55,junior high,no
+third,singer,AB,73,master,no
+male,scientest,O,47,junior high,no
+third,programmer,AB,94,primary,no
+female,singer,AB,85,primary,no
+female,singer,A,81,junior high,no
+third,singer,A,37,junior high,no
+male,student,AB,88,senior high,no
+female,scientest,O,38,junior high,yes
+third,programmer,B,51,primary,no
+female,chef,AB,60,doctor,yes
+third,engineer,B,57,junior high,no
+female,student,AB,35,junior high,no
+male,singer,O,91,university,no
+female,scientest,A,94,university,no
+third,engineer,O,83,master,no
+female,singer,O,60,senior high,yes
+male,singer,O,35,doctor,no
+female,teacher,AB,92,master,no
+third,engineer,B,91,senior high,no
+male,engineer,A,63,master,no
+male,student,A,53,senior high,no
+third,student,O,70,primary,no
+female,engineer,O,85,university,no
+third,chef,O,40,junior high,yes
+female,student,A,84,junior high,no
+male,singer,A,97,primary,no
+female,engineer,A,98,senior high,no
+third,student,O,50,primary,no
+third,programmer,A,51,university,no
+third,chef,B,42,senior high,no
+female,programmer,B,77,university,no
+third,salesman,AB,59,primary,no
+male,student,O,65,junior high,no
+third,singer,A,98,master,no
+third,engineer,A,86,doctor,no
+third,singer,B,38,university,no
+third,neet,B,40,university,no
+male,scientest,A,54,primary,no
+female,salesman,O,75,primary,no
+male,programmer,O,48,doctor,no
+female,student,A,97,university,no
+female,student,B,41,master,no
+third,teacher,B,38,doctor,no
+male,engineer,A,78,senior high,no
+female,chef,AB,36,university,no
+third,neet,A,73,senior high,no
+male,scientest,A,91,university,no
+male,scientest,AB,77,university,no
+third,programmer,O,74,senior high,yes
+male,engineer,AB,40,primary,no
+female,student,AB,76,junior high,no
+third,student,A,38,junior high,no
+third,scientest,A,95,primary,no
+third,scientest,O,95,university,no
+female,salesman,AB,99,senior high,no
+male,scientest,A,77,senior high,no
+third,teacher,A,54,senior high,no
+male,chef,A,52,senior high,no
+male,singer,B,63,primary,no
+third,engineer,AB,76,master,no
+female,scientest,O,72,junior high,no
+female,programmer,AB,98,doctor,no
+female,neet,B,56,master,no
+male,neet,O,44,primary,no
+male,neet,AB,50,master,no
+third,scientest,B,70,primary,no
+male,teacher,A,70,master,no
+third,singer,AB,74,university,no
+third,salesman,B,92,university,no
+female,teacher,AB,81,primary,no
+third,scientest,A,92,junior high,no
+female,neet,O,99,junior high,no
+third,student,AB,74,master,no
+male,programmer,A,52,university,no
+female,scientest,AB,43,doctor,yes
+male,singer,O,65,primary,no
+third,student,O,78,primary,no
+third,teacher,B,96,doctor,no
+male,scientest,B,72,master,no
+third,neet,A,67,university,no
+third,engineer,O,95,senior high,no
+third,engineer,A,62,senior high,no
+female,programmer,A,35,senior high,no
+female,programmer,A,64,master,yes
+male,chef,O,35,primary,no
+male,salesman,AB,39,university,no
+female,chef,AB,67,junior high,yes
+third,student,A,86,junior high,no
+female,neet,AB,83,junior high,no
+male,neet,A,47,master,no
+third,singer,AB,41,junior high,no
+third,programmer,AB,98,junior high,no
+third,neet,O,55,primary,no
+male,neet,B,54,master,no
+third,salesman,AB,77,senior high,no
+third,neet,A,37,university,no
+female,scientest,A,98,primary,no
+male,engineer,AB,57,junior high,no
+female,teacher,AB,85,master,no
+third,scientest,B,84,senior high,no
+male,student,AB,50,junior high,no
+male,scientest,O,40,university,no
+male,chef,AB,51,senior high,yes
+male,scientest,O,49,senior high,no
+male,chef,A,88,doctor,yes
+male,singer,A,75,doctor,no
+female,singer,O,55,doctor,no
+third,student,B,69,master,no
+male,salesman,O,51,university,no
+third,programmer,A,49,master,yes
+third,student,O,52,senior high,yes
+male,neet,B,42,doctor,no
+female,singer,O,46,junior high,no
+third,chef,B,59,doctor,yes
+female,teacher,O,97,master,yes
+third,programmer,AB,77,master,no
+third,engineer,B,94,university,no
+female,neet,O,66,doctor,no
+female,singer,O,95,primary,no
+third,salesman,O,63,senior high,no
+male,singer,O,97,primary,yes
+female,teacher,A,59,doctor,no
+male,chef,A,35,junior high,no
+third,scientest,A,81,junior high,no
+male,scientest,A,37,junior high,yes
+male,programmer,A,90,doctor,no
+third,chef,AB,72,junior high,yes
+male,salesman,AB,44,junior high,no
+third,student,B,40,senior high,no
+female,salesman,AB,94,doctor,no
+male,scientest,A,71,senior high,no
+male,singer,O,87,primary,yes
+third,programmer,B,90,primary,no
+third,engineer,O,48,doctor,yes
+male,student,B,81,doctor,no
+female,scientest,O,35,master,yes
+female,chef,A,74,primary,no
+male,neet,AB,84,university,no
+female,chef,AB,66,junior high,no
+female,salesman,A,86,master,no
+female,neet,B,80,senior high,no
+third,student,B,38,master,no
+female,chef,O,53,doctor,yes
+third,teacher,B,83,primary,no
+third,programmer,O,68,senior high,no
+female,singer,O,99,master,yes
+female,singer,A,58,primary,no
+female,chef,AB,52,master,yes
+female,scientest,O,69,master,no
+third,engineer,O,96,university,yes
+third,salesman,B,89,primary,no
+female,student,A,51,junior high,no
+female,engineer,AB,99,primary,no
+female,chef,A,76,primary,no
+female,engineer,A,68,senior high,no
+third,programmer,AB,51,senior high,no
+male,programmer,B,79,senior high,no
+female,teacher,B,38,senior high,no
+female,chef,AB,52,master,no
+male,neet,O,41,university,no
+third,student,AB,55,senior high,no
+male,scientest,A,82,master,no
+female,teacher,A,72,university,no
+female,chef,A,41,university,yes
+female,student,O,85,primary,no
+third,chef,O,49,doctor,no
+male,salesman,A,45,university,no
+male,singer,A,59,senior high,no
+female,teacher,AB,76,junior high,no
+third,salesman,AB,36,junior high,no
+third,salesman,B,36,senior high,no
+third,scientest,AB,38,doctor,no
+male,neet,O,44,senior high,no
+female,engineer,A,79,university,no
+female,scientest,AB,48,university,no
+female,engineer,B,41,university,no
+third,salesman,O,49,junior high,no
+male,singer,O,45,university,no
+male,singer,A,68,junior high,no
+male,chef,A,57,primary,no
+third,engineer,O,96,master,no
+male,singer,B,76,junior high,no
+male,programmer,AB,73,junior high,no
+male,salesman,A,62,primary,no
+female,engineer,B,91,doctor,yes
+male,scientest,O,87,university,yes
+third,singer,B,87,doctor,no
+male,singer,AB,61,university,no
+female,singer,O,60,university,no
+third,programmer,A,42,junior high,no
+male,engineer,O,44,primary,no
+female,neet,O,90,primary,no
+male,singer,O,93,university,no
+third,singer,A,45,primary,no
+male,teacher,AB,69,junior high,no
+third,programmer,O,69,doctor,no
+third,salesman,O,76,doctor,no
+third,programmer,AB,44,primary,no
+female,engineer,B,43,master,yes
+third,teacher,B,85,junior high,no
+male,singer,B,78,senior high,no
+female,singer,A,39,junior high,no
+third,scientest,A,40,primary,no
+female,engineer,B,37,master,no
+female,chef,A,85,doctor,no
+female,programmer,A,98,junior high,no
+male,engineer,A,35,primary,no
+male,student,A,73,primary,no
+male,chef,AB,96,junior high,yes
+third,engineer,O,78,master,yes
+third,scientest,A,40,senior high,no
+female,teacher,B,80,primary,no
+female,salesman,B,43,doctor,no
+male,chef,A,93,primary,no
+male,neet,O,44,primary,no
+female,scientest,A,56,junior high,no
+male,singer,A,80,master,no
+male,teacher,O,50,primary,no
+third,teacher,B,64,primary,no
+female,scientest,AB,62,master,yes
+male,chef,AB,94,senior high,no
+female,neet,AB,58,junior high,no
+female,salesman,AB,98,doctor,no
+third,chef,B,42,primary,yes
+third,student,AB,85,senior high,no
+third,programmer,O,84,university,no
+male,teacher,A,46,primary,no
+male,programmer,AB,88,primary,no
+female,neet,AB,65,university,no
+third,engineer,B,93,primary,no
+third,chef,A,47,senior high,no
+male,student,AB,64,junior high,no
+male,teacher,B,67,primary,no
+third,singer,A,46,university,no
+male,salesman,AB,77,master,no
+third,salesman,O,76,junior high,yes
+third,chef,A,67,university,no
+female,salesman,A,60,senior high,no
+female,chef,B,97,university,no
+female,singer,AB,57,doctor,no
+third,engineer,A,55,primary,no
+third,chef,A,95,master,no
+male,programmer,AB,90,senior high,no
+female,singer,B,66,senior high,no
+third,teacher,AB,62,university,no
+third,programmer,O,44,junior high,no
+female,chef,AB,47,university,yes
+female,neet,O,42,senior high,yes
+male,neet,AB,46,master,no
+third,salesman,O,90,primary,no
+female,student,B,89,senior high,no
+third,teacher,A,92,doctor,no
+third,scientest,B,95,doctor,no
+male,neet,AB,84,master,no
+female,salesman,B,94,senior high,no
+third,programmer,AB,53,master,no
+female,singer,A,92,university,no
+female,salesman,O,46,senior high,yes
+female,singer,A,45,primary,no
+female,engineer,AB,42,master,yes
+male,neet,A,80,senior high,no
+third,chef,O,81,master,yes
+male,teacher,AB,93,senior high,no
+female,chef,A,52,master,no
+third,salesman,A,80,senior high,no
+third,engineer,O,53,junior high,no
+female,chef,A,90,junior high,yes
+male,scientest,AB,79,university,no
+third,teacher,O,51,junior high,no
+third,scientest,A,88,junior high,no
+third,scientest,B,73,junior high,no
+third,engineer,A,81,university,no
+female,chef,B,92,primary,yes
+female,scientest,A,46,primary,no
+male,scientest,A,49,doctor,no
+female,student,A,99,senior high,no
+female,salesman,AB,88,senior high,no
+female,teacher,B,52,primary,no
+third,singer,O,43,university,no
+female,engineer,O,74,university,no
+male,teacher,AB,87,master,no
+female,programmer,AB,53,doctor,yes
+female,student,B,71,master,no
+male,engineer,B,59,senior high,no
+third,engineer,AB,85,primary,no
+third,singer,O,72,primary,yes
+female,singer,AB,96,senior high,no
+third,salesman,O,91,doctor,no
+male,engineer,O,59,junior high,no
+female,singer,AB,86,senior high,no
+female,chef,O,78,university,yes
+female,singer,AB,77,university,no
+third,singer,B,69,doctor,no
+male,teacher,O,59,master,no
+female,chef,A,75,doctor,no
+third,chef,A,88,junior high,no
+third,scientest,AB,71,junior high,no
+third,scientest,O,84,master,no
+third,singer,AB,97,senior high,no
+female,salesman,A,37,master,no
+third,programmer,B,43,master,yes
+male,salesman,A,38,university,no
+female,singer,AB,90,master,no
+male,salesman,B,48,junior high,no
+male,teacher,A,95,university,no
+male,singer,A,53,primary,no
+third,salesman,A,68,junior high,no
+male,scientest,B,52,university,no
+female,teacher,AB,95,primary,no
+third,engineer,AB,53,master,no
+female,student,A,95,university,no
+female,chef,A,77,primary,no
+female,scientest,AB,43,senior high,no
+female,engineer,A,95,junior high,no
+female,teacher,B,82,primary,no
+female,scientest,O,75,senior high,no
+third,programmer,A,80,primary,no
+male,student,O,95,senior high,no
+female,salesman,A,87,doctor,no
+male,salesman,A,86,senior high,no
+male,neet,O,45,doctor,yes
+third,engineer,B,62,senior high,no
+male,singer,A,51,master,no
+male,neet,O,42,senior high,yes
+male,student,O,93,master,no
+third,neet,B,49,university,no
+female,chef,B,40,senior high,yes
+third,salesman,A,85,university,no
+female,salesman,B,61,primary,no
+third,programmer,B,51,primary,no
+male,teacher,AB,87,university,no
+third,chef,O,55,senior high,no
+third,programmer,A,90,master,yes
+third,programmer,B,92,master,yes
+male,salesman,AB,85,doctor,no
+third,programmer,AB,49,primary,no
+third,singer,B,81,senior high,no
+third,singer,AB,38,university,no
+female,programmer,O,72,master,no
+male,programmer,AB,95,primary,no
+third,neet,O,52,junior high,no
+female,student,AB,54,senior high,no
+female,engineer,AB,73,junior high,no
+male,chef,B,78,primary,no
+female,engineer,AB,61,university,no
+third,singer,O,98,master,no
+third,scientest,B,40,university,no
+third,teacher,A,79,doctor,no
+third,chef,O,75,doctor,yes
+male,student,AB,54,university,no
+female,salesman,O,41,doctor,no
+third,salesman,B,99,senior high,no
+female,singer,O,75,senior high,no
+third,programmer,O,57,master,yes
+third,engineer,O,99,junior high,yes
+third,student,O,75,primary,no
+third,programmer,A,62,primary,no
+female,salesman,B,56,master,no
+male,salesman,AB,94,university,no
+third,scientest,O,67,junior high,no
+female,neet,B,64,senior high,no
+third,chef,A,35,junior high,no
+third,teacher,O,96,senior high,yes
+third,neet,AB,55,senior high,no
+female,teacher,A,55,university,no
+male,chef,AB,45,senior high,no
+male,teacher,B,59,junior high,no
+third,chef,A,98,primary,no
+female,scientest,O,78,senior high,no
+third,student,AB,36,senior high,no
+third,salesman,O,41,master,no
+female,teacher,A,98,primary,no
+male,chef,A,96,primary,no
+male,scientest,O,75,primary,no
+female,engineer,B,50,master,yes
+female,singer,O,70,master,yes
+female,engineer,A,70,master,no
+third,singer,A,48,university,no
+male,salesman,O,82,doctor,no
+third,neet,A,89,university,no
+male,singer,B,43,junior high,no
+female,engineer,A,75,university,no
+male,singer,O,92,master,no
+third,programmer,B,66,university,no
+third,singer,B,83,primary,no
+male,singer,O,70,doctor,no
+third,neet,O,87,junior high,no
+male,scientest,A,57,senior high,no
+female,engineer,AB,91,primary,no
+male,engineer,AB,62,master,yes
+male,singer,A,46,university,no
+female,scientest,B,65,doctor,no
+female,teacher,AB,87,university,no
+male,teacher,B,82,senior high,no
+female,teacher,O,68,doctor,no
+third,chef,A,84,junior high,no
+male,neet,B,48,primary,no
+female,neet,O,64,university,no
+third,student,A,68,master,no
+third,student,O,76,junior high,no
+female,teacher,O,63,master,yes
+third,teacher,O,76,master,yes
+third,singer,O,42,master,no
+female,student,O,73,master,yes
+third,programmer,AB,41,primary,no
+male,chef,O,73,doctor,no
+third,scientest,AB,58,senior high,no
+male,chef,AB,46,senior high,no
+third,scientest,O,59,senior high,no
+female,teacher,AB,72,university,no
+male,chef,O,52,junior high,no
+male,programmer,B,59,university,no
+male,salesman,A,85,master,no
+female,singer,O,45,junior high,no
+third,teacher,B,96,senior high,no
+female,programmer,O,56,primary,no
+third,neet,O,56,primary,yes
+female,teacher,AB,88,senior high,no
+female,salesman,B,35,university,no
+male,student,B,99,senior high,no
+male,student,O,68,doctor,no
+female,programmer,O,79,doctor,no
+male,chef,O,60,university,no
+male,chef,O,82,university,no
+male,singer,B,67,primary,no
+male,chef,A,57,university,yes
+female,salesman,AB,46,senior high,no
+third,scientest,AB,70,primary,no
+third,singer,B,50,primary,no
+female,programmer,B,39,senior high,no
+female,student,AB,49,primary,no
+female,chef,B,57,university,no
+third,scientest,O,97,senior high,no
+third,salesman,O,94,doctor,no
+third,programmer,O,66,junior high,yes
+male,teacher,B,73,junior high,no
+male,neet,AB,52,master,no
+third,student,O,96,primary,no
+male,neet,AB,43,university,no
+third,chef,B,66,senior high,no
+third,chef,A,66,junior high,no
+third,programmer,AB,82,junior high,no
+male,programmer,B,98,university,no
+male,scientest,A,47,university,no
+female,student,A,50,university,no
+male,student,B,41,doctor,no
+male,programmer,B,61,master,no
+female,student,B,59,university,no
+male,chef,B,58,master,no
+male,engineer,AB,49,master,no
+female,salesman,A,80,junior high,no
+third,chef,AB,63,junior high,no
+female,engineer,A,78,primary,no
+female,salesman,AB,84,doctor,no
+third,programmer,B,91,master,yes
+female,engineer,O,90,primary,yes
+third,scientest,AB,76,doctor,no
+female,student,B,90,doctor,no
+female,teacher,AB,45,primary,no
+male,engineer,AB,49,university,no
+male,engineer,O,56,doctor,no
+third,student,AB,53,senior high,no
+male,engineer,AB,73,senior high,no
+female,salesman,O,36,senior high,no
+male,scientest,AB,59,senior high,no
+male,singer,O,94,senior high,no
+third,singer,AB,84,master,no
+female,chef,B,71,senior high,no
+female,chef,AB,39,primary,yes
+female,neet,B,79,senior high,no
+female,student,A,77,master,no
+female,engineer,O,76,master,no
+female,neet,A,64,master,no
+female,engineer,B,51,doctor,yes
+third,chef,AB,67,university,yes
+male,programmer,B,35,junior high,no
+male,singer,A,70,university,no
+male,student,AB,54,junior high,no
+male,scientest,AB,52,university,no
+female,neet,AB,80,junior high,no
+male,chef,B,39,master,no
+third,neet,B,78,master,no
+female,singer,O,36,primary,no
+third,student,B,89,university,no
+male,student,O,42,doctor,yes
+third,teacher,A,93,primary,no
+third,salesman,B,72,senior high,no
+female,chef,AB,92,doctor,no
+third,student,AB,81,junior high,no
+third,teacher,A,73,doctor,no
+male,singer,A,58,senior high,no
+male,scientest,B,97,primary,no
+male,scientest,AB,68,university,no
+third,engineer,AB,48,primary,no
+third,teacher,O,38,university,no
+male,teacher,A,53,master,no
+male,programmer,A,82,senior high,no
+male,engineer,AB,85,doctor,no
+male,salesman,AB,63,junior high,no
+female,teacher,AB,37,master,no
+male,neet,O,37,university,no
+female,neet,A,71,senior high,no
+female,teacher,AB,38,master,no
+male,student,A,76,junior high,no
+third,student,B,96,doctor,no
+female,chef,O,51,primary,no
+third,scientest,B,92,primary,no
+female,neet,B,37,university,no
+third,student,B,59,doctor,no
+third,chef,B,84,primary,yes
+female,scientest,AB,81,doctor,no
+third,engineer,B,65,senior high,no
+male,programmer,A,97,primary,no
+male,salesman,AB,40,doctor,no
+female,teacher,O,42,senior high,yes
+third,student,O,62,master,yes
+male,neet,AB,72,university,no
+female,neet,AB,62,master,no
+female,singer,A,73,senior high,no
+third,programmer,O,54,university,no
+female,student,O,97,doctor,no
+female,teacher,AB,45,primary,yes
+third,salesman,B,69,primary,no
+male,teacher,A,92,university,no
+third,teacher,A,52,primary,no
+male,chef,B,80,senior high,yes
+third,teacher,A,85,junior high,no
+third,teacher,AB,47,senior high,no
+female,teacher,A,70,primary,no
+third,scientest,O,74,junior high,yes
+male,chef,O,47,junior high,no
+male,chef,A,96,master,no
+third,scientest,O,57,doctor,yes
+male,teacher,B,84,master,no
+female,student,B,96,university,no
+male,programmer,A,77,junior high,no
+female,singer,O,91,junior high,no
+third,chef,O,50,senior high,no
+third,teacher,A,44,junior high,no
+female,teacher,O,76,primary,no
+female,chef,B,68,junior high,no
+male,neet,A,98,university,no
+female,chef,A,99,university,no
+male,scientest,O,81,university,no
+third,salesman,AB,79,doctor,no
+female,neet,O,77,master,no
+male,scientest,B,93,doctor,no
+male,student,AB,86,primary,no
+male,neet,O,91,primary,no
+female,salesman,O,90,primary,no
+male,teacher,A,63,doctor,no
+male,scientest,B,89,master,no
+male,student,O,68,university,yes
+third,scientest,O,79,junior high,no
+third,student,B,44,university,no
+third,salesman,A,76,master,no
+male,neet,A,87,senior high,no
+male,neet,O,61,master,no
+third,scientest,AB,98,university,no
+male,engineer,A,99,junior high,no
+third,neet,B,99,university,no
+third,scientest,A,55,university,no
+male,engineer,A,67,primary,no
+female,scientest,O,94,university,no
+male,neet,B,98,senior high,no
+male,student,O,87,university,no
+male,engineer,O,56,primary,yes
+female,neet,AB,71,university,no
+male,student,B,79,master,no
+male,singer,O,78,doctor,no
+female,programmer,A,92,master,no
+female,chef,O,60,doctor,no
+female,salesman,A,90,junior high,no
+male,engineer,A,46,senior high,no
+female,salesman,A,49,senior high,no
+male,engineer,B,67,master,no
+third,teacher,O,62,senior high,yes
+third,chef,O,47,master,no
+male,programmer,A,42,master,yes
+male,neet,B,89,master,no
+third,salesman,AB,36,doctor,no
+female,teacher,A,36,primary,no
+female,scientest,AB,45,doctor,no
+male,singer,B,60,university,no
+female,scientest,O,85,senior high,no
+male,programmer,O,72,junior high,yes
+male,salesman,O,78,master,yes
+third,engineer,A,55,senior high,no
+male,salesman,B,63,university,no
+male,student,B,39,senior high,no
+third,teacher,O,98,senior high,no
+third,programmer,AB,70,master,yes
+male,student,A,41,master,no
+male,salesman,A,51,primary,no
+third,chef,AB,43,university,no
+male,programmer,AB,83,junior high,no
+male,teacher,O,91,primary,no
+third,salesman,O,80,senior high,yes
+female,neet,O,61,master,yes
+female,singer,O,79,master,no
+third,chef,A,44,junior high,no
+female,teacher,O,35,doctor,yes
+female,programmer,B,88,junior high,no
+male,engineer,B,43,university,no
+female,engineer,AB,63,university,no
+third,scientest,A,60,master,yes
+third,salesman,AB,89,junior high,no
+male,student,A,69,doctor,no
+third,chef,B,59,master,no
+third,programmer,B,52,doctor,no
+third,chef,AB,91,primary,no
+male,engineer,B,94,primary,no
+third,chef,O,82,university,yes
+female,programmer,B,93,university,no
+female,scientest,AB,56,doctor,no
+female,student,O,48,master,no
+male,teacher,B,99,doctor,no
+female,neet,O,41,university,no
+third,programmer,O,82,senior high,no
+female,teacher,O,89,master,no
+male,salesman,B,61,junior high,no
+female,engineer,AB,92,senior high,no
+male,neet,AB,55,junior high,no
+female,teacher,A,80,primary,no
+third,chef,A,51,senior high,no
+third,student,AB,62,primary,no
+third,scientest,B,38,junior high,no
+third,chef,AB,65,junior high,no
+female,programmer,AB,39,university,no
+third,engineer,AB,51,university,no
+male,chef,O,53,university,no
+third,neet,A,38,primary,no
+female,chef,O,55,primary,no
+female,singer,O,53,primary,yes
+third,programmer,B,54,university,no
+third,programmer,AB,57,junior high,no
+female,scientest,B,88,senior high,no
+male,student,AB,67,primary,no
+third,salesman,AB,91,master,no
+male,student,AB,97,senior high,no
+third,singer,AB,80,master,no
+male,salesman,A,67,doctor,no
+male,scientest,A,87,university,no
+male,neet,A,81,senior high,no
+third,teacher,B,47,junior high,no
+third,salesman,B,68,master,no
+third,programmer,A,38,junior high,no
+male,chef,AB,84,master,no
+male,programmer,AB,90,doctor,no
+female,teacher,O,74,doctor,yes
+female,chef,B,78,junior high,yes
+male,chef,A,44,junior high,no
+third,singer,AB,42,junior high,no
+third,student,AB,52,primary,no
+female,scientest,O,62,senior high,no
+third,engineer,B,51,primary,no
+third,scientest,O,64,junior high,no
+male,student,A,85,junior high,no
+third,neet,B,44,master,no
+female,chef,A,59,doctor,no
+female,chef,O,87,junior high,no
+female,scientest,O,99,senior high,yes
+male,salesman,A,69,junior high,no
+third,programmer,O,85,master,yes
+female,programmer,O,55,master,no
+male,neet,B,43,doctor,no
+female,chef,AB,43,master,yes
+female,singer,A,48,senior high,no
+female,student,O,95,doctor,no
+male,singer,AB,68,doctor,no
+female,programmer,O,90,junior high,yes
+male,singer,O,61,primary,no
+male,engineer,A,88,master,yes
+female,salesman,AB,59,senior high,no
+female,student,O,85,primary,no
+third,teacher,AB,70,primary,no
+male,scientest,A,80,primary,no
+male,engineer,AB,95,doctor,no
+male,student,AB,94,master,no
+third,student,A,91,junior high,no
+female,student,A,98,senior high,no
+male,teacher,A,40,junior high,no
+male,student,A,49,doctor,no
+female,neet,AB,41,doctor,no
+third,chef,B,86,doctor,no
+female,programmer,O,38,university,no
+female,singer,O,35,primary,no
+male,chef,A,91,doctor,yes
+third,chef,B,82,doctor,yes
+female,teacher,AB,99,doctor,no
+third,chef,O,92,master,no
+female,teacher,B,99,master,no
+male,salesman,AB,65,junior high,no
+third,neet,B,71,primary,no
+third,chef,A,95,primary,no
+female,teacher,A,51,junior high,no
+female,engineer,O,44,doctor,yes
+female,teacher,AB,65,junior high,no
+female,programmer,A,87,master,yes
+third,student,B,59,primary,no
+third,salesman,AB,88,master,no
+female,programmer,O,77,doctor,no
+female,engineer,B,44,doctor,yes
+male,neet,O,70,university,no
+female,neet,B,48,junior high,no
+third,student,A,98,master,no
+female,engineer,B,37,master,no
+male,singer,B,69,doctor,no
+male,student,O,97,doctor,no
+third,scientest,B,51,university,no
+third,teacher,B,55,university,no
+male,chef,A,44,primary,no
+male,teacher,B,61,university,no
+female,singer,B,49,primary,no
+third,salesman,O,44,primary,no
+male,scientest,B,90,junior high,no
+male,scientest,AB,70,university,no
+male,student,B,36,primary,no
+male,salesman,AB,79,master,no
+third,neet,B,57,master,no
+male,chef,B,43,primary,no
+third,engineer,B,79,master,no
+third,chef,O,49,master,no
+male,scientest,O,71,junior high,no
+female,neet,A,85,doctor,no
+third,singer,A,87,senior high,no
+female,scientest,O,88,doctor,yes
+third,programmer,O,43,primary,no
+third,scientest,B,48,university,no
+female,engineer,AB,56,senior high,no
+male,engineer,AB,94,senior high,no
+female,chef,B,91,junior high,no
+female,engineer,A,68,university,no
+third,scientest,A,55,primary,no
+third,teacher,B,47,master,no
+female,chef,B,70,senior high,yes
+male,programmer,A,47,primary,no
+third,programmer,A,38,master,no
+third,teacher,O,57,senior high,no
+male,engineer,AB,63,junior high,no
+male,salesman,AB,93,master,no
+third,chef,AB,73,doctor,no
+third,scientest,AB,75,senior high,no
+female,teacher,AB,69,university,no
+third,neet,A,61,junior high,no
+female,engineer,O,40,university,no
+male,salesman,B,78,junior high,no
+female,chef,A,94,senior high,no
+male,neet,AB,84,senior high,no
+third,student,A,95,university,no
+male,neet,O,77,doctor,no
+male,engineer,O,79,junior high,no
+male,salesman,A,87,primary,no
+third,teacher,O,54,doctor,no
+third,chef,A,56,junior high,yes
+male,engineer,O,79,primary,no
+third,engineer,B,41,university,no
+female,scientest,O,56,university,no
+male,programmer,B,58,senior high,no
+third,salesman,A,92,master,no
+third,salesman,AB,39,primary,no
+third,engineer,B,68,junior high,no
+female,student,B,64,master,no
+female,student,B,43,junior high,no
+female,singer,B,42,university,no
+male,scientest,O,60,master,no
+female,singer,A,84,master,no
+third,chef,A,43,university,no
+male,teacher,O,68,university,no
+male,singer,O,91,doctor,yes
+female,neet,A,80,university,no
+third,scientest,B,87,university,no
+male,scientest,AB,52,master,no
+third,salesman,AB,43,primary,no
+male,engineer,A,74,senior high,no
+female,neet,O,60,junior high,no
+third,student,O,76,senior high,yes
+third,singer,AB,54,university,no
+third,neet,AB,54,university,no
+third,neet,AB,77,master,no
+male,singer,A,74,primary,no
+third,chef,B,57,senior high,no
+male,singer,B,51,doctor,no
+female,teacher,O,80,university,no
+female,singer,B,88,master,no
+female,chef,B,39,university,yes
+female,scientest,A,52,university,no
+male,singer,A,99,primary,no
+male,engineer,O,52,university,no
+female,student,B,97,junior high,no
+male,salesman,B,99,senior high,no
+female,engineer,O,94,senior high,no
+female,salesman,O,52,master,no
+male,neet,B,64,junior high,no
+male,scientest,O,75,doctor,no
+male,teacher,AB,88,junior high,no
+male,engineer,B,72,doctor,no
+male,teacher,A,75,junior high,no
+third,student,AB,51,doctor,no
+female,chef,AB,94,university,no
+male,chef,A,42,university,no
+male,salesman,AB,72,doctor,no
+third,salesman,AB,38,doctor,no
+female,neet,AB,47,doctor,no
+male,engineer,O,86,master,no
+female,singer,A,63,junior high,no
+female,teacher,O,54,university,no
+third,chef,B,88,senior high,no
+third,neet,AB,78,university,no
+female,salesman,O,94,university,yes
+third,scientest,B,55,primary,no
+male,salesman,AB,66,university,no
+male,singer,O,42,doctor,no
+male,scientest,O,98,primary,no
+male,chef,O,56,primary,yes
+third,chef,B,71,junior high,no
+male,teacher,AB,97,primary,no
+third,scientest,O,45,senior high,yes
+female,scientest,O,76,senior high,no
+male,singer,O,64,junior high,no
+female,teacher,A,66,university,no
+third,singer,AB,56,university,no
+third,scientest,O,41,university,no
+female,student,AB,62,doctor,no
+female,programmer,B,66,primary,no
+male,teacher,A,46,doctor,yes
+female,programmer,AB,42,master,yes
+male,singer,B,76,doctor,no
+third,scientest,O,45,doctor,no
+female,programmer,A,63,junior high,no
+female,programmer,B,46,doctor,no
+female,scientest,O,98,master,no
+female,salesman,AB,57,junior high,no
+third,programmer,O,80,master,no
+male,singer,A,39,master,no
+third,student,B,66,junior high,no
+female,scientest,A,56,master,no
+female,teacher,A,40,senior high,no
+male,chef,B,81,primary,no
+female,teacher,B,71,senior high,no
+female,student,A,61,master,no
+male,singer,A,56,university,no
+male,engineer,B,72,doctor,no
+female,chef,A,95,doctor,yes
+male,programmer,A,39,primary,no
+male,teacher,A,59,junior high,no
+female,chef,A,52,university,no
+female,engineer,A,76,primary,no
+female,scientest,AB,74,junior high,no
+female,salesman,O,79,junior high,no
+male,engineer,A,53,master,yes
+third,scientest,A,42,doctor,yes
+female,programmer,A,69,junior high,no
+male,chef,A,37,junior high,no
+male,scientest,B,76,senior high,no
+male,scientest,O,77,master,yes
+male,programmer,B,69,university,no
+male,student,O,99,junior high,no
+male,scientest,A,51,senior high,no
+female,student,AB,57,primary,no
+male,teacher,O,56,senior high,yes
+male,singer,O,80,master,no
+female,engineer,B,94,primary,no
+female,chef,B,47,master,yes
+male,scientest,O,93,junior high,yes
+female,engineer,AB,88,master,no
+third,student,AB,54,junior high,no
+female,singer,AB,73,master,no
+female,singer,O,66,doctor,no
+female,engineer,AB,92,senior high,no
+third,neet,B,79,university,no
+third,engineer,B,82,master,no
+female,engineer,AB,87,junior high,no
+third,salesman,AB,92,junior high,no
+male,programmer,O,35,senior high,no
+male,scientest,A,43,doctor,no
+male,student,O,96,junior high,no
+male,salesman,B,40,doctor,no
+male,chef,A,98,university,yes
+female,programmer,AB,70,university,no
+male,singer,AB,89,junior high,no
+third,singer,B,69,doctor,no
+third,singer,B,51,junior high,no
+third,student,AB,93,primary,no
+female,chef,A,72,university,no
+third,programmer,B,81,master,no
+female,teacher,B,49,junior high,no
+male,salesman,A,94,master,no
+male,chef,O,63,senior high,no
+female,student,O,65,university,no
+female,salesman,AB,53,university,no
+female,singer,O,82,doctor,no
+female,engineer,O,38,doctor,no
+female,student,AB,89,university,no
+third,neet,B,42,senior high,no
+third,scientest,A,76,university,no
+third,neet,A,92,doctor,no
+third,programmer,B,83,senior high,no
+female,student,O,64,primary,no
+third,singer,B,46,doctor,no
+third,chef,B,38,university,no
+male,engineer,B,79,junior high,no
+female,teacher,B,42,master,no
+male,teacher,O,38,junior high,yes
+female,student,AB,71,doctor,no
+female,neet,A,95,master,no
+male,singer,B,36,doctor,no
+female,salesman,B,47,junior high,no
+third,teacher,O,95,senior high,no
+male,engineer,AB,37,doctor,no
+male,teacher,B,41,master,no
+female,engineer,A,73,university,no
+male,student,O,55,primary,no
+male,neet,O,67,junior high,yes
+male,student,B,39,primary,no
+female,student,A,88,university,no
+third,chef,AB,89,university,yes
+third,teacher,O,39,doctor,no
+third,engineer,AB,90,junior high,no
+female,programmer,O,99,university,no
+third,programmer,O,79,master,no
+third,teacher,O,96,junior high,no
+male,teacher,O,85,doctor,no
+female,engineer,B,35,junior high,no
+female,teacher,AB,45,master,no
+female,neet,AB,61,doctor,no
+male,teacher,O,80,senior high,no
+male,singer,B,44,primary,no
+third,programmer,O,96,doctor,no
+third,neet,AB,40,university,no
+female,engineer,O,45,master,no
+female,salesman,A,95,primary,no
+male,salesman,AB,86,junior high,no
+third,scientest,AB,99,junior high,no
+female,chef,A,90,master,no
+female,salesman,B,71,university,no
+female,chef,AB,38,master,no
+male,teacher,B,68,master,no
+male,teacher,AB,96,junior high,no
+male,programmer,A,53,doctor,yes
+male,student,O,49,primary,no
+male,teacher,B,57,doctor,no
+female,singer,A,67,senior high,no
+male,engineer,B,36,primary,no
+third,student,B,45,doctor,no
+female,singer,A,99,university,no
+third,chef,B,67,doctor,yes
+male,programmer,AB,60,primary,no
+male,teacher,B,81,primary,no
+male,chef,AB,70,doctor,no
+third,scientest,O,89,university,no
+male,engineer,AB,93,doctor,no
+female,engineer,A,66,master,no
+female,chef,O,38,senior high,yes
+third,scientest,B,47,doctor,no
+third,teacher,AB,84,primary,no
+female,teacher,A,75,university,no
+female,student,B,40,junior high,no
+third,student,AB,55,university,no
+female,chef,B,46,primary,no
+third,student,O,61,primary,yes
+female,singer,AB,36,senior high,no
+third,singer,A,77,university,no
+female,teacher,B,61,primary,no
+male,salesman,AB,96,primary,no
+female,singer,B,41,junior high,no
+female,salesman,AB,37,senior high,no
+male,neet,AB,82,doctor,no
+male,programmer,O,59,doctor,yes
+male,singer,A,54,doctor,no
+third,scientest,B,35,senior high,no
+third,neet,AB,41,university,no
+male,programmer,O,69,doctor,no
+third,teacher,A,35,university,no
+male,teacher,B,98,university,no
+female,singer,B,97,primary,no
+third,singer,A,64,junior high,no
+third,scientest,B,53,primary,no
+third,engineer,O,62,senior high,no
+male,salesman,B,84,primary,no
+female,singer,B,45,junior high,no
+third,teacher,A,50,master,no
+female,engineer,AB,73,junior high,no
+third,salesman,AB,76,junior high,no
+third,scientest,B,63,primary,no
+third,scientest,B,93,university,no
+male,neet,O,72,university,no
+male,engineer,B,96,primary,no
+female,teacher,A,70,primary,no
+male,student,B,65,university,no
+female,singer,A,74,senior high,no
+male,chef,B,73,senior high,yes
+male,teacher,O,60,doctor,no
+male,neet,O,82,junior high,no
+male,singer,A,40,junior high,no
+third,engineer,AB,60,doctor,yes
+female,singer,A,52,junior high,no
+male,salesman,AB,58,doctor,no
+female,teacher,AB,93,doctor,no
+third,teacher,B,57,junior high,no
+third,student,B,96,senior high,no
+female,chef,AB,44,master,no
+male,chef,A,44,university,yes
+female,chef,A,59,master,no
+third,engineer,A,39,university,no
+female,engineer,O,66,junior high,no
+female,neet,A,58,master,no
+male,neet,AB,84,doctor,no
+male,teacher,O,60,master,no
+third,scientest,AB,73,primary,no
+female,singer,O,95,senior high,no
+third,programmer,AB,79,university,no
+male,neet,A,76,junior high,no
+third,student,B,79,master,no
+third,salesman,O,41,doctor,yes
+third,teacher,B,66,master,no
+third,programmer,O,65,master,yes
+male,neet,B,46,senior high,no
+male,scientest,A,57,university,no
+male,salesman,A,46,senior high,no
+female,neet,O,48,master,yes
+male,scientest,A,52,doctor,yes
+third,scientest,B,87,primary,no
+female,scientest,A,86,primary,no
+male,student,O,96,university,no
+male,singer,A,62,junior high,no
+third,salesman,O,59,senior high,no
+female,programmer,O,79,university,yes
+male,engineer,B,92,junior high,no
+female,chef,O,56,doctor,yes
+female,student,O,98,master,yes
+female,scientest,O,54,senior high,no
+male,neet,O,94,master,no
+third,scientest,B,46,doctor,no
+male,neet,AB,57,senior high,no
+female,singer,B,75,university,no
+male,salesman,A,45,university,no
+third,teacher,A,40,master,no
+male,singer,A,65,master,no
+third,neet,O,38,junior high,no
+male,scientest,O,57,university,no
+third,teacher,AB,89,primary,no
+female,engineer,O,57,junior high,no
+female,teacher,O,68,university,no
+third,student,A,91,doctor,no
+third,salesman,O,97,university,yes
+female,student,B,56,primary,no
+male,scientest,O,97,junior high,no
+male,student,AB,36,master,no
+female,salesman,B,41,doctor,no
+male,scientest,O,83,senior high,yes
+third,programmer,O,46,master,yes
+female,engineer,B,58,university,no
+female,engineer,O,77,doctor,yes
+female,neet,B,78,senior high,no
+female,salesman,O,41,primary,no
+third,programmer,O,62,primary,no
+female,scientest,A,79,doctor,no
+female,programmer,A,37,junior high,no
+third,neet,AB,37,primary,no
+female,teacher,B,68,university,no
+male,neet,O,91,university,yes
+third,teacher,A,38,master,no
+female,engineer,AB,94,master,yes
+male,neet,A,60,primary,no
+female,salesman,B,88,primary,no
+male,teacher,O,42,doctor,no
+male,teacher,A,44,primary,no
+third,teacher,B,90,doctor,no
+third,engineer,B,67,university,no
+male,singer,A,71,senior high,no
+male,student,A,41,primary,no
+female,singer,A,74,primary,no
+female,chef,AB,78,junior high,yes
+female,teacher,B,84,university,no
+male,engineer,O,93,primary,no
+third,programmer,O,95,primary,no
+third,teacher,O,76,primary,no
+female,chef,B,59,junior high,yes
+male,neet,AB,51,university,no
+third,student,B,62,master,no
+third,neet,O,39,senior high,no
+male,engineer,AB,50,doctor,no
+male,programmer,B,40,junior high,no
+female,teacher,AB,79,university,no
+male,programmer,A,90,master,no
+third,singer,O,36,university,no
+male,scientest,A,75,university,no
+female,singer,B,43,junior high,no
+male,singer,A,89,junior high,no
+female,chef,B,80,doctor,no
+male,scientest,B,88,university,no
+male,neet,AB,77,master,no
+female,neet,A,56,primary,no
+female,neet,AB,84,primary,no
+female,chef,AB,76,master,yes
+male,teacher,A,97,university,no
+female,salesman,B,56,primary,no
+third,programmer,A,75,junior high,no
+third,teacher,A,95,junior high,no
+male,neet,B,68,senior high,no
+third,neet,B,85,university,no
+male,engineer,O,94,primary,no
+female,student,A,45,primary,no
+third,teacher,A,89,university,no
+male,chef,B,51,primary,yes
+female,neet,O,55,primary,no
+third,chef,A,85,senior high,no
+third,student,A,67,senior high,no
+female,programmer,A,35,doctor,no
+female,neet,AB,85,university,no
+male,student,B,65,junior high,no
+male,singer,A,82,master,no
+third,neet,A,54,doctor,no
+female,salesman,O,73,junior high,no
+female,neet,A,57,master,no
+female,neet,O,47,senior high,no
+third,scientest,A,66,doctor,no
+male,singer,O,89,university,yes
+male,salesman,B,78,master,no
+third,programmer,AB,35,university,no
+female,engineer,A,79,junior high,no
+female,neet,O,37,primary,no
+female,singer,AB,86,senior high,no
+female,chef,AB,70,master,yes
+female,programmer,AB,98,doctor,no
+female,programmer,B,54,senior high,no
+female,salesman,A,64,primary,no
+female,scientest,AB,63,doctor,yes
+third,student,O,86,junior high,yes
+female,salesman,O,84,master,no
+third,salesman,AB,75,master,no
+female,teacher,A,55,university,no
+third,engineer,AB,39,doctor,no
+third,scientest,AB,87,primary,no
+male,scientest,O,49,master,no
+female,engineer,AB,82,master,no
+female,neet,B,96,university,no
+third,salesman,B,42,primary,no
+female,neet,A,43,junior high,no
+female,salesman,B,72,university,no
+third,singer,O,73,senior high,no
+third,scientest,A,35,university,no
+female,chef,O,79,junior high,yes
+female,chef,B,96,university,no
+male,chef,O,72,master,no
+male,teacher,A,88,primary,no
+female,programmer,A,63,junior high,no
+third,student,O,85,doctor,no
+female,singer,O,93,university,yes
+female,programmer,O,63,master,no
+male,student,A,81,master,no
+male,scientest,A,43,junior high,no
+female,engineer,AB,92,senior high,no
+third,salesman,O,73,university,yes
+male,neet,O,65,doctor,yes
+female,programmer,B,78,university,no
+third,chef,O,44,junior high,no
+male,neet,AB,37,primary,no
+female,singer,O,78,university,yes
+third,student,AB,49,junior high,no
+female,scientest,O,95,senior high,no
+male,engineer,AB,86,master,no
+third,chef,O,78,doctor,no
+third,engineer,B,55,master,no
+third,singer,AB,82,junior high,no
+third,neet,O,37,primary,no
+female,teacher,O,61,master,no
+female,salesman,AB,59,junior high,no
+female,chef,AB,94,senior high,yes
+third,student,B,57,senior high,no
+third,singer,O,50,senior high,no
+third,programmer,AB,46,master,no
+female,singer,B,35,junior high,no
+third,scientest,A,45,university,no
+female,singer,A,97,master,no
+female,chef,B,65,senior high,no
+third,neet,A,68,junior high,no
+third,teacher,AB,98,senior high,no
+third,salesman,AB,91,senior high,no
+female,scientest,O,69,primary,no
+third,neet,O,82,university,no
+male,engineer,B,43,junior high,no
+male,teacher,B,56,senior high,no
+male,chef,O,69,doctor,yes
+third,student,B,37,doctor,no
+female,teacher,O,98,junior high,no
+third,neet,O,72,junior high,yes
+female,student,AB,78,university,no
+female,scientest,B,49,junior high,no
+third,engineer,B,91,doctor,yes
+third,engineer,O,79,senior high,yes
+third,programmer,AB,57,master,yes
+female,teacher,AB,82,senior high,no
+female,programmer,A,91,primary,no
+third,chef,A,40,junior high,no
+third,teacher,O,93,primary,no
+third,teacher,A,57,master,no
+male,neet,O,62,master,no
+male,teacher,A,60,primary,no
+third,salesman,O,54,master,no
+female,chef,O,57,senior high,no
+male,neet,B,67,university,no
+third,engineer,B,38,senior high,no
+female,salesman,AB,61,junior high,no
+third,scientest,A,82,senior high,no
+female,student,A,40,senior high,no
+female,student,A,85,junior high,no
+third,neet,AB,66,doctor,no
+male,singer,AB,99,master,no
+female,student,A,83,junior high,no
+male,singer,A,56,master,no
+male,teacher,AB,44,primary,no
+third,singer,AB,38,doctor,no
+female,singer,O,96,primary,yes
+female,engineer,AB,59,doctor,no
+male,student,B,85,university,no
+female,scientest,O,39,primary,no
+third,student,B,66,master,no
+male,teacher,B,89,doctor,no
+female,student,A,82,university,no
+female,chef,B,41,master,yes
+third,chef,O,65,senior high,no
+male,scientest,B,82,master,yes
+male,neet,AB,39,senior high,no
+third,programmer,B,77,master,yes
+male,programmer,AB,70,doctor,yes
+male,neet,O,91,doctor,no
+third,neet,B,65,junior high,no
+female,singer,AB,46,university,no
+male,chef,O,51,senior high,yes
+female,student,AB,53,doctor,no
+male,scientest,O,59,doctor,no
+male,teacher,A,99,junior high,no
+third,scientest,B,84,university,no
+third,singer,AB,45,university,no
+male,neet,B,43,senior high,no
+third,student,O,55,university,no
+female,scientest,O,72,junior high,no
+female,engineer,AB,55,university,no
+female,teacher,O,81,primary,yes
+third,scientest,AB,60,senior high,no
+third,chef,O,96,doctor,no
+male,student,A,39,doctor,no
+male,neet,A,80,junior high,no
+male,salesman,B,80,doctor,no
+female,neet,AB,40,master,no
+female,engineer,B,44,senior high,no
+third,chef,A,75,university,no
+male,neet,A,75,junior high,no
+female,chef,AB,60,university,no
+third,neet,O,98,senior high,no
+male,engineer,B,78,senior high,no
+female,engineer,B,78,junior high,no
+third,teacher,O,97,primary,yes
+male,neet,A,63,doctor,no
+female,chef,O,51,doctor,no
+third,programmer,A,80,university,no
+third,singer,B,45,primary,no
+male,chef,B,92,doctor,yes
+third,student,B,72,senior high,no
+male,neet,O,49,junior high,no
+third,singer,AB,87,primary,no
+female,teacher,A,93,master,no
+third,student,AB,82,university,no
+third,teacher,B,51,master,no
+male,chef,A,95,junior high,no
+male,neet,O,47,senior high,no
+male,salesman,O,66,university,no
+male,engineer,O,50,junior high,no
+third,student,O,61,junior high,no
+female,engineer,O,43,master,no
+third,student,AB,40,university,no
+third,engineer,A,96,master,no
+male,neet,A,36,university,no
+male,salesman,AB,53,master,no
+third,teacher,A,73,university,no
+female,student,AB,91,primary,no
+female,scientest,O,95,primary,yes
+third,neet,B,85,primary,no
+third,scientest,A,72,doctor,yes
+male,neet,B,95,master,no
+female,singer,B,58,junior high,no
+female,teacher,B,50,master,no
+male,student,B,77,primary,no
+male,chef,O,62,doctor,no
+third,salesman,O,40,senior high,no
+third,programmer,AB,46,master,no
+female,scientest,A,82,junior high,no
+male,teacher,B,80,primary,no
+male,student,A,79,primary,no
+female,teacher,B,79,junior high,no
+female,scientest,B,51,primary,no
+third,student,O,62,junior high,no
+female,teacher,A,77,senior high,no
+female,neet,A,50,university,no
+male,chef,O,37,junior high,yes
+female,neet,O,78,doctor,yes
+third,engineer,O,65,primary,no
+male,singer,O,62,junior high,yes
+third,neet,A,43,university,no
+female,engineer,A,70,junior high,no
+male,student,O,47,doctor,no
+third,teacher,B,77,master,no
+female,programmer,B,65,senior high,no
+male,scientest,O,70,master,no
+male,neet,O,85,primary,yes
+third,engineer,AB,79,primary,no
+male,neet,O,92,university,no
+male,student,B,85,senior high,no
+male,neet,A,54,primary,no
+female,programmer,AB,68,university,no
+male,programmer,A,98,primary,no
+male,teacher,O,76,doctor,no
+third,singer,B,75,junior high,no
+male,teacher,AB,55,senior high,no
+third,scientest,A,81,doctor,yes
+male,salesman,AB,46,senior high,no
+female,singer,AB,40,primary,no
+third,chef,A,68,primary,no
+male,scientest,O,88,junior high,no
+female,salesman,A,99,university,no
+third,programmer,A,89,senior high,no
+male,engineer,A,48,junior high,no
+third,engineer,AB,60,doctor,yes
+female,programmer,AB,80,junior high,no
+third,singer,B,43,primary,no
+third,student,O,72,university,no
+male,neet,A,89,doctor,no
+female,teacher,A,93,master,no
+third,scientest,B,78,university,no
+third,engineer,AB,65,primary,no
+male,teacher,B,95,master,no
+female,student,AB,39,primary,no
+third,chef,O,42,junior high,no
+third,engineer,AB,82,university,no
+third,teacher,O,54,senior high,no
+male,salesman,AB,69,junior high,no
+third,student,AB,51,doctor,no
+female,chef,B,37,junior high,no
+third,teacher,O,36,junior high,no
+male,chef,O,70,primary,yes
+male,scientest,A,85,junior high,no
+third,neet,O,90,senior high,no
+male,engineer,B,80,junior high,no
+female,singer,O,67,master,yes
+male,singer,O,85,university,no
+female,student,A,83,doctor,no
+female,engineer,O,94,junior high,yes
+female,singer,B,79,primary,no
+female,scientest,B,49,junior high,no
+male,engineer,A,58,university,no
+female,student,O,62,junior high,no
+female,salesman,B,63,junior high,no
+female,neet,O,41,senior high,yes
+female,programmer,AB,44,doctor,no
+third,singer,A,51,doctor,no
+male,programmer,A,92,master,yes
+third,teacher,AB,67,senior high,no
+third,engineer,A,49,junior high,no
+third,engineer,AB,91,doctor,no
+male,salesman,O,48,primary,no
+female,singer,AB,43,doctor,no
+female,singer,B,74,doctor,no
+male,salesman,B,73,junior high,no
+female,neet,AB,69,primary,no
+third,programmer,B,65,senior high,no
+male,chef,O,49,master,yes
+third,singer,B,96,primary,no
+third,scientest,A,37,junior high,no
+male,teacher,O,45,senior high,yes
+third,neet,A,99,primary,no
+third,programmer,O,99,senior high,yes
+female,salesman,AB,44,junior high,no
+female,teacher,AB,89,primary,no
+male,scientest,AB,65,doctor,no
+third,student,O,81,primary,no
+female,salesman,O,41,master,yes
+third,programmer,B,93,primary,no
+male,student,B,95,university,no
+female,chef,B,63,junior high,yes
+male,chef,O,85,junior high,yes
+male,neet,A,95,university,no
+male,salesman,A,64,senior high,no
+female,programmer,B,68,university,no
+third,engineer,A,38,university,no
+female,chef,O,69,primary,no
+third,neet,AB,41,senior high,no
+male,programmer,O,81,doctor,no
+female,engineer,A,73,junior high,no
+male,chef,O,90,junior high,no
+female,teacher,A,66,primary,no
+male,engineer,O,35,primary,no
+female,programmer,A,82,junior high,no
+female,chef,O,51,master,no
+female,chef,A,70,primary,no
+female,student,O,74,doctor,no
+female,engineer,B,92,senior high,no
+male,chef,A,81,junior high,no
+third,teacher,AB,93,university,no
+third,chef,B,95,primary,no
+female,chef,AB,76,doctor,yes
+female,chef,B,96,junior high,yes
+third,scientest,O,93,primary,yes
+female,salesman,B,68,primary,no
+male,salesman,O,63,junior high,yes
+third,singer,A,67,university,no
+male,salesman,A,94,master,no
+third,programmer,O,70,master,no
+third,scientest,B,60,junior high,no
+female,chef,A,66,doctor,yes
+male,programmer,AB,61,university,no
+third,engineer,B,36,university,no
+female,programmer,AB,72,master,yes
+male,chef,B,87,university,no
+male,student,A,57,master,no
+male,singer,O,70,master,no
+male,chef,O,72,primary,no
+third,teacher,AB,84,master,no
+female,chef,O,38,master,yes
+female,singer,B,75,doctor,no
+female,chef,O,87,university,no
+female,salesman,O,82,primary,yes
+third,scientest,A,75,master,no
+female,engineer,AB,45,senior high,no
+third,salesman,AB,98,university,no
+female,scientest,O,84,university,yes
+female,salesman,AB,92,master,no
+female,scientest,A,90,senior high,no
+third,teacher,B,35,university,no
+third,salesman,B,46,doctor,no
+male,programmer,A,66,doctor,no
+male,student,O,45,master,yes
+male,engineer,AB,68,doctor,no
+male,student,A,95,university,no
+male,chef,B,76,doctor,no
+female,student,A,59,primary,no
+third,programmer,B,44,senior high,no
+third,singer,AB,93,senior high,no
+female,programmer,O,97,doctor,yes
+female,engineer,A,35,primary,no
+female,scientest,O,83,senior high,no
+third,scientest,O,73,master,yes
+male,neet,AB,83,university,no
+third,salesman,A,92,senior high,no
+third,student,AB,95,senior high,no
+third,salesman,A,56,doctor,no
+male,engineer,O,53,doctor,no
+third,engineer,O,92,senior high,no
+female,neet,A,90,primary,no
+third,chef,A,94,doctor,no
+male,salesman,O,68,doctor,no
+third,chef,O,52,university,no
+third,chef,AB,88,junior high,no
+male,singer,O,94,doctor,no
+male,student,AB,74,junior high,no
+third,scientest,B,99,primary,no
+third,student,O,43,junior high,no
+female,student,B,71,senior high,no
+third,salesman,AB,62,junior high,no
+male,student,A,77,junior high,no
+female,neet,B,67,junior high,no
+female,salesman,B,43,junior high,yes
+third,student,AB,98,junior high,no
+male,teacher,B,66,senior high,no
+third,programmer,AB,35,master,no
+male,singer,AB,84,university,no
+male,chef,A,88,doctor,no
+female,scientest,AB,65,master,no
+third,programmer,B,99,university,no
+male,engineer,AB,84,junior high,no
+male,singer,AB,62,university,no
+male,scientest,A,71,university,no
+third,engineer,B,84,primary,no
+male,programmer,AB,52,junior high,no
+third,engineer,A,87,university,no
+third,chef,AB,69,university,no
+female,chef,A,80,university,no
+female,teacher,B,90,university,no
+male,engineer,B,89,master,no
+third,neet,O,58,university,no
+male,singer,O,71,primary,no
+third,salesman,A,94,doctor,no
+female,teacher,AB,48,primary,no
+third,scientest,B,72,primary,no
+female,singer,O,80,doctor,yes
+third,engineer,O,88,junior high,no
+male,programmer,AB,70,junior high,no
+third,engineer,B,67,university,no
+third,neet,A,81,primary,no
+female,neet,A,79,primary,no
+third,neet,A,47,senior high,no
+female,engineer,O,62,doctor,no
+male,chef,AB,45,junior high,yes
+male,chef,O,49,university,yes
+third,student,A,60,junior high,no
+male,student,O,66,master,no
+male,student,AB,67,doctor,no
+male,chef,AB,56,primary,yes
+female,salesman,O,79,university,yes
+female,student,A,49,junior high,no
+male,salesman,O,62,junior high,no
+male,chef,A,79,master,no
+female,programmer,A,83,doctor,no
+male,student,A,90,primary,no
+third,engineer,A,99,junior high,no
+third,salesman,A,57,senior high,no
+third,salesman,A,55,master,no
+female,neet,A,75,university,no
+female,scientest,B,41,doctor,yes
+female,scientest,B,49,junior high,no
+third,programmer,A,75,doctor,yes
+male,neet,A,84,primary,no
+third,chef,AB,38,master,no
+male,teacher,AB,42,doctor,no
+female,chef,A,49,primary,yes
+female,programmer,B,40,junior high,no
+third,scientest,A,82,master,no
+male,programmer,O,81,university,no
+male,scientest,O,83,doctor,no
+female,student,A,45,university,no
+male,neet,O,78,junior high,no
+male,student,AB,37,junior high,no
+male,salesman,B,84,university,no
+female,salesman,B,69,senior high,no
+female,singer,A,75,university,no
+third,scientest,B,56,senior high,no
+female,singer,B,96,master,no
+male,chef,A,80,doctor,yes
+male,neet,B,48,doctor,no
+male,scientest,O,35,doctor,no
+male,scientest,A,75,master,no
+male,scientest,B,37,senior high,no
+male,singer,AB,87,master,no
+male,neet,O,91,master,no
+male,chef,O,74,senior high,no
+female,salesman,AB,57,primary,no
+third,engineer,AB,87,doctor,yes
+third,salesman,AB,66,senior high,no
+male,engineer,A,61,primary,no
+male,chef,B,58,master,yes
+female,programmer,A,51,master,yes
+female,teacher,A,42,doctor,no
+male,student,A,68,primary,no
+male,salesman,O,60,university,no
+third,singer,A,41,junior high,no
+female,teacher,A,59,doctor,no
+male,teacher,A,58,master,no
+third,salesman,AB,56,primary,no
+third,salesman,O,98,junior high,no
+male,salesman,O,76,primary,no
+female,student,B,51,master,no
+male,student,O,90,university,yes
+male,student,B,61,master,no
+male,student,O,80,doctor,no
+male,engineer,AB,73,university,no
+female,neet,B,79,senior high,no
+third,scientest,AB,56,junior high,no
+third,scientest,O,84,doctor,no
+male,chef,O,49,doctor,yes
+female,engineer,B,53,primary,no
+female,student,A,69,university,no
+female,neet,O,53,primary,no
+male,teacher,O,46,university,no
+female,neet,O,62,university,no
+third,singer,AB,86,master,no
+third,singer,O,75,primary,no
+female,chef,AB,77,master,no
+female,chef,AB,71,primary,no
+male,engineer,AB,62,senior high,no
+male,scientest,A,78,university,no
+male,student,AB,94,primary,no
+male,student,B,89,university,no
+female,scientest,B,62,junior high,no
+female,engineer,O,74,master,yes
+male,student,B,76,senior high,no
+male,chef,O,67,university,no
+third,teacher,AB,85,doctor,no
+third,student,B,48,university,no
+third,engineer,B,76,university,no
+male,student,O,58,senior high,no
+third,chef,O,36,senior high,yes
+female,scientest,B,50,primary,no
+third,scientest,B,49,doctor,no
+female,scientest,A,64,senior high,no
+female,singer,AB,71,master,no
+third,teacher,A,37,junior high,no
+female,student,O,86,doctor,no
+female,scientest,O,36,university,no
+male,student,B,70,primary,no
+third,singer,AB,91,doctor,no
+third,neet,B,97,senior high,no
+male,chef,AB,66,junior high,no
+male,neet,A,54,junior high,no
+female,engineer,AB,43,junior high,no
+female,neet,B,67,senior high,no
+female,engineer,A,65,university,no
+third,singer,B,86,junior high,no
+third,engineer,O,48,senior high,yes
+female,teacher,AB,53,junior high,no
+third,salesman,B,91,junior high,no
+third,student,A,39,junior high,no
+third,programmer,B,35,doctor,no
+third,programmer,AB,57,doctor,no
+female,neet,AB,82,doctor,no
+female,chef,O,78,primary,yes
+female,singer,O,86,doctor,no
+male,singer,B,52,doctor,no
+female,neet,A,59,university,no
+male,engineer,O,92,university,no
+female,salesman,A,81,master,no
+female,programmer,B,82,junior high,no
+female,chef,A,55,primary,no
+male,student,A,58,university,no
+male,teacher,B,35,doctor,no
+male,singer,B,86,senior high,no
+third,programmer,O,79,doctor,yes
+male,teacher,AB,63,university,no
+female,singer,A,55,master,no
+male,engineer,B,68,primary,no
+third,neet,A,37,junior high,no
+third,teacher,B,69,senior high,no
+third,singer,AB,54,doctor,no
+female,student,A,53,master,no
+female,scientest,B,42,junior high,no
+male,engineer,A,69,university,no
+female,chef,AB,37,university,no
+male,singer,B,78,university,no
+third,salesman,B,93,university,no
+female,salesman,A,87,senior high,no
+third,chef,A,77,primary,yes
+third,teacher,B,45,doctor,no
+male,salesman,B,70,primary,no
+male,teacher,AB,52,primary,no
+third,student,B,86,doctor,no
+third,neet,O,92,primary,no
+female,salesman,O,98,university,no
+male,teacher,O,41,university,no
+third,student,A,96,primary,no
+male,salesman,AB,99,junior high,no
+male,scientest,O,57,master,no
+male,chef,AB,94,doctor,no
+female,teacher,O,71,senior high,no
+third,neet,B,44,senior high,no
+male,scientest,A,50,senior high,no
+male,salesman,B,79,master,no
+male,student,A,96,junior high,no
+male,singer,AB,38,primary,no
+female,student,O,97,university,no
+male,teacher,A,92,senior high,no
+third,programmer,B,86,primary,no
+third,engineer,A,40,master,no
+third,chef,A,99,doctor,no
+female,salesman,O,80,primary,no
+female,chef,O,53,university,yes
+female,scientest,O,93,university,yes
+female,student,AB,90,doctor,no
+female,student,A,59,junior high,no
+female,neet,O,84,master,yes
+female,salesman,AB,42,senior high,no
+third,singer,A,53,doctor,no
+female,singer,A,91,master,no
+male,scientest,A,83,university,no
+third,programmer,A,97,junior high,no
+third,neet,O,90,junior high,no
+third,programmer,AB,86,junior high,no
+third,salesman,AB,47,junior high,no
+male,salesman,O,73,doctor,no
+third,salesman,B,62,primary,no
+female,salesman,A,47,senior high,no
+third,neet,AB,43,master,no
+male,teacher,A,55,master,no
+male,student,A,93,university,no
+female,programmer,O,80,senior high,no
+third,scientest,A,76,primary,no
+third,chef,A,49,master,no
+third,teacher,AB,78,doctor,no
+male,scientest,A,67,master,no
+male,student,AB,90,master,no
+male,singer,B,41,university,no
+female,chef,O,56,primary,no
+third,scientest,O,51,junior high,yes
+female,student,B,83,master,no
+female,student,A,51,junior high,no
+female,scientest,A,57,doctor,no
+female,salesman,O,78,junior high,no
+third,salesman,O,35,primary,no
+third,scientest,A,76,doctor,no
+third,chef,B,76,senior high,yes
+third,chef,O,99,university,yes
+female,chef,O,49,junior high,no
+male,salesman,B,46,junior high,no
+male,chef,B,85,primary,no
+female,singer,B,76,senior high,no
+male,neet,B,49,senior high,no
+female,engineer,B,51,university,no
+male,salesman,A,73,junior high,no
+third,programmer,O,75,senior high,no
+female,salesman,O,52,senior high,no
+third,programmer,A,85,university,no
+female,engineer,B,91,primary,no
+third,salesman,AB,50,senior high,no
+male,scientest,O,44,university,no
+third,chef,O,50,primary,no
+female,engineer,B,42,university,no
+male,programmer,O,83,senior high,yes
+male,chef,AB,45,senior high,no
+female,singer,B,72,junior high,no
+third,neet,A,36,senior high,no
+third,scientest,O,81,senior high,no
+male,salesman,B,93,doctor,no
+female,neet,A,58,master,no
+third,neet,B,90,doctor,no
+third,teacher,A,57,primary,no
+third,programmer,A,40,junior high,no
+female,chef,O,93,junior high,no
+female,scientest,A,42,primary,no
+third,engineer,AB,80,doctor,no
+female,student,O,92,master,yes
+third,singer,O,56,primary,no
+male,neet,AB,95,primary,no
+female,singer,A,37,senior high,no
+third,programmer,O,60,university,yes
+third,student,O,63,primary,no
+male,chef,A,70,doctor,no
+male,salesman,AB,57,primary,no
+male,teacher,B,96,senior high,no
+female,student,B,99,doctor,no
+third,singer,B,45,senior high,no
+third,salesman,A,99,doctor,no
+third,student,B,59,senior high,no
+female,programmer,O,85,senior high,yes
+third,chef,B,97,master,no
+male,scientest,AB,78,junior high,no
+male,programmer,O,52,university,no
+third,neet,B,38,primary,no
+male,singer,O,37,university,yes
+female,chef,O,51,university,no
+female,programmer,O,59,master,no
+third,student,O,51,master,yes
+third,scientest,B,96,master,yes
+male,salesman,A,49,doctor,no
+male,salesman,O,47,master,no
+third,scientest,O,75,senior high,no
+female,engineer,AB,44,university,no
+female,singer,AB,79,primary,no
+female,teacher,O,65,junior high,yes
+male,salesman,A,73,senior high,no
+third,student,AB,55,junior high,no
+third,neet,AB,99,senior high,no
+female,chef,AB,84,university,no
+third,engineer,B,64,primary,no
+male,singer,A,55,primary,no
+female,chef,B,59,junior high,no
+third,scientest,A,69,doctor,no
+male,scientest,A,48,senior high,no
+male,student,O,87,junior high,no
+male,singer,AB,44,primary,no
+male,neet,O,92,junior high,no
+male,salesman,B,70,senior high,no
+female,student,O,92,junior high,no
+male,engineer,O,71,master,no
+male,programmer,B,95,university,no
+male,engineer,O,85,senior high,no
+third,singer,B,67,university,no
+third,scientest,AB,84,university,no
+male,programmer,B,37,primary,no
+third,chef,A,83,primary,no
+male,scientest,A,53,university,no
+male,programmer,B,59,master,no
+male,teacher,AB,94,master,no
+female,singer,AB,82,university,no
+male,chef,A,41,doctor,no
+female,teacher,A,77,junior high,no
+third,student,B,40,primary,no
+third,singer,A,65,university,no
+third,chef,B,58,senior high,no
+male,student,A,43,doctor,yes
+third,neet,A,85,junior high,no
+male,engineer,A,83,master,no
+female,teacher,B,89,primary,no
+female,engineer,A,63,junior high,no
+female,chef,B,65,university,no
+female,programmer,O,50,doctor,no
+female,singer,O,68,primary,no
+third,teacher,A,68,primary,no
+third,neet,A,85,doctor,no
+female,singer,B,61,primary,no
+female,programmer,B,87,university,no
+female,salesman,O,64,doctor,yes
+female,singer,O,76,university,no
+third,salesman,AB,64,junior high,no
+male,singer,A,67,primary,no
+third,programmer,AB,67,university,no
+third,teacher,AB,97,doctor,no
+female,teacher,A,49,master,no
+female,engineer,O,66,doctor,yes
+female,student,A,94,university,no
+female,teacher,O,46,doctor,no
+female,neet,O,69,primary,yes
+third,programmer,AB,99,university,no
+male,neet,O,75,primary,no
+third,singer,AB,96,junior high,no
+third,student,A,38,primary,no
+third,student,B,71,master,no
+female,teacher,B,67,junior high,no
+third,student,A,74,university,no
+female,singer,O,63,primary,no
+female,engineer,B,46,senior high,no
+third,teacher,A,97,university,no
+male,singer,A,69,doctor,no
+male,teacher,B,52,senior high,no
+male,neet,A,69,master,no
+female,programmer,B,43,junior high,no
+female,singer,B,59,doctor,no
+third,student,A,82,junior high,no
+female,student,B,86,doctor,no
+third,engineer,A,99,junior high,no
+third,engineer,A,60,junior high,no
+female,singer,B,66,university,no
+male,salesman,AB,72,doctor,no
+female,neet,O,50,university,no
+third,singer,O,54,doctor,no
+male,singer,A,51,senior high,no
+third,chef,B,63,doctor,no
+third,student,B,77,doctor,no
+male,singer,O,56,primary,no
+third,neet,O,62,senior high,no
+female,neet,A,54,senior high,no
+third,chef,B,48,doctor,no
+male,student,O,53,university,no
+female,neet,B,38,master,no
+female,scientest,B,49,primary,no
+third,programmer,O,52,master,yes
+third,scientest,A,56,junior high,no
+female,neet,B,38,senior high,no
+female,teacher,A,37,senior high,no
+third,chef,AB,37,senior high,no
+male,student,AB,89,master,no
+female,engineer,O,89,master,no
+male,engineer,O,87,senior high,no
+third,scientest,B,38,junior high,no
+third,neet,O,85,university,no
+male,chef,B,94,senior high,yes
+third,chef,B,78,doctor,no
+female,scientest,AB,45,master,no
+female,singer,A,74,senior high,no
+male,student,A,57,doctor,no
+third,singer,AB,97,junior high,no
+female,programmer,AB,76,primary,no
+third,teacher,B,69,junior high,no
+male,engineer,B,93,senior high,no
+male,programmer,B,74,senior high,no
+third,programmer,O,84,master,no
+third,neet,AB,40,university,no
+third,salesman,B,67,senior high,no
+female,singer,B,35,university,no
+male,singer,AB,39,primary,no
+female,neet,B,63,doctor,no
+male,teacher,B,83,senior high,no
+third,student,B,59,senior high,no
+male,engineer,O,81,primary,no
+third,engineer,AB,47,senior high,no
+male,teacher,O,97,senior high,no
+female,teacher,AB,55,master,no
+third,scientest,B,75,master,no
+male,teacher,A,54,master,no
+female,singer,AB,89,junior high,no
+third,salesman,B,97,doctor,no
+third,engineer,O,55,university,no
+male,chef,AB,71,university,no
+female,programmer,A,96,senior high,no
+third,teacher,A,61,junior high,no
+third,singer,A,64,doctor,no
+female,salesman,O,75,senior high,no
+female,programmer,B,65,junior high,no
+third,neet,AB,85,junior high,no
+female,student,A,62,primary,no
+third,scientest,O,78,master,no
+male,scientest,A,77,doctor,yes
+female,programmer,O,68,doctor,no
+female,neet,AB,69,master,no
+male,salesman,A,91,junior high,no
+third,engineer,A,66,university,no
+third,singer,AB,81,senior high,no
+male,chef,A,93,senior high,yes
+third,singer,AB,82,master,no
+male,singer,O,93,senior high,no
+third,teacher,B,57,junior high,no
+female,programmer,O,59,doctor,no
+third,engineer,O,95,university,no
+third,teacher,AB,79,master,no
+third,engineer,O,44,junior high,no
+male,programmer,O,47,primary,no
+third,programmer,B,82,university,no
+third,teacher,O,74,senior high,yes
+male,scientest,O,88,university,no
+male,teacher,B,81,senior high,no
+third,singer,B,48,primary,no
+female,engineer,A,57,primary,no
+male,chef,B,43,senior high,no
+third,programmer,A,62,doctor,no
+third,salesman,A,91,university,no
+third,teacher,B,70,primary,no
+female,chef,AB,87,doctor,no
+male,chef,A,87,senior high,yes
+female,teacher,AB,65,doctor,no
+third,student,A,67,junior high,no
+third,engineer,O,99,junior high,yes
+female,salesman,B,52,primary,no
+male,scientest,B,83,primary,no
+female,teacher,AB,47,doctor,no
+male,chef,O,91,junior high,no
+third,scientest,AB,61,primary,no
+third,student,AB,35,senior high,no
+male,chef,A,58,senior high,yes
+female,teacher,AB,71,junior high,no
+female,engineer,B,47,university,no
+female,salesman,A,76,junior high,no
+male,engineer,A,72,junior high,no
+female,singer,B,62,master,no
+male,engineer,B,55,primary,no
+third,teacher,AB,96,primary,no
+third,singer,A,86,senior high,no
+male,scientest,A,51,primary,no
+male,scientest,AB,79,senior high,no
+male,neet,A,85,junior high,no
+female,salesman,O,66,master,no
+third,student,O,65,master,no
+male,singer,B,69,primary,no
+third,scientest,A,42,senior high,no
+male,programmer,B,78,university,no
+male,singer,O,70,senior high,no
+female,salesman,B,53,master,no
+male,chef,O,81,senior high,yes
+female,salesman,A,65,university,no
+male,salesman,A,88,master,no
+third,teacher,AB,70,doctor,no
+male,neet,B,47,senior high,no
+male,teacher,B,40,senior high,no
+female,student,A,75,master,no
+third,neet,AB,98,master,no
+third,student,B,43,primary,no
+female,chef,A,97,university,no
+male,neet,O,48,master,yes
+third,teacher,O,72,junior high,no
+male,engineer,AB,89,doctor,no
+female,scientest,AB,99,senior high,no
+female,programmer,B,71,junior high,no
+third,student,A,88,master,no
+third,teacher,B,87,university,no
+male,salesman,AB,54,junior high,no
+male,teacher,B,58,primary,no
+female,chef,AB,83,master,no
+third,neet,B,79,doctor,no
+male,neet,AB,37,primary,no
+third,neet,AB,86,primary,no
+third,chef,AB,51,university,no
+third,programmer,AB,90,doctor,no
+third,chef,AB,85,doctor,yes
+female,engineer,AB,98,senior high,no
+male,engineer,A,75,doctor,no
+third,programmer,A,91,junior high,no
+male,teacher,O,96,master,yes
+female,singer,O,91,primary,no
+male,salesman,O,63,primary,yes
+third,teacher,B,89,doctor,no
+third,scientest,O,89,master,no
+third,student,A,43,junior high,no
+male,student,O,89,senior high,no
+female,scientest,B,37,master,yes
+third,student,B,46,junior high,no
+female,neet,B,77,university,no
+male,salesman,O,52,junior high,no
+third,chef,O,90,university,yes
+female,scientest,AB,49,university,no
+male,engineer,O,47,junior high,no
+third,programmer,O,54,master,no
+male,student,A,96,senior high,no
+male,singer,AB,73,primary,no
+third,engineer,B,46,master,no
+third,chef,AB,39,master,no
+third,salesman,AB,80,university,no
+third,chef,AB,85,primary,yes
+third,salesman,B,43,junior high,no
+male,salesman,AB,52,primary,no
+male,engineer,B,95,university,no
+male,student,B,94,senior high,no
+third,salesman,AB,76,senior high,no
+female,engineer,A,45,junior high,no
+male,neet,AB,86,doctor,no
+male,programmer,A,66,senior high,no
+female,scientest,O,54,junior high,no

@@ -2,5 +2,5 @@
 
 TRAINING_FILE=$1
 
-ARG_LIST="-t $TRAINING_FILE -split-percentage 66 -C 0.35 -M 3 -S"
+ARG_LIST="-t $TRAINING_FILE -split-percentage 66"
 java -cp ~/weka-3-8-1/weka.jar weka.classifiers.trees.J48 $ARG_LIST

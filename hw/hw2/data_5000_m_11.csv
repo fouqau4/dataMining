@@ -1,0 +1,5001 @@
+Age,Gender,Education,Choosed
+76,male,doctor,no
+44,third,doctor,no
+15,male,senior high,no
+31,female,university,no
+55,female,primary,no
+84,female,senior high,no
+46,male,primary,no
+76,male,master,no
+36,female,senior high,yes
+98,female,senior high,no
+76,female,master,no
+60,third,senior high,no
+59,third,university,no
+48,third,senior high,yes
+45,third,senior high,no
+59,male,university,no
+36,third,master,no
+25,female,university,no
+47,third,doctor,no
+40,male,senior high,no
+93,male,primary,no
+42,third,primary,no
+71,male,master,no
+42,male,senior high,no
+75,third,doctor,no
+34,third,doctor,yes
+92,third,doctor,no
+30,male,senior high,no
+11,female,primary,no
+20,female,master,no
+42,male,primary,no
+80,third,senior high,no
+8,female,junior high,no
+72,third,junior high,no
+71,third,doctor,no
+95,female,master,no
+18,female,junior high,no
+98,third,university,no
+92,female,university,no
+3,male,university,no
+63,female,university,no
+2,third,doctor,no
+66,third,master,no
+85,male,master,no
+41,male,junior high,no
+14,male,junior high,no
+17,male,master,no
+67,female,primary,no
+5,female,doctor,no
+75,female,master,no
+85,male,master,no
+96,male,junior high,no
+52,third,senior high,no
+22,female,primary,no
+44,male,primary,no
+85,third,university,no
+23,female,junior high,yes
+92,female,senior high,no
+30,female,master,no
+82,male,senior high,no
+13,third,primary,no
+28,third,master,yes
+98,female,master,no
+86,female,primary,no
+80,female,master,no
+55,female,junior high,no
+63,third,junior high,no
+81,third,senior high,no
+23,female,master,yes
+94,male,doctor,no
+24,male,university,yes
+42,third,senior high,no
+22,third,senior high,no
+2,female,university,no
+41,third,doctor,no
+2,male,doctor,no
+15,female,university,no
+44,female,junior high,no
+88,third,master,no
+78,male,master,no
+61,male,junior high,no
+41,male,university,yes
+99,third,junior high,no
+3,female,master,no
+67,male,doctor,no
+18,female,doctor,no
+43,third,senior high,yes
+53,male,doctor,no
+11,male,doctor,no
+21,female,primary,no
+17,third,senior high,yes
+60,male,primary,no
+34,male,university,yes
+2,third,junior high,no
+20,female,primary,no
+63,male,university,no
+93,female,university,no
+51,third,doctor,no
+67,female,university,no
+91,male,primary,no
+78,third,master,no
+16,male,junior high,no
+46,third,master,no
+37,third,junior high,yes
+41,male,doctor,no
+11,female,primary,no
+72,male,junior high,no
+62,male,primary,no
+90,female,primary,no
+69,third,doctor,no
+66,third,primary,no
+91,third,master,no
+67,third,primary,no
+11,third,master,no
+90,third,junior high,no
+71,male,doctor,no
+21,male,master,no
+10,male,senior high,no
+9,female,junior high,no
+46,third,doctor,no
+56,female,senior high,no
+42,female,primary,no
+41,female,senior high,no
+91,female,junior high,no
+86,female,senior high,no
+21,male,university,yes
+42,male,master,yes
+2,female,doctor,no
+27,female,doctor,yes
+28,male,junior high,yes
+50,female,senior high,no
+16,female,junior high,no
+52,third,university,no
+24,third,university,no
+44,male,master,yes
+22,male,primary,no
+29,male,junior high,no
+49,male,university,no
+38,male,doctor,no
+11,male,primary,no
+55,third,junior high,no
+79,female,university,no
+27,male,senior high,no
+33,male,junior high,no
+43,third,doctor,yes
+95,male,junior high,no
+46,male,junior high,no
+84,third,senior high,no
+20,third,university,no
+17,third,primary,no
+42,third,master,yes
+37,third,senior high,no
+46,male,primary,no
+39,male,university,no
+21,third,junior high,no
+12,female,senior high,no
+33,third,master,no
+23,female,junior high,no
+8,third,university,no
+1,female,junior high,no
+39,male,university,yes
+93,male,primary,no
+61,third,university,no
+38,male,junior high,no
+87,third,senior high,no
+73,male,doctor,no
+7,female,primary,no
+26,female,senior high,no
+23,male,primary,yes
+9,female,master,no
+16,male,doctor,no
+32,female,primary,no
+97,male,senior high,no
+18,male,doctor,no
+31,third,primary,yes
+55,female,university,no
+40,male,university,no
+49,third,junior high,no
+57,male,doctor,no
+26,male,doctor,yes
+68,male,junior high,no
+76,third,primary,no
+65,male,university,no
+87,third,primary,no
+43,third,junior high,no
+44,third,university,no
+41,male,junior high,no
+52,male,master,no
+92,male,doctor,no
+11,male,university,yes
+40,third,primary,yes
+34,third,university,no
+50,female,master,no
+89,third,senior high,no
+27,female,senior high,no
+58,male,primary,no
+51,third,doctor,no
+26,third,junior high,yes
+68,third,junior high,no
+6,male,master,no
+89,third,senior high,no
+63,third,doctor,no
+33,female,university,no
+35,female,doctor,yes
+72,male,master,no
+19,male,doctor,no
+84,third,master,no
+73,female,doctor,no
+35,female,primary,yes
+5,female,junior high,no
+39,third,senior high,yes
+14,male,primary,no
+91,female,senior high,no
+1,female,primary,no
+45,male,doctor,yes
+44,male,doctor,no
+92,male,junior high,no
+17,female,senior high,no
+16,male,university,no
+94,third,university,no
+96,third,master,no
+56,female,master,no
+72,third,junior high,no
+11,female,senior high,no
+93,female,junior high,no
+84,third,primary,no
+93,female,master,no
+83,female,senior high,no
+7,third,university,no
+76,male,master,no
+45,male,senior high,no
+32,female,university,no
+14,female,doctor,no
+33,third,university,yes
+55,third,senior high,no
+86,female,junior high,no
+49,female,doctor,no
+8,female,university,no
+13,male,junior high,no
+73,female,junior high,no
+70,third,primary,no
+95,third,primary,no
+75,male,senior high,no
+0,third,doctor,no
+83,third,junior high,no
+85,female,junior high,no
+90,third,junior high,no
+48,third,master,no
+27,male,university,no
+67,third,doctor,no
+99,female,master,no
+32,female,master,no
+77,male,doctor,no
+66,third,primary,no
+29,male,doctor,no
+49,male,university,no
+11,third,university,no
+50,male,master,yes
+28,male,primary,no
+21,female,master,no
+71,male,junior high,no
+80,female,primary,no
+38,female,master,yes
+73,female,senior high,no
+56,male,junior high,no
+86,female,primary,no
+7,male,primary,no
+70,third,master,no
+59,female,university,no
+29,female,university,yes
+38,male,primary,no
+64,female,doctor,no
+64,female,primary,no
+39,female,junior high,no
+27,female,senior high,no
+6,female,senior high,no
+49,male,university,yes
+73,male,primary,no
+69,male,university,no
+66,third,doctor,no
+64,male,doctor,no
+65,male,doctor,no
+56,third,doctor,no
+80,female,university,no
+25,male,doctor,yes
+66,male,master,no
+54,male,master,no
+55,third,university,no
+7,male,senior high,no
+25,female,university,no
+16,male,doctor,yes
+8,female,senior high,no
+97,female,senior high,no
+93,male,master,no
+96,third,master,no
+88,female,junior high,no
+1,female,primary,no
+35,female,university,no
+78,female,primary,no
+30,female,university,no
+24,third,primary,no
+59,third,primary,no
+61,female,doctor,no
+83,male,junior high,no
+62,female,senior high,no
+74,female,senior high,no
+47,female,junior high,yes
+42,third,senior high,yes
+72,female,doctor,no
+38,female,master,yes
+53,third,master,no
+64,female,junior high,no
+13,male,primary,no
+22,male,master,yes
+8,third,doctor,no
+51,third,senior high,no
+90,third,junior high,no
+60,third,doctor,no
+3,female,master,no
+85,female,doctor,no
+72,female,junior high,no
+67,third,master,no
+24,male,master,yes
+91,male,senior high,no
+95,male,junior high,no
+54,male,university,no
+60,third,senior high,no
+15,male,senior high,no
+15,third,master,no
+50,third,master,no
+7,male,university,no
+61,female,university,no
+19,male,junior high,yes
+50,third,master,no
+27,third,doctor,yes
+79,third,senior high,no
+39,third,junior high,no
+9,female,doctor,no
+94,male,junior high,no
+25,male,junior high,no
+24,female,master,yes
+23,third,senior high,yes
+96,female,doctor,no
+74,male,master,no
+58,male,doctor,no
+68,male,master,no
+94,third,doctor,no
+41,third,junior high,no
+13,female,doctor,no
+27,female,junior high,no
+69,male,master,no
+97,male,primary,no
+59,female,master,no
+57,male,university,no
+86,male,master,no
+41,male,university,no
+94,male,master,no
+90,female,doctor,no
+78,male,doctor,no
+11,third,master,no
+41,third,senior high,no
+64,male,doctor,no
+85,third,university,no
+70,male,primary,no
+48,female,doctor,no
+58,male,senior high,no
+78,third,university,no
+16,male,university,yes
+72,female,senior high,no
+25,male,university,yes
+52,female,university,no
+53,third,senior high,no
+86,third,university,no
+26,third,senior high,no
+68,female,master,no
+17,third,senior high,no
+12,male,master,no
+59,female,junior high,no
+9,male,senior high,no
+20,third,university,no
+33,male,junior high,yes
+51,third,university,no
+97,female,senior high,no
+0,third,junior high,no
+0,third,senior high,no
+95,third,university,no
+24,third,senior high,yes
+28,female,senior high,no
+17,male,junior high,no
+81,male,master,no
+42,female,junior high,no
+19,female,master,yes
+25,male,university,no
+37,third,senior high,no
+39,third,master,no
+44,male,doctor,no
+65,female,senior high,no
+95,male,primary,no
+10,third,master,no
+13,female,doctor,no
+79,female,primary,no
+82,male,senior high,no
+33,female,junior high,no
+65,male,primary,no
+6,third,primary,no
+58,third,university,no
+58,male,primary,no
+35,female,primary,yes
+54,third,senior high,no
+25,third,university,no
+30,male,master,yes
+58,third,senior high,no
+1,third,junior high,no
+25,female,doctor,no
+78,female,senior high,no
+40,female,junior high,yes
+84,third,master,no
+51,female,senior high,no
+95,female,primary,no
+91,male,university,no
+70,female,primary,no
+42,male,junior high,no
+44,female,master,no
+15,female,primary,yes
+35,male,master,yes
+49,third,university,no
+29,male,senior high,yes
+97,female,junior high,no
+22,third,primary,no
+86,female,senior high,no
+67,male,doctor,no
+59,female,doctor,no
+6,female,junior high,no
+52,third,primary,no
+83,third,doctor,no
+60,female,university,no
+96,third,doctor,no
+67,male,master,no
+0,male,senior high,no
+10,female,primary,no
+31,female,primary,no
+8,male,master,no
+76,third,senior high,no
+96,third,doctor,no
+34,male,master,yes
+64,third,senior high,no
+61,female,master,no
+4,third,primary,no
+4,male,doctor,no
+28,female,senior high,no
+57,third,junior high,no
+11,male,junior high,no
+73,third,master,no
+81,male,primary,no
+20,male,primary,yes
+50,female,junior high,no
+69,female,senior high,no
+1,female,doctor,no
+35,third,doctor,no
+97,female,university,no
+74,male,senior high,no
+73,third,university,no
+98,male,junior high,no
+32,third,university,no
+30,male,senior high,no
+84,male,senior high,no
+56,male,primary,no
+71,third,doctor,no
+79,female,senior high,no
+76,male,junior high,no
+0,male,junior high,no
+70,third,senior high,no
+91,female,senior high,no
+73,female,primary,no
+11,female,doctor,no
+4,female,primary,no
+69,male,senior high,no
+82,female,university,no
+23,third,junior high,no
+23,male,master,yes
+56,female,university,no
+99,male,doctor,no
+45,third,doctor,no
+44,female,doctor,yes
+92,male,senior high,no
+58,female,primary,no
+69,male,primary,no
+97,female,senior high,no
+17,female,senior high,yes
+61,third,senior high,no
+88,female,senior high,no
+21,female,senior high,no
+1,third,senior high,no
+21,third,senior high,no
+84,male,junior high,no
+95,third,master,no
+76,female,primary,no
+33,male,primary,yes
+87,male,master,no
+80,male,university,no
+20,male,master,no
+3,male,primary,no
+80,male,junior high,no
+38,third,master,yes
+49,third,junior high,no
+87,third,doctor,no
+67,male,senior high,no
+25,male,doctor,no
+23,female,doctor,no
+39,female,master,yes
+38,third,master,yes
+70,female,master,no
+12,male,junior high,yes
+99,male,junior high,no
+99,female,senior high,no
+91,male,doctor,no
+74,female,junior high,no
+62,male,primary,no
+9,male,senior high,no
+49,male,university,no
+16,female,junior high,no
+98,third,junior high,no
+49,male,university,no
+11,female,senior high,yes
+21,female,master,yes
+77,female,master,no
+35,female,senior high,no
+0,third,doctor,no
+22,male,junior high,no
+38,third,doctor,yes
+85,male,primary,no
+52,male,doctor,no
+10,male,primary,no
+15,female,university,no
+37,female,junior high,no
+22,third,university,no
+62,male,doctor,no
+61,third,university,no
+80,male,doctor,no
+38,male,senior high,yes
+20,third,primary,no
+95,female,senior high,no
+2,female,senior high,no
+75,male,university,no
+27,third,senior high,no
+15,male,master,no
+91,third,master,no
+7,male,primary,no
+90,female,university,no
+2,male,primary,no
+21,male,junior high,no
+79,female,junior high,no
+27,female,university,yes
+51,third,senior high,no
+21,male,senior high,yes
+0,female,primary,no
+31,male,junior high,yes
+64,third,primary,no
+85,female,doctor,no
+72,male,master,no
+21,female,master,no
+20,female,senior high,no
+60,third,junior high,no
+72,male,master,no
+27,third,master,yes
+33,third,doctor,yes
+51,female,senior high,no
+96,third,doctor,no
+8,male,doctor,yes
+17,third,senior high,yes
+65,third,master,no
+49,female,primary,no
+48,female,primary,no
+20,female,primary,yes
+10,female,primary,yes
+17,female,senior high,no
+61,male,university,no
+68,female,junior high,no
+8,male,senior high,no
+79,female,junior high,no
+8,male,doctor,no
+18,male,primary,no
+61,third,senior high,no
+78,male,senior high,no
+39,male,primary,no
+96,female,junior high,no
+40,male,doctor,no
+82,male,university,no
+66,third,master,no
+42,female,junior high,no
+54,male,university,no
+8,male,master,yes
+36,male,master,yes
+14,female,senior high,no
+17,third,primary,yes
+97,male,master,no
+7,female,master,no
+23,male,master,yes
+80,male,master,no
+40,third,senior high,no
+34,female,senior high,yes
+43,female,primary,no
+67,third,doctor,no
+13,third,primary,no
+2,third,master,no
+13,male,master,no
+1,male,master,no
+88,male,primary,no
+30,male,university,no
+46,third,master,yes
+93,third,university,no
+23,male,senior high,no
+29,female,master,yes
+11,third,senior high,no
+73,third,senior high,no
+54,male,doctor,no
+46,male,doctor,no
+62,male,doctor,no
+19,female,master,no
+33,male,doctor,no
+65,male,master,no
+82,female,primary,no
+66,third,university,no
+68,male,university,no
+67,female,university,no
+13,third,university,no
+81,female,doctor,no
+98,male,master,no
+35,female,university,yes
+21,female,master,yes
+93,third,senior high,no
+34,male,master,no
+20,female,junior high,no
+61,male,senior high,no
+63,male,university,no
+1,male,junior high,no
+90,female,university,no
+29,male,senior high,no
+2,third,university,no
+19,male,senior high,no
+46,male,junior high,no
+83,third,university,no
+94,third,primary,no
+20,male,doctor,no
+26,third,doctor,yes
+43,male,junior high,no
+70,female,senior high,no
+47,male,doctor,no
+12,third,junior high,no
+46,male,doctor,yes
+48,third,junior high,no
+85,female,primary,no
+3,male,doctor,no
+54,third,senior high,no
+99,male,primary,no
+3,male,doctor,no
+90,female,doctor,no
+48,female,primary,no
+64,male,university,no
+27,third,master,no
+29,male,master,yes
+46,male,senior high,no
+96,male,university,no
+62,male,senior high,no
+81,female,junior high,no
+64,female,university,no
+39,third,senior high,no
+37,third,university,no
+37,female,senior high,no
+65,third,senior high,no
+17,third,primary,no
+95,female,junior high,no
+96,female,doctor,no
+35,third,master,yes
+14,female,university,no
+69,female,senior high,no
+75,third,junior high,no
+78,female,doctor,no
+44,female,primary,no
+69,male,master,no
+70,female,senior high,no
+73,female,junior high,no
+8,third,university,no
+41,male,primary,no
+93,female,master,no
+0,female,doctor,no
+96,third,junior high,no
+61,male,primary,no
+2,female,senior high,no
+9,third,doctor,no
+94,male,master,no
+32,male,primary,no
+88,third,doctor,no
+90,third,senior high,no
+92,female,university,no
+49,third,university,no
+30,male,doctor,yes
+88,third,junior high,no
+13,male,master,no
+17,male,junior high,no
+40,third,doctor,no
+65,third,primary,no
+42,third,doctor,no
+11,female,doctor,no
+59,female,junior high,no
+1,female,doctor,no
+54,female,doctor,no
+26,third,senior high,no
+28,female,university,no
+97,female,master,no
+28,male,junior high,no
+72,male,junior high,no
+25,female,master,yes
+78,male,senior high,no
+74,third,university,no
+33,third,primary,no
+96,female,doctor,no
+91,female,junior high,no
+40,male,senior high,no
+15,third,doctor,no
+86,female,university,no
+82,third,master,no
+74,female,university,no
+25,third,doctor,no
+34,male,doctor,yes
+2,male,doctor,no
+90,female,senior high,no
+60,third,doctor,no
+1,male,university,no
+34,male,doctor,yes
+97,female,primary,no
+64,third,university,no
+43,female,primary,yes
+43,third,university,no
+33,female,doctor,no
+90,third,doctor,no
+72,female,university,no
+75,female,university,no
+93,female,doctor,no
+42,third,university,no
+25,third,university,yes
+72,third,senior high,no
+14,third,university,no
+99,female,senior high,no
+32,third,primary,no
+96,female,junior high,no
+85,female,doctor,no
+63,female,university,no
+23,male,doctor,yes
+1,third,university,no
+48,third,junior high,no
+75,female,junior high,no
+88,female,senior high,no
+34,male,master,yes
+25,third,primary,no
+6,female,senior high,no
+91,third,master,no
+47,third,junior high,no
+83,female,master,no
+6,female,senior high,no
+1,male,senior high,no
+40,female,university,yes
+82,third,junior high,no
+57,third,junior high,no
+44,male,doctor,yes
+44,female,master,yes
+49,male,senior high,no
+60,female,senior high,no
+90,female,senior high,no
+44,third,master,no
+59,female,doctor,no
+87,male,primary,no
+97,third,master,no
+22,third,senior high,no
+34,male,senior high,no
+58,third,university,no
+77,male,junior high,no
+0,male,university,no
+9,male,doctor,yes
+81,third,university,no
+30,male,doctor,yes
+8,third,doctor,no
+2,female,master,no
+72,male,university,no
+86,male,junior high,no
+36,male,master,no
+62,female,doctor,no
+14,male,junior high,no
+8,third,junior high,no
+5,third,junior high,no
+40,male,university,yes
+38,third,university,yes
+42,female,master,no
+90,third,doctor,no
+76,third,master,no
+21,female,university,yes
+35,male,primary,yes
+5,female,university,no
+82,male,primary,no
+17,female,junior high,yes
+71,third,senior high,no
+96,female,senior high,no
+31,male,university,no
+93,third,primary,no
+8,third,junior high,no
+91,third,master,no
+64,female,junior high,no
+85,male,university,no
+99,third,master,no
+88,third,junior high,no
+11,third,junior high,no
+94,male,master,no
+2,third,doctor,no
+54,male,master,no
+52,third,university,no
+96,male,doctor,no
+30,male,master,no
+32,female,primary,yes
+69,female,primary,no
+43,male,university,no
+25,female,senior high,yes
+58,male,doctor,no
+4,female,doctor,no
+36,male,doctor,yes
+82,third,senior high,no
+45,third,master,no
+85,third,doctor,no
+21,female,master,no
+36,female,primary,yes
+52,male,doctor,no
+82,male,junior high,no
+52,female,doctor,no
+50,female,doctor,no
+61,male,master,no
+31,female,primary,yes
+22,male,junior high,no
+28,third,primary,no
+16,male,primary,no
+76,female,doctor,no
+60,female,senior high,no
+61,male,junior high,no
+51,third,master,no
+17,female,junior high,no
+60,male,junior high,no
+12,third,primary,no
+55,third,senior high,no
+62,male,doctor,no
+49,male,university,no
+41,third,primary,no
+61,third,doctor,no
+97,third,university,no
+99,third,primary,no
+17,third,doctor,no
+33,third,senior high,no
+36,third,primary,no
+79,male,master,no
+17,male,senior high,no
+28,third,senior high,yes
+84,third,master,no
+11,male,master,no
+69,female,junior high,no
+17,male,master,no
+74,female,senior high,no
+15,male,doctor,no
+57,third,university,no
+20,female,junior high,yes
+70,male,primary,no
+7,female,senior high,no
+21,female,university,no
+3,male,junior high,no
+96,third,primary,no
+33,third,senior high,yes
+74,male,master,no
+89,female,master,no
+62,third,junior high,no
+55,female,senior high,no
+61,female,senior high,no
+15,female,senior high,no
+18,third,senior high,no
+28,third,university,yes
+26,third,junior high,yes
+46,female,university,no
+43,female,university,no
+91,female,senior high,no
+49,male,master,no
+23,third,primary,no
+6,third,senior high,no
+71,female,master,no
+83,third,doctor,no
+48,third,university,no
+26,female,senior high,no
+90,female,junior high,no
+7,female,primary,no
+45,third,master,yes
+97,third,senior high,no
+58,male,senior high,no
+50,third,junior high,no
+54,female,master,no
+77,third,junior high,no
+19,male,master,no
+35,male,university,no
+22,female,doctor,yes
+82,female,master,no
+44,third,senior high,no
+99,male,primary,no
+83,third,senior high,no
+28,third,master,no
+41,female,doctor,no
+68,third,primary,no
+25,third,senior high,no
+17,female,senior high,yes
+58,female,university,no
+79,third,master,no
+62,female,doctor,no
+42,female,senior high,no
+40,female,university,no
+16,male,primary,no
+72,male,senior high,no
+39,third,university,no
+15,male,master,no
+98,male,doctor,no
+76,third,doctor,no
+8,third,doctor,no
+92,female,doctor,no
+76,male,doctor,no
+96,male,senior high,no
+9,male,doctor,no
+98,third,junior high,no
+33,male,doctor,yes
+42,female,university,no
+69,third,university,no
+22,male,university,no
+73,female,master,no
+32,male,senior high,yes
+33,third,primary,no
+82,third,senior high,no
+90,third,senior high,no
+72,male,senior high,no
+8,third,junior high,no
+65,female,university,no
+98,female,junior high,no
+36,female,university,no
+24,third,doctor,yes
+77,female,senior high,no
+79,female,university,no
+42,male,primary,no
+83,male,university,no
+11,female,senior high,yes
+21,male,doctor,yes
+19,male,primary,no
+69,third,master,no
+69,third,doctor,no
+36,female,master,no
+17,third,university,no
+50,male,junior high,no
+5,male,primary,no
+77,third,university,no
+20,female,primary,yes
+18,female,doctor,yes
+83,female,university,no
+30,male,primary,no
+63,female,master,no
+56,third,doctor,no
+20,third,senior high,no
+10,male,primary,no
+97,male,primary,no
+13,male,senior high,no
+50,male,senior high,no
+87,male,doctor,no
+52,male,junior high,no
+79,female,junior high,no
+90,female,master,no
+41,female,primary,no
+59,male,doctor,no
+24,male,university,no
+87,third,doctor,no
+92,third,master,no
+25,third,university,no
+7,third,senior high,no
+42,male,master,yes
+11,female,primary,yes
+15,male,master,no
+74,third,junior high,no
+89,female,senior high,no
+90,third,master,no
+98,third,master,no
+8,female,junior high,no
+54,female,university,no
+71,third,university,no
+35,third,doctor,no
+61,female,senior high,no
+74,male,doctor,no
+24,third,senior high,yes
+80,male,primary,no
+46,male,master,yes
+6,female,master,no
+70,male,doctor,no
+34,female,primary,no
+75,female,university,no
+2,third,junior high,no
+63,male,senior high,no
+32,female,senior high,yes
+38,female,university,no
+22,male,university,no
+90,male,primary,no
+50,male,senior high,no
+35,female,junior high,no
+97,female,senior high,no
+58,female,junior high,no
+77,male,doctor,no
+12,third,university,no
+66,female,doctor,no
+85,female,senior high,no
+58,third,junior high,no
+65,male,primary,no
+48,third,junior high,no
+64,male,senior high,no
+91,female,doctor,no
+10,female,doctor,no
+71,male,master,no
+93,male,senior high,no
+51,female,doctor,no
+79,male,master,no
+1,third,junior high,no
+43,male,junior high,no
+14,female,senior high,no
+49,female,primary,no
+63,third,junior high,no
+72,female,junior high,no
+48,male,master,no
+28,male,senior high,no
+44,third,doctor,no
+12,male,doctor,yes
+59,female,senior high,no
+36,third,master,yes
+15,female,doctor,no
+94,male,senior high,no
+13,female,senior high,no
+50,female,university,no
+96,third,primary,no
+6,female,university,no
+30,male,senior high,no
+34,female,doctor,no
+23,male,senior high,no
+21,male,primary,yes
+37,male,primary,no
+91,female,junior high,no
+78,male,master,no
+6,third,master,no
+90,male,master,no
+33,female,junior high,no
+32,female,junior high,yes
+69,third,junior high,no
+45,male,primary,no
+28,male,senior high,no
+83,third,university,no
+94,female,senior high,no
+3,female,master,no
+67,male,university,no
+84,female,junior high,no
+14,third,university,no
+31,third,master,yes
+26,third,doctor,yes
+17,female,doctor,yes
+60,male,junior high,no
+39,third,doctor,yes
+16,female,junior high,yes
+68,third,senior high,no
+39,third,senior high,no
+16,female,primary,yes
+49,female,senior high,no
+55,third,senior high,no
+72,male,doctor,no
+55,male,master,no
+43,third,master,no
+24,female,doctor,no
+9,female,university,no
+58,third,university,no
+2,male,university,no
+27,female,doctor,yes
+36,female,junior high,no
+38,male,university,no
+66,male,senior high,no
+54,female,senior high,no
+31,male,university,yes
+86,male,doctor,no
+53,male,junior high,no
+86,female,doctor,no
+43,male,primary,no
+19,male,senior high,no
+36,female,master,yes
+54,third,primary,no
+69,male,doctor,no
+39,female,university,no
+85,female,junior high,no
+84,female,senior high,no
+24,third,junior high,no
+11,male,primary,no
+19,male,doctor,no
+12,female,master,no
+89,male,doctor,no
+53,female,primary,no
+93,male,university,no
+21,male,junior high,yes
+31,third,primary,no
+7,male,primary,no
+3,third,university,no
+11,male,junior high,no
+85,male,university,no
+1,male,junior high,no
+64,female,primary,no
+5,male,master,no
+28,third,junior high,no
+95,female,university,no
+98,male,junior high,no
+15,male,senior high,no
+81,third,junior high,no
+83,third,university,no
+56,female,university,no
+19,male,primary,no
+4,third,primary,no
+88,female,junior high,no
+8,female,senior high,no
+54,male,university,no
+64,third,primary,no
+36,female,doctor,yes
+75,female,university,no
+54,male,doctor,no
+49,male,primary,no
+46,third,senior high,no
+48,male,senior high,yes
+22,female,master,yes
+46,third,master,yes
+42,female,university,no
+51,female,doctor,no
+77,female,university,no
+30,third,university,no
+72,male,junior high,no
+59,third,primary,no
+18,third,doctor,no
+35,male,senior high,no
+2,male,junior high,no
+10,third,primary,no
+41,female,university,no
+33,third,junior high,no
+34,male,master,yes
+20,third,junior high,no
+35,female,university,yes
+37,female,senior high,no
+11,female,university,no
+77,female,primary,no
+81,female,senior high,no
+36,female,university,no
+51,third,doctor,no
+82,third,junior high,no
+29,female,university,no
+35,third,senior high,no
+32,male,doctor,yes
+86,male,master,no
+58,third,primary,no
+70,female,junior high,no
+2,third,master,no
+62,third,senior high,no
+62,female,primary,no
+13,female,junior high,no
+93,third,junior high,no
+52,male,primary,no
+66,female,junior high,no
+75,female,university,no
+58,third,doctor,no
+90,third,primary,no
+32,male,junior high,no
+87,male,university,no
+22,female,junior high,yes
+49,third,doctor,no
+64,female,junior high,no
+94,third,primary,no
+84,male,junior high,no
+64,female,master,no
+14,male,doctor,no
+11,female,university,no
+84,male,university,no
+39,male,primary,no
+50,female,junior high,yes
+89,male,university,no
+50,male,junior high,yes
+43,male,primary,no
+12,third,master,no
+15,female,university,no
+43,male,university,no
+61,male,junior high,no
+39,male,university,no
+69,third,junior high,no
+35,female,master,yes
+31,third,master,yes
+82,male,junior high,no
+81,female,senior high,no
+33,third,doctor,yes
+85,third,senior high,no
+84,third,primary,no
+73,female,senior high,no
+20,male,university,no
+33,third,master,no
+8,female,doctor,no
+96,third,master,no
+41,male,senior high,no
+80,male,university,no
+50,female,primary,no
+47,male,junior high,no
+18,third,senior high,no
+57,male,doctor,no
+77,third,doctor,no
+43,male,junior high,no
+2,female,university,no
+48,male,senior high,no
+84,third,master,no
+21,female,university,no
+50,female,junior high,yes
+14,female,master,no
+77,male,senior high,no
+38,male,junior high,no
+16,female,primary,yes
+74,female,junior high,no
+84,female,junior high,no
+30,male,junior high,yes
+43,female,master,no
+88,female,doctor,no
+28,female,junior high,no
+99,male,primary,no
+80,third,junior high,no
+6,male,junior high,no
+80,male,primary,no
+16,female,university,no
+16,third,junior high,no
+70,female,doctor,no
+48,third,senior high,no
+45,male,master,no
+58,third,junior high,no
+49,male,senior high,no
+15,third,doctor,no
+44,third,doctor,yes
+71,male,university,no
+37,male,doctor,no
+23,third,master,no
+74,female,junior high,no
+36,male,doctor,yes
+61,female,master,no
+19,male,university,yes
+76,female,senior high,no
+36,male,junior high,no
+88,male,senior high,no
+44,male,doctor,no
+31,third,university,yes
+4,third,primary,no
+33,female,junior high,no
+69,male,senior high,no
+6,female,primary,no
+70,female,primary,no
+65,female,doctor,no
+4,male,doctor,no
+34,third,junior high,no
+99,male,primary,no
+53,third,primary,no
+78,male,master,no
+11,female,university,no
+62,third,university,no
+37,male,senior high,no
+1,male,university,no
+56,female,master,no
+0,male,university,no
+65,third,primary,no
+70,third,university,no
+77,third,primary,no
+18,male,junior high,no
+48,female,master,yes
+19,female,master,yes
+86,male,senior high,no
+35,male,master,no
+82,male,university,no
+49,male,doctor,no
+38,female,senior high,yes
+75,third,primary,no
+88,male,university,no
+14,female,master,no
+11,female,master,no
+24,female,senior high,no
+42,third,senior high,no
+46,male,university,no
+82,third,university,no
+52,female,university,no
+21,male,university,yes
+67,male,primary,no
+61,female,master,no
+74,third,primary,no
+43,female,master,no
+26,third,senior high,yes
+18,male,doctor,no
+63,male,master,no
+33,male,university,no
+40,male,university,no
+67,third,primary,no
+19,female,primary,no
+74,female,university,no
+13,female,senior high,no
+67,third,senior high,no
+60,male,junior high,no
+28,female,university,yes
+49,male,junior high,no
+48,third,primary,no
+87,male,junior high,no
+17,male,senior high,no
+87,male,doctor,no
+31,female,primary,yes
+44,male,senior high,no
+15,male,primary,no
+29,male,doctor,no
+7,female,senior high,no
+58,male,master,no
+44,third,primary,no
+82,third,doctor,no
+22,male,junior high,yes
+44,female,master,no
+21,male,master,no
+55,female,primary,no
+61,third,senior high,no
+13,third,master,no
+3,third,primary,no
+29,third,senior high,no
+19,female,junior high,no
+99,third,university,no
+52,female,master,no
+56,female,senior high,no
+50,male,doctor,yes
+2,male,primary,no
+20,female,senior high,yes
+19,female,university,no
+70,male,primary,no
+19,male,primary,yes
+16,male,primary,no
+3,third,doctor,no
+34,third,university,no
+92,male,doctor,no
+76,female,junior high,no
+89,third,junior high,no
+26,male,primary,no
+95,third,junior high,no
+25,third,doctor,yes
+47,male,doctor,yes
+75,third,university,no
+76,third,primary,no
+50,male,senior high,no
+48,male,master,no
+34,female,doctor,no
+74,male,senior high,no
+71,third,master,no
+74,female,master,no
+28,third,senior high,no
+91,female,primary,no
+32,male,university,no
+0,third,master,no
+76,male,junior high,no
+82,female,doctor,no
+38,third,senior high,no
+18,female,university,no
+48,male,senior high,yes
+18,male,primary,yes
+29,female,master,yes
+19,male,master,no
+91,female,primary,no
+84,third,master,no
+95,male,senior high,no
+55,male,doctor,no
+32,third,senior high,yes
+54,male,master,no
+79,female,junior high,no
+87,male,junior high,no
+70,female,junior high,no
+71,male,junior high,no
+74,third,junior high,no
+13,female,primary,no
+19,female,senior high,no
+48,third,senior high,no
+56,third,master,no
+65,third,primary,no
+91,male,primary,no
+1,third,junior high,no
+92,third,master,no
+63,female,junior high,no
+22,male,university,yes
+90,third,junior high,no
+76,third,university,no
+40,male,senior high,yes
+6,male,university,no
+57,third,junior high,no
+86,male,doctor,no
+9,third,master,no
+97,male,master,no
+0,third,master,no
+22,female,doctor,yes
+59,third,doctor,no
+51,female,master,no
+66,female,primary,no
+9,third,doctor,no
+83,male,senior high,no
+7,third,master,no
+21,third,master,no
+71,male,junior high,no
+22,male,senior high,yes
+67,female,senior high,no
+72,female,master,no
+77,third,master,no
+23,third,senior high,no
+34,third,primary,no
+2,female,primary,no
+81,male,senior high,no
+22,third,master,yes
+15,third,primary,no
+6,male,university,no
+65,female,primary,no
+5,female,doctor,no
+30,third,master,no
+91,male,doctor,no
+73,male,master,no
+34,male,primary,no
+47,male,primary,no
+88,female,senior high,no
+57,female,master,no
+69,male,master,no
+73,male,doctor,no
+93,third,master,no
+87,third,doctor,no
+21,female,doctor,yes
+0,female,master,no
+7,female,master,no
+75,male,doctor,no
+83,female,master,no
+38,third,master,yes
+71,male,junior high,no
+5,male,junior high,no
+53,third,junior high,no
+68,female,master,no
+47,third,university,no
+58,male,doctor,no
+17,male,master,yes
+35,third,master,yes
+73,male,junior high,no
+80,third,master,no
+23,third,doctor,yes
+57,female,university,no
+68,male,university,no
+35,male,doctor,yes
+28,female,junior high,no
+38,third,junior high,no
+53,third,doctor,no
+33,third,university,no
+55,female,doctor,no
+14,third,junior high,no
+65,male,doctor,no
+32,female,primary,no
+54,male,primary,no
+91,third,doctor,no
+80,third,master,no
+88,third,junior high,no
+32,third,doctor,yes
+4,male,senior high,no
+91,female,senior high,no
+13,male,primary,no
+43,third,primary,no
+10,third,master,no
+76,female,senior high,no
+28,female,senior high,no
+76,third,senior high,no
+66,male,primary,no
+67,female,senior high,no
+37,third,doctor,no
+51,third,primary,no
+52,female,junior high,no
+82,female,doctor,no
+51,female,doctor,no
+34,male,junior high,yes
+6,male,senior high,no
+51,third,senior high,no
+64,third,senior high,no
+94,male,doctor,no
+44,third,doctor,yes
+26,third,senior high,no
+56,male,university,no
+61,male,master,no
+0,male,primary,no
+72,third,senior high,no
+60,male,university,no
+77,female,doctor,no
+86,female,doctor,no
+16,female,junior high,no
+0,female,primary,no
+9,male,doctor,no
+3,female,junior high,no
+37,female,senior high,no
+8,third,junior high,no
+1,female,primary,no
+14,female,doctor,no
+21,third,junior high,yes
+96,third,senior high,no
+97,male,master,no
+62,female,master,no
+35,third,master,yes
+91,third,senior high,no
+90,third,doctor,no
+95,male,senior high,no
+24,third,senior high,no
+6,male,doctor,no
+80,female,senior high,no
+48,female,senior high,no
+63,female,university,no
+44,female,senior high,no
+45,male,doctor,yes
+57,male,primary,no
+33,third,master,no
+60,male,doctor,no
+88,third,master,no
+69,female,university,no
+43,female,senior high,no
+47,male,university,yes
+12,third,university,no
+61,female,university,no
+29,female,senior high,yes
+36,male,university,no
+14,male,junior high,no
+94,male,senior high,no
+33,third,university,no
+5,male,university,no
+53,third,primary,no
+14,male,junior high,no
+84,female,master,no
+8,female,university,no
+82,male,senior high,no
+14,third,primary,no
+3,female,primary,no
+35,third,junior high,yes
+33,third,junior high,no
+65,female,primary,no
+21,female,master,no
+18,female,senior high,no
+24,third,senior high,no
+71,male,master,no
+17,female,doctor,no
+50,third,junior high,no
+58,female,primary,no
+64,female,senior high,no
+50,third,junior high,no
+11,female,university,no
+36,female,senior high,no
+29,third,doctor,no
+83,third,primary,no
+32,male,doctor,yes
+26,third,primary,no
+93,male,master,no
+89,female,primary,no
+88,male,master,no
+19,third,university,yes
+90,third,junior high,no
+0,female,university,no
+28,male,senior high,yes
+13,third,doctor,no
+36,female,primary,no
+73,third,junior high,no
+87,third,doctor,no
+66,female,doctor,no
+92,female,university,no
+59,female,doctor,no
+80,male,primary,no
+38,third,master,yes
+75,female,primary,no
+12,male,master,no
+82,female,doctor,no
+94,third,university,no
+45,third,university,no
+67,female,master,no
+68,third,senior high,no
+39,male,primary,no
+85,male,doctor,no
+17,third,primary,yes
+77,female,primary,no
+12,male,junior high,no
+54,male,primary,no
+47,male,primary,no
+89,male,senior high,no
+32,third,primary,no
+2,female,junior high,no
+72,female,junior high,no
+93,third,doctor,no
+94,female,senior high,no
+94,female,doctor,no
+33,female,doctor,no
+64,female,master,no
+61,female,master,no
+42,third,university,no
+79,female,university,no
+32,male,doctor,yes
+57,third,university,no
+67,third,senior high,no
+80,third,master,no
+12,female,master,no
+37,third,primary,yes
+75,female,master,no
+24,third,primary,no
+96,third,doctor,no
+34,female,university,no
+94,third,junior high,no
+82,third,primary,no
+33,male,junior high,no
+39,female,master,no
+12,female,university,no
+21,male,university,yes
+72,third,master,no
+53,female,university,no
+0,third,senior high,no
+11,male,doctor,no
+51,female,doctor,no
+25,male,master,yes
+3,female,university,no
+44,third,doctor,no
+90,male,master,no
+28,female,doctor,yes
+35,third,primary,yes
+45,female,doctor,yes
+71,male,senior high,no
+77,female,doctor,no
+33,male,junior high,no
+89,third,senior high,no
+69,male,primary,no
+51,female,senior high,no
+41,male,master,no
+2,male,junior high,no
+19,male,doctor,no
+82,male,junior high,no
+47,male,doctor,yes
+66,female,university,no
+45,female,senior high,no
+37,male,junior high,no
+44,female,senior high,no
+43,female,doctor,yes
+56,female,university,no
+0,female,senior high,no
+77,third,master,no
+99,third,senior high,no
+33,male,junior high,no
+6,female,senior high,no
+99,female,primary,no
+37,third,primary,no
+3,third,senior high,no
+45,male,university,no
+97,male,doctor,no
+83,male,primary,no
+87,third,master,no
+37,female,primary,yes
+21,female,doctor,no
+39,third,junior high,yes
+67,male,master,no
+11,male,primary,yes
+63,female,master,no
+56,female,university,no
+10,third,master,no
+27,male,primary,no
+47,third,senior high,no
+88,third,primary,no
+16,female,master,no
+17,female,doctor,no
+55,female,doctor,no
+16,male,doctor,no
+38,female,doctor,no
+53,third,doctor,no
+68,male,university,no
+67,female,primary,no
+8,third,primary,no
+33,male,master,yes
+32,male,master,no
+90,third,senior high,no
+9,male,doctor,yes
+87,female,junior high,no
+55,third,university,no
+34,third,university,no
+0,female,primary,no
+69,female,junior high,no
+16,female,master,no
+18,third,primary,no
+54,male,junior high,no
+34,third,master,yes
+47,male,university,no
+15,third,primary,no
+33,female,university,yes
+70,male,doctor,no
+71,female,master,no
+12,female,primary,yes
+9,third,senior high,no
+98,female,senior high,no
+47,third,junior high,no
+39,male,primary,yes
+81,male,primary,no
+55,third,master,no
+53,female,university,no
+28,female,senior high,no
+93,third,junior high,no
+30,male,junior high,yes
+87,male,university,no
+32,third,master,yes
+33,male,junior high,yes
+65,third,master,no
+6,female,master,no
+31,female,primary,no
+74,male,junior high,no
+46,female,primary,no
+88,male,master,no
+17,female,primary,yes
+76,third,primary,no
+94,male,master,no
+36,female,doctor,no
+56,third,university,no
+25,female,primary,no
+9,male,doctor,no
+65,third,doctor,no
+9,male,master,yes
+36,female,master,no
+54,male,doctor,no
+87,male,junior high,no
+5,male,junior high,no
+30,male,master,no
+8,third,master,no
+1,third,senior high,no
+25,third,junior high,yes
+47,female,doctor,no
+72,third,university,no
+44,female,junior high,no
+89,third,primary,no
+82,male,master,no
+69,male,master,no
+2,male,senior high,no
+26,male,junior high,yes
+97,third,junior high,no
+49,female,doctor,yes
+31,third,junior high,no
+46,male,primary,no
+19,female,junior high,no
+18,female,doctor,yes
+28,male,master,yes
+48,third,senior high,no
+30,third,senior high,yes
+6,third,university,no
+39,third,master,no
+47,male,doctor,yes
+23,male,junior high,no
+24,female,doctor,yes
+79,third,primary,no
+68,third,senior high,no
+7,male,master,no
+13,female,master,no
+44,female,doctor,no
+28,female,senior high,no
+11,female,master,no
+88,female,junior high,no
+11,female,university,no
+88,female,university,no
+41,female,primary,no
+73,female,senior high,no
+78,third,junior high,no
+4,male,doctor,no
+43,female,junior high,no
+53,third,senior high,no
+3,male,primary,no
+6,male,university,no
+68,male,senior high,no
+7,female,doctor,no
+67,female,doctor,no
+36,third,master,no
+72,male,primary,no
+6,female,junior high,no
+74,male,primary,no
+95,third,master,no
+36,male,junior high,yes
+41,male,master,yes
+69,third,university,no
+25,third,doctor,no
+27,male,senior high,no
+46,third,university,no
+93,third,junior high,no
+20,third,senior high,yes
+56,third,master,no
+2,female,university,no
+29,male,doctor,yes
+7,third,senior high,no
+13,male,primary,no
+65,female,university,no
+6,third,primary,no
+28,third,master,no
+72,third,master,no
+68,female,university,no
+58,male,master,no
+26,third,university,no
+1,male,doctor,no
+24,third,master,no
+42,female,university,yes
+73,third,master,no
+49,third,doctor,no
+37,male,junior high,no
+28,female,senior high,yes
+31,male,doctor,yes
+45,female,senior high,no
+70,third,senior high,no
+27,female,senior high,no
+50,third,doctor,yes
+44,male,master,yes
+70,male,doctor,no
+50,male,junior high,no
+76,female,doctor,no
+6,female,senior high,no
+51,third,junior high,no
+47,male,doctor,yes
+52,third,doctor,no
+60,third,university,no
+45,male,junior high,no
+26,third,senior high,yes
+53,third,senior high,no
+3,female,university,no
+92,third,junior high,no
+34,female,doctor,yes
+81,male,university,no
+41,male,doctor,no
+41,male,junior high,yes
+96,female,master,no
+13,third,master,no
+34,female,junior high,yes
+94,female,university,no
+7,female,master,no
+44,third,junior high,no
+6,female,university,no
+86,female,primary,no
+37,male,master,no
+94,male,junior high,no
+80,male,junior high,no
+96,third,senior high,no
+55,third,junior high,no
+93,male,doctor,no
+70,male,junior high,no
+75,female,doctor,no
+98,male,doctor,no
+20,third,primary,no
+22,third,university,yes
+51,female,doctor,no
+1,female,university,no
+73,female,junior high,no
+0,female,university,no
+57,female,senior high,no
+17,female,junior high,yes
+78,female,doctor,no
+8,male,senior high,no
+87,male,junior high,no
+70,third,junior high,no
+48,female,junior high,no
+9,third,doctor,no
+14,male,university,no
+15,female,junior high,no
+29,third,senior high,no
+42,third,doctor,no
+47,female,university,no
+36,third,primary,yes
+38,third,master,no
+86,male,doctor,no
+76,male,junior high,no
+14,female,doctor,no
+18,male,primary,yes
+82,female,senior high,no
+42,female,university,no
+29,male,junior high,no
+96,third,doctor,no
+66,third,primary,no
+0,male,senior high,no
+45,third,junior high,yes
+76,third,university,no
+60,male,university,no
+62,female,university,no
+92,third,doctor,no
+20,male,university,yes
+33,third,senior high,no
+75,third,primary,no
+84,third,doctor,no
+62,third,primary,no
+30,third,university,no
+80,female,junior high,no
+69,male,university,no
+60,third,primary,no
+68,female,primary,no
+63,female,junior high,no
+9,male,master,no
+67,male,junior high,no
+51,female,university,no
+13,female,senior high,yes
+13,female,junior high,yes
+73,female,master,no
+59,male,senior high,no
+65,female,doctor,no
+10,female,primary,no
+0,female,primary,no
+78,third,master,no
+38,third,master,yes
+92,third,primary,no
+7,male,senior high,no
+70,male,senior high,no
+61,third,master,no
+72,third,senior high,no
+7,male,junior high,no
+8,third,senior high,no
+67,male,junior high,no
+32,male,university,no
+34,male,primary,yes
+25,male,junior high,yes
+25,male,primary,no
+96,third,primary,no
+50,male,junior high,no
+33,female,primary,yes
+88,third,primary,no
+68,male,doctor,no
+65,third,doctor,no
+47,female,university,no
+29,male,primary,yes
+51,male,primary,no
+75,female,junior high,no
+25,male,senior high,no
+82,male,junior high,no
+33,female,primary,yes
+53,female,junior high,no
+5,female,doctor,no
+1,third,senior high,no
+76,third,master,no
+46,male,senior high,no
+50,female,university,no
+51,male,university,no
+64,third,senior high,no
+34,third,senior high,no
+6,third,doctor,no
+62,male,junior high,no
+11,third,primary,no
+44,male,university,no
+11,male,master,yes
+27,female,university,yes
+64,female,junior high,no
+10,male,primary,no
+2,male,primary,no
+76,third,master,no
+24,third,senior high,no
+58,female,primary,no
+58,third,university,no
+30,third,master,yes
+86,third,senior high,no
+84,male,senior high,no
+64,third,junior high,no
+76,male,senior high,no
+87,male,junior high,no
+74,female,university,no
+61,female,university,no
+9,third,university,no
+36,third,university,no
+28,third,primary,no
+30,third,senior high,yes
+12,male,university,no
+96,third,university,no
+88,male,junior high,no
+73,male,primary,no
+61,female,master,no
+7,female,master,no
+58,female,master,no
+72,third,doctor,no
+44,male,senior high,no
+89,female,master,no
+35,third,university,no
+4,third,junior high,no
+78,female,master,no
+80,third,senior high,no
+7,male,junior high,no
+29,male,doctor,yes
+4,male,senior high,no
+92,male,university,no
+30,third,master,no
+41,female,doctor,yes
+28,male,university,no
+66,male,doctor,no
+82,male,senior high,no
+73,male,primary,no
+53,third,doctor,no
+20,male,university,no
+51,male,primary,no
+23,male,junior high,no
+65,female,master,no
+45,male,junior high,no
+35,male,university,no
+41,third,senior high,no
+67,third,university,no
+18,female,primary,no
+9,third,junior high,no
+70,male,junior high,no
+39,male,university,no
+72,male,university,no
+31,male,university,yes
+67,male,junior high,no
+62,female,university,no
+56,third,master,no
+93,third,doctor,no
+62,third,junior high,no
+40,third,doctor,yes
+72,female,master,no
+97,female,senior high,no
+69,female,master,no
+39,third,junior high,no
+90,third,junior high,no
+73,female,junior high,no
+45,female,master,no
+17,male,primary,no
+63,female,junior high,no
+43,male,primary,no
+62,male,senior high,no
+47,female,junior high,no
+72,female,primary,no
+81,female,senior high,no
+94,female,junior high,no
+69,third,doctor,no
+20,female,master,no
+90,male,senior high,no
+85,third,university,no
+82,third,university,no
+51,third,doctor,no
+53,female,senior high,no
+12,male,junior high,no
+10,third,junior high,no
+10,third,primary,no
+14,female,university,no
+66,male,university,no
+7,female,doctor,no
+32,female,primary,no
+0,third,junior high,no
+34,female,doctor,no
+60,male,university,no
+90,male,doctor,no
+4,third,university,no
+38,male,master,no
+75,third,doctor,no
+54,third,master,no
+58,female,doctor,no
+82,female,doctor,no
+54,male,primary,no
+92,female,senior high,no
+34,third,primary,yes
+26,male,university,no
+6,male,doctor,no
+82,male,junior high,no
+25,female,doctor,no
+22,female,junior high,yes
+36,female,junior high,yes
+80,male,master,no
+50,third,senior high,no
+54,male,master,no
+51,female,senior high,no
+9,male,university,no
+74,third,doctor,no
+94,female,senior high,no
+39,third,master,yes
+36,male,master,no
+8,female,master,no
+61,male,university,no
+98,third,junior high,no
+87,female,doctor,no
+4,male,senior high,no
+78,female,junior high,no
+97,male,senior high,no
+47,male,senior high,no
+39,male,university,no
+50,female,doctor,no
+2,male,primary,no
+19,third,primary,yes
+55,third,primary,no
+78,female,primary,no
+72,male,primary,no
+84,female,primary,no
+83,third,primary,no
+48,female,master,no
+6,third,master,no
+51,male,senior high,no
+81,female,university,no
+96,third,senior high,no
+57,male,doctor,no
+58,male,doctor,no
+33,female,primary,yes
+97,third,doctor,no
+52,female,senior high,no
+52,third,university,no
+42,male,primary,no
+53,male,university,no
+45,male,primary,no
+1,male,senior high,no
+10,female,senior high,no
+2,female,senior high,no
+37,male,junior high,no
+77,third,master,no
+14,female,senior high,no
+55,third,university,no
+63,female,master,no
+29,third,university,no
+52,third,senior high,no
+61,third,master,no
+32,female,doctor,no
+55,male,doctor,no
+74,female,master,no
+81,female,primary,no
+81,third,university,no
+10,third,primary,no
+85,third,senior high,no
+9,third,junior high,no
+46,female,primary,no
+5,third,master,no
+80,third,primary,no
+65,third,senior high,no
+70,female,primary,no
+36,female,doctor,no
+65,third,doctor,no
+14,third,master,no
+48,third,junior high,no
+6,male,senior high,no
+37,female,junior high,yes
+89,third,university,no
+31,female,junior high,no
+3,male,doctor,no
+90,third,junior high,no
+42,third,primary,no
+91,third,master,no
+51,female,junior high,no
+37,third,doctor,no
+14,third,primary,no
+96,third,primary,no
+78,female,junior high,no
+91,third,doctor,no
+97,male,university,no
+22,third,primary,no
+46,female,university,no
+14,male,doctor,no
+40,third,junior high,no
+7,female,doctor,no
+72,third,master,no
+97,third,master,no
+96,female,primary,no
+93,female,senior high,no
+19,female,doctor,no
+22,female,senior high,no
+22,male,doctor,no
+47,male,primary,no
+25,male,senior high,no
+40,female,doctor,no
+18,male,junior high,yes
+34,third,primary,yes
+49,female,primary,no
+2,male,primary,no
+35,third,senior high,no
+21,third,master,no
+27,male,master,no
+6,male,primary,no
+68,third,university,no
+99,third,primary,no
+14,male,doctor,no
+43,third,master,yes
+8,male,master,no
+36,male,doctor,no
+96,female,junior high,no
+34,female,junior high,yes
+53,male,junior high,no
+24,third,senior high,no
+28,female,primary,yes
+70,third,master,no
+33,male,university,yes
+34,third,primary,no
+63,third,master,no
+81,male,university,no
+23,third,senior high,yes
+30,female,doctor,no
+9,third,doctor,no
+78,male,university,no
+28,male,master,yes
+92,male,primary,no
+30,male,university,no
+34,female,junior high,yes
+66,male,master,no
+87,third,senior high,no
+61,male,master,no
+99,male,primary,no
+91,male,university,no
+24,third,primary,yes
+65,third,primary,no
+8,female,university,no
+28,female,university,no
+43,female,junior high,no
+11,female,doctor,no
+9,male,doctor,no
+77,male,master,no
+53,female,master,no
+20,third,junior high,no
+39,male,primary,no
+99,third,junior high,no
+91,male,senior high,no
+20,female,junior high,no
+30,female,master,yes
+20,third,university,yes
+26,third,primary,no
+20,third,university,no
+55,third,university,no
+4,female,senior high,no
+85,third,university,no
+87,male,senior high,no
+56,female,master,no
+34,female,master,yes
+96,third,senior high,no
+82,female,university,no
+61,third,master,no
+86,male,doctor,no
+71,female,junior high,no
+29,female,junior high,no
+97,male,junior high,no
+62,female,doctor,no
+5,female,junior high,no
+94,female,primary,no
+59,third,master,no
+1,third,master,no
+7,third,primary,no
+32,female,junior high,no
+75,female,doctor,no
+13,female,primary,no
+88,male,senior high,no
+70,female,primary,no
+49,third,master,no
+77,female,doctor,no
+94,male,doctor,no
+35,female,senior high,yes
+87,female,university,no
+60,male,master,no
+79,male,senior high,no
+17,male,master,no
+32,third,primary,no
+40,third,master,no
+40,third,junior high,no
+81,male,junior high,no
+26,third,university,yes
+47,female,master,no
+89,female,primary,no
+51,male,doctor,no
+36,female,doctor,yes
+89,female,primary,no
+31,female,primary,no
+50,female,doctor,no
+67,male,junior high,no
+85,third,doctor,no
+9,third,doctor,no
+34,male,university,yes
+68,third,junior high,no
+78,third,junior high,no
+19,male,university,no
+95,female,master,no
+18,male,doctor,no
+16,male,doctor,no
+71,female,university,no
+58,female,master,no
+26,female,university,yes
+95,third,doctor,no
+42,female,doctor,yes
+7,female,master,no
+12,male,master,no
+14,male,master,no
+3,third,master,no
+85,male,university,no
+5,third,master,no
+42,third,university,no
+93,third,university,no
+32,male,primary,yes
+14,third,junior high,no
+64,third,senior high,no
+47,male,junior high,no
+36,male,senior high,yes
+30,male,primary,no
+17,male,primary,no
+0,third,master,no
+8,female,master,no
+59,female,primary,no
+83,third,senior high,no
+89,third,doctor,no
+67,male,junior high,no
+68,female,doctor,no
+99,male,senior high,no
+68,third,junior high,no
+21,female,primary,no
+94,female,master,no
+69,female,senior high,no
+35,female,master,yes
+2,female,primary,no
+65,female,senior high,no
+86,male,doctor,no
+49,female,junior high,no
+78,male,junior high,no
+52,female,senior high,no
+35,male,junior high,no
+70,male,master,no
+50,female,primary,no
+33,male,university,no
+27,female,university,no
+10,third,doctor,no
+77,male,doctor,no
+89,third,senior high,no
+14,male,master,no
+28,third,master,no
+19,male,senior high,no
+83,male,primary,no
+52,male,university,no
+65,male,primary,no
+34,third,university,yes
+99,third,university,no
+19,female,senior high,no
+1,third,university,no
+94,third,university,no
+63,male,university,no
+80,male,master,no
+42,third,junior high,no
+59,male,senior high,no
+20,male,junior high,no
+41,male,master,no
+22,female,senior high,yes
+81,female,university,no
+23,female,junior high,yes
+20,third,master,yes
+61,female,university,no
+7,third,senior high,no
+51,female,doctor,no
+35,female,primary,no
+32,third,senior high,no
+92,male,primary,no
+34,third,senior high,no
+48,third,senior high,no
+11,female,university,no
+10,third,master,no
+22,male,primary,no
+76,male,senior high,no
+0,third,junior high,no
+12,female,master,yes
+28,male,doctor,no
+56,third,primary,no
+26,female,doctor,no
+63,female,doctor,no
+1,third,master,no
+91,female,junior high,no
+64,female,primary,no
+33,male,doctor,yes
+96,female,primary,no
+93,third,senior high,no
+58,male,senior high,no
+43,male,master,yes
+65,third,doctor,no
+54,female,junior high,no
+75,male,junior high,no
+91,third,university,no
+98,male,doctor,no
+99,third,master,no
+3,male,junior high,no
+38,female,senior high,no
+13,female,master,no
+75,female,senior high,no
+21,female,university,yes
+60,female,doctor,no
+75,male,senior high,no
+44,male,junior high,no
+71,male,primary,no
+39,third,junior high,yes
+43,third,junior high,no
+21,third,junior high,no
+59,male,senior high,no
+81,third,university,no
+70,female,master,no
+86,female,primary,no
+50,third,senior high,no
+20,female,university,yes
+54,third,senior high,no
+73,male,university,no
+65,male,primary,no
+23,male,primary,no
+37,male,junior high,yes
+83,male,junior high,no
+82,third,university,no
+42,third,doctor,yes
+48,third,primary,no
+50,third,junior high,no
+39,third,senior high,yes
+96,third,university,no
+65,third,master,no
+62,third,university,no
+84,third,junior high,no
+85,third,master,no
+54,third,master,no
+58,female,university,no
+97,female,master,no
+33,third,master,yes
+59,female,doctor,no
+35,third,senior high,no
+61,third,junior high,no
+25,third,master,no
+41,male,primary,no
+82,male,senior high,no
+44,female,senior high,yes
+59,female,master,no
+25,male,primary,yes
+78,male,doctor,no
+78,third,doctor,no
+22,female,master,yes
+71,male,university,no
+18,male,master,yes
+49,female,senior high,yes
+32,third,university,yes
+5,female,senior high,no
+17,female,university,no
+27,female,primary,no
+93,male,master,no
+74,female,senior high,no
+65,third,primary,no
+49,male,master,no
+52,female,university,no
+78,third,senior high,no
+72,male,doctor,no
+35,male,primary,no
+83,male,doctor,no
+95,male,doctor,no
+28,female,junior high,no
+3,third,doctor,no
+13,male,primary,no
+49,male,university,no
+55,male,senior high,no
+69,third,junior high,no
+59,female,senior high,no
+54,third,university,no
+81,female,doctor,no
+34,third,junior high,yes
+31,third,primary,yes
+44,third,university,no
+51,female,doctor,no
+6,third,senior high,no
+60,male,master,no
+2,female,doctor,no
+97,male,primary,no
+64,female,master,no
+84,third,primary,no
+87,female,master,no
+12,female,primary,no
+22,female,primary,no
+58,third,doctor,no
+68,male,senior high,no
+9,third,senior high,no
+67,male,junior high,no
+4,third,master,no
+59,female,university,no
+7,female,junior high,no
+44,third,doctor,yes
+58,female,senior high,no
+34,third,junior high,no
+36,female,doctor,yes
+16,female,senior high,no
+78,female,master,no
+77,male,master,no
+76,third,primary,no
+79,third,junior high,no
+6,female,senior high,no
+80,female,junior high,no
+19,male,university,no
+82,female,primary,no
+7,female,junior high,no
+5,third,doctor,no
+62,third,master,no
+79,female,junior high,no
+45,third,university,no
+23,male,junior high,no
+20,female,doctor,yes
+95,male,master,no
+78,female,master,no
+72,third,master,no
+57,male,senior high,no
+49,female,doctor,no
+21,male,primary,yes
+49,female,senior high,no
+24,male,doctor,no
+32,female,senior high,no
+1,male,senior high,no
+26,male,master,yes
+10,third,primary,no
+13,third,primary,no
+85,third,junior high,no
+50,third,master,yes
+5,third,junior high,no
+81,male,university,no
+32,female,junior high,no
+29,third,primary,yes
+7,female,primary,no
+79,male,primary,no
+81,third,doctor,no
+1,female,university,no
+39,third,senior high,no
+28,female,master,no
+82,third,doctor,no
+51,third,doctor,no
+64,female,doctor,no
+2,third,primary,no
+7,male,university,no
+38,third,university,no
+62,female,doctor,no
+2,female,university,no
+71,male,university,no
+48,female,senior high,no
+81,third,junior high,no
+13,female,master,no
+52,male,doctor,no
+24,female,doctor,yes
+79,male,doctor,no
+13,third,senior high,no
+52,third,doctor,no
+80,male,primary,no
+28,male,senior high,no
+89,third,junior high,no
+88,female,senior high,no
+20,third,master,yes
+35,female,doctor,no
+92,female,primary,no
+39,male,master,yes
+1,female,university,no
+11,female,senior high,no
+63,female,doctor,no
+26,third,senior high,yes
+87,third,doctor,no
+86,male,junior high,no
+67,male,doctor,no
+93,female,university,no
+44,third,junior high,no
+51,male,primary,no
+68,female,university,no
+79,female,master,no
+73,female,senior high,no
+72,third,university,no
+64,male,university,no
+90,third,primary,no
+48,male,doctor,yes
+6,female,junior high,no
+21,female,primary,no
+15,male,master,no
+17,female,university,no
+89,male,senior high,no
+33,third,university,no
+46,male,senior high,no
+33,third,junior high,no
+93,third,doctor,no
+8,female,junior high,no
+17,female,junior high,no
+95,female,university,no
+92,male,senior high,no
+75,third,senior high,no
+65,male,primary,no
+42,male,junior high,no
+85,female,senior high,no
+37,male,primary,no
+71,female,primary,no
+87,male,primary,no
+80,male,university,no
+19,male,doctor,yes
+11,male,primary,yes
+14,female,primary,yes
+77,female,master,no
+44,third,senior high,no
+11,male,primary,no
+60,third,university,no
+8,third,junior high,no
+94,female,university,no
+39,female,junior high,no
+52,third,doctor,no
+65,male,university,no
+6,male,doctor,no
+77,female,primary,no
+22,third,primary,no
+1,female,master,no
+5,third,master,no
+18,female,university,yes
+98,male,university,no
+86,female,doctor,no
+54,female,university,no
+80,third,doctor,no
+97,male,senior high,no
+13,male,university,no
+51,third,junior high,no
+38,third,senior high,no
+46,male,junior high,no
+43,female,master,no
+17,female,university,no
+3,female,university,no
+83,male,primary,no
+36,female,senior high,no
+51,female,junior high,no
+10,third,master,no
+6,male,master,no
+37,female,master,no
+58,male,master,no
+41,male,junior high,no
+90,male,primary,no
+90,third,master,no
+0,third,master,no
+9,female,master,no
+28,third,doctor,no
+8,third,university,no
+86,male,senior high,no
+7,female,junior high,no
+20,female,doctor,yes
+72,third,university,no
+41,male,university,no
+77,male,senior high,no
+65,third,primary,no
+45,male,senior high,yes
+83,third,primary,no
+23,male,primary,no
+10,female,junior high,no
+69,male,university,no
+53,male,senior high,no
+74,male,master,no
+53,male,master,no
+87,third,primary,no
+18,female,doctor,yes
+86,male,junior high,no
+63,third,primary,no
+15,female,doctor,no
+64,male,master,no
+20,third,university,no
+43,third,master,yes
+24,male,master,yes
+85,third,senior high,no
+37,male,university,yes
+98,male,junior high,no
+56,male,junior high,no
+11,male,university,yes
+90,third,primary,no
+61,female,primary,no
+50,third,senior high,no
+4,female,junior high,no
+79,male,junior high,no
+40,female,junior high,no
+90,third,senior high,no
+5,male,doctor,no
+54,male,primary,no
+95,male,senior high,no
+7,female,senior high,no
+71,third,junior high,no
+24,female,junior high,no
+47,female,doctor,no
+59,male,junior high,no
+16,third,junior high,no
+26,female,senior high,yes
+47,female,primary,no
+57,female,master,no
+83,male,junior high,no
+82,female,senior high,no
+53,male,master,no
+39,male,master,yes
+45,female,master,no
+52,male,junior high,no
+67,female,master,no
+14,female,senior high,no
+2,male,master,no
+85,male,university,no
+53,third,primary,no
+55,female,doctor,no
+13,female,university,no
+48,male,university,no
+36,third,doctor,yes
+63,male,doctor,no
+69,male,junior high,no
+74,female,master,no
+16,female,master,no
+45,third,doctor,no
+38,third,doctor,no
+93,third,senior high,no
+60,third,primary,no
+17,third,primary,no
+80,female,primary,no
+21,third,senior high,yes
+98,third,master,no
+51,male,university,no
+62,female,university,no
+13,female,senior high,no
+10,third,university,no
+80,female,senior high,no
+68,third,doctor,no
+22,male,doctor,yes
+27,female,primary,no
+15,third,senior high,no
+72,female,primary,no
+15,female,senior high,no
+83,male,doctor,no
+93,female,senior high,no
+74,male,master,no
+78,third,doctor,no
+99,third,master,no
+85,female,university,no
+41,third,senior high,yes
+67,third,junior high,no
+8,male,master,no
+74,female,junior high,no
+93,male,master,no
+42,female,senior high,no
+69,third,doctor,no
+42,third,master,no
+27,male,junior high,yes
+66,male,junior high,no
+51,third,doctor,no
+88,male,senior high,no
+78,third,doctor,no
+94,third,doctor,no
+65,female,junior high,no
+38,third,primary,no
+13,third,junior high,no
+66,male,university,no
+56,male,primary,no
+48,male,university,no
+36,female,primary,yes
+27,third,doctor,yes
+32,female,senior high,yes
+27,third,master,yes
+78,male,master,no
+91,male,senior high,no
+18,female,master,no
+82,male,senior high,no
+44,male,university,no
+4,male,master,no
+22,third,doctor,no
+41,male,master,no
+15,third,university,no
+72,third,primary,no
+60,female,university,no
+8,male,university,no
+37,third,junior high,no
+53,third,university,no
+93,third,primary,no
+36,male,primary,yes
+11,male,primary,no
+56,female,primary,no
+84,male,junior high,no
+84,male,senior high,no
+4,female,primary,no
+47,female,doctor,no
+47,third,master,yes
+98,third,doctor,no
+15,female,senior high,no
+36,female,senior high,no
+65,male,doctor,no
+11,third,junior high,no
+85,third,senior high,no
+44,third,senior high,no
+40,female,junior high,no
+31,male,primary,no
+25,female,university,no
+80,male,primary,no
+83,male,master,no
+36,third,senior high,yes
+1,male,doctor,no
+86,male,master,no
+40,female,university,no
+1,third,senior high,no
+51,female,master,no
+20,female,primary,no
+26,third,university,no
+14,male,master,no
+65,third,master,no
+87,third,doctor,no
+43,female,primary,yes
+8,male,junior high,no
+54,female,master,no
+89,third,university,no
+60,female,primary,no
+48,female,doctor,yes
+94,third,primary,no
+15,third,primary,no
+37,female,junior high,no
+27,male,master,no
+36,male,university,yes
+97,male,master,no
+87,female,doctor,no
+39,female,university,yes
+97,third,doctor,no
+13,male,senior high,no
+50,male,master,no
+90,male,university,no
+79,third,senior high,no
+60,female,primary,no
+42,male,university,no
+77,male,senior high,no
+31,male,junior high,no
+4,female,primary,no
+55,third,master,no
+81,third,university,no
+47,male,doctor,yes
+11,male,primary,yes
+99,female,junior high,no
+76,male,master,no
+22,third,university,no
+82,third,senior high,no
+77,female,junior high,no
+92,third,doctor,no
+51,male,master,no
+59,male,senior high,no
+82,male,university,no
+56,male,primary,no
+92,male,junior high,no
+36,male,junior high,no
+39,male,junior high,no
+91,female,senior high,no
+56,male,junior high,no
+81,female,primary,no
+32,male,master,yes
+88,female,junior high,no
+52,male,primary,no
+45,male,primary,no
+95,third,university,no
+40,female,master,yes
+25,female,doctor,yes
+38,third,doctor,yes
+15,female,master,yes
+55,male,master,no
+87,male,junior high,no
+55,male,doctor,no
+2,third,primary,no
+62,female,junior high,no
+13,male,doctor,no
+51,male,university,no
+53,female,doctor,no
+80,female,senior high,no
+15,third,university,no
+93,third,master,no
+58,third,junior high,no
+64,female,senior high,no
+65,female,university,no
+85,third,university,no
+15,female,doctor,no
+65,third,primary,no
+61,male,senior high,no
+34,female,primary,no
+66,female,senior high,no
+30,male,primary,no
+11,male,master,yes
+51,female,doctor,no
+96,female,university,no
+41,female,primary,no
+35,third,senior high,no
+82,female,primary,no
+91,female,university,no
+33,male,master,yes
+94,male,senior high,no
+1,third,junior high,no
+74,male,senior high,no
+25,third,master,yes
+29,male,senior high,no
+65,female,university,no
+56,third,primary,no
+99,female,doctor,no
+94,female,primary,no
+80,third,junior high,no
+81,male,junior high,no
+27,third,university,no
+90,male,university,no
+56,male,junior high,no
+33,female,master,yes
+95,third,university,no
+5,male,junior high,no
+13,female,master,no
+51,male,master,no
+42,male,junior high,no
+72,female,senior high,no
+1,female,senior high,no
+93,male,doctor,no
+41,third,master,no
+79,female,university,no
+5,male,junior high,no
+8,male,doctor,no
+6,female,senior high,no
+59,third,primary,no
+19,female,university,no
+6,male,junior high,no
+32,male,junior high,yes
+48,third,university,no
+17,third,doctor,no
+82,third,university,no
+25,third,doctor,yes
+81,male,senior high,no
+3,male,primary,no
+51,third,university,no
+38,third,junior high,yes
+44,male,university,yes
+4,third,junior high,no
+56,third,primary,no
+33,third,primary,no
+44,third,university,yes
+18,third,junior high,yes
+50,third,junior high,no
+63,third,master,no
+74,female,primary,no
+79,third,master,no
+64,male,junior high,no
+36,male,senior high,no
+48,female,primary,no
+49,female,junior high,no
+16,female,university,no
+18,male,senior high,no
+16,female,senior high,yes
+66,female,senior high,no
+20,female,senior high,no
+87,female,master,no
+40,third,master,yes
+46,third,junior high,no
+4,third,senior high,no
+15,third,university,no
+88,female,junior high,no
+97,female,primary,no
+47,male,senior high,no
+13,male,doctor,no
+73,third,master,no
+51,female,junior high,no
+80,male,university,no
+80,female,primary,no
+47,male,doctor,yes
+74,male,master,no
+55,female,primary,no
+90,male,university,no
+64,third,primary,no
+11,third,senior high,no
+63,male,master,no
+13,third,master,no
+73,male,master,no
+68,third,university,no
+12,third,junior high,no
+92,female,doctor,no
+18,third,master,no
+7,male,junior high,no
+51,female,junior high,no
+85,female,primary,no
+56,male,junior high,no
+50,male,master,yes
+95,male,senior high,no
+77,female,university,no
+87,third,senior high,no
+55,male,senior high,no
+83,female,junior high,no
+8,female,junior high,no
+59,female,primary,no
+84,third,senior high,no
+17,female,master,no
+50,third,junior high,no
+14,third,primary,no
+98,female,master,no
+24,male,university,no
+61,female,doctor,no
+2,male,university,no
+36,male,doctor,no
+18,female,junior high,no
+44,third,junior high,no
+21,female,senior high,no
+13,male,junior high,no
+42,female,primary,no
+28,male,master,yes
+55,female,doctor,no
+77,third,university,no
+16,female,primary,no
+1,third,master,no
+68,female,junior high,no
+4,male,master,no
+40,male,university,yes
+24,male,senior high,no
+86,third,master,no
+29,third,master,no
+45,third,university,no
+91,male,senior high,no
+71,third,senior high,no
+84,male,junior high,no
+23,male,master,no
+0,male,junior high,no
+28,third,primary,no
+49,male,junior high,no
+83,third,primary,no
+34,female,primary,no
+85,male,senior high,no
+48,male,primary,no
+55,male,master,no
+19,male,master,no
+63,third,primary,no
+43,male,senior high,yes
+43,third,primary,no
+4,female,junior high,no
+56,male,primary,no
+11,male,university,no
+78,female,senior high,no
+16,male,senior high,no
+3,male,senior high,no
+42,female,university,no
+72,female,university,no
+88,male,primary,no
+68,third,junior high,no
+91,third,junior high,no
+7,male,junior high,no
+29,third,junior high,no
+95,third,master,no
+53,male,junior high,no
+25,third,primary,no
+80,female,primary,no
+41,female,junior high,no
+99,third,junior high,no
+25,male,senior high,no
+31,female,junior high,yes
+33,third,primary,no
+50,female,doctor,yes
+3,third,junior high,no
+53,female,junior high,no
+91,male,university,no
+71,female,university,no
+82,third,master,no
+37,female,senior high,yes
+2,male,doctor,no
+35,female,master,no
+71,third,senior high,no
+96,male,master,no
+53,male,senior high,no
+43,third,primary,no
+51,female,university,no
+47,third,junior high,yes
+91,female,junior high,no
+86,male,primary,no
+15,female,senior high,no
+68,third,primary,no
+70,third,university,no
+76,third,senior high,no
+36,female,university,no
+39,third,primary,no
+47,male,junior high,no
+89,third,master,no
+66,third,doctor,no
+7,third,university,no
+0,third,university,no
+81,male,primary,no
+47,female,primary,no
+94,male,doctor,no
+71,female,university,no
+65,female,master,no
+26,third,doctor,no
+68,male,senior high,no
+85,female,university,no
+56,third,senior high,no
+33,male,university,no
+53,male,university,no
+31,third,senior high,yes
+30,male,primary,no
+58,female,junior high,no
+64,third,junior high,no
+17,third,primary,no
+87,third,university,no
+60,female,senior high,no
+54,male,senior high,no
+95,third,senior high,no
+96,male,senior high,no
+56,male,primary,no
+71,third,master,no
+41,female,junior high,no
+14,female,doctor,no
+14,female,master,no
+46,male,primary,no
+5,male,master,no
+85,third,primary,no
+46,male,master,no
+82,third,university,no
+17,third,university,no
+9,female,primary,no
+35,third,junior high,no
+68,female,junior high,no
+44,third,master,no
+88,male,university,no
+10,female,doctor,yes
+44,male,primary,no
+59,third,primary,no
+95,third,doctor,no
+72,male,master,no
+24,third,university,no
+50,third,senior high,no
+10,third,senior high,no
+32,female,senior high,no
+22,female,master,yes
+58,male,primary,no
+70,male,university,no
+27,female,junior high,yes
+52,third,junior high,no
+13,female,junior high,no
+55,male,master,no
+70,third,junior high,no
+55,third,junior high,no
+83,third,primary,no
+65,male,master,no
+56,third,senior high,no
+28,third,university,no
+78,female,primary,no
+10,male,junior high,no
+88,female,master,no
+15,third,senior high,no
+97,male,junior high,no
+69,male,university,no
+49,male,senior high,yes
+63,male,senior high,no
+42,male,doctor,yes
+78,male,doctor,no
+8,female,doctor,no
+22,third,master,no
+48,male,university,no
+43,third,master,yes
+25,third,senior high,yes
+39,male,doctor,no
+61,female,junior high,no
+30,third,doctor,yes
+33,female,master,yes
+76,third,master,no
+9,third,university,no
+64,female,doctor,no
+52,female,primary,no
+76,third,senior high,no
+27,male,primary,yes
+80,female,doctor,no
+54,male,junior high,no
+99,third,junior high,no
+12,male,junior high,yes
+70,male,doctor,no
+26,third,junior high,yes
+70,male,junior high,no
+79,third,senior high,no
+66,female,doctor,no
+78,male,senior high,no
+18,male,primary,yes
+98,third,primary,no
+16,third,doctor,yes
+48,male,doctor,no
+28,female,master,yes
+86,female,primary,no
+8,male,university,no
+9,female,junior high,no
+11,female,master,no
+25,female,senior high,no
+53,third,master,no
+18,female,doctor,yes
+3,third,primary,no
+75,third,senior high,no
+21,female,master,yes
+51,female,primary,no
+33,female,master,yes
+11,female,master,no
+29,third,university,yes
+83,third,primary,no
+81,female,junior high,no
+25,female,primary,no
+75,female,primary,no
+82,female,senior high,no
+75,third,senior high,no
+80,male,senior high,no
+98,female,senior high,no
+54,female,master,no
+63,male,university,no
+69,third,senior high,no
+19,male,master,no
+68,female,university,no
+25,female,university,yes
+82,female,primary,no
+62,third,doctor,no
+89,male,university,no
+71,male,senior high,no
+36,female,junior high,no
+59,third,junior high,no
+31,third,senior high,no
+91,third,doctor,no
+0,male,senior high,no
+15,female,university,no
+96,female,university,no
+81,female,university,no
+13,third,junior high,no
+42,male,university,no
+51,male,junior high,no
+65,male,primary,no
+76,third,master,no
+90,male,junior high,no
+61,male,junior high,no
+66,male,primary,no
+49,female,doctor,yes
+18,male,university,yes
+43,third,doctor,no
+32,male,university,no
+54,female,university,no
+38,third,junior high,no
+3,male,primary,no
+73,female,primary,no
+75,male,university,no
+86,third,primary,no
+15,male,junior high,no
+15,third,doctor,no
+73,third,doctor,no
+35,third,primary,no
+35,female,master,yes
+50,third,junior high,no
+53,male,senior high,no
+67,female,junior high,no
+10,third,primary,no
+98,female,master,no
+99,female,doctor,no
+87,female,junior high,no
+86,male,primary,no
+10,male,primary,no
+27,male,junior high,yes
+21,third,master,yes
+48,third,senior high,no
+47,female,primary,no
+74,female,doctor,no
+76,male,primary,no
+92,male,primary,no
+54,female,junior high,no
+83,male,master,no
+45,male,primary,no
+12,third,primary,no
+43,female,master,yes
+5,male,senior high,no
+63,female,junior high,no
+27,female,doctor,no
+41,third,primary,yes
+33,third,senior high,no
+47,third,university,no
+70,male,primary,no
+5,male,primary,no
+74,female,university,no
+53,third,primary,no
+70,third,senior high,no
+95,male,junior high,no
+36,male,primary,no
+72,third,university,no
+34,male,master,no
+30,third,junior high,yes
+56,third,university,no
+83,female,senior high,no
+87,female,university,no
+47,female,doctor,no
+75,third,primary,no
+87,third,master,no
+13,male,senior high,no
+6,female,senior high,no
+5,third,university,no
+7,third,junior high,no
+50,female,university,yes
+39,female,senior high,yes
+99,male,master,no
+88,third,primary,no
+41,female,senior high,no
+79,third,doctor,no
+12,third,doctor,no
+71,male,master,no
+12,female,senior high,no
+64,third,master,no
+60,female,university,no
+27,female,senior high,yes
+57,female,primary,no
+25,female,master,yes
+54,male,senior high,no
+39,third,master,yes
+99,male,senior high,no
+0,female,master,no
+83,third,senior high,no
+54,third,junior high,no
+32,female,junior high,yes
+2,male,university,no
+50,third,junior high,no
+47,third,junior high,no
+78,third,junior high,no
+14,third,university,no
+47,female,primary,yes
+77,female,primary,no
+52,male,doctor,no
+14,female,senior high,no
+81,female,senior high,no
+50,female,primary,no
+51,third,university,no
+75,female,university,no
+84,male,master,no
+50,female,doctor,yes
+91,female,master,no
+77,male,senior high,no
+79,third,primary,no
+31,third,primary,yes
+71,female,senior high,no
+5,third,doctor,no
+62,male,junior high,no
+20,female,senior high,no
+19,female,university,yes
+7,female,university,no
+3,third,doctor,no
+95,male,master,no
+72,female,doctor,no
+74,third,junior high,no
+52,third,junior high,no
+66,third,master,no
+89,third,senior high,no
+93,female,master,no
+40,third,master,yes
+64,male,university,no
+46,female,master,no
+22,male,junior high,no
+99,male,university,no
+87,male,primary,no
+69,third,junior high,no
+47,male,university,no
+47,female,primary,no
+95,third,master,no
+5,female,university,no
+68,female,primary,no
+52,female,senior high,no
+48,female,junior high,no
+16,female,primary,no
+58,female,senior high,no
+19,third,primary,no
+14,male,senior high,no
+83,female,doctor,no
+46,male,senior high,no
+19,male,doctor,yes
+80,third,senior high,no
+79,male,master,no
+27,male,senior high,yes
+61,male,master,no
+82,third,university,no
+40,female,senior high,yes
+29,third,university,no
+40,female,primary,no
+20,third,primary,no
+97,male,university,no
+5,third,senior high,no
+28,third,master,yes
+22,third,master,yes
+35,male,doctor,no
+10,third,primary,no
+95,third,senior high,no
+52,third,university,no
+64,female,master,no
+68,male,primary,no
+4,third,junior high,no
+83,female,senior high,no
+56,female,junior high,no
+1,male,primary,no
+82,female,university,no
+97,third,master,no
+74,third,university,no
+34,third,doctor,no
+16,third,doctor,yes
+86,male,university,no
+76,female,doctor,no
+28,third,senior high,no
+72,female,senior high,no
+33,third,master,yes
+33,third,junior high,yes
+65,third,primary,no
+34,third,primary,no
+54,female,master,no
+85,male,university,no
+96,third,junior high,no
+1,female,senior high,no
+9,third,junior high,no
+30,third,senior high,yes
+86,third,senior high,no
+97,female,university,no
+16,male,senior high,no
+30,male,junior high,no
+85,third,primary,no
+57,female,senior high,no
+1,third,senior high,no
+46,third,master,no
+27,female,primary,no
+98,male,primary,no
+5,male,primary,no
+23,female,master,yes
+18,female,master,yes
+93,female,master,no
+10,third,university,no
+5,male,doctor,no
+39,third,university,no
+39,male,junior high,no
+48,female,university,no
+50,male,master,no
+55,third,university,no
+86,third,primary,no
+65,male,doctor,no
+81,third,junior high,no
+6,male,senior high,no
+59,female,primary,no
+50,male,master,yes
+90,male,university,no
+57,female,doctor,no
+53,female,university,no
+46,male,senior high,no
+65,female,doctor,no
+73,third,junior high,no
+67,male,primary,no
+91,female,university,no
+56,third,master,no
+50,third,junior high,no
+36,female,master,yes
+34,third,master,yes
+92,third,master,no
+37,female,master,yes
+95,third,primary,no
+67,male,doctor,no
+20,third,senior high,no
+2,male,senior high,no
+97,third,senior high,no
+55,female,university,no
+77,male,junior high,no
+63,male,university,no
+11,male,master,no
+63,female,junior high,no
+79,third,senior high,no
+56,female,primary,no
+25,third,primary,yes
+30,female,senior high,no
+54,female,university,no
+87,male,senior high,no
+44,male,doctor,no
+11,female,doctor,no
+78,male,university,no
+84,male,university,no
+19,male,primary,no
+48,male,university,yes
+74,female,senior high,no
+93,third,primary,no
+27,third,primary,no
+54,female,senior high,no
+44,female,primary,no
+76,female,university,no
+58,third,senior high,no
+75,third,doctor,no
+40,third,junior high,yes
+33,male,junior high,no
+90,male,master,no
+85,third,primary,no
+52,male,university,no
+73,third,senior high,no
+78,third,junior high,no
+78,third,junior high,no
+56,male,university,no
+69,male,university,no
+91,female,university,no
+65,male,doctor,no
+94,male,master,no
+64,female,university,no
+73,male,master,no
+90,male,master,no
+21,female,junior high,no
+73,third,junior high,no
+64,female,primary,no
+45,female,doctor,no
+37,third,master,yes
+35,female,primary,yes
+19,third,doctor,no
+7,female,doctor,no
+66,female,primary,no
+77,male,university,no
+55,male,doctor,no
+91,third,senior high,no
+66,male,senior high,no
+1,female,senior high,no
+22,male,senior high,no
+57,male,senior high,no
+97,third,master,no
+8,female,senior high,no
+44,female,primary,yes
+67,female,senior high,no
+16,female,master,no
+73,female,master,no
+42,female,master,no
+42,female,doctor,yes
+45,third,university,yes
+22,male,junior high,no
+92,male,university,no
+91,male,junior high,no
+7,male,university,no
+31,female,junior high,no
+76,male,master,no
+83,third,master,no
+78,female,primary,no
+66,third,university,no
+39,male,doctor,yes
+71,third,primary,no
+75,third,senior high,no
+3,female,doctor,no
+36,third,junior high,no
+70,third,doctor,no
+28,male,senior high,no
+44,male,primary,no
+22,male,university,no
+8,third,primary,no
+91,third,university,no
+13,male,master,no
+0,male,senior high,no
+85,male,doctor,no
+50,male,junior high,no
+42,female,master,no
+51,male,university,no
+98,female,senior high,no
+84,female,master,no
+97,male,junior high,no
+82,third,doctor,no
+95,female,primary,no
+32,third,primary,no
+92,female,university,no
+5,third,doctor,no
+36,third,primary,yes
+90,female,doctor,no
+69,third,senior high,no
+53,male,primary,no
+62,male,doctor,no
+24,female,senior high,yes
+25,third,master,yes
+57,male,university,no
+67,female,master,no
+3,female,senior high,no
+67,third,university,no
+76,female,doctor,no
+12,female,primary,yes
+93,third,primary,no
+59,male,university,no
+46,third,primary,no
+48,male,senior high,yes
+37,third,junior high,no
+5,third,senior high,no
+41,female,primary,no
+26,third,junior high,yes
+55,male,junior high,no
+91,male,master,no
+39,third,doctor,yes
+9,male,master,no
+96,female,university,no
+37,male,junior high,no
+92,female,junior high,no
+89,third,senior high,no
+52,third,junior high,no
+85,female,primary,no
+8,female,junior high,no
+45,male,university,no
+75,female,university,no
+97,male,university,no
+27,third,doctor,no
+54,female,master,no
+53,male,doctor,no
+32,male,primary,no
+50,male,primary,no
+10,female,primary,no
+71,male,doctor,no
+60,male,master,no
+22,male,university,yes
+83,third,junior high,no
+82,third,university,no
+82,third,master,no
+94,male,senior high,no
+2,male,master,no
+20,third,university,no
+94,male,junior high,no
+13,third,university,no
+94,third,university,no
+32,male,primary,no
+92,female,university,no
+57,male,senior high,no
+97,male,university,no
+20,male,primary,yes
+32,female,university,no
+16,male,master,no
+77,male,doctor,no
+65,female,master,no
+99,female,doctor,no
+60,female,junior high,no
+73,male,senior high,no
+2,female,senior high,no
+8,male,master,no
+40,third,senior high,yes
+9,third,master,no
+38,male,master,yes
+48,male,master,no
+93,third,doctor,no
+70,female,primary,no
+93,female,doctor,no
+90,male,university,no
+12,female,senior high,no
+21,male,junior high,yes
+22,male,master,yes
+31,third,senior high,no
+34,male,university,no
+14,male,senior high,no
+92,third,senior high,no
+30,third,master,yes
+0,male,master,no
+49,male,primary,no
+96,third,university,no
+0,male,junior high,no
+62,male,primary,no
+22,third,senior high,yes
+19,female,master,yes
+12,female,master,no
+12,third,junior high,no
+24,female,doctor,yes
+66,female,junior high,no
+30,male,university,no
+70,female,university,no
+36,third,master,yes
+30,third,junior high,no
+91,male,doctor,no
+72,third,master,no
+0,third,doctor,no
+74,third,primary,no
+92,male,primary,no
+41,third,university,yes
+65,female,university,no
+58,female,doctor,no
+67,female,master,no
+4,male,doctor,no
+72,female,university,no
+48,third,senior high,no
+71,female,master,no
+38,male,junior high,no
+2,female,senior high,no
+2,male,junior high,no
+13,female,primary,no
+96,third,senior high,no
+52,third,primary,no
+47,third,junior high,no
+74,third,junior high,no
+34,female,university,no
+81,third,university,no
+94,male,university,no
+56,third,primary,no
+6,female,primary,no
+36,female,primary,yes
+46,third,university,no
+80,third,junior high,no
+33,female,senior high,no
+20,male,primary,no
+30,third,master,no
+39,male,senior high,no
+90,third,master,no
+96,male,doctor,no
+20,male,university,no
+35,male,senior high,no
+97,third,junior high,no
+29,third,master,no
+59,third,junior high,no
+9,male,master,no
+99,male,doctor,no
+18,female,doctor,yes
+50,female,junior high,yes
+4,male,junior high,no
+69,third,junior high,no
+98,third,primary,no
+45,female,senior high,no
+95,third,primary,no
+93,third,junior high,no
+87,male,junior high,no
+7,third,master,no
+59,female,doctor,no
+2,female,junior high,no
+40,female,senior high,yes
+79,male,junior high,no
+34,third,master,yes
+6,female,master,no
+94,male,doctor,no
+49,female,master,yes
+54,female,senior high,no
+97,female,doctor,no
+38,male,doctor,no
+27,female,junior high,yes
+93,male,primary,no
+48,male,master,yes
+4,female,senior high,no
+6,female,primary,no
+92,third,primary,no
+21,male,primary,no
+61,male,doctor,no
+32,male,master,no
+81,third,junior high,no
+22,female,senior high,no
+83,male,junior high,no
+65,male,doctor,no
+32,female,doctor,no
+74,third,doctor,no
+3,female,university,no
+45,female,primary,no
+46,male,doctor,yes
+36,third,doctor,yes
+31,female,doctor,no
+11,third,master,no
+54,female,master,no
+41,male,junior high,no
+50,third,primary,no
+78,third,primary,no
+78,female,junior high,no
+27,female,doctor,yes
+86,female,junior high,no
+30,female,master,yes
+29,third,primary,no
+3,third,master,no
+91,female,doctor,no
+44,female,doctor,yes
+59,male,university,no
+32,female,junior high,no
+44,third,master,no
+53,female,master,no
+58,male,doctor,no
+82,male,doctor,no
+33,third,university,no
+67,third,university,no
+60,male,primary,no
+74,male,university,no
+61,female,primary,no
+12,third,primary,no
+76,male,junior high,no
+44,male,university,no
+70,male,primary,no
+87,male,master,no
+1,third,master,no
+6,male,primary,no
+1,third,master,no
+73,third,master,no
+55,male,junior high,no
+31,female,doctor,no
+2,third,senior high,no
+47,female,doctor,yes
+72,third,primary,no
+65,third,university,no
+58,female,senior high,no
+3,male,senior high,no
+95,female,junior high,no
+65,female,university,no
+39,third,primary,no
+45,third,master,no
+28,female,senior high,yes
+30,male,primary,no
+16,third,master,no
+65,third,senior high,no
+20,male,junior high,no
+90,male,master,no
+83,third,doctor,no
+98,third,senior high,no
+44,female,university,no
+0,third,junior high,no
+44,female,university,no
+54,male,junior high,no
+12,female,senior high,no
+9,male,senior high,no
+97,third,university,no
+82,male,doctor,no
+60,male,junior high,no
+31,male,primary,no
+89,third,doctor,no
+50,third,junior high,yes
+88,male,primary,no
+97,third,university,no
+54,female,university,no
+68,male,senior high,no
+35,third,master,no
+62,third,primary,no
+30,third,junior high,no
+93,female,master,no
+1,female,junior high,no
+55,female,university,no
+79,male,master,no
+93,female,master,no
+59,third,university,no
+64,male,university,no
+39,male,doctor,yes
+96,female,university,no
+18,third,university,no
+74,male,master,no
+87,third,primary,no
+23,male,senior high,no
+57,female,junior high,no
+37,third,senior high,yes
+93,third,university,no
+64,third,university,no
+17,third,master,no
+25,male,primary,no
+74,third,senior high,no
+19,male,doctor,no
+59,female,university,no
+70,female,master,no
+27,female,university,yes
+72,female,university,no
+72,male,primary,no
+51,male,university,no
+46,female,junior high,no
+12,male,senior high,no
+45,female,senior high,no
+74,female,master,no
+46,male,junior high,no
+85,male,doctor,no
+38,male,junior high,no
+9,male,doctor,no
+47,male,junior high,no
+11,third,doctor,no
+71,female,university,no
+68,male,university,no
+30,male,doctor,no
+37,third,doctor,no
+39,female,doctor,no
+61,male,master,no
+50,female,junior high,no
+4,female,university,no
+74,third,senior high,no
+60,third,university,no
+24,female,university,yes
+54,third,primary,no
+58,male,university,no
+59,male,doctor,no
+82,male,primary,no
+48,male,primary,yes
+57,third,junior high,no
+59,male,primary,no
+32,third,senior high,yes
+5,female,senior high,no
+4,male,junior high,no
+84,female,university,no
+51,third,university,no
+47,third,university,no
+57,female,doctor,no
+74,female,primary,no
+9,male,doctor,yes
+46,female,master,yes
+32,male,doctor,no
+77,third,doctor,no
+82,female,junior high,no
+64,female,doctor,no
+5,female,master,no
+36,female,junior high,no
+85,third,master,no
+59,male,master,no
+29,third,junior high,no
+85,female,master,no
+98,female,senior high,no
+75,male,primary,no
+45,female,senior high,no
+56,female,master,no
+94,male,university,no
+80,male,doctor,no
+23,female,doctor,yes
+74,male,primary,no
+59,male,junior high,no
+98,female,university,no
+62,female,primary,no
+0,female,junior high,no
+68,female,junior high,no
+29,male,master,yes
+28,third,doctor,yes
+57,female,junior high,no
+89,male,junior high,no
+55,male,senior high,no
+47,male,master,yes
+17,male,university,no
+61,male,junior high,no
+80,male,senior high,no
+61,female,primary,no
+28,male,senior high,yes
+1,male,master,no
+45,female,primary,no
+33,female,master,yes
+33,male,junior high,yes
+68,female,master,no
+39,third,junior high,no
+45,female,master,no
+4,female,doctor,no
+98,female,senior high,no
+42,third,university,no
+21,third,master,no
+77,female,junior high,no
+60,third,junior high,no
+97,male,senior high,no
+14,male,doctor,no
+2,male,junior high,no
+89,male,doctor,no
+19,male,university,yes
+87,female,university,no
+28,male,junior high,no
+5,third,doctor,no
+48,third,junior high,no
+63,third,primary,no
+55,female,university,no
+21,third,master,no
+11,female,junior high,no
+5,male,master,no
+63,male,senior high,no
+41,female,university,no
+58,female,university,no
+67,female,doctor,no
+70,female,doctor,no
+78,female,university,no
+18,third,senior high,no
+70,third,university,no
+18,third,doctor,no
+75,third,senior high,no
+47,female,primary,no
+45,third,doctor,no
+8,third,university,no
+65,male,junior high,no
+56,female,master,no
+36,male,junior high,yes
+12,female,doctor,no
+42,female,master,no
+44,male,doctor,no
+48,female,junior high,no
+73,third,senior high,no
+13,male,doctor,no
+24,male,master,no
+50,female,university,no
+68,male,primary,no
+25,male,junior high,yes
+80,male,primary,no
+96,female,university,no
+37,third,university,yes
+63,third,doctor,no
+49,third,junior high,no
+99,female,university,no
+93,third,master,no
+89,third,junior high,no
+74,male,doctor,no
+20,female,junior high,no
+83,female,master,no
+71,female,doctor,no
+79,male,senior high,no
+19,male,primary,no
+5,third,doctor,no
+5,third,university,no
+78,female,master,no
+56,female,primary,no
+26,male,junior high,no
+89,third,junior high,no
+89,female,master,no
+29,female,university,no
+90,female,master,no
+48,male,master,no
+90,male,junior high,no
+48,male,doctor,yes
+86,male,primary,no
+13,male,doctor,no
+72,female,senior high,no
+3,male,primary,no
+91,third,doctor,no
+51,female,university,no
+42,third,doctor,yes
+66,male,primary,no
+32,male,primary,no
+94,male,doctor,no
+67,third,university,no
+60,male,doctor,no
+88,female,master,no
+29,female,senior high,yes
+87,third,doctor,no
+22,third,primary,no
+13,female,university,no
+45,female,junior high,no
+96,third,university,no
+80,female,primary,no
+40,third,primary,yes
+94,female,senior high,no
+91,third,university,no
+39,female,primary,no
+95,male,primary,no
+57,female,junior high,no
+3,female,senior high,no
+54,male,doctor,no
+25,male,doctor,yes
+47,male,doctor,no
+22,third,senior high,no
+85,third,university,no
+87,male,doctor,no
+1,third,university,no
+59,male,university,no
+69,female,primary,no
+22,third,junior high,no
+71,third,primary,no
+46,third,senior high,no
+35,male,primary,no
+20,female,junior high,no
+78,third,master,no
+80,female,junior high,no
+18,third,junior high,no
+59,third,primary,no
+8,third,university,no
+88,male,university,no
+3,male,primary,no
+2,female,primary,no
+11,male,university,no
+1,female,senior high,no
+49,male,senior high,yes
+86,male,doctor,no
+93,male,junior high,no
+3,male,junior high,no
+22,third,doctor,yes
+13,female,junior high,no
+16,male,doctor,no
+29,female,doctor,no
+44,third,junior high,no
+19,third,senior high,no
+59,female,master,no
+49,male,university,yes
+91,female,master,no
+8,third,university,no
+71,female,junior high,no
+90,female,master,no
+8,male,doctor,no
+62,male,master,no
+72,third,primary,no
+53,female,senior high,no
+13,third,university,no
+27,male,junior high,no
+11,third,master,no
+23,third,doctor,yes
+5,third,master,no
+24,third,master,yes
+14,male,senior high,no
+42,male,university,no
+85,male,senior high,no
+37,female,master,yes
+32,male,doctor,yes
+74,third,primary,no
+36,female,primary,no
+97,male,university,no
+1,male,junior high,no
+86,third,senior high,no
+37,female,university,yes
+67,male,junior high,no
+39,female,doctor,yes
+31,female,master,yes
+73,female,senior high,no
+55,male,master,no
+68,third,doctor,no
+26,male,senior high,no
+49,female,university,no
+31,male,university,no
+97,third,master,no
+48,male,master,no
+94,third,junior high,no
+54,male,university,no
+3,third,primary,no
+48,female,junior high,no
+7,female,university,no
+41,third,doctor,no
+29,third,university,yes
+31,female,primary,no
+87,male,junior high,no
+77,male,master,no
+42,female,doctor,no
+39,male,senior high,yes
+38,third,master,yes
+36,female,university,no
+31,female,doctor,yes
+9,female,senior high,no
+64,female,primary,no
+4,third,primary,no
+90,female,doctor,no
+62,female,junior high,no
+67,third,primary,no
+16,female,university,no
+32,male,university,yes
+63,third,master,no
+35,female,master,yes
+1,male,primary,no
+5,female,primary,no
+3,male,doctor,no
+1,male,primary,no
+73,third,doctor,no
+61,third,university,no
+88,male,senior high,no
+36,male,primary,no
+36,female,primary,no
+37,female,junior high,yes
+69,female,university,no
+95,male,primary,no
+46,third,primary,no
+63,third,primary,no
+23,female,junior high,yes
+46,male,university,no
+68,third,master,no
+64,third,senior high,no
+84,male,doctor,no
+67,male,junior high,no
+27,female,university,no
+87,male,master,no
+71,third,university,no
+3,male,university,no
+70,female,junior high,no
+45,male,junior high,no
+73,female,doctor,no
+4,male,university,no
+35,male,master,no
+5,female,primary,no
+80,female,primary,no
+34,female,master,yes
+24,male,university,no
+49,female,primary,no
+53,third,junior high,no
+65,third,junior high,no
+56,male,senior high,no
+23,third,university,no
+94,male,primary,no
+52,female,primary,no
+32,third,university,no
+37,male,primary,yes
+58,female,primary,no
+5,third,senior high,no
+93,third,senior high,no
+7,female,doctor,no
+23,female,university,no
+85,male,junior high,no
+50,male,master,no
+56,third,doctor,no
+60,female,junior high,no
+83,female,master,no
+72,female,senior high,no
+78,third,doctor,no
+37,male,university,yes
+8,male,master,no
+45,third,university,no
+22,female,junior high,no
+95,female,primary,no
+8,female,senior high,no
+50,female,master,yes
+55,female,doctor,no
+15,female,senior high,no
+71,female,primary,no
+47,female,doctor,yes
+21,third,junior high,yes
+87,female,master,no
+94,third,master,no
+51,female,university,no
+73,third,doctor,no
+22,third,primary,no
+84,male,master,no
+56,female,master,no
+0,female,university,no
+64,third,primary,no
+46,female,junior high,no
+78,female,university,no
+62,third,senior high,no
+57,third,university,no
+43,female,junior high,yes
+86,female,university,no
+7,male,master,no
+87,male,primary,no
+67,female,junior high,no
+43,third,doctor,no
+31,female,university,yes
+7,female,master,no
+49,male,master,no
+90,male,junior high,no
+41,female,senior high,no
+32,third,university,yes
+35,male,doctor,yes
+27,female,university,no
+65,third,junior high,no
+21,male,primary,no
+40,female,university,yes
+33,third,junior high,no
+0,female,senior high,no
+68,male,master,no
+54,third,doctor,no
+80,third,master,no
+40,third,junior high,no
+4,third,primary,no
+7,female,master,no
+33,female,junior high,no
+47,female,senior high,yes
+61,third,senior high,no
+46,third,senior high,no
+63,third,master,no
+96,female,junior high,no
+45,third,university,no
+65,female,master,no
+91,female,senior high,no
+1,third,junior high,no
+32,third,senior high,no
+69,third,senior high,no
+13,female,primary,no
+94,third,university,no
+44,male,junior high,no
+67,male,senior high,no
+23,male,doctor,yes
+12,third,doctor,no
+94,female,junior high,no
+24,third,junior high,yes
+57,female,university,no
+78,female,junior high,no
+27,third,doctor,yes
+27,third,senior high,yes
+50,third,master,yes
+72,female,senior high,no
+76,female,primary,no
+5,third,junior high,no
+74,third,primary,no
+85,third,master,no
+88,male,master,no
+41,male,primary,no
+1,third,master,no
+52,female,senior high,no
+47,male,university,no
+15,third,senior high,no
+37,female,junior high,no
+16,third,senior high,no
+24,female,senior high,no
+29,female,junior high,no
+18,third,doctor,no
+96,male,master,no
+50,female,junior high,no
+60,male,master,no
+33,male,primary,no
+88,third,doctor,no
+33,female,primary,yes
+7,female,doctor,no
+11,male,university,no
+70,female,primary,no
+60,third,master,no
+16,male,doctor,no
+95,female,university,no
+35,female,master,yes
+60,third,senior high,no
+28,male,master,yes
+90,male,senior high,no
+34,third,master,yes
+37,male,doctor,yes
+95,male,doctor,no
+3,third,junior high,no
+78,female,university,no
+20,male,senior high,yes
+19,female,doctor,no
+1,male,doctor,no
+41,male,junior high,no
+22,third,university,no
+9,third,university,no
+31,male,senior high,no
+72,third,university,no
+5,female,junior high,no
+93,female,university,no
+30,female,primary,yes
+14,third,senior high,no
+53,third,doctor,no
+73,male,doctor,no
+75,male,junior high,no
+97,male,doctor,no
+24,female,master,no
+50,female,senior high,no
+56,third,university,no
+52,male,junior high,no
+93,female,university,no
+89,third,senior high,no
+70,male,senior high,no
+14,female,junior high,no
+30,third,primary,yes
+65,male,doctor,no
+79,female,doctor,no
+29,third,university,no
+67,third,primary,no
+48,male,doctor,yes
+50,third,senior high,no
+58,male,junior high,no
+64,third,primary,no
+10,female,master,no
+98,third,university,no
+85,third,master,no
+82,male,junior high,no
+46,male,senior high,no
+78,male,university,no
+72,male,junior high,no
+61,third,junior high,no
+8,female,master,no
+21,third,university,no
+84,third,master,no
+82,male,university,no
+95,male,master,no
+92,third,university,no
+18,female,primary,no
+26,female,primary,yes
+0,third,primary,no
+32,third,doctor,yes
+48,male,master,no
+84,female,junior high,no
+46,female,master,no
+21,male,primary,no
+93,male,doctor,no
+98,third,senior high,no
+20,third,master,no
+76,female,junior high,no
+11,male,primary,no
+17,male,primary,no
+78,female,junior high,no
+36,female,primary,no
+15,third,junior high,no
+34,female,senior high,no
+76,female,university,no
+32,male,junior high,yes
+36,female,doctor,yes
+0,third,primary,no
+20,male,junior high,yes
+62,third,university,no
+25,female,junior high,no
+15,male,doctor,no
+52,third,master,no
+96,female,senior high,no
+84,male,master,no
+34,male,primary,yes
+97,third,primary,no
+91,male,university,no
+45,male,senior high,no
+82,male,primary,no
+13,female,university,no
+16,male,primary,no
+51,male,doctor,no
+59,third,junior high,no
+1,male,senior high,no
+50,third,doctor,yes
+28,male,senior high,no
+63,female,primary,no
+6,third,primary,no
+15,male,junior high,no
+20,female,university,no
+16,third,senior high,no
+33,male,junior high,no
+37,third,doctor,yes
+73,female,junior high,no
+96,third,primary,no
+65,third,university,no
+21,male,doctor,no
+74,female,master,no
+78,third,university,no
+29,third,primary,no
+82,male,master,no
+60,female,primary,no
+13,third,junior high,no
+93,third,university,no
+88,third,senior high,no
+78,male,junior high,no
+17,third,doctor,no
+82,female,junior high,no
+99,third,junior high,no
+48,male,primary,yes
+98,male,junior high,no
+67,third,senior high,no
+12,male,junior high,no
+23,female,master,yes
+58,male,university,no
+60,female,doctor,no
+24,female,junior high,yes
+93,female,primary,no
+11,female,junior high,no
+34,male,university,no
+6,female,junior high,no
+58,female,junior high,no
+24,female,senior high,yes
+94,female,doctor,no
+19,third,doctor,no
+48,male,master,yes
+84,third,senior high,no
+67,third,junior high,no
+1,third,doctor,no
+65,male,primary,no
+76,female,doctor,no
+40,female,doctor,no
+51,male,junior high,no
+2,female,primary,no
+45,third,senior high,no
+10,male,master,yes
+3,third,primary,no
+87,third,junior high,no
+32,male,senior high,yes
+97,third,primary,no
+22,third,senior high,yes
+40,female,junior high,no
+16,female,primary,no
+11,male,doctor,no
+65,third,primary,no
+12,female,master,yes
+64,third,primary,no
+28,male,university,no
+34,female,junior high,yes
+30,male,junior high,yes
+74,male,university,no
+96,male,senior high,no
+31,female,university,no
+30,third,university,no
+70,female,primary,no
+69,third,senior high,no
+5,male,doctor,no
+11,female,junior high,no
+80,male,junior high,no
+31,female,primary,no
+4,male,primary,no
+64,female,junior high,no
+3,female,master,no
+97,female,primary,no
+92,female,doctor,no
+72,female,senior high,no
+59,male,junior high,no
+81,third,university,no
+60,third,primary,no
+43,female,doctor,yes
+46,female,junior high,yes
+31,third,primary,yes
+25,female,primary,no
+40,male,junior high,yes
+18,third,university,no
+93,male,master,no
+87,third,master,no
+12,third,junior high,no
+36,female,doctor,yes
+87,male,university,no
+64,third,university,no
+40,female,master,yes
+53,male,university,no
+8,male,master,no
+71,male,master,no
+51,male,primary,no
+73,third,master,no
+33,female,master,yes
+4,female,doctor,no
+60,female,university,no
+27,female,primary,yes
+53,third,master,no
+74,female,senior high,no
+61,third,university,no
+20,female,university,yes
+22,female,master,no
+52,female,senior high,no
+20,third,university,no
+22,third,doctor,no
+77,male,doctor,no
+28,male,master,yes
+74,male,doctor,no
+6,male,university,no
+14,male,doctor,no
+99,female,primary,no
+4,third,senior high,no
+3,third,senior high,no
+31,female,doctor,yes
+79,female,primary,no
+41,female,senior high,no
+35,third,master,yes
+49,male,university,no
+39,third,senior high,no
+36,third,senior high,no
+56,third,doctor,no
+12,male,doctor,no
+46,third,senior high,no
+41,female,primary,no
+85,third,doctor,no
+99,male,doctor,no
+62,third,university,no
+84,third,junior high,no
+88,male,doctor,no
+33,male,junior high,no
+8,third,primary,no
+88,third,junior high,no
+16,female,senior high,no
+17,third,junior high,no
+82,male,junior high,no
+64,female,junior high,no
+15,female,junior high,yes
+86,third,junior high,no
+13,male,senior high,no
+82,third,master,no
+75,male,university,no
+94,male,doctor,no
+79,female,master,no
+5,third,university,no
+5,male,junior high,no
+93,male,university,no
+85,male,university,no
+59,third,primary,no
+52,male,junior high,no
+16,third,university,no
+15,third,university,no
+83,female,university,no
+5,female,university,no
+56,male,master,no
+88,third,university,no
+44,male,primary,no
+63,third,doctor,no
+59,female,primary,no
+26,third,primary,no
+36,female,doctor,yes
+90,third,junior high,no
+56,male,junior high,no
+90,third,university,no
+76,third,primary,no
+93,female,primary,no
+41,third,senior high,no
+5,female,doctor,no
+8,male,junior high,yes
+28,male,university,yes
+88,third,junior high,no
+55,male,master,no
+67,male,doctor,no
+23,male,primary,yes
+32,female,university,yes
+53,female,junior high,no
+3,male,junior high,no
+94,male,master,no
+3,female,doctor,no
+21,male,primary,no
+97,third,junior high,no
+66,third,senior high,no
+91,third,master,no
+23,female,university,no
+28,female,doctor,yes
+89,female,junior high,no
+39,third,doctor,yes
+26,male,primary,no
+0,third,master,no
+19,male,doctor,no
+29,female,primary,yes
+96,female,junior high,no
+19,third,master,no
+43,male,university,no
+85,male,doctor,no
+21,female,university,no
+74,male,junior high,no
+68,male,junior high,no
+36,male,university,no
+32,female,senior high,no
+6,female,university,no
+16,third,senior high,no
+76,female,master,no
+31,male,doctor,yes
+68,male,doctor,no
+66,male,doctor,no
+53,male,master,no
+13,male,senior high,no
+51,male,master,no
+84,male,master,no
+70,male,senior high,no
+49,female,primary,no
+47,third,doctor,yes
+52,third,senior high,no
+97,male,primary,no
+24,male,master,yes
+44,female,master,yes
+22,female,doctor,no
+46,male,primary,no
+81,male,university,no
+27,third,junior high,no
+98,female,doctor,no
+35,male,master,no
+48,third,primary,no
+80,third,junior high,no
+99,male,primary,no
+94,female,master,no
+37,male,university,yes
+23,male,master,no
+90,male,doctor,no
+26,male,university,no
+65,female,senior high,no
+41,third,junior high,no
+95,third,doctor,no
+22,male,doctor,yes
+65,female,primary,no
+62,female,university,no
+86,female,primary,no
+82,male,university,no
+80,female,university,no
+85,third,master,no
+83,third,primary,no
+53,female,master,no
+71,female,primary,no
+93,male,senior high,no
+87,male,university,no
+19,male,primary,no
+46,male,university,no
+3,female,junior high,no
+25,female,master,yes
+14,male,senior high,no
+63,male,university,no
+7,third,doctor,no
+6,third,university,no
+74,third,university,no
+99,male,senior high,no
+48,third,senior high,yes
+97,female,primary,no
+57,third,doctor,no
+82,female,senior high,no
+39,female,master,no
+76,third,junior high,no
+95,female,doctor,no
+74,female,university,no
+77,male,primary,no
+25,third,doctor,no
+17,third,senior high,no
+59,male,junior high,no
+86,male,junior high,no
+21,female,junior high,no
+31,female,senior high,no
+81,female,university,no
+26,third,junior high,no
+40,third,senior high,yes
+72,female,junior high,no
+18,third,junior high,no
+27,third,junior high,no
+21,third,doctor,no
+93,third,doctor,no
+22,female,doctor,no
+50,female,primary,yes
+58,female,doctor,no
+23,male,doctor,no
+20,female,university,no
+66,male,university,no
+82,female,master,no
+22,female,junior high,no
+72,female,primary,no
+80,male,university,no
+1,male,doctor,no
+98,male,senior high,no
+30,third,doctor,yes
+85,male,university,no
+79,female,master,no
+27,male,primary,no
+20,third,junior high,no
+95,third,senior high,no
+55,third,doctor,no
+74,female,master,no
+75,female,junior high,no
+70,male,university,no
+0,female,university,no
+23,male,university,no
+95,third,university,no
+40,female,senior high,no
+31,third,primary,yes
+88,third,doctor,no
+1,male,primary,no
+22,male,primary,no
+82,third,doctor,no
+14,third,primary,no
+78,female,university,no
+55,male,university,no
+46,third,primary,no
+21,male,junior high,no
+66,male,master,no
+73,male,doctor,no
+59,female,senior high,no
+50,third,senior high,no
+95,male,senior high,no
+1,male,master,no
+50,male,junior high,no
+63,male,primary,no
+78,female,university,no
+22,male,senior high,no
+49,third,primary,no
+17,third,master,no
+1,third,doctor,no
+44,female,primary,no
+16,female,university,yes
+23,female,university,yes
+8,female,doctor,no
+16,female,junior high,no
+30,female,master,yes
+82,female,senior high,no
+2,third,doctor,no
+91,female,master,no
+47,male,university,no
+94,third,junior high,no
+3,third,junior high,no
+92,third,junior high,no
+7,third,junior high,no
+63,male,doctor,no
+73,third,primary,no
+10,female,senior high,no
+95,third,master,no
+89,male,master,no
+53,male,university,no
+46,female,senior high,no
+21,third,primary,no
+0,third,master,no
+21,third,doctor,no
+1,male,master,no
+65,male,master,no
+89,male,university,no
+5,female,primary,no
+22,third,junior high,yes
+58,female,master,no
+4,female,junior high,no
+98,female,doctor,no
+12,female,junior high,no
+45,third,primary,no
+51,third,doctor,no
+35,third,senior high,yes
+40,third,university,yes
+78,female,junior high,no
+94,male,junior high,no
+59,male,primary,no
+3,female,senior high,no
+31,male,senior high,no
+6,female,university,no
+55,male,junior high,no
+52,third,senior high,no
+98,female,senior high,no
+45,third,university,no
+0,female,primary,no
+80,third,senior high,no
+1,male,university,no
+88,third,primary,no
+3,female,university,no
+28,male,senior high,yes
+5,male,senior high,no
+41,female,junior high,no
+9,third,senior high,no
+75,third,senior high,no
+71,male,doctor,no
+38,female,master,no
+54,third,doctor,no
+2,third,primary,no
+0,third,junior high,no
+61,female,junior high,no
+41,female,primary,no
+81,third,doctor,no
+17,female,master,yes
+77,third,primary,no
+79,male,primary,no
+64,female,senior high,no
+30,third,university,yes
+60,third,primary,no
+55,male,doctor,no
+9,male,primary,no
+14,male,senior high,no
+96,female,doctor,no
+56,third,senior high,no
+63,third,doctor,no
+23,third,senior high,no
+36,female,senior high,yes
+0,third,master,no
+18,male,junior high,no
+9,male,university,no
+82,third,primary,no
+19,male,university,yes
+79,female,university,no
+72,female,master,no
+21,third,master,yes
+45,third,master,yes
+43,male,doctor,no
+73,male,master,no
+66,third,senior high,no
+85,female,university,no
+9,female,primary,no
+39,female,junior high,yes
+15,male,senior high,no
+65,third,junior high,no
+74,third,senior high,no
+86,female,university,no
+37,third,primary,no
+46,male,primary,no
+17,female,junior high,no
+14,third,doctor,no
+7,male,senior high,no
+81,male,junior high,no
+65,male,primary,no
+8,male,junior high,no
+27,male,senior high,no
+42,female,junior high,no
+77,male,master,no
+56,male,university,no
+49,male,senior high,no
+92,third,university,no
+68,third,university,no
+46,male,primary,no
+15,third,primary,no
+97,male,university,no
+12,male,master,no
+36,male,master,no
+39,female,university,no
+90,male,doctor,no
+10,female,junior high,no
+15,third,primary,no
+27,third,university,no
+94,third,senior high,no
+10,male,doctor,yes
+57,third,junior high,no
+78,male,master,no
+73,female,primary,no
+89,female,junior high,no
+80,female,university,no
+70,female,doctor,no
+11,female,primary,no
+85,third,primary,no
+77,third,doctor,no
+62,female,primary,no
+70,female,university,no
+32,female,doctor,yes
+6,female,university,no
+54,third,junior high,no
+89,male,primary,no
+87,third,university,no
+23,third,doctor,no
+71,female,master,no
+32,female,doctor,yes
+80,female,university,no
+93,female,doctor,no
+26,female,primary,yes
+55,third,university,no
+53,male,primary,no
+65,third,junior high,no
+18,third,primary,no
+89,third,master,no
+2,female,junior high,no
+26,third,university,no
+67,female,primary,no
+62,female,senior high,no
+42,third,university,no
+22,male,doctor,no
+17,male,senior high,no
+22,male,master,no
+88,female,junior high,no
+27,female,doctor,no
+95,third,junior high,no
+37,female,doctor,no
+37,third,junior high,no
+62,third,junior high,no
+55,female,university,no
+10,male,doctor,no
+75,female,university,no
+15,third,doctor,no
+35,male,senior high,no
+95,third,doctor,no
+17,third,doctor,no
+58,male,primary,no
+8,third,senior high,no
+92,female,senior high,no
+16,third,doctor,no
+6,male,university,no
+61,female,master,no
+80,female,primary,no
+45,third,master,yes
+66,third,junior high,no
+79,female,senior high,no
+45,female,senior high,no
+58,third,senior high,no
+20,male,master,no
+0,female,master,no
+78,male,senior high,no
+41,third,junior high,no
+45,third,university,no
+29,male,senior high,yes
+71,third,doctor,no
+5,female,master,no
+87,female,senior high,no
+5,male,doctor,no
+95,third,junior high,no
+88,female,primary,no
+25,third,junior high,no
+39,male,senior high,no
+95,male,senior high,no
+78,third,master,no
+88,third,university,no
+51,third,senior high,no
+66,female,university,no
+78,male,primary,no
+56,female,doctor,no
+17,male,senior high,no
+24,third,senior high,no
+65,male,primary,no
+69,third,senior high,no
+50,male,senior high,no
+15,female,master,no
+68,third,master,no
+1,male,master,no
+80,female,junior high,no
+12,third,doctor,no
+84,third,university,no
+66,male,university,no
+40,female,senior high,no
+66,third,junior high,no
+66,third,doctor,no
+70,female,senior high,no
+6,female,junior high,no
+42,third,junior high,no
+31,female,primary,no
+93,third,master,no
+45,male,doctor,yes
+87,female,doctor,no
+98,female,master,no
+12,male,junior high,no
+58,third,university,no
+39,third,senior high,no
+36,male,senior high,yes
+31,third,master,no
+66,male,senior high,no
+13,third,junior high,no
+54,female,doctor,no
+78,third,university,no
+73,third,master,no
+55,third,junior high,no
+58,male,primary,no
+31,third,university,no
+24,third,senior high,yes
+11,male,university,no
+18,male,senior high,no
+10,third,primary,no
+38,female,primary,no
+53,male,senior high,no
+9,third,doctor,no
+57,third,university,no
+62,third,primary,no
+85,female,doctor,no
+42,male,senior high,yes
+91,female,doctor,no
+29,third,junior high,no
+38,third,junior high,yes
+54,female,primary,no
+2,male,primary,no
+85,female,doctor,no
+60,male,junior high,no
+3,third,primary,no
+51,third,senior high,no
+47,male,senior high,yes
+69,female,junior high,no
+92,female,university,no
+70,female,junior high,no
+51,male,junior high,no
+39,female,master,no
+49,male,primary,no
+39,third,primary,no
+88,third,senior high,no
+0,male,primary,no
+40,male,senior high,no
+34,male,junior high,no
+90,female,master,no
+75,third,master,no
+23,male,primary,no
+39,third,senior high,no
+72,male,university,no
+15,male,senior high,no
+36,female,master,no
+31,male,senior high,yes
+93,female,university,no
+14,male,master,no
+76,third,doctor,no
+32,male,senior high,no
+27,male,senior high,no
+31,female,master,no
+90,third,master,no
+94,third,primary,no
+64,female,university,no
+39,male,master,yes
+56,third,junior high,no
+89,male,doctor,no
+15,female,senior high,no
+86,female,junior high,no
+7,third,master,no
+81,third,university,no
+55,male,junior high,no
+26,male,primary,no
+79,female,master,no
+35,third,doctor,no
+41,male,primary,no
+10,third,primary,no
+92,third,university,no
+19,third,doctor,no
+22,third,doctor,yes
+93,female,senior high,no
+9,male,doctor,no
+23,third,junior high,no
+16,male,master,yes
+61,female,primary,no
+29,male,primary,yes
+1,third,doctor,no
+54,third,master,no
+85,third,junior high,no
+4,male,senior high,no
+15,female,master,yes
+52,third,junior high,no
+65,female,university,no
+58,male,junior high,no
+18,third,university,yes
+57,female,university,no
+66,male,junior high,no
+14,third,master,no
+3,male,senior high,no
+64,male,primary,no
+56,third,master,no
+99,third,master,no
+14,third,university,no
+26,third,primary,yes
+30,third,junior high,no
+35,male,primary,no
+85,male,university,no
+72,male,senior high,no
+14,third,senior high,no
+42,female,junior high,no
+89,male,doctor,no
+35,male,senior high,no
+50,female,junior high,no

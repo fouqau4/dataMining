@@ -1,0 +1,232 @@
+
+J48 pruned tree
+------------------
+
+Age <= 50
+|   Age <= 15
+|   |   Weight <= 49
+|   |   |   Age <= 7: no (108.0)
+|   |   |   Age > 7
+|   |   |   |   Gender = male
+|   |   |   |   |   Age <= 12: yes (21.0)
+|   |   |   |   |   Age > 12: no (23.0)
+|   |   |   |   Gender = third: no (46.0)
+|   |   |   |   Gender = female
+|   |   |   |   |   Weight <= 44
+|   |   |   |   |   |   Age <= 9: no (2.0)
+|   |   |   |   |   |   Age > 9: yes (18.0)
+|   |   |   |   |   Weight > 44: no (8.0)
+|   |   Weight > 49: no (806.0)
+|   Age > 15
+|   |   Blood group = AB
+|   |   |   Occupations = chef
+|   |   |   |   Age <= 18
+|   |   |   |   |   Age <= 17: no (3.0)
+|   |   |   |   |   Age > 17: yes (2.0)
+|   |   |   |   Age > 18: yes (60.0)
+|   |   |   Occupations = programmer
+|   |   |   |   Education = doctor
+|   |   |   |   |   Age <= 24: no (2.0)
+|   |   |   |   |   Age > 24: yes (6.0)
+|   |   |   |   Education = university: no (13.0)
+|   |   |   |   Education = junior high: no (13.0)
+|   |   |   |   Education = senior high: no (14.0)
+|   |   |   |   Education = primary: no (8.0)
+|   |   |   |   Education = master: yes (7.0/1.0)
+|   |   |   Occupations = student: no (63.0)
+|   |   |   Occupations = teacher: no (59.0)
+|   |   |   Occupations = singer: no (70.0)
+|   |   |   Occupations = neet: no (62.0)
+|   |   |   Occupations = scientest
+|   |   |   |   Education = doctor
+|   |   |   |   |   Gender = male: yes (4.0)
+|   |   |   |   |   Gender = third: no (2.0)
+|   |   |   |   |   Gender = female: yes (3.0)
+|   |   |   |   Education = university: no (9.0)
+|   |   |   |   Education = junior high: no (12.0)
+|   |   |   |   Education = senior high: no (14.0)
+|   |   |   |   Education = primary: no (10.0)
+|   |   |   |   Education = master
+|   |   |   |   |   Age <= 21: no (2.0)
+|   |   |   |   |   Age > 21: yes (10.0)
+|   |   |   Occupations = engineer
+|   |   |   |   Education = doctor: yes (11.0/1.0)
+|   |   |   |   Education = university: no (9.0/1.0)
+|   |   |   |   Education = junior high: no (13.0)
+|   |   |   |   Education = senior high: no (16.0)
+|   |   |   |   Education = primary: no (10.0)
+|   |   |   |   Education = master
+|   |   |   |   |   Age <= 21: no (3.0)
+|   |   |   |   |   Age > 21: yes (12.0)
+|   |   |   Occupations = salesman: no (66.0/1.0)
+|   |   Blood group = B
+|   |   |   Occupations = chef
+|   |   |   |   Age <= 18
+|   |   |   |   |   Age <= 17: no (2.0)
+|   |   |   |   |   Age > 17: yes (2.0)
+|   |   |   |   Age > 18: yes (58.0)
+|   |   |   Occupations = programmer
+|   |   |   |   Education = doctor: yes (15.0/1.0)
+|   |   |   |   Education = university: no (10.0)
+|   |   |   |   Education = junior high: no (9.0)
+|   |   |   |   Education = senior high: no (12.0)
+|   |   |   |   Education = primary: no (12.0)
+|   |   |   |   Education = master
+|   |   |   |   |   Age <= 21: no (2.0)
+|   |   |   |   |   Age > 21: yes (13.0)
+|   |   |   Occupations = student: no (63.0)
+|   |   |   Occupations = teacher: no (56.0)
+|   |   |   Occupations = singer: no (63.0)
+|   |   |   Occupations = neet: no (58.0)
+|   |   |   Occupations = scientest
+|   |   |   |   Education = doctor
+|   |   |   |   |   Weight <= 85: yes (6.0)
+|   |   |   |   |   Weight > 85: no (2.0)
+|   |   |   |   Education = university: no (8.0)
+|   |   |   |   Education = junior high: no (14.0)
+|   |   |   |   Education = senior high: no (11.0/1.0)
+|   |   |   |   Education = primary: no (10.0)
+|   |   |   |   Education = master: yes (9.0)
+|   |   |   Occupations = engineer
+|   |   |   |   Education = doctor
+|   |   |   |   |   Age <= 22: no (2.0)
+|   |   |   |   |   Age > 22: yes (10.0)
+|   |   |   |   Education = university: no (9.0)
+|   |   |   |   Education = junior high: no (13.0)
+|   |   |   |   Education = senior high: no (13.0)
+|   |   |   |   Education = primary: no (8.0)
+|   |   |   |   Education = master
+|   |   |   |   |   Age <= 22: no (2.0)
+|   |   |   |   |   Age > 22: yes (8.0)
+|   |   |   Occupations = salesman: no (67.0)
+|   |   Blood group = O
+|   |   |   Age <= 40: yes (415.0)
+|   |   |   Age > 40
+|   |   |   |   Occupations = chef: yes (14.0)
+|   |   |   |   Occupations = programmer
+|   |   |   |   |   Education = doctor: yes (7.0)
+|   |   |   |   |   Education = university: no (3.0)
+|   |   |   |   |   Education = junior high: no (2.0)
+|   |   |   |   |   Education = senior high: no (3.0)
+|   |   |   |   |   Education = primary: no (2.0)
+|   |   |   |   |   Education = master: yes (5.0)
+|   |   |   |   Occupations = student: no (16.0)
+|   |   |   |   Occupations = teacher: no (16.0)
+|   |   |   |   Occupations = singer: no (23.0)
+|   |   |   |   Occupations = neet: no (19.0)
+|   |   |   |   Occupations = scientest
+|   |   |   |   |   Education = doctor: yes (3.0)
+|   |   |   |   |   Education = university: no (3.0)
+|   |   |   |   |   Education = junior high: no (1.0)
+|   |   |   |   |   Education = senior high: no (1.0)
+|   |   |   |   |   Education = primary: no (3.0)
+|   |   |   |   |   Education = master: yes (5.0)
+|   |   |   |   Occupations = engineer
+|   |   |   |   |   Education = doctor: yes (4.0)
+|   |   |   |   |   Education = university: no (3.0)
+|   |   |   |   |   Education = junior high: no (7.0)
+|   |   |   |   |   Education = senior high: no (4.0)
+|   |   |   |   |   Education = primary: no (4.0)
+|   |   |   |   |   Education = master: yes (7.0)
+|   |   |   |   Occupations = salesman: no (18.0)
+|   |   Blood group = A
+|   |   |   Occupations = chef
+|   |   |   |   Age <= 18: no (5.0)
+|   |   |   |   Age > 18: yes (53.0)
+|   |   |   Occupations = programmer
+|   |   |   |   Education = doctor
+|   |   |   |   |   Age <= 21: no (2.0)
+|   |   |   |   |   Age > 21: yes (5.0)
+|   |   |   |   Education = university: no (4.0)
+|   |   |   |   Education = junior high: no (9.0)
+|   |   |   |   Education = senior high: no (7.0)
+|   |   |   |   Education = primary: no (13.0)
+|   |   |   |   Education = master
+|   |   |   |   |   Age <= 22: no (3.0)
+|   |   |   |   |   Age > 22: yes (10.0)
+|   |   |   Occupations = student: no (60.0/1.0)
+|   |   |   Occupations = teacher: no (69.0/1.0)
+|   |   |   Occupations = singer: no (66.0)
+|   |   |   Occupations = neet: no (53.0)
+|   |   |   Occupations = scientest
+|   |   |   |   Education = doctor
+|   |   |   |   |   Age <= 21: no (3.0)
+|   |   |   |   |   Age > 21: yes (18.0)
+|   |   |   |   Education = university: no (16.0)
+|   |   |   |   Education = junior high: no (9.0)
+|   |   |   |   Education = senior high: no (8.0)
+|   |   |   |   Education = primary: no (11.0)
+|   |   |   |   Education = master: yes (8.0)
+|   |   |   Occupations = engineer
+|   |   |   |   Education = doctor: yes (10.0/1.0)
+|   |   |   |   Education = university: no (14.0)
+|   |   |   |   Education = junior high: no (13.0)
+|   |   |   |   Education = senior high: no (13.0)
+|   |   |   |   Education = primary: no (9.0)
+|   |   |   |   Education = master
+|   |   |   |   |   Age <= 23: no (2.0)
+|   |   |   |   |   Age > 23: yes (8.0)
+|   |   |   Occupations = salesman: no (46.0/1.0)
+Age > 50: no (3278.0)
+
+Number of Leaves  : 	124
+
+Size of the tree : 	167
+
+
+Time taken to build model: 0.24 seconds
+Time taken to test model on training split: 0.04 seconds
+
+=== Error on training split ===
+
+Correctly Classified Instances        6590               99.8485 %
+Incorrectly Classified Instances        10                0.1515 %
+Kappa statistic                          0.9932
+Mean absolute error                      0.0028
+Root mean squared error                  0.0376
+Relative absolute error                  1.2606 %
+Root relative squared error             11.2299 %
+Total Number of Instances             6600     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.999    0.007    0.999      0.999    0.999      0.993    1.000     1.000     no
+                 0.993    0.001    0.995      0.993    0.994      0.993    1.000     0.999     yes
+Weighted Avg.    0.998    0.006    0.998      0.998    0.998      0.993    1.000     1.000     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 5747    4 |    a = no
+    6  843 |    b = yes
+
+
+=== Error on test split ===
+
+Correctly Classified Instances        3374               99.2353 %
+Incorrectly Classified Instances        26                0.7647 %
+Kappa statistic                          0.9634
+Mean absolute error                      0.0089
+Root mean squared error                  0.0854
+Relative absolute error                  4.1331 %
+Root relative squared error             26.4743 %
+Total Number of Instances             3400     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.995    0.027    0.996      0.995    0.996      0.963    0.986     0.996     no
+                 0.973    0.005    0.963      0.973    0.968      0.963    0.986     0.959     yes
+Weighted Avg.    0.992    0.025    0.992      0.992    0.992      0.963    0.986     0.992     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2984   15 |    a = no
+   11  390 |    b = yes
+

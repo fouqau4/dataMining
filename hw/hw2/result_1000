@@ -1,0 +1,95 @@
+
+J48 pruned tree
+------------------
+
+Age <= 49
+|   Blood group = AB
+|   |   Occupations = teacher: no (17.0/1.0)
+|   |   Occupations = scientest
+|   |   |   Age <= 34: no (5.0)
+|   |   |   Age > 34: yes (2.0)
+|   |   Occupations = chef
+|   |   |   Age <= 20
+|   |   |   |   Weight <= 43: yes (2.0)
+|   |   |   |   Weight > 43: no (5.0)
+|   |   |   Age > 20: yes (8.0)
+|   |   Occupations = neet: no (13.0)
+|   |   Occupations = student: no (12.0)
+|   |   Occupations = salesman: no (5.0)
+|   |   Occupations = engineer: no (11.0/3.0)
+|   |   Occupations = programmer
+|   |   |   Age <= 26
+|   |   |   |   Weight <= 47: yes (2.0)
+|   |   |   |   Weight > 47: no (8.0)
+|   |   |   Age > 26: yes (2.0)
+|   |   Occupations = singer: no (8.0)
+|   Blood group = O
+|   |   Age <= 15: no (28.0/2.0)
+|   |   Age > 15
+|   |   |   Age <= 40: yes (34.0)
+|   |   |   Age > 40: no (15.0/5.0)
+|   Blood group = B: no (84.0/6.0)
+|   Blood group = A: no (87.0/10.0)
+Age > 49: no (312.0)
+
+Number of Leaves  : 	20
+
+Size of the tree : 	30
+
+
+Time taken to build model: 0.04 seconds
+Time taken to test model on training split: 0.01 seconds
+
+=== Error on training split ===
+
+Correctly Classified Instances         633               95.9091 %
+Incorrectly Classified Instances        27                4.0909 %
+Kappa statistic                          0.7659
+Mean absolute error                      0.0689
+Root mean squared error                  0.1856
+Relative absolute error                 33.283  %
+Root relative squared error             57.8151 %
+Total Number of Instances              660     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.351    0.956      1.000    0.977      0.788    0.955     0.991     no
+                 0.649    0.000    1.000      0.649    0.787      0.788    0.955     0.820     yes
+Weighted Avg.    0.959    0.310    0.961      0.959    0.955      0.788    0.955     0.971     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 583   0 |   a = no
+  27  50 |   b = yes
+
+
+=== Error on test split ===
+
+Correctly Classified Instances         314               92.3529 %
+Incorrectly Classified Instances        26                7.6471 %
+Kappa statistic                          0.568 
+Mean absolute error                      0.1043
+Root mean squared error                  0.2597
+Relative absolute error                 48.6065 %
+Root relative squared error             78.0993 %
+Total Number of Instances              340     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.990    0.535    0.927      0.990    0.958      0.602    0.861     0.964     no
+                 0.465    0.010    0.870      0.465    0.606      0.602    0.861     0.598     yes
+Weighted Avg.    0.924    0.469    0.920      0.924    0.913      0.602    0.861     0.918     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 294   3 |   a = no
+  23  20 |   b = yes
+
